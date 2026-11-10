@@ -16,18 +16,16 @@ NAMI runs inside a commercial tour-planning application, here in Zurich for a vi
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="assets/images/app-01-einstein-stop.png" alt="A stop for an interest in Einstein, with its reason"></td>
-    <td align="center" width="20%"><img src="assets/images/app-02-einstein-route.png" alt="The route through the stops"></td>
-    <td align="center" width="20%"><img src="assets/images/app-03-city-map.png" alt="The map of the city"></td>
-    <td align="center" width="20%"><img src="assets/images/app-04-reconstruction.png" alt="A place that no longer exists, with its story"></td>
-    <td align="center" width="20%"><img src="assets/images/app-05-todays-gem.png" alt="A place suggested for today"></td>
+    <td align="center"><img src="assets/images/app-01-einstein-stop.png" width="380" alt="A stop for an interest in Einstein, with its reason"><br><sub>A stop for the interest in Einstein, with the reason it was chosen</sub></td>
+    <td align="center"><img src="assets/images/app-02-einstein-route.png" width="380" alt="The walk through the stops"><br><sub>The walk through the stops</sub></td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td align="center"><sub>A stop for the interest in Einstein, with the reason it was chosen</sub></td>
-    <td align="center"><sub>The walk through the stops</sub></td>
-    <td align="center"><sub>The map of the city</sub></td>
-    <td align="center"><sub>A place that no longer exists, with its story</sub></td>
-    <td align="center"><sub>A place suggested for today</sub></td>
+    <td align="center"><img src="assets/images/app-03-city-map.png" width="260" alt="The map of the city"><br><sub>The map of the city</sub></td>
+    <td align="center"><img src="assets/images/app-04-reconstruction.png" width="260" alt="A place that no longer exists, with its story"><br><sub>A place that no longer exists, with its story</sub></td>
+    <td align="center"><img src="assets/images/app-05-todays-gem.png" width="260" alt="A place suggested for today"><br><sub>A place suggested for today</sub></td>
   </tr>
 </table>
 
