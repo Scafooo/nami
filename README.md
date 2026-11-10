@@ -1,4 +1,4 @@
-<h1>NAMI 🍊 — city places for any personal interest, with every reason traceable to its source</h1>
+<h1>NAMI — city places for any personal interest, with every reason traceable to its source</h1>
 
 <div align="center">
   <img src="assets/images/banner_logpose.svg" alt="NAMI: from the graph of an interest to the places of a city" style="max-width: 60%; height: auto;">
