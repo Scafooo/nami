@@ -1,0 +1,171 @@
+[
+{
+"interest_id": "I01",
+"places": [
+{
+"rank": 1,
+"name": "ETH Zurich (Swiss Federal Institute of Technology)",
+"address": "Rämistrasse 101, 8092 Zürich",
+"reasons": [
+{
+"reason": "Albert Einstein studied at ETH Zurich (then the polytechnic) from 1896 to 1900, graduating with a degree in Mathematics and Natural Sciences.",
+"url": "https://www.zuerich.com/en/albert-einstein",
+"quote": "Albert Einstein studied at the polytechnic, which is now called the Swiss Federal Institute of Technology (ETH Zürich), from 1896 to 1900."
+}
+]
+},
+{
+"rank": 2,
+"name": "University of Zurich",
+"address": "Rämistrasse 71, 8006 Zürich",
+"reasons": [
+{
+"reason": "Albert Einstein served as an Extraordinary Professor at the University of Zurich starting in 1909.",
+"url": "https://www.zuerich.com/en/albert-einstein",
+"quote": "From 1909, he was an Extraordinary Professor at the University of Zurich and from 1912 to 1914"
+}
+]
+},
+{
+"rank": 3,
+"name": "Einstein Residence (Unionsstrasse 4)",
+"address": "Unionsstrasse 4, 8032 Zürich",
+"reasons": [
+{
+"reason": "Albert Einstein resided at Unionsstrasse 4, where a commemorative plaque now honors his historic residency.",
+"url": "https://www.zuerich.com/en/albert-einstein",
+"quote": "At the property on Unionsstrasse 4, a plaque pays tribute to its former famous resident."
+}
+]
+},
+{
+"rank": 4,
+"name": "Café Bar Odeon",
+"address": "Limmatquai 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Café Bar Odeon was a prominent meeting spot in Zurich frequented by Albert Einstein.",
+"url": "https://www.zuerich.com/en/visit/bars-lounges/cafe-bar-odeon",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+}
+]
+},
+{
+"interest_id": "I02",
+"places": [
+{
+"rank": 1,
+"name": "Fluntern Cemetery",
+"address": "Zürichbergstrasse 187, 8044 Zürich",
+"reasons": [
+{
+"reason": "Fluntern Cemetery serves as the final resting place of James Joyce.",
+"url": "https://anthology-magazine.com/arts/zurich-art/",
+"quote": "Fluntern Cemetery is the final resting place of James Joyce, and there are many other landmarks associated with his time in Zürich."
+}
+]
+},
+{
+"rank": 2,
+"name": "Café Bar Odeon",
+"address": "Limmatquai 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "James Joyce was among the regular famous patrons of Café Bar Odeon during his time in Zurich.",
+"url": "https://www.zuerich.com/en/visit/bars-lounges/cafe-bar-odeon",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+}
+]
+},
+{
+"interest_id": "I03",
+"places": [
+{
+"rank": 1,
+"name": "Lenin Residence (Spiegelgasse 14)",
+"address": "Spiegelgasse 14, 8001 Zürich",
+"reasons": [
+{
+"reason": "Vladimir Ilyich Lenin rented an apartment and spent a year living at Spiegelgasse 14 in 1916.",
+"url": "https://www.scribd.com/document/837489506/Zurich-travel-guide",
+"quote": "In the year 1916, Vladimir Ilyich Lenin rented a room at Spiegelgasse 14."
+}
+]
+},
+{
+"rank": 2,
+"name": "Café Bar Odeon",
+"address": "Limmatquai 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Vladimir Lenin was a regular guest at Café Bar Odeon while residing in exile in Zurich.",
+"url": "https://www.zuerich.com/en/visit/bars-lounges/cafe-bar-odeon",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+}
+]
+},
+{
+"interest_id": "I04",
+"places": [
+{
+"rank": 1,
+"name": "Cabaret Voltaire",
+"address": "Spiegelgasse 1, 8001 Zürich",
+"reasons": [
+{
+"reason": "Cabaret Voltaire was founded in 1916 by Hugo Ball as the originating birthplace of the Dadaism art movement.",
+"url": "https://www.zuerich.com/en/art-culture/zurich-avantgarde/dada-art-movement",
+"quote": "Hugo Ball, a former theater director from Munich, was the initiator of the Cabaret Voltaire in 1916, and thus, so to speak, the father of Dadaism."
+}
+]
+},
+{
+"rank": 2,
+"name": "Café Bar Odeon",
+"address": "Limmatquai 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Café Bar Odeon was a major gathering place frequented by the founders and artists of the Dada movement.",
+"url": "https://www.zuerich.com/en/visit/bars-lounges/cafe-bar-odeon",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+}
+]
+},
+{
+"interest_id": "I05",
+"places": [
+{
+"rank": 1,
+"name": "Grossmünster",
+"address": "Grossmünsterplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Grossmünster was the central starting point of the Reformation in Zurich led by Huldrych Zwingli.",
+"url": "https://www.zuerich.com/en/visit/attractions/grossmuenster",
+"quote": "Huldrych Zwingli and Heinrich Bullinger were the figures of the Reformation in Zurich."
+}
+]
+},
+{
+"rank": 2,
+"name": "Wasserkirche (Zwingli Monument)",
+"address": "Limmatquai 31, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Zwingli monument stands outside the Wasserkirche, honoring the reformer Huldrych Zwingli.",
+"url": "https://www.zuerich.com/en/visit/attractions/wasserkirche",
+"quote": "The statue of the reformer Huldrych Zwingli stands at the choir of the Wasserkirche."
+}
+]
+}
+]
+}
+]

@@ -1,0 +1,2271 @@
+{
+ "setting": "hybrid",
+ "model": "gemini",
+ "run": "run1",
+ "files": {
+  "gemini_block1.txt": "json",
+  "gemini_block2.txt": "json",
+  "gemini_block3.txt": "json",
+  "gemini_block4.txt": "json",
+  "gemini_block5.txt": "json",
+  "gemini_block6.txt": "json",
+  "gemini_block7.txt": "json"
+ },
+ "answers": [
+  {
+   "interest_id": "Q937",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Zürich Hauptbahnhof",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q224494"
+    },
+    {
+     "rank": 2,
+     "name": "ETH Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q11942"
+    },
+    {
+     "rank": 3,
+     "name": "ETH Zurich University Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39934978"
+    },
+    {
+     "rank": 4,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 5,
+     "name": "Schauspielhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q40313234"
+    },
+    {
+     "rank": 6,
+     "name": "Pfauenkomplex",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q80906377"
+    },
+    {
+     "rank": 7,
+     "name": "Grand Café Odeon",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1542522"
+    },
+    {
+     "rank": 8,
+     "name": "Albert-Einstein-Strasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27324183"
+    },
+    {
+     "rank": 9,
+     "name": "Psychiatrische Universitätsklinik Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q577131"
+    },
+    {
+     "rank": 10,
+     "name": "Cemetery Nordheim",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1457378"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q6882",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Ljmmat Sjhl: Hommage à James Joyce",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229693"
+    },
+    {
+     "rank": 2,
+     "name": "Literaturhaus",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "291104"
+    },
+    {
+     "rank": 3,
+     "name": "Zürich James Joyce Foundation",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q230416"
+    },
+    {
+     "rank": 4,
+     "name": "Grand Café Odeon",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1542522"
+    },
+    {
+     "rank": 5,
+     "name": "Boutique Hotel NI-MO",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q111874784"
+    },
+    {
+     "rank": 6,
+     "name": "James-Joyce-Strasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27326712"
+    },
+    {
+     "rank": 7,
+     "name": "Grabdenkmal James Joyce",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229843"
+    },
+    {
+     "rank": 8,
+     "name": "Fluntern Cemetery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q666565"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1394",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Spiegelgasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q20731378"
+    },
+    {
+     "rank": 2,
+     "name": "Literaturhaus",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "291104"
+    },
+    {
+     "rank": 3,
+     "name": "Grand Café Odeon",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1542522"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q6034",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Cabaret Voltaire",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q661745"
+    },
+    {
+     "rank": 2,
+     "name": "Spiegelgasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q20731378"
+    },
+    {
+     "rank": 3,
+     "name": "Hotel Limmatblick",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q111874805"
+    },
+    {
+     "rank": 4,
+     "name": "Galerie Gmurzynska",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q5518446"
+    },
+    {
+     "rank": 5,
+     "name": "Gesellschaftshaus zur Kaufleuten",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q60635988"
+    },
+    {
+     "rank": 6,
+     "name": "Grand Café Odeon",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1542522"
+    },
+    {
+     "rank": 7,
+     "name": "Swiss National Museum Zurich (building)",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39595754"
+    },
+    {
+     "rank": 8,
+     "name": "Kunsthalle Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1792425"
+    },
+    {
+     "rank": 9,
+     "name": "Heureka",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1378316"
+    },
+    {
+     "rank": 10,
+     "name": "The Home Hotel",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1011732"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q24906109",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Grossmünster",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q684948"
+    },
+    {
+     "rank": 2,
+     "name": "Ulrich Zwingli memorial",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q63348861"
+    },
+    {
+     "rank": 3,
+     "name": "Wasserkirche",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q477189"
+    },
+    {
+     "rank": 4,
+     "name": "Zum weissen Bären",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_173"
+    },
+    {
+     "rank": 5,
+     "name": "Heinrich Bullinger Sculpture",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1684"
+    },
+    {
+     "rank": 6,
+     "name": "preachers church",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q18648709"
+    },
+    {
+     "rank": 7,
+     "name": "Zur Glocke",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_449"
+    },
+    {
+     "rank": 8,
+     "name": "Christian Catholic Augustinian Church",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q768482"
+    },
+    {
+     "rank": 9,
+     "name": "Münsterhof 13",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_698"
+    },
+    {
+     "rank": 10,
+     "name": "Fraumünster",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q690944"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q123839",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Grossmünster",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q684948"
+    },
+    {
+     "rank": 2,
+     "name": "Heinrich Bullinger Sculpture",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1684"
+    },
+    {
+     "rank": 3,
+     "name": "Zur Sul",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_381"
+    },
+    {
+     "rank": 4,
+     "name": "Ulrich Zwingli memorial",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q63348861"
+    },
+    {
+     "rank": 5,
+     "name": "Zentralbibliothek Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q190260"
+    },
+    {
+     "rank": 6,
+     "name": "ETH Zurich University Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39934978"
+    },
+    {
+     "rank": 7,
+     "name": "Swiss National Museum Zurich (building)",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39595754"
+    },
+    {
+     "rank": 8,
+     "name": "Bullingerplatz",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q15108152"
+    },
+    {
+     "rank": 9,
+     "name": "Bullingerstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27325596"
+    },
+    {
+     "rank": 10,
+     "name": "Bullingerhof",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27327278"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1411919",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Fraumünster Abbey",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Katharina von Zimmern served as the last imperial abbess of Fraumünster Abbey in Zurich.",
+       "url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+       "quote": "Katharina von Zimmern, also known as the imperial abbess of Zürich and Katharina von Reischach, was the last abbess of the Fraumünster Abbey in Zürich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Katharina von Zimmern Memorial",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "A monument dedicated to Katharina von Zimmern was inaugurated at the former cloister of Fraumünster Abbey at Münsterhof.",
+       "url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+       "quote": "On 14 March 2004, the Katharina von Zimmern memorial was inaugurated at the former cloister of the Fraumünster Abbey.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Rathaus Zürich",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Katharina von Zimmern officially surrendered the keys and rights of the Fraumünster abbey to the Zurich city council at the Rathaus in 1524.",
+       "url": "https://www.zhkath.ch/kirche-aktuell/kirche-im-kanton/katharina-von-zimmern-uebergibt-das-fraumuensterkloster",
+       "quote": "Vor 500 Jahren hat die letzte Äbtissin des Fraumünsterklosters, Katharina von Zimmern, die Schlüssel an die Stadt Zürich übergeben.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3714926,
+      "lon": 8.542676,
+      "query": "Limmatquai 55, 8001 Zürich",
+      "qid": "Q9315546",
+      "osm": "Rathaus, 55, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / "
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Haus zum Schild",
+     "address": "Neumarkt 13, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Katharina von Zimmern spent her final years living at Neumarkt in Zurich, where she passed away in 1547.",
+       "url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+       "quote": "Katharina von Zimmern died in the Neumarkt, Zürich on the 17th of August, 1547.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3729498,
+      "lon": 8.546006,
+      "query": "Neumarkt 13, 8001 Zürich",
+      "qid": null,
+      "osm": "zum Mohrenkopf, 13, Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Swiss National Museum",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Swiss National Museum preserves and displays two richly decorated rooms (Äbtissinnenstube) from Katharina von Zimmern's abbess residence.",
+       "url": "https://katharinavonzimmern.ch/katharina-von-zimmern",
+       "quote": "Zwei seiner reich geschmückten Stuben sind heute im Landesmuseum zu sehen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3792397,
+      "lon": 8.5407019,
+      "query": "Museumstrasse 2, 8001 Zürich",
+      "qid": "Q691896",
+      "osm": "Landesmuseum, 2, Museumstrasse, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8021, Schweiz / Suiss"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Katharinenweg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27324381"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q124408",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Münsterbrücke",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q18716357"
+    },
+    {
+     "rank": 2,
+     "name": "Flower and Vegetable Market Stadthausquai",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "3703"
+    },
+    {
+     "rank": 3,
+     "name": "Zur grossen Mücke",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_526"
+    },
+    {
+     "rank": 4,
+     "name": "Waldmannstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27325590"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1704063",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Zum schwarzen Schlüssel",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "bt_117"
+    },
+    {
+     "rank": 2,
+     "name": "Haus zum Nägeli",
+     "address": "Rüdenplatz 7, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Haus zum Nägeli was the historical residence of cartographer and artist Jos Murer in Zurich.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/karten-und-plaene/a.3.4.-aus-dem-leben-jos-murers-lp-publikation.pdf",
+       "quote": "Das Wohnhaus Jos Murers, das Haus «zum Nägeli» (Rüdenplatz Nr. 7), an dem noch heute eine grüssende, schwerttragende Figur über den beiden Wappen Murer und Schön (Jos Murers Gattin), nebst der Jahreszahl 1556 zu sehen ist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3708967,
+      "lon": 8.5432607,
+      "query": "Rüdenplatz 7, 8001 Zürich",
+      "qid": "Q27328884",
+      "osm": "Rüdenplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Sv"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Grossmünster",
+     "address": "Zwingliplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Jos Murer was born in Zurich and baptized at the Grossmünster cathedral in September 1530.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/karten-und-plaene/a.3.4.-aus-dem-leben-jos-murers-lp-publikation.pdf",
+       "quote": "Jos Murer wurde Ende August oder Anfang September 1530 in Zürich geboren und am 5. September 1530 im Grossmünster getauft.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3704284,
+      "lon": 8.5442344,
+      "query": "Zwingliplatz, 8001 Zürich",
+      "qid": "Q27328972",
+      "osm": "Zwingliplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Haus zum Rech (Stadtarchiv Zürich)",
+     "address": "Neumarkt 4, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Haus zum Rech houses Zurich's city archives and displays an exhibition on Jos Murer along with the historic city model based on his 1576 map.",
+       "url": "https://geomatik.ch/jos-murer-und-der-murerplan/",
+       "quote": "Die Ausstellung zu Jos Murer und seinem Werk ist ebenfalls ab 29. September zu sehen im Haus zum Rech (Stadtarchiv), Neumarkt 4, Zürich, im Parterre beim Stadtmodell.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3723265,
+      "lon": 8.5458015,
+      "query": "Neumarkt 4, 8001 Zürich",
+      "qid": "Q29574362",
+      "osm": "Haus zum Rech, 4, Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "St. Peter Church Tower",
+     "address": "St. Peter-Hofstatt 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Jos Murer used the vantage point of St. Peter's church tower to survey and map Zurich accurately for the 1576 Murerplan.",
+       "url": "https://geomatik.ch/jos-murer-und-der-murerplan/",
+       "quote": "Die Antwort: Von der Turmstube von St. Peter aus.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": null
+    }
+   ]
+  },
+  {
+   "interest_id": "Q37030",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Thomas Mann Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27490316"
+    },
+    {
+     "rank": 2,
+     "name": "ETH Zurich main building",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q14565994"
+    },
+    {
+     "rank": 3,
+     "name": "ETH Zurich University Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39934978"
+    },
+    {
+     "rank": 4,
+     "name": "zum oberen Berg house",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q29933596"
+    },
+    {
+     "rank": 5,
+     "name": "Freies Gymnasium Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1454145"
+    },
+    {
+     "rank": 6,
+     "name": "Association of Zurich Museums",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q85963867"
+    },
+    {
+     "rank": 7,
+     "name": "Diederik Winery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "280833"
+    },
+    {
+     "rank": 8,
+     "name": "Thomas Mann Familiengrab, Nidelbadstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_1888030761"
+    },
+    {
+     "rank": 9,
+     "name": "Golo Mann, Nidelbadstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_12124789669"
+    },
+    {
+     "rank": 10,
+     "name": "Kilchberg cemetery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q21517046"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q41532",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "C. G. Jung Institute Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q390130"
+    },
+    {
+     "rank": 2,
+     "name": "Psychiatrische Universitätsklinik Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q577131"
+    },
+    {
+     "rank": 3,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 4,
+     "name": "ETH Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q11942"
+    },
+    {
+     "rank": 5,
+     "name": "ETH Zurich University Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39934978"
+    },
+    {
+     "rank": 6,
+     "name": "Küsnacht Cemetery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q105015598"
+    },
+    {
+     "rank": 7,
+     "name": "Enzenbühl cemetery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1457321"
+    },
+    {
+     "rank": 8,
+     "name": "Diederik Winery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "280833"
+    },
+    {
+     "rank": 9,
+     "name": "Zehntentrotte",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q184675"
+    },
+    {
+     "rank": 10,
+     "name": "Kunsteisbahn KEK",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q139935896"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q122370",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rindermarkt",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27330030"
+    },
+    {
+     "rank": 2,
+     "name": "Oepfelchammer",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q65672357"
+    },
+    {
+     "rank": 3,
+     "name": "Gottfried Keller Gedenkstätte",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229991"
+    },
+    {
+     "rank": 4,
+     "name": "Zentralbibliothek Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q190260"
+    },
+    {
+     "rank": 5,
+     "name": "Kunsthaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q685038"
+    },
+    {
+     "rank": 6,
+     "name": "Landolt Winery",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "280788"
+    },
+    {
+     "rank": 7,
+     "name": "Cemetery Sihlfeld",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1457424"
+    },
+    {
+     "rank": 8,
+     "name": "Haus zum Goldenen Winkel",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q29933584"
+    },
+    {
+     "rank": 9,
+     "name": "Gottfried-Keller-Strasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27324062"
+    },
+    {
+     "rank": 10,
+     "name": "Bronzeplastik",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229850"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q115569",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Alfred Escher memorial fountain",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229673"
+    },
+    {
+     "rank": 2,
+     "name": "Villa Belvoir",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q816289"
+    },
+    {
+     "rank": 3,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 4,
+     "name": "Alfred-Escher-Strasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27330560"
+    },
+    {
+     "rank": 5,
+     "name": "Sunrise Tower",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1621845"
+    },
+    {
+     "rank": 6,
+     "name": "Cemetery Manegg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1457366"
+    },
+    {
+     "rank": 7,
+     "name": "Bleicherweg 74",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q124424352"
+    },
+    {
+     "rank": 8,
+     "name": "Freudenberg School house",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1455767"
+    },
+    {
+     "rank": 9,
+     "name": "Muraltengut",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1953492"
+    },
+    {
+     "rank": 10,
+     "name": "Château Sihlberg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2243519"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1511",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rieterpark",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q692097"
+    },
+    {
+     "rank": 2,
+     "name": "Zürich Opera House",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q670406"
+    },
+    {
+     "rank": 3,
+     "name": "Büste von Richard Wagner",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229807"
+    },
+    {
+     "rank": 4,
+     "name": "Richard-Wagner-Stele",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229975"
+    },
+    {
+     "rank": 5,
+     "name": "Richard-Wagner-Strasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27322454"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q154014",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Spiegelgasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q20731378"
+    },
+    {
+     "rank": 2,
+     "name": "Theater Rigiblick",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2415934"
+    },
+    {
+     "rank": 3,
+     "name": "Georg Büchner, Germaniastrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_672727941"
+    },
+    {
+     "rank": 4,
+     "name": "Büchnerstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27331692"
+    },
+    {
+     "rank": 5,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 6,
+     "name": "Schauspielhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q675022"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q115483",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 2,
+     "name": "ETH Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q11942"
+    },
+    {
+     "rank": 3,
+     "name": "Max Frisch Archiv",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q14564649"
+    },
+    {
+     "rank": 4,
+     "name": "ETH Zurich University Archives",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q39934978"
+    },
+    {
+     "rank": 5,
+     "name": "Rosenhofbrunnen",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27229775"
+    },
+    {
+     "rank": 6,
+     "name": "Pfauenkomplex",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q80906377"
+    },
+    {
+     "rank": 7,
+     "name": "Schauspielhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q40313234"
+    },
+    {
+     "rank": 8,
+     "name": "Freibad Letzigraben",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1912022"
+    },
+    {
+     "rank": 9,
+     "name": "Max-Frisch-Platz",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27322916"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q124949",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    },
+    {
+     "rank": 2,
+     "name": "Theater Rigiblick",
+     "address": "Germaniastrasse 99, 8044 Zürich",
+     "reasons": [
+      {
+       "reason": "Franz Hohler performs his comprehensive literary repertoire at Theater Rigiblick.",
+       "url": "https://www.zuerich.com/de/besuchen/kultur/theater-rigiblick",
+       "quote": "Franz Hohler spaziert durch sein Gesamtwerk.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3882288,
+      "lon": 8.553506,
+      "query": "Germaniastrasse 99, 8044 Zürich",
+      "qid": null,
+      "osm": "99, Germaniastrasse, Oberstrass, Kreis 6, Zürich, Bezirk Zürich, Zürich, 8044, Schweiz / Suisse / Sv"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Bernhard Theater",
+     "address": "Falkenstrasse 1, 8008 Zürich",
+     "reasons": [
+      {
+       "reason": "Franz Hohler regularly presents literary and cabaret stage shows at Bernhard Theater Zürich.",
+       "url": "https://www.bernhard-theater.ch/spielplan/franz-hohler/",
+       "quote": "Franz Hohler spaziert durch sein Gesamtwerk.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3647459,
+      "lon": 8.546391,
+      "query": "Falkenstrasse 1, 8008 Zürich",
+      "qid": null,
+      "osm": "1, Falkenstrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8008, Schweiz / Suisse / Svi"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Literaturhaus Zürich",
+     "address": "Limmatquai 62, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Franz Hohler is featured as a prominent author, cabaret artist, and performer at Literaturhaus Zürich.",
+       "url": "https://literaturhaus.ch/veranstaltungen/franz-hohler-spaziert-durch-sein-gesamtwerk/",
+       "quote": "Franz Hohler – Kabarettist, Liedermacher, Kinderbuchautor, Cellospieler, kurz: ein Alleskönner, der seit Jahrzehnten den Literaturbetrieb mit seinem feinen",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3719838,
+      "lon": 8.5429968,
+      "query": "Limmatquai 62, 8001 Zürich",
+      "qid": null,
+      "osm": "62, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q58033",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Else-Lasker-Schüler-Weg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27327244"
+    },
+    {
+     "rank": 2,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Else Lasker-Schüler is recognized among the key historic literary figures who lived and worked in Zurich during the avant-garde era.",
+       "url": "https://www.zuerich.com/en/art-culture/music-theater-and-literature/theater-and-literature",
+       "quote": "Emmy Hennings and Hugo Ball, together with Tristan Tzara and Hans Arp, founded the Dada movement in the Cabaret Voltaire. James Joyce, Else Lasker-Schüler,",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Schauspielhaus Zürich",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Else Lasker-Schüler was part of the community of exiled literary artists in Zurich associated with Schauspielhaus Zürich.",
+       "url": "https://www.zuerich.com/de/kunst-kultur/musik-theater-und-literatur/theater-und-literatur",
+       "quote": "James Joyce, Else Lasker-Schüler, Thomas Mann, Robert Musil, Carl Zuckmayer",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3701365,
+      "lon": 8.5492634,
+      "query": "Rämistrasse 34, 8001 Zürich",
+      "qid": "Q675022",
+      "osm": "Schauspielhaus Pfauen, 34, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q123075",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Robert-Walser-Gasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27322297"
+    },
+    {
+     "rank": 2,
+     "name": "Zürich Opera House",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q670406"
+    },
+    {
+     "rank": 3,
+     "name": "Villa Bleuler",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q29574422"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q671236",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Giacometti-Fresken, Bahnhofquai 3",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_10616201153"
+    },
+    {
+     "rank": 2,
+     "name": "Waisenhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q22909689"
+    },
+    {
+     "rank": 3,
+     "name": "Fraumünster",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q690944"
+    },
+    {
+     "rank": 4,
+     "name": "Wasserkirche",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q477189"
+    },
+    {
+     "rank": 5,
+     "name": "Grossmünster",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q684948"
+    },
+    {
+     "rank": 6,
+     "name": "Kunsthaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q685038"
+    },
+    {
+     "rank": 7,
+     "name": "Giacomettiweg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27332257"
+    },
+    {
+     "rank": 8,
+     "name": "Zurich University of the Arts",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q222450"
+    },
+    {
+     "rank": 9,
+     "name": "Schule für Gestaltung Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q65038109"
+    },
+    {
+     "rank": 10,
+     "name": "Museum of Design",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q668213"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1584657",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hinter Glas, Hochstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_10234617742"
+    },
+    {
+     "rank": 2,
+     "name": "Figur, Huttenstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_10287856888"
+    },
+    {
+     "rank": 3,
+     "name": "Totentanz, Plattenstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_10616259615"
+    },
+    {
+     "rank": 4,
+     "name": "graffiti by Harald Naegeli, Schiffbaustrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "osm_node_13471089579"
+    },
+    {
+     "rank": 5,
+     "name": "Rechberg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q55167899"
+    },
+    {
+     "rank": 6,
+     "name": "Grossmünster",
+     "address": "Grossmünsterplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Harald Naegeli created the Totentanz (Dance of Death) graffiti series inside the Grossmünster towers.",
+       "url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+       "quote": "The commissioned work, “Totentanz” (Dance of Death), in the Grossmünster remains unfinished due to a long-standing dispute.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3700869,
+      "lon": 8.5435835,
+      "query": "Grossmünsterplatz, 8001 Zürich",
+      "qid": null,
+      "osm": "Grossmünsterplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizze"
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Deutsches Seminar, University of Zurich",
+     "address": "Schönberggasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Features Harald Naegeli's restored 1978 water goddess graffito Undine.",
+       "url": "https://en.wikipedia.org/wiki/Harald_Naegeli",
+       "quote": "Undine was created in 1978 on a building of the University of Zürich, located at Schönberggasse 9",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3731322,
+      "lon": 8.5491943,
+      "query": "Schönberggasse 9, 8001 Zürich",
+      "qid": null,
+      "osm": "UZH-SOD, 9, Schönberggasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Su"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1383821",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Birthplace of the Dada movement founded in 1916 by young writers and artists living in wartime exile.",
+       "url": "https://zurichguru.com/places/cabaret-voltaire-zurich/",
+       "quote": "On 5 February 1916, in the back room of a beer and wine tavern at Spiegelgasse 1 in the Niederdorf, a group of young artists in wartime exile opened a nightclub that turned art upside down.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Georg Büchner House",
+     "address": "Spiegelgasse 12, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Residence where German exiled writer, dramatist, and revolutionary Georg Büchner spent the final months of his life.",
+       "url": "https://en.wikipedia.org/wiki/Niederdorf_district",
+       "quote": "Also at Spiegelgasse, at No. 12, the German writer, dramatist and revolutionary Georg Büchner spent the last months of his life, before dying there of typhus in 1837 at the age of only 23.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3718681,
+      "lon": 8.5448681,
+      "query": "Spiegelgasse 12, 8001 Zürich",
+      "qid": null,
+      "osm": "12, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzer"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zürich James Joyce Foundation",
+     "address": "Augustinergasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Located in the historic Strauhof building, it preserves the literary legacy and memory of Irish exile writer James Joyce.",
+       "url": "https://joycefoundation.ch/the-foundation/visitors/",
+       "quote": "Augustinergasse 9, 8003 Zurich · You can find us on the top floor of the historic Strauhof building.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3717214,
+      "lon": 8.5400169,
+      "query": "Augustinergasse 9, 8001 Zürich",
+      "qid": "Q27490264",
+      "osm": "Museum Strauhof, 9, Augustinergasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schwe"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Café Odeon",
+     "address": "Limmatquai 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Historic Art Nouveau café that was a famous gathering spot for exiled writers and intellectuals.",
+       "url": "https://feelespresso.com/blogs/actualites/cafe-odeon-zurich",
+       "quote": "After 1933 the café became a meeting place for German-speaking writers who had fled the Nazis.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3677942,
+      "lon": 8.5451446,
+      "query": "Limmatquai 2, 8001 Zürich",
+      "qid": null,
+      "osm": "Café Bar ODEON, 2, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Sui"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Thomas Mann Archives",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "Preserves the literary estate, manuscripts, and study of Nobel laureate Thomas Mann from his exile.",
+       "url": "https://tma.ethz.ch/en/exhibition.html",
+       "quote": "The newly designed permanent exhibition revolves around Thomas Mann's famous desk, which accompanied him into exile.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Schauspielhaus Zürich (Pfauen)",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Famous theater that served as a haven of artistic freedom and stage for works by émigré writers and refugees.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+       "quote": "as the only free stage in the German-speaking countries, the Pfauenbühne was a haven of political and artistic freedom for many refugees.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3701365,
+      "lon": 8.5492634,
+      "query": "Rämistrasse 34, 8001 Zürich",
+      "qid": "Q675022",
+      "osm": "Schauspielhaus Pfauen, 34, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q188494",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Eierbrechtstrasse",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27329482"
+    },
+    {
+     "rank": 2,
+     "name": "Graphische Sammlung der ETH",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q27490235"
+    },
+    {
+     "rank": 3,
+     "name": "Site of Wellenberg Tower (Schifflände)",
+     "address": "Schifflände, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Historic site of the medieval Wellenberg dungeon tower where suspects of witch trials were imprisoned and tortured.",
+       "url": "https://en.wikipedia.org/wiki/Wellenberg_Tower",
+       "quote": "For some of these cases, Sigg cites interrogation protocols from Wellenberg, which were often obtained through the use of torture by stretching.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3693938,
+      "lon": 8.5436845,
+      "query": "Schifflände, 8001 Zürich",
+      "qid": "Q27330004",
+      "osm": "Schifflände, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizzera / S"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q208701",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Volkshaus",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q689762"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1279400",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q206702"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q17897",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Cranberry Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1609"
+    },
+    {
+     "rank": 2,
+     "name": "Heaven Club",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "190195"
+    },
+    {
+     "rank": 3,
+     "name": "Regenbogenhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1010616"
+    },
+    {
+     "rank": 4,
+     "name": "Klaus",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "327472"
+    },
+    {
+     "rank": 5,
+     "name": "Miller's",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q110194277"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q7167",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Swiss National Museum",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2256718"
+    },
+    {
+     "rank": 2,
+     "name": "H. Schwarzenbach AG",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1510"
+    },
+    {
+     "rank": 3,
+     "name": "Kindli",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q30600276"
+    },
+    {
+     "rank": 4,
+     "name": "Ethnographic Museum of the University of Zurich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2536345"
+    },
+    {
+     "rank": 5,
+     "name": "Co Chin Chin",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "186298"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q23642627",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Sorell Hotel Seidenhof",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q111409742"
+    },
+    {
+     "rank": 2,
+     "name": "ORSINI",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1011520"
+    },
+    {
+     "rank": 3,
+     "name": "EnSoie – Fashion Label with a Family Tradition",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "294909"
+    },
+    {
+     "rank": 4,
+     "name": "Hotel Europe",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q111409733"
+    },
+    {
+     "rank": 5,
+     "name": "Casa Ferlin",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "16805"
+    },
+    {
+     "rank": 6,
+     "name": "Rote Fabrik",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q491344"
+    },
+    {
+     "rank": 7,
+     "name": "Ziegel oh Lac",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "3600"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1260003",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Platzspitz park",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2098914"
+    },
+    {
+     "rank": 2,
+     "name": "Flussbad Oberer Letten",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "2495"
+    },
+    {
+     "rank": 3,
+     "name": "Olé Olé Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "19860"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q846047",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Allgemeine Musik-Gesellschaft Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q2648827"
+    },
+    {
+     "rank": 2,
+     "name": "Tonhalle Orchester Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q673575"
+    },
+    {
+     "rank": 3,
+     "name": "Zürich Opera House",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q670406"
+    },
+    {
+     "rank": 4,
+     "name": "Bellevue (Zürich tram stop)",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q70708571"
+    },
+    {
+     "rank": 5,
+     "name": "Cha Cha Cha Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1011983"
+    },
+    {
+     "rank": 6,
+     "name": "Aelpli Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "168166"
+    },
+    {
+     "rank": 7,
+     "name": "Kon-Tiki Coffeeshop & Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "192283"
+    },
+    {
+     "rank": 8,
+     "name": "Bro's Beans & Beats",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1012137"
+    },
+    {
+     "rank": 9,
+     "name": "Stereo Bar",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "1012501"
+    },
+    {
+     "rank": 10,
+     "name": "Tanzhaus Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q43205018"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q23498",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "old town, celtic / roman settlement / medieval town, palatinate",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q108045458"
+    },
+    {
+     "rank": 2,
+     "name": "Thermengasse (Roman Thermal Baths Ruins)",
+     "address": "Thermengasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Thermengasse displays the archaeological remains of ancient Roman thermal baths built during the Roman settlement of Turicum.",
+       "url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+       "quote": "Remains of Roman thermal baths.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3712922,
+      "lon": 8.5412393,
+      "query": "Thermengasse, 8001 Zürich",
+      "qid": "Q27329808",
+      "osm": "Thermengasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Haus zum Rech",
+     "address": "Neumarkt 4, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Haus zum Rech is an 800-year-old historic building in Zurich Old Town that houses architectural history archives and a detailed scale model of medieval Zurich.",
+       "url": "https://www.zuerich.com/de/besuchen/kultur/haus-zum-rech-baugeschichtliches-archiv-und-stadtarchiv",
+       "quote": "Das Haus zum Rech ist schon seit 800 Jahren Teil der Zürcher Altstadt.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3723265,
+      "lon": 8.5458015,
+      "query": "Neumarkt 4, 8001 Zürich",
+      "qid": "Q29574362",
+      "osm": "Haus zum Rech, 4, Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Ehgraben Archaeological Window",
+     "address": "Schöffengasse / Münstergasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Ehgraben archaeological site provides a window into medieval urban structure and sanitation systems in Zurich.",
+       "url": "https://www.zuerich.com/en/tours-excursions/archeology-in-zurich-tour",
+       "quote": "On this tour, we delve into the mysteries of the Ehgraben medieval sewage sewer, which reveals how a medieval town dealt with its waste and sewage problems.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "new",
+     "geo": null
+    },
+    {
+     "rank": 5,
+     "name": "Wasserkirche Crypt",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Wasserkirche stands on the medieval archaeological site linked to the execution and cult of Zurich's patron saints Felix and Regula.",
+       "url": "https://www.zuerich.com/en/visit/attractions/wasserkirche",
+       "quote": "Legend has it that the site of the Wasserkirche church is where Zurich's patron saints, Felix and Regula, were executed.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3698494,
+      "lon": 8.5430379,
+      "query": "Limmatquai 31, 8001 Zürich",
+      "qid": null,
+      "osm": "31, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Zürich (Samian Ware Discovery Site)",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q103200478"
+    },
+    {
+     "rank": 7,
+     "name": "Burg Uetliburg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1014319"
+    }
+   ]
+  },
+  {
+   "interest_id": "Q483453",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Münsterhof Fountain",
+     "address": "Münsterhof, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Münsterhof Fountain is a massive 6-meter wide historic landmark fountain standing on Münsterhof square beside Fraumünster Church.",
+       "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+       "quote": "The fountain with a diameter of around 6 meters (20 ft) stands on the historic Münsterhof, directly next to the Fraumünster Church.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3699264,
+      "lon": 8.5408782,
+      "query": "Münsterhof, 8001 Zürich",
+      "qid": "Q7849515",
+      "osm": "Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / "
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Zentralhof Fountain",
+     "address": "Zentralhof, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Zentralhof Fountain is an ornate 1877 cast-iron landmark decorated with winged lions located in a quiet Old Town courtyard.",
+       "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+       "quote": "In 1877, this was replaced by an imposing cast-iron fountain guarded by three winged lions.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3692703,
+      "lon": 8.540086,
+      "query": "Zentralhof, 8001 Zürich",
+      "qid": "Q27321117",
+      "osm": "Zentralhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Boutique Hotel Wellenberg",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q112013499"
+    },
+    {
+     "rank": 4,
+     "name": "Alfred Escher Statue and Fountain",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The monument in front of Zurich Main Station includes a prominent historic fountain ensemble sculpted in 1889 by Richard Kissling.",
+       "url": "https://www.zuerich.com/en/visit/attractions/alfred-escher-statue",
+       "quote": "Swiss sculptor Richard Kissling created this bronze statue in 1889 in honor of Alfred Escher, a renowned Zurich politician and entrepreneur.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3769361,
+      "lon": 8.5408628,
+      "query": "Bahnhofplatz, 8001 Zürich",
+      "qid": "Q801700",
+      "osm": "Bahnhofplatz, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svi"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Sechseläutenplatz Fountain",
+     "address": "Sechseläutenplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Sechseläutenplatz features a grand modern fountain ensemble of dynamic water jets in front of the Zurich Opera House.",
+       "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+       "quote": "With its 53 water jets, the fountain ensemble is a spectacular sight.",
+       "check": "verified"
+      }
+     ],
+     "origin": "new",
+     "geo": {
+      "lat": 47.3657035,
+      "lon": 8.5463381,
+      "query": "Sechseläutenplatz, 8001 Zürich",
+      "qid": "Q15059954",
+      "osm": "Sechseläutenplatz, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Sv"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Brunnen Delphinstrasse 12 u. 14 Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q100236988"
+    },
+    {
+     "rank": 7,
+     "name": "Sardona Brunnen Zürich",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q108761333"
+    },
+    {
+     "rank": 8,
+     "name": "Sirius fountain",
+     "address": null,
+     "reasons": [],
+     "origin": "graph",
+     "candidate_id": "Q1760194"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+# Relations of G_P read from the Zurich Tourism descriptions
+# (src/pipeline/enrich/extract_mentions.py). Each goes from the entity a
+# description mentions to the place it describes. nami:mentionedAt is used
+# when the sentence names no relation; the others refine it, named by the
+# cue closest to the mention. skos:closeMatch points to the Wikidata
+# property with the same meaning and direction, where there is one.
+@prefix nami:  <https://example.org/nami/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdt:  <http://www.wikidata.org/prop/direct/> .
+
+nami:mentionedAt rdfs:label "mentioned at"@en ;
+    rdfs:comment "The description of the place mentions the entity."@en .
+
+nami:livedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "lived at"@en ;
+    skos:closeMatch wdt:P551 .                       # residence
+nami:buriedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "buried at"@en ;
+    skos:closeMatch wdt:P119 .                       # place of burial
+nami:workedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "worked or studied at"@en ;
+    skos:closeMatch wdt:P108, wdt:P69 .              # employer, educated at
+nami:foundedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "founded or originated at"@en .
+nami:frequented rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "frequented"@en .
+nami:performedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "performed or exhibited at"@en .
+nami:commemoratedAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "commemorated at"@en .
+nami:bornAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "born at"@en ;
+    skos:closeMatch wdt:P19 .                        # place of birth
+nami:createdAt rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "created a work at"@en ;
+    rdfs:comment "An artist made the work that stands at the place (public art)."@en .
+nami:themedAfter rdfs:subPropertyOf nami:mentionedAt ; rdfs:label "gives its theme to"@en ;
+    rdfs:comment "The place uses the entity as its theme: a room, a bar or a design named after or inspired by it."@en .
+    # the inverse of wdt:P547 (commemorates)

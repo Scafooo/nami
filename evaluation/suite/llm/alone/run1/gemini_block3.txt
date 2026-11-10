@@ -1,0 +1,246 @@
+[
+{
+"interest_id": "I11",
+"places": [
+{
+"rank": 1,
+"name": "Burghölzli Psychiatric Hospital",
+"address": "Lenggstrasse 31, 8008 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Carl Jung worked as a research scientist and psychiatrist at Burghölzli psychiatric hospital under Eugen Bleuler.",
+"url": "https://en.wikipedia.org/wiki/Carl_Jung",
+"quote": "Jung worked as a research scientist at the Burghölzli psychiatric hospital in Zurich, under Eugen Bleuler."
+},
+{
+"reason": "Carl Jung and his wife Emma first lived together in a flat located on the grounds of the Burghölzli hospital before moving to Küsnacht.",
+"url": "https://en.wikipedia.org/wiki/Carl_Jung",
+"quote": "Carl and Emma Jung first lived together in a flat at Burghölzli, and then, in 1908, they moved to a house that they designed and built beside the lake at Küstnacht, where they lived for the rest of their lives."
+}
+]
+},
+{
+"rank": 2,
+"name": "Psychology Club Zurich",
+"address": "Gemeindestrasse 27, 8032 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "The clubhouse at Gemeindestrasse 27 was purchased by members of the Psychological Club to serve as a permanent forum for Analytical Psychology where Jung delivered lectures and conducted therapy sessions.",
+"url": "https://www.psychologyclub.ch/en/club-history/club-house/house-and-rooms",
+"quote": "A quest for a permanent home began and on 21 January 1918 thirty Club members resolved to purchase the present property at Gemeindestrasse 27."
+}
+]
+},
+{
+"rank": 3,
+"name": "C. G. Jung House Museum",
+"address": "Seestrasse 228, 8700 Küsnacht, Switzerland",
+"reasons": [
+{
+"reason": "This lakeside villa served as the long-term private residence of Carl Jung and his wife Emma Jung-Rauschenbach.",
+"url": "https://en.wikipedia.org/wiki/C._G._Jung_House_Museum",
+"quote": "It was the residence of the Swiss psychiatrist, psychologist, and essayist Carl Jung as well as his wife, psychologist Emma Jung-Rauschenbach."
+}
+]
+}
+]
+},
+{
+"interest_id": "I12",
+"places": [
+{
+"rank": 1,
+"name": "Gottfried Keller's Childhood Home",
+"address": "Rindermarkt 9, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Gottfried Keller spent his youth and grew up in the Niederdorf district of Zurich.",
+"url": "https://en.wikipedia.org/wiki/Niederdorf_district",
+"quote": "The Swiss writer, poet, painter, and politician Gottfried Keller grew up in the Niederdorf."
+},
+{
+"reason": "Gottfried Keller's childhood home was specifically located at Rindermarkt 9.",
+"url": "https://www.zuerich.com/en/gottfried-keller",
+"quote": "Gottfried Keller's childhood home was based at Rindermarkt 9."
+}
+]
+},
+{
+"rank": 2,
+"name": "Rathaus Zürich",
+"address": "Limmatquai 55, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Gottfried Keller served as the official State Secretary (Staatsschreiber) of Canton Zurich at the Rathaus from 1861 to 1876.",
+"url": "https://www.zuerich.com/de/gottfried-keller",
+"quote": "Gottfried Keller war 1861 bis 1876 als Staatsschreiber im Rathaus Zürich tätig."
+}
+]
+},
+{
+"rank": 3,
+"name": "Zentralbibliothek Zürich",
+"address": "Zähringerplatz 6, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "The Zurich Central Library preserves and manages the extensive literary legacy bequeathed by Gottfried Keller in 1890.",
+"url": "https://www.zuerich.com/en/gottfried-keller",
+"quote": "The Zurich Central Library is responsible for the literary legacy that Gottfried Keller left to what was then the Zurich City Library in 1890."
+}
+]
+},
+{
+"rank": 4,
+"name": "Gottfried Keller Monument",
+"address": "Mythenquai 28, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "A monument featuring a bust of Gottfried Keller honors the author overlooking Lake Zurich.",
+"url": "https://www.zuerich.com/en/gottfried-keller",
+"quote": "The bust of Gottfried Keller looks out over Lake Zurich from Mythenquai."
+}
+]
+}
+]
+},
+{
+"interest_id": "I13",
+"places": [
+{
+"rank": 1,
+"name": "Alfred Escher Memorial",
+"address": "Bahnhofplatz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "A prominent statue commemorating Swiss railway and economic pioneer Alfred Escher is erected directly in front of Zurich Main Station.",
+"url": "https://www.zuerich.com/en/visit/attractions/alfred-escher-statue",
+"quote": "The statue of Zurich pioneer Alfred Escher is located on Bahnhofplatz in front of Zurich Main Station."
+}
+]
+},
+{
+"rank": 2,
+"name": "Villa Belvoir",
+"address": "Seestrasse 125, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Belvoir Park estate was the ancestral residence where Alfred Escher grew up and resided throughout his life.",
+"url": "https://en.wikipedia.org/wiki/Belvoir_Park",
+"quote": "Alfred Escher grew up at Belvoir Park, which remained his family seat for his entire lifetime."
+}
+]
+},
+{
+"rank": 3,
+"name": "ETH Zürich",
+"address": "Rämistrasse 101, 8092 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Alfred Escher played a pivotal role in establishing the Federal Polytechnic School (now ETH Zurich).",
+"url": "https://en.wikipedia.org/wiki/Alfred_Escher",
+"quote": "In 1854/1855, he was instrumental in founding the Federal Polytechnic School in Zurich."
+}
+]
+},
+{
+"rank": 4,
+"name": "Paradeplatz (Credit Suisse Headquarters)",
+"address": "Paradeplatz 8, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Alfred Escher founded Schweizerische Kreditanstalt (later Credit Suisse) at Paradeplatz to finance Swiss rail infrastructure.",
+"url": "https://en.wikipedia.org/wiki/Alfred_Escher",
+"quote": "In 1856, Escher was the principal force behind the founding of the Schweizerische Kreditanstalt (SKA), today known as Credit Suisse."
+}
+]
+}
+]
+},
+{
+"interest_id": "I14",
+"places": [
+{
+"rank": 1,
+"name": "Villa Wesendonck (Museum Rietberg)",
+"address": "Gablerstrasse 15, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Richard Wagner resided on the Wesendonck villa estate in Zurich during his political exile from Germany.",
+"url": "https://en.wikipedia.org/wiki/Villa_Wesendonck",
+"quote": "The composer Richard Wagner stayed on the estate between April 1857 and August 1858."
+},
+{
+"reason": "The villa estate was built for silk merchant Otto Wesendonck and his wife Mathilde, who supported Wagner during his stay.",
+"url": "https://en.wikipedia.org/wiki/Villa_Wesendonck",
+"quote": "The villa was built between 1853 and 1857 for the wealthy silk merchant Otto Wesendonck and his poet wife Mathilde."
+}
+]
+},
+{
+"rank": 2,
+"name": "Hotel Baur au Lac",
+"address": "Talstrasse 1, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Richard Wagner conducted the first public performance of the first act of Die Walküre at the Baur au Lac hotel in 1856.",
+"url": "https://en.wikipedia.org/wiki/Baur_au_Lac",
+"quote": "In 1856, Richard Wagner performed the first act of his opera Die Walküre live at Baur au Lac."
+}
+]
+},
+{
+"rank": 3,
+"name": "Opernhaus Zürich",
+"address": "Falkenstrasse 1, 8008 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "The predecessor to the Zurich Opera House (the Aktientheater) served as the primary musical venue where Richard Wagner conducted during his Zurich exile.",
+"url": "https://en.wikipedia.org/wiki/Zurich_Opera_House",
+"quote": "The theatre, which was called the Aktientheater, was built in 1834, and was the site of performance for Richard Wagner during his exile from Germany."
+}
+]
+}
+]
+},
+{
+"interest_id": "I15",
+"places": [
+{
+"rank": 1,
+"name": "Spiegelgasse 12",
+"address": "Spiegelgasse 12, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Georg Büchner lived at Spiegelgasse 12 in Zurich, where he worked on his dramatic masterpiece Woyzeck until his death in 1837.",
+"url": "https://www.zuerich.com/de/georg-buechner",
+"quote": "Gleichzeitig arbeitete er am Drama «Woyzeck», das er als Fragment hinterliess: Denn er verstarb bereits am 19. Februar 1837 im Alter von 23 Jahren an Typhus."
+}
+]
+},
+{
+"rank": 2,
+"name": "University of Zurich",
+"address": "Rämistrasse 71, 8006 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Georg Büchner was appointed lecturer in anatomy at the University of Zurich in 1836.",
+"url": "https://en.wikipedia.org/wiki/Georg_B%C3%BCchner",
+"quote": "In November 1836, Büchner was appointed lecturer in anatomy at the University of Zurich."
+}
+]
+},
+{
+"rank": 3,
+"name": "Georg Büchner's Grave (Germaniahügel)",
+"address": "Rigiblick, 8044 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Georg Büchner was buried at the Germaniahügel site overlooking Zurich following his death.",
+"url": "https://en.wikipedia.org/wiki/Georg_B%C3%BCchner",
+"quote": "Büchner was buried at the Germaniahügel cemetery in Zurich."
+}
+]
+}
+]
+}
+]

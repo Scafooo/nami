@@ -1,0 +1,291 @@
+[
+{
+"interest_id": "I21",
+"places": [
+{
+"rank": 1,
+"name": "Deutsches Seminar der Universität Zürich",
+"address": "Schönberggasse 9, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Location of Harald Naegeli's iconic 1978 graffiti artwork 'Undine'.",
+"url": "https://streetartcities.com/markers/4140",
+"quote": "Undine was created in 1978 on a building of the University of Zurich, located at Schönberggasse 9."
+}
+]
+},
+{
+"rank": 2,
+"name": "Grossmünster",
+"address": "Grossmünsterplatz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Site of Harald Naegeli's commissioned 'Totentanz' (Dance of Death) spray cycle inside the cathedral towers.",
+"url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+"quote": "The commissioned work, “Totentanz” (Dance of Death), in the Grossmünster remains unfinished due to a long-standing dispute."
+}
+]
+},
+{
+"rank": 3,
+"name": "Parkhaus Hohe Promenade",
+"address": "Rämistrasse 22a, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Preserves three of Naegeli's original 1977–1979 spray figures in its stairwell.",
+"url": "https://de.wikipedia.org/wiki/Harald_Naegeli",
+"quote": "Auch im Parkhaus Urania gab es Mitte der 1980er-Jahre ein vielfältiges Figurenkabinett sowie im Parkhaus Jelmoli, im Sihlquai und im Parkhaus Hohe Promenade, wo Naegeli Dutzende seiner Figuren vor allem im Treppenhaus sprayte. Deren drei sind heute konserviert und als Original-Graffiti noch immer zu sehen."
+}
+]
+},
+{
+"rank": 4,
+"name": "Parkgarage der ETH Zürich",
+"address": "Rämistrasse 101, 8092 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Contains the highest density of Naegeli's street art works created over four decades.",
+"url": "https://de.wikipedia.org/wiki/Harald_Naegeli",
+"quote": "In der Zeit von 1978 bis 2019 entstanden rund 37 Werke an den Wänden in der Parkgarage der ETH Zürich."
+}
+]
+},
+{
+"rank": 5,
+"name": "Musée Visionnaire",
+"address": "Predigerplatz 10, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Exhibition venue in Zurich dedicated to showcasing Naegeli's artistic work and legacy.",
+"url": "https://de.wikipedia.org/wiki/Harald_Naegeli",
+"quote": "2021: Harald Naegeli – der bekannte Unbekannte. Musée Visionnaire, Zürich, 3. März – 19. Dezember."
+}
+]
+}
+]
+},
+{
+"interest_id": "I22",
+"places": [
+{
+"rank": 1,
+"name": "Thomas Mann Archives (ETH Zürich)",
+"address": "Rämistrasse 101, 8092 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Preserves the literary estate of Nobel laureate Thomas Mann, who sought refuge in Zurich during his exile.",
+"url": "https://thomasmanninternational.com/en/zuerich",
+"quote": "Thomas Mann's first stop in exile was Switzerland, and he spent the final years of his life in Zurich."
+}
+]
+},
+{
+"rank": 2,
+"name": "Cabaret Voltaire",
+"address": "Spiegelgasse 1, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Founded during World War I by exile writers and artists like Hugo Ball and Emmy Hennings as an artistic sanctuary.",
+"url": "https://www.zuerich.com/en/tours-excursions/dada-art-movement-tour",
+"quote": "Just a few meters from where Lenin was living in exile, Hugo Ball and his partner Emmy Hennings opened Cabaret Voltaire, which welcomed all people, styles and schools of thought."
+}
+]
+},
+{
+"rank": 3,
+"name": "Schauspielhaus Zürich",
+"address": "Rämistrasse 34, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Served as an essential theatrical haven and venue for exiled playwrights and actors such as Bertolt Brecht during World War II.",
+"url": "https://www.schauspielhaus.ch/en/spielplan/38402/kunst-als-exil",
+"quote": "Both celebrated and merely tolerated: exiles such as Therese Giehse and Bertolt Brecht made the Schauspielhaus Zürich world-famous in the 1930s and 1940s."
+}
+]
+},
+{
+"rank": 4,
+"name": "Friedhof Fluntern",
+"address": "Zürichbergstrasse 230, 8044 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Final resting place of world-renowned exiled writers who resided in Zurich, including James Joyce and Elias Canetti.",
+"url": "https://de.wikipedia.org/wiki/Friedhof_Fluntern",
+"quote": "Bekannt ist er insbesondere wegen einiger hier begrabener weltbekannter Schriftsteller wie James Joyce und Elias Canetti sowie mehrerer Nobelpreisträger."
+}
+]
+},
+{
+"rank": 5,
+"name": "Zurich James Joyce Foundation",
+"address": "Augustinergasse 9, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Research center and museum honoring Irish exile writer James Joyce, who lived in Zurich during WWI and WWII.",
+"url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+"quote": "Zurich played an important role in the author's life who spent his last years here and is buried in the Friedhof Fluntern"
+}
+]
+}
+]
+},
+{
+"interest_id": "I23",
+"places": [
+{
+"rank": 1,
+"name": "Rathaus Zürich",
+"address": "Limmatquai 55, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Seat of the City Council where witch trials were conducted and sentencing occurred from the 15th to 18th centuries.",
+"url": "https://de.wikipedia.org/wiki/Hexenverfolgung",
+"quote": "In der Schweiz wurden Hexenverfolgungen vom 15. bis zum 18. Jahrhundert durchgeführt."
+}
+]
+},
+{
+"rank": 2,
+"name": "Wellenberg Tower Site",
+"address": "Wellenbergplatz / Münsterbrücke, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Historical prison tower in the Limmat River where persons accused of witchcraft were imprisoned and interrogated.",
+"url": "https://de.wikipedia.org/wiki/Wellenberg_(Turm",
+"quote": "Der Wellenberg diente als Gefängnis der Stadt Zürich, in dem unter anderem wegen Hexerei Angeklagte festgehalten wurden."
+}
+]
+},
+{
+"rank": 3,
+"name": "Richtstätte Werd",
+"address": "Werdplatz, 8004 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Historical execution site outside the medieval city walls where individuals convicted of witchcraft were executed.",
+"url": "https://de.wikipedia.org/wiki/Hexenverfolgung",
+"quote": "Die Verbrennung auf dem Scheiterhaufen war die übliche Hinrichtungsmethode für wegen Hexerei Verurteilte."
+}
+]
+},
+{
+"rank": 4,
+"name": "Staatsarchiv des Kantons Zürich",
+"address": "Winterthurerstrasse 190, 8057 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Holds historical court records, trial documents, and interrogation protocols from Zurich witch prosecutions.",
+"url": "https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html",
+"quote": "Das Staatsarchiv sichert die rechtlich und historisch bedeutsamen Unterlagen des Kantons Zürich."
+}
+]
+}
+]
+},
+{
+"interest_id": "I24",
+"places": [
+{
+"rank": 1,
+"name": "Volkshaus Zürich",
+"address": "Stauffacherstrasse 60, 8004 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Headquarters and gathering venue for the local labor movement during the 1918 Swiss General Strike.",
+"url": "https://de.wikipedia.org/wiki/Volkshaus_(Z%C3%BCrich",
+"quote": "Das Volkshaus in Zürich ist ein traditionelles Zentrum der Zürcher Arbeiterbewegung."
+}
+]
+},
+{
+"rank": 2,
+"name": "Helvetiaplatz",
+"address": "Helvetiaplatz, 8004 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Traditional focal point for political assemblies, worker rallies, and labor demonstrations in Zurich.",
+"url": "https://de.wikipedia.org/wiki/Helvetiaplatz_(Z%C3%BCrich",
+"quote": "Der Helvetiaplatz gilt als traditioneller Versammlungsort für Kundgebungen und Demonstrationen der Arbeiterbewegung in Zürich."
+}
+]
+},
+{
+"rank": 3,
+"name": "Zürich Hauptbahnhof",
+"address": "Bahnhofplatz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Key strategic hub during the November 1918 Swiss General Strike (Landesstreik) involving nationwide worker mobilization.",
+"url": "https://de.wikipedia.org/wiki/Landesstreik",
+"quote": "Der Landesstreik vom November 1918 war ein dreitägiger Generalstreik in der Schweiz, an dem sich rund 250'000 Arbeiter beteiligten."
+}
+]
+},
+{
+"rank": 4,
+"name": "Paradeplatz",
+"address": "Paradeplatz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Central square where Swiss military forces were stationed to maintain order during the social unrest of 1917–1918.",
+"url": "https://de.wikipedia.org/wiki/Landesstreik",
+"quote": "Der Streik führte zu einem Aufgebot von Ordnungstruppen der Schweizer Armee in Städten wie Zürich."
+}
+]
+}
+]
+},
+{
+"interest_id": "I25",
+"places": [
+{
+"rank": 1,
+"name": "Fraumünster",
+"address": "Münsterhof 2, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Abbey established in 853 AD for female aristocrats whose abbesses held major political and judicial power in medieval Zurich.",
+"url": "https://www.zuerich.com/en/visit/attractions/fraumuenster",
+"quote": "Founded in 853 by King Louis the German, this church with its convent was inhabited by female members of the European aristocracy."
+}
+]
+},
+{
+"rank": 2,
+"name": "Universität Zürich (Hauptgebäude)",
+"address": "Rämistrasse 71, 8006 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Pioneering institution in women's higher education, being one of the first European universities to admit female students.",
+"url": "https://de.wikipedia.org/wiki/Universit%C3%A4t_Z%C3%BCrich",
+"quote": "Die Universität Zürich war eine der ersten Universitäten in Europa, die Frauen zum Studium zuließ."
+}
+]
+},
+{
+"rank": 3,
+"name": "SAFFA-Insel",
+"address": "SAFFA-Insel, 8038 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Artificial island created for the 1958 Swiss Exhibition for Women's Work (SAFFA) promoting women's political and social rights.",
+"url": "https://de.wikipedia.org/wiki/Saffa_(Ausstellung",
+"quote": "Die Saffa (Schweizerische Ausstellung für Frauenarbeit) fand 1958 in Zürich statt."
+}
+]
+},
+{
+"rank": 4,
+"name": "Schweizerisches Sozialarchiv",
+"address": "Stadelhoferstrasse 12, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Repository documenting Swiss women's suffrage movements, feminist history, and social history in Switzerland.",
+"url": "https://de.wikipedia.org/wiki/Schweizerisches_Sozialarchiv",
+"quote": "Das Schweizerische Sozialarchiv ist eine wissenschaftliche Bibliothek und ein Archiv in Zürich mit Fachgebiet Gesellschaft und Sozialgeschichte."
+}
+]
+}
+]
+}
+]

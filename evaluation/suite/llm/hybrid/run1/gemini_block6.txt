@@ -1,0 +1,402 @@
+[
+{
+"interest_id": "I26",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "LGBTQ --mentionedAt--> Cranberry Bar",
+"url": "https://www.zuerich.com/en/node/1609",
+"quote": "Of course, not only gays are welcome here, but also all friends and acquaintances of the LGBTQ+ community."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "LGBTQ --mentionedAt--> Heaven Club",
+"url": "https://www.zuerich.com/en/node/190195",
+"quote": "Renowned as a LGBTQIA+ club, it is a very popular venue among heterosexuals, too."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "LGBTQ --mentionedAt--> Regenbogenhaus Zürich",
+"url": "https://www.zuerich.com/en/node/1010616",
+"quote": "The meeting place, cultural venue, and contact point for the LGBTQ+ community, as well as for all those who want to engage and exchange ideas."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "LGBTQ --mentionedAt--> Klaus",
+"url": "https://www.zuerich.com/en/node/327472",
+"quote": "The friends of friends of “Klaus” are a colorful gang, covering the whole spectrum from LGBTQ to hetero, who celebrate all through the night until daybreak."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "LGBTQ --mentionedAt--> Miller's",
+"url": "https://www.zuerich.com/en/node/6636",
+"quote": "With its beautiful bar and warm atmosphere, Millers Theater is a vibrant home for cabaret, comedy, variety shows, LGBTQ+ arts, improv, and mixed-genre performances."
+}
+]
+}
+]
+},
+{
+"interest_id": "I27",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "kolonial – Globale Verflechtungen der Schweiz --main subject--> colonialism",
+"url": "Wikidata",
+"quote": "statement without reference"
+},
+{
+"reason": "kolonial – Globale Verflechtungen der Schweiz --publisher--> Swiss National Museum",
+"url": "Wikidata",
+"quote": "statement without reference"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "colonialism --mentionedAt--> H. Schwarzenbach AG",
+"url": "https://www.zuerich.com/en/node/1510",
+"quote": "When you enter the beautiful Schwarzenbach colonial grocery store in the heart of Zurich’s Niederdorf quarter, you are immediately enveloped by the aroma of freshly ground coffee."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "colonialism --mentionedAt--> Kindli",
+"url": "https://www.zuerich.com/en/node/2413",
+"quote": "Nowadays, the Kindli is an elegant hotel housing a restaurant serving European cuisine with colonial influences."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "colonialism --mentionedAt--> Ethnographic Museum of the University of Zurich",
+"url": "https://www.zuerich.com/en/node/1869",
+"quote": "The provenance of the objects and the circumstances of their acquisition, as well as the colonial past of collections, are also addressed."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "colonialism --mentionedAt--> Co Chin Chin",
+"url": "https://www.zuerich.com/de/node/186298",
+"quote": "Co Chin Chin war während der französischen Kolonialherrschaft über Vietnam die Bezeichnung für Südvietnam."
+}
+]
+}
+]
+},
+{
+"interest_id": "I29",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> Sorell Hotel Seidenhof",
+"url": "https://www.zuerich.com/de/node/1291",
+"quote": "Die liebevoll gestalteten Details erinnern an die einstige Bedeutung der Seide für die Stadt."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> ORSINI",
+"url": "https://www.zuerich.com/en/node/1011520",
+"quote": "Antonio Guida, who has already been awarded two Michelin stars for the Seta at the Mandarin Oriental in Milan, presents a range of Italian delicacies at ORSINI that combine traditional elements with a"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> EnSoie – Fashion Label with a Family Tradition",
+"url": "https://www.zuerich.com/it/node/294909",
+"quote": "Il marchio è sinonimo di tessuti di seta stampati, abbigliamento, indumenti, gioielli e ceramiche con quel qualcosa in più."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> Hotel Europe",
+"url": "https://www.zuerich.com/en/node/1125",
+"quote": "Eat & Drink – At SILK Restaurant & Bar, guests start the day with a relaxed breakfast, enjoy a varied selection at lunchtime and discover creative, seasonal dishes in the evening."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> Casa Ferlin",
+"url": "https://www.zuerich.com/it/node/16805",
+"quote": "Già entrando, si nota che ci si trova in un locale pregno di tradizione: cornici dorate su tappezzerie di seta, tende rosso scuro con fermatenda dorati, luci soffuse e sedute floral diffondono una c"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> Rote Fabrik",
+"url": "https://www.zuerich.com/fr/node/2302",
+"quote": "Historique : La « Rote Fabrik » fut jusqu’en 1940 spécialisée dans les techniques de tissage de la soie."
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "silk --mentionedAt--> Ziegel oh Lac",
+"url": "https://www.zuerich.com/en/node/3600",
+"quote": "Located in the industrial halls of the former silk weaving factory, the Ziegel oh Lac has served as a cultural center for the alternative art and music scene for almost four decades."
+}
+]
+}
+]
+},
+{
+"interest_id": "I30",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "drug --mentionedAt--> Platzspitz park",
+"url": "https://www.zuerich.com/it/node/2662",
+"quote": "Ciononostante, lo stesso problema di droga si ripropose alla vecchia stazione di Letten (oggi Oberer Letten ), dove perdurò fino al 1995."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "drug --mentionedAt--> Flussbad Oberer Letten",
+"url": "https://www.zuerich.com/it/node/2495",
+"quote": "Una volta chiusa, è stata teatro di traffici di droga, espletati dal Platzspitz."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "drug --mentionedAt--> Olé Olé Bar",
+"url": "https://www.zuerich.com/de/node/19860",
+"quote": "Die «Olé Olé», wie sie die Zürcher:innen nennen, ist seit 50 Jahren ein fester Bestandteil der Langstrasse und hat hier eine bewegte Geschichte miterlebt: Drogen, Prostitution und Rockerbands prägten "
+}
+]
+}
+]
+},
+{
+"interest_id": "I31",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Allgemeine Musik-Gesellschaft Zürich --field of work--> music",
+"url": "Wikidata",
+"quote": "statement without reference"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Tonhalle Orchester Zürich",
+"url": "https://www.zuerich.com/de/node/1820",
+"quote": "Seit 1868 begeistert das Tonhalle-Orchester in Zürich die Fans von klassischer Musik."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Q57501357 --genre--> music; Q57501357 --location of first performance--> Zürich Opera House",
+"url": "http://data.kunsten.be/productions/443346",
+"quote": "http://data.kunsten.be/productions/443346"
+},
+{
+"reason": "music --mentionedAt--> Zürich Opera House",
+"url": "https://www.zuerich.com/de/node/1860",
+"quote": "Das Opernhaus ist eines der Wahrzeichen Zürichs und ermöglicht dem interessierten Publikum einen Zugang zu den Anfängen der Operngeschichte bis hin zur Musik des 21."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Bellevue (Zürich tram stop)",
+"url": "https://www.zuerich.com/de/node/166024",
+"quote": "An den Wochenenden wummert die elektronische Musik bis in die Morgenstunden, während das Lokal an den übrigen Wochentagen Ort für Konzerte, kulturelle Veranstaltungen oder Privat- und Spezialanlässe i"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Cha Cha Cha Bar",
+"url": "https://www.zuerich.com/de/node/1011983",
+"quote": "Die Cha Cha Cha Bar bringt frischen Wind ins Niederdorf: Bunte Drinks, lockeres Ambiente und Musik für jede Stimmung."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Aelpli Bar",
+"url": "https://www.zuerich.com/de/node/168166",
+"quote": "An 365 Tagen im Jahr finden hier Generationen bei uriger Musik zueinander."
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Kon-Tiki Coffeeshop & Bar",
+"url": "https://www.zuerich.com/de/node/192283",
+"quote": "Seit 1955 begeistert die Kon-Tiki Bar im «Niederdörfli» ein gemischtes Publikum mit Musik und ausgelassener Stimmung"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Bro's Beans & Beats",
+"url": "https://www.zuerich.com/de/node/1012137",
+"quote": "Aromatischer Kaffee, frische Speisen und gute Musik – Das Café für Genuss mit Soundtrack."
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "music --mentionedAt--> Stereo Bar",
+"url": "https://www.zuerich.com/de/node/1012501",
+"quote": "Der kultige Treffpunkt im Herzen des Zürcher Kreis 4 punktet mit fein kuratierter Musik und guten Cocktails."
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Q57502437 --genre--> music; Q57502437 --location of first performance--> Tanzhaus Zürich",
+"url": "http://data.kunsten.be/productions/449098",
+"quote": "Wikidata, citing http://data.kunsten.be/productions/449098 (page no longer available)"
+},
+{
+"reason": "Q57502437 --genre--> music; Q57502437 --production company (as co-producer)--> Tanzhaus Zürich",
+"url": "Wikidata",
+"quote": "statement without reference"
+}
+]
+}
+]
+}
+]

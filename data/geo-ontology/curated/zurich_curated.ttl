@@ -1,0 +1,13 @@
+# Curated layer of G_P: facts missing from Wikidata, each annotated in
+# RDF-star with its source and our confidence in it (paper, Sec. 4.1.1).
+# Relations reuse Wikidata property IRIs, so type-level weights apply.
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Oppenheimer (2023) shot exteriors at the University of Zurich and the Grossmuenster.
+wd:Q108839994 wdt:P915 wd:Q206702 {| nami:source <https://www.extstreet.com/Oppenheimer.html> ;
+                                     nami:confidence 0.8 |} .
+wd:Q108839994 wdt:P915 wd:Q684948 {| nami:source <https://www.extstreet.com/Oppenheimer.html> ;
+                                     nami:confidence 0.8 |} .

@@ -1,0 +1,981 @@
+# Extracted layer of G_P: people and movements that the Zurich Tourism
+# descriptions associate with a place, linked to Wikidata by
+# src/pipeline/enrich/extract_mentions.py. Relations: mappings/text_relations.ttl.
+# Source: the POI's page; evidence: the sentence; confidence by evidence
+# (full name 0.7, anchor-linked +0.1, surname alone 0.5).
+# Data source: Zuerich Tourism, https://www.zuerich.com/en/open-data-version-20 -- licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+
+wd:Q100605218 nami:mentionedAt wd:Q675022 {| nami:source <https://www.zuerich.com/de/node/1874> ;
+    nami:evidence "Pınar Karabulut & Rafael Sanchez haben mit dem Start der Saison 25/26 die Co-Intendanz des Schauspielhauses übernommen." ;
+    nami:confidence 0.7 |} .
+wd:Q102932 nami:mentionedAt <https://example.org/nami/data/poi/1910> {| nami:source <https://www.zuerich.com/de/node/1910> ;
+    nami:evidence "Neben internationalen Avant-Garde Designern wie z.B." ;
+    nami:confidence 0.7 |} .
+wd:Q1048 nami:mentionedAt <https://example.org/nami/data/poi/2067> {| nami:source <https://www.zuerich.com/en/node/2067> ;
+    nami:evidence "In addition to the drinks, guests can enjoy classic American burgers or specialties such as Caesar salad or cheesecake." ;
+    nami:confidence 0.5 |} .
+wd:Q105428 nami:commemoratedAt wd:Q27132811 {| nami:source <https://www.zuerich.com/en/node/1705> ;
+    nami:evidence "The statue located on the Pestalozzi square on Bahnhofstrasse pays tribute to Swiss educator Johannes Heinrich Pestalozzi." ;
+    nami:confidence 0.7 |} .
+wd:Q106452066 nami:mentionedAt wd:Q27132811 {| nami:source <https://www.zuerich.com/de/node/1705> ;
+    nami:evidence "Auf der Pestalozzi-Wiese an der Bahnhofstrasse erinnert ein Denkmal an den Schweizer Pädagogen Johannes Heinrich Pestalozzi." ;
+    nami:confidence 0.7 |} .
+wd:Q107352009 nami:mentionedAt wd:Q1247784 {| nami:source <https://www.zuerich.com/de/node/2092> ;
+    nami:evidence "Mitten in der Zürcher Altstadt geniessen Gäste kulinarische Hochgenüsse des Ausnahmekochs Stefan Heilemann." ;
+    nami:confidence 0.7 |} .
+wd:Q107352009 nami:mentionedAt <https://example.org/nami/data/poi/1012645> {| nami:source <https://www.zuerich.com/de/node/1012645> ;
+    nami:evidence "Hinter dem «Soï 28 by Stefan Heilemann» steht ein einfacher Gedanke: die Atmosphäre asiatischer Strassenküche in die Zürcher Altstadt zu übertragen." ;
+    nami:confidence 0.7 |} .
+wd:Q10822316 nami:mentionedAt wd:Q24648846 {| nami:source <https://www.zuerich.com/en/node/1899> ;
+    nami:evidence "Example of Concrete Art" ;
+    nami:confidence 0.7 |} .
+wd:Q110479889 nami:mentionedAt wd:Q112013485 {| nami:source <https://www.zuerich.com/fr/node/1166> ;
+    nami:evidence "Michel Reybier est heureux d’annoncer l’ouverture cet hiver de La Réserve Eden au Lac Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q111623641 nami:mentionedAt <https://example.org/nami/data/poi/1012036> {| nami:source <https://www.zuerich.com/fr/node/1012036> ;
+    nami:evidence "Sous la direction de Zineb Hattab, une ancienne ingénieure ayant travaillé dans des cuisines renommées du monde entier, des plats végétaux aux influences marocaines et mexicaines sont créés." ;
+    nami:confidence 0.7 |} .
+wd:Q112775637 nami:mentionedAt wd:Q25041260 {| nami:source <https://www.zuerich.com/en/node/2565> ;
+    nami:evidence "History/Architecture In 1954, architects Josef Schütz, Otto Dürr, and Hans Nussbaumer built the lido in the style of a residential garden with pavilion to replace the box bathhouse dating from 1886." ;
+    nami:confidence 0.7 |} .
+wd:Q1132127 nami:mentionedAt <https://example.org/nami/data/poi/4283> {| nami:source <https://www.zuerich.com/it/node/4283> ;
+    nami:evidence "Raegge o Hip Hop, Chaos Deluxe Pop o Hit: al Kanzlei la notte vibra." ;
+    nami:confidence 0.7 |} .
+wd:Q115483 nami:mentionedAt wd:Q1912022 {| nami:source <https://www.zuerich.com/en/node/224368> ;
+    nami:evidence "The open-air public bath designed by writer and architect Max Frisch treats guests to three swimming pools and a beautiful park." ;
+    nami:confidence 0.7 |} .
+wd:Q115483 nami:performedAt wd:Q675022 {| nami:source <https://www.zuerich.com/en/node/1874> ;
+    nami:evidence "Some of Bertolt Brecht’s most important works celebrated their world premiere at the Pfauen, and numerous dramas by Swiss writers Max Frisch and Friedrich Dürrenmatt were also premiered here." ;
+    nami:confidence 0.7 |} .
+wd:Q115569 nami:commemoratedAt wd:Q27229673 {| nami:source <https://www.zuerich.com/en/node/1618> ;
+    nami:evidence "Swiss sculptor Richard Kissling created this bronze statue in 1889 in honor of Alfred Escher, a renowned Zurich politician and entrepreneur." ;
+    nami:confidence 0.7 |} .
+wd:Q115663087 nami:livedAt wd:Q125946609 {| nami:source <https://www.zuerich.com/en/node/545927> ;
+    nami:evidence "In an impressive new building designed by star architects Christ & Gantenbein, the Lindt Home of Chocolate welcomes chocolate lovers from all over the world to Kilchberg on Lake Zurich." ;
+    nami:confidence 0.5 |} .
+wd:Q115756 nami:mentionedAt <https://example.org/nami/data/poi/227380> {| nami:source <https://www.zuerich.com/fr/node/227380> ;
+    nami:evidence "En voilà les dates : 9 mai 2008 (effectué) 24 juin 2008 (effectué) 18 septembre 2016 (effectué) 28 août 2033 12 juin 2064 21 juillet 2082 18 janvier 2097 9 mai 2108 Emplacement : Au cœur du hall au rez-de-chaussée de la gare centrale de Zurich Le créateur : Dieter Meier est devenu mondialement célèbre grâce à son groupe de musique Yello qu’il forme avec Boris Blank." ;
+    nami:confidence 0.7 |} .
+wd:Q116054 nami:performedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "Installations such as the immersive “Turicum Pixelwald” by Pipilotti Rist, video installations, temporary exhibitions, workshops, and guided tours make a visit here an unforgettable experience." ;
+    nami:confidence 0.7 |} .
+wd:Q116714 nami:mentionedAt wd:Q1789864 {| nami:source <https://www.zuerich.com/en/node/524706> ;
+    nami:evidence "The lighting fixtures on the bar counter were designed by Swiss sculptor Diego Giacometti and are just as much works of art as the paintings gracing the walls." ;
+    nami:confidence 0.7 |} .
+wd:Q117092 nami:mentionedAt wd:Q690687 {| nami:source <https://www.zuerich.com/en/node/1784> ;
+    nami:evidence "The city’s first mayor, Rudolf Brun, acquired St." ;
+    nami:confidence 0.7 |} .
+wd:Q1176708 nami:foundedAt <https://example.org/nami/data/poi/1499> {| nami:source <https://www.zuerich.com/en/node/1499> ;
+    nami:evidence "Founded in 1836 by David Sprüngli, the company soon belonged to the pioneers of Swiss chocolate producers." ;
+    nami:confidence 0.7 |} .
+wd:Q1176708 nami:mentionedAt wd:Q136490721 {| nami:source <https://www.zuerich.com/en/node/215338> ;
+    nami:evidence "Those with a sweet tooth can find the classic Sprüngli confectionery in the former train station building in Oerlikon." ;
+    nami:confidence 0.5 |} .
+wd:Q1176708 nami:mentionedAt wd:Q224494 {| nami:source <https://www.zuerich.com/en/node/222754> ;
+    nami:evidence "Lovers of the exquisite Sprüngli delicacies can find no fewer than four stores at Zurich Main Station." ;
+    nami:confidence 0.5 |} .
+wd:Q1176708 nami:mentionedAt wd:Q27329568 {| nami:source <https://www.zuerich.com/en/node/222739> ;
+    nami:evidence "The popular Sprüngli classics, such as Luxemburgerli, truffles, and Bircher muesli, are also on sale at Sechseläutenplatz." ;
+    nami:confidence 0.5 |} .
+wd:Q1176708 nami:mentionedAt wd:Q537986 {| nami:source <https://www.zuerich.com/en/node/2004> ;
+    nami:evidence "At the heart of Bahnhofstrasse lies Paradeplatz, a square famous for its leading financial institutions and the traditional confectionery house Sprüngli." ;
+    nami:confidence 0.6 |} .
+wd:Q1176708 nami:mentionedAt <https://example.org/nami/data/poi/2101> {| nami:source <https://www.zuerich.com/en/node/2101> ;
+    nami:evidence "Whatever the occasion, diners can look forward to exquisite products from the Sprüngli factory, such as the famous Luxemburgerli mini-macaroons, as well as all kinds of patisserie, cakes, and truffles of the day." ;
+    nami:confidence 0.5 |} .
+wd:Q118948 nami:workedAt wd:Q1742531 {| nami:source <https://www.zuerich.com/en/node/552721> ;
+    nami:evidence "Built by architect and ETH professor Alfred Friedrich Bluntschli between 1892 and 1894, it offers a magnificent view of the lake basin and the city." ;
+    nami:confidence 0.7 |} .
+wd:Q120187 nami:mentionedAt wd:Q27229955 {| nami:source <https://www.zuerich.com/fr/node/1677> ;
+    nami:evidence "La sculpture en bronze a été créée par Hermann Haller et se trouve sur le pont Münsterbrücke qui relie les églises Fraumünster et Grossmünster ." ;
+    nami:confidence 0.7 |} .
+wd:Q120459 nami:commemoratedAt wd:Q27229673 {| nami:source <https://www.zuerich.com/en/node/1618> ;
+    nami:evidence "Swiss sculptor Richard Kissling created this bronze statue in 1889 in honor of Alfred Escher, a renowned Zurich politician and entrepreneur." ;
+    nami:confidence 0.7 |} .
+wd:Q120579 nami:mentionedAt <https://example.org/nami/data/poi/1012217> {| nami:source <https://www.zuerich.com/en/node/1012217> ;
+    nami:evidence "In 2024 the famous Swiss artist Yves Netzhammer installed his imposing sculpture “Der ungezähmte Horizont” Untamed Horizon on the roof of a high-rise building." ;
+    nami:confidence 0.7 |} .
+wd:Q120579 nami:mentionedAt <https://example.org/nami/data/poi/226597> {| nami:source <https://www.zuerich.com/en/node/226597> ;
+    nami:evidence "The Work “Der Gefangene Floh” (The Imprisoned Flea) by Yves Netzhammer is an installation of the genre, “Art on Buildings”." ;
+    nami:confidence 0.7 |} .
+wd:Q120754777 nami:mentionedAt wd:Q27490199 {| nami:source <https://www.zuerich.com/it/node/1556> ;
+    nami:evidence "Nell'ex clinica oculistica dell'ospedale cantonale, oggi i visitatori possono scoprire capolavori originali dell'Antico Egitto, della Mesopotamia, dell'Asia Minore, della Grecia, dell'Antica Roma e dell'Etruria." ;
+    nami:confidence 0.7 |} .
+wd:Q12091 nami:mentionedAt wd:Q1457424 {| nami:source <https://www.zuerich.com/en/node/552715> ;
+    nami:evidence "Besides numerous historical tombs and monuments, many graves of famous people can be found here, such as “Heidi” author Johanna Spyri and International Red Cross founder Henry Dunant." ;
+    nami:confidence 0.7 |} .
+wd:Q121066 nami:mentionedAt <https://example.org/nami/data/poi/393732> {| nami:source <https://www.zuerich.com/en/node/393732> ;
+    nami:evidence "Whether shoes, purses, or wallets: the label of the designer of the same name, Stefi Talman, stands for high-quality products." ;
+    nami:confidence 0.7 |} .
+wd:Q121279 nami:mentionedAt <https://example.org/nami/data/poi/1700> {| nami:source <https://www.zuerich.com/de/node/1700> ;
+    nami:evidence "Von der berühmten Schweizer Architektin Tilla Theus stilvoll eingerichtet, besticht das Grand Café durch Nostalgie-Charme elegant kombiniert mit modernen Design-Elementen." ;
+    nami:confidence 0.7 |} .
+wd:Q121669 nami:foundedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Founded by Manuela and Iwan Wirth, the influential couple from the contemporary art scene." ;
+    nami:confidence 0.7 |} .
+wd:Q122255 nami:mentionedAt wd:Q106510906 {| nami:source <https://www.zuerich.com/en/node/231097> ;
+    nami:evidence "Architect: Christian Kerez." ;
+    nami:confidence 0.7 |} .
+wd:Q122370 nami:commemoratedAt wd:Q27229991 {| nami:source <https://www.zuerich.com/en/node/1672> ;
+    nami:evidence "The bust of Gottfried Keller looks out over Lake Zurich from Mythenquai." ;
+    nami:confidence 0.8 |} .
+wd:Q122370 nami:frequented wd:Q65672357 {| nami:source <https://www.zuerich.com/en/node/2021> ;
+    nami:evidence "Iconic venue in Zurich: the Oepfelchammer in the Niederdorf quarter was a favorite haunt of the Swiss writer, Gottfried Keller." ;
+    nami:confidence 0.7 |} .
+wd:Q122370 nami:livedAt wd:Q27330030 {| nami:source <https://www.zuerich.com/en/node/2046> ;
+    nami:evidence "The house where Gottfried Keller lived as a boy, the \"Öpfelchammer\" and a very picturesque Zurich are located at Rindermarkt (Cattle Market)." ;
+    nami:confidence 0.8 |} .
+wd:Q122370 nami:livedAt <https://example.org/nami/data/poi/280788> {| nami:source <https://www.zuerich.com/en/node/280788> ;
+    nami:evidence "This also includes the vineyards next to the main building of FIFA and the vineyard in the Enge quarter, where the well-known Zurich author, Gottfried Keller, once lived and also wrote his book, “Green Henry”." ;
+    nami:confidence 0.7 |} .
+wd:Q122467 nami:mentionedAt wd:Q27332027 {| nami:source <https://www.zuerich.com/en/node/19507> ;
+    nami:evidence "John Architects, Max Dudler and Wiel Arets." ;
+    nami:confidence 0.7 |} .
+wd:Q123034 nami:mentionedAt wd:Q63348861 {| nami:source <https://www.zuerich.com/en/node/1693> ;
+    nami:evidence "Both Zurich’s government and Huldrych Zwingli were against the practice of mercenary soldiers, which is why Zwingli was chosen to be the minister of Grossmünster church." ;
+    nami:confidence 0.7 |} .
+wd:Q123034 nami:mentionedAt wd:Q690687 {| nami:source <https://www.zuerich.com/en/node/1784> ;
+    nami:evidence "The first reformed pastor, Leo Jud (1523-1542), was a friend of Zwingli and contributed to the first translation of the Bible in Zurich." ;
+    nami:confidence 0.5 |} .
+wd:Q123034 nami:mentionedAt <https://example.org/nami/data/poi/1684> {| nami:source <https://www.zuerich.com/en/node/1684> ;
+    nami:evidence "He succeeded Huldrych Zwingli at the Grossmünster church at the age of 27 and was definitely his equal in terms of passionate preaching." ;
+    nami:confidence 0.8 |} .
+wd:Q123053 nami:mentionedAt wd:Q1457424 {| nami:source <https://www.zuerich.com/en/node/552715> ;
+    nami:evidence "Besides numerous historical tombs and monuments, many graves of famous people can be found here, such as “Heidi” author Johanna Spyri and International Red Cross founder Henry Dunant." ;
+    nami:confidence 0.7 |} .
+wd:Q123454 nami:foundedAt wd:Q24648846 {| nami:source <https://www.zuerich.com/en/node/1899> ;
+    nami:evidence "The Creator Max Bill (1907 – 1994) was born in Winterthur and made a name for himself as an artist, architect, painter, graphic designer, and sculptor." ;
+    nami:confidence 0.7 |} .
+wd:Q123454 nami:performedAt wd:Q110194333 {| nami:source <https://www.zuerich.com/en/node/3606> ;
+    nami:evidence "Zurich’s oldest club is legendary – Josephine Baker and Louis Armstrong performed here, the “Corso” lettering was created by none other than Max Bill, and illustrious names are not uncommon in recent history either." ;
+    nami:confidence 0.7 |} .
+wd:Q123734 nami:mentionedAt wd:Q111409743 {| nami:source <https://www.zuerich.com/en/node/1117> ;
+    nami:evidence "Here guests do not just stay the night in a typical Old Town establishment dating from the 16th century, but also in the place where the famous Swiss animal and landscape artist Rudolf Koller made his first sketches on the walls." ;
+    nami:confidence 0.7 |} .
+wd:Q123839 nami:mentionedAt <https://example.org/nami/data/poi/1684> {| nami:source <https://www.zuerich.com/en/node/1684> ;
+    nami:evidence "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond." ;
+    nami:confidence 0.7 |} .
+wd:Q123918 nami:mentionedAt wd:Q690687 {| nami:source <https://www.zuerich.com/fr/node/1784> ;
+    nami:evidence "De 1778 à 1801, Johann Caspar Lavater a été pasteur." ;
+    nami:confidence 0.7 |} .
+wd:Q123918 nami:mentionedAt <https://example.org/nami/data/poi/153091> {| nami:source <https://www.zuerich.com/en/node/153091> ;
+    nami:evidence "During the Enlightenment and Sturm und Drang (Storm and Stress) eras, Johann Caspar Lavater was an important voice in Europe." ;
+    nami:confidence 0.7 |} .
+wd:Q124135 nami:mentionedAt <https://example.org/nami/data/poi/209137> {| nami:source <https://www.zuerich.com/en/node/209137> ;
+    nami:evidence "Already as a young child, Zino Davidoff was fascinated by tobacco." ;
+    nami:confidence 0.7 |} .
+wd:Q124354 nami:mentionedAt wd:Q35722041 {| nami:source <https://www.zuerich.com/en/node/247144> ;
+    nami:evidence "The movie theater, which was built in the Bauhaus architectural style, was lovingly restored in 2003." ;
+    nami:confidence 0.7 |} .
+wd:Q124354 nami:themedAfter <https://example.org/nami/data/poi/524760> {| nami:source <https://www.zuerich.com/en/node/524760> ;
+    nami:evidence "After undergoing renovation in 2017, X-tra’s various spacious rooms now present themselves in an elegant and simple white, gray, and black – a look that underscores the Bauhaus style of the listed building." ;
+    nami:confidence 0.7 |} .
+wd:Q124408 nami:mentionedAt <https://example.org/nami/data/poi/3703> {| nami:source <https://www.zuerich.com/fr/node/3703> ;
+    nami:evidence "Pendant quelques années, le marché aux légumes très apprécié n'aura pas lieu à la « Gmüesbrugg », mais au Stadthausquai, à hauteur du monument Hans Waldmann." ;
+    nami:confidence 0.7 |} .
+wd:Q125016 nami:performedAt wd:Q29574336 {| nami:source <https://www.zuerich.com/en/node/224377> ;
+    nami:evidence "History/Architecture The Freibad Allenmoos was designed by architects Max Häfeli and Werner Moser, together with landscape architect Gustav Ammann, and opened for the Swiss National Exhibition in 1939." ;
+    nami:confidence 0.7 |} .
+wd:Q1252327 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q12539 nami:mentionedAt wd:Q23681769 {| nami:source <https://www.zuerich.com/en/node/1001084> ;
+    nami:evidence "Based on the model in Paris, the Atelier des Lumières, the Lichthalle MAAG presents great artists and their famous works quite literally in a completely new light." ;
+    nami:confidence 0.7 |} .
+wd:Q1258918 nami:mentionedAt <https://example.org/nami/data/poi/1910> {| nami:source <https://www.zuerich.com/en/node/1910> ;
+    nami:evidence "Next to edgy international avant-garde designers such as Rick Owens, Ann Demeulemeester, Dries Van Noten and others Roma feels to hold the mission to promote the finest artisanal mens and womenswear designers and shoes manufacturers around the world who are basically characterised by traditional craftsmanship, the utilisation of high quality materials and the application of old handwork techniques." ;
+    nami:confidence 0.7 |} .
+wd:Q1291611 nami:mentionedAt wd:Q692578 {| nami:source <https://www.zuerich.com/en/node/88672> ;
+    nami:evidence "Designed by artist Rolf Sachs, the Saltz impresses with its clear lines, skillfully placed design elements, and just the right amount of drama." ;
+    nami:confidence 0.7 |} .
+wd:Q1294605 nami:mentionedAt <https://example.org/nami/data/poi/2101> {| nami:source <https://www.zuerich.com/en/node/2101> ;
+    nami:evidence "Following its Jugendstil renovation, completed in 1910, it became a true landmark of the city of Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q131545 nami:frequented wd:Q35722188 {| nami:source <https://www.zuerich.com/en/node/122722> ;
+    nami:evidence "Not only cinema lovers meet here before or after the movie; the Houdini has developed into a meeting place for one and all." ;
+    nami:confidence 0.5 |} .
+wd:Q131545 nami:mentionedAt wd:Q35722188 {| nami:source <https://www.zuerich.com/en/node/121732> ;
+    nami:evidence "Curiosity, a desire to discover new things, interest in culture – anyone with these personal traits should be sure to pay a visit to the Houdini." ;
+    nami:confidence 0.5 |} .
+wd:Q131814 nami:mentionedAt <https://example.org/nami/data/poi/280833> {| nami:source <https://www.zuerich.com/en/node/280833> ;
+    nami:evidence "Jung, Thomas Mann, and Tina Turner –, which they are now instilling with new life with a great deal of expertise and passion." ;
+    nami:confidence 0.7 |} .
+wd:Q1318250 nami:mentionedAt wd:Q675022 {| nami:source <https://www.zuerich.com/de/node/1874> ;
+    nami:evidence "Darunter Therese Giehse oder Kurt Horwitz." ;
+    nami:confidence 0.7 |} .
+wd:Q133600 nami:mentionedAt wd:Q55167899 {| nami:source <https://www.zuerich.com/en/node/338698> ;
+    nami:evidence "Nowadays, the work by the controversial graffiti artist, Harald Nägeli – who illegally sprayed numerous buildings in the 1970s and can be regarded as the Swiss precursor of Banksy – is under a preservation order." ;
+    nami:confidence 0.5 |} .
+wd:Q1345599 nami:mentionedAt wd:Q690687 {| nami:source <https://www.zuerich.com/en/node/1784> ;
+    nami:evidence "The first reformed pastor, Leo Jud (1523-1542), was a friend of Zwingli and contributed to the first translation of the Bible in Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q1385567 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q139399959 nami:foundedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Founded by Ursula Hauser and Iwan & Manuela Wirth" ;
+    nami:confidence 0.7 |} .
+wd:Q1394 nami:frequented wd:Q1542522 {| nami:source <https://www.zuerich.com/en/node/1570> ;
+    nami:evidence "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape." ;
+    nami:confidence 0.5 |} .
+wd:Q1394 nami:frequented <https://example.org/nami/data/poi/291104> {| nami:source <https://www.zuerich.com/en/node/291104> ;
+    nami:evidence "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages." ;
+    nami:confidence 0.5 |} .
+wd:Q1394 nami:livedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution." ;
+    nami:confidence 0.8 |} .
+wd:Q1401605 nami:mentionedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/de/node/311631> ;
+    nami:evidence "Klassische Moderne und Russische Avantgarde." ;
+    nami:confidence 0.7 |} .
+wd:Q1426 nami:mentionedAt <https://example.org/nami/data/poi/1001173> {| nami:source <https://www.zuerich.com/en/node/1001173> ;
+    nami:evidence "Innovative sports brand from Zurich that inspires both amateur athletes and pros like Roger Federer." ;
+    nami:confidence 0.7 |} .
+wd:Q1466398 nami:mentionedAt <https://example.org/nami/data/poi/1749> {| nami:source <https://www.zuerich.com/en/node/1749> ;
+    nami:evidence "Also on permanent display is a treasure from the museum’s own collection – the legendary “Rockefeller Dining Room” by the Swiss artist, Fritz Glarner. (This will not be open to the public again until June 2026 due to the move from its location in the ewz Selnau substation to the Löwenbräukunst site.) The museum store sells a hand-picked selection of beautiful gifts, postcards, publications, books, and limited editions." ;
+    nami:confidence 0.7 |} .
+wd:Q151097 nami:mentionedAt wd:Q19759382 {| nami:source <https://www.zuerich.com/en/node/1938> ;
+    nami:evidence "A simple observation inspired Henry Moore to create his “Sheep Piece” work which is based on grazing sheep." ;
+    nami:confidence 0.7 |} .
+wd:Q1511 nami:livedAt wd:Q668300 {| nami:source <https://www.zuerich.com/en/node/1762> ;
+    nami:evidence "For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”." ;
+    nami:confidence 0.7 |} .
+wd:Q151120 nami:mentionedAt wd:Q27229955 {| nami:source <https://www.zuerich.com/fr/node/1677> ;
+    nami:evidence "Grand chef militaire, Hans Waldmann devint célèbre en remportant une victoire décisive contre Charles le Téméraire en 1476, avec les Confédérés, lors des guerres de Bourgogne." ;
+    nami:confidence 0.7 |} .
+wd:Q15118978 nami:mentionedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/en/node/311631> ;
+    nami:evidence "In addition, Gmurzynska has represented the estate of Yves Klein and also includes works by Juan Miró and Fernand Léger in its program." ;
+    nami:confidence 0.7 |} .
+wd:Q151836 nami:mentionedAt <https://example.org/nami/data/poi/1012114> {| nami:source <https://www.zuerich.com/en/node/1012114> ;
+    nami:evidence "Named after the famous artist Hundertwasser the bar reflects his unconventional and playful style." ;
+    nami:confidence 0.5 |} .
+wd:Q151836 nami:mentionedAt <https://example.org/nami/data/poi/231079> {| nami:source <https://www.zuerich.com/en/node/231079> ;
+    nami:evidence "This residential complex, which recalls a Hundertwasser painting and contains 46 individually designed maisonettes, lies near the Letzigrund stadium in Zurich’s western district." ;
+    nami:confidence 0.5 |} .
+wd:Q151972 nami:performedAt wd:Q110194333 {| nami:source <https://www.zuerich.com/en/node/3606> ;
+    nami:evidence "Zurich’s oldest club is legendary – Josephine Baker and Louis Armstrong performed here, the “Corso” lettering was created by none other than Max Bill, and illustrious names are not uncommon in recent history either." ;
+    nami:confidence 0.7 |} .
+wd:Q152384 nami:mentionedAt wd:Q1789864 {| nami:source <https://www.zuerich.com/en/node/3655> ;
+    nami:evidence "Some of them used to pay with artwork, which is why guests today can gaze at genuine works by Chagall, Picasso, and Miró while dining." ;
+    nami:confidence 0.5 |} .
+wd:Q152384 nami:mentionedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/fr/node/311631> ;
+    nami:evidence "De plus, Gmurzynska gère la succession d’Yves Klein et sur son programme figurent des artistes comme Juan Miró ou Fernand Léger." ;
+    nami:confidence 0.7 |} .
+wd:Q152463 nami:mentionedAt wd:Q690944 {| nami:source <https://www.zuerich.com/fr/node/1763> ;
+    nami:evidence "L'église Fraumünster et le couvent furent fondés en 853 par le Roi Louis le Germanique et furent habité par des femmes de la noblesse européenne." ;
+    nami:confidence 0.7 |} .
+wd:Q153739 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q153965 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In addition, it features key works from late-20th and 21st centuries, for example by Warhol, Rothko, and Beuys." ;
+    nami:confidence 0.5 |} .
+wd:Q154014 nami:mentionedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "The German author and revolutionary Georg Büchner wrote \"Leonce und Lena\" here in 1836, as well as his most well-known, fragmentarily handed-down \"Woyzeck\" works." ;
+    nami:confidence 0.8 |} .
+wd:Q1542644 nami:performedAt <https://example.org/nami/data/poi/311826> {| nami:source <https://www.zuerich.com/en/node/311826> ;
+    nami:evidence "Kilchmann’s first gallery exhibition featured the then largely unknown Willie Doherty." ;
+    nami:confidence 0.7 |} .
+wd:Q154335 nami:mentionedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/en/node/311631> ;
+    nami:evidence "In addition, Gmurzynska has represented the estate of Yves Klein and also includes works by Juan Miró and Fernand Léger in its program." ;
+    nami:confidence 0.7 |} .
+wd:Q154432 nami:mentionedAt <https://example.org/nami/data/poi/1010781> {| nami:source <https://www.zuerich.com/en/node/1010781> ;
+    nami:evidence "The furnishings comprise a crazy mix of devotional objects featuring all kinds of saints and religions, chains of lights, illuminated altars for liquors, painted walls, Biedermeier sofas, and baroque mirrors – that is what the ground floor of the locale on Langstrasse looks like." ;
+    nami:confidence 0.7 |} .
+wd:Q154432 nami:mentionedAt <https://example.org/nami/data/poi/6022> {| nami:source <https://www.zuerich.com/en/node/6022> ;
+    nami:evidence "Viadukt*3 specializes in both antique and new wooden tables and chairs, including stained chairs, Biedermeier tables, and solid wood classics from horgenglarus and Thonet." ;
+    nami:confidence 0.7 |} .
+wd:Q154842 nami:mentionedAt wd:Q136502748 {| nami:source <https://www.zuerich.com/en/node/1010075> ;
+    nami:evidence "In the bar fitted out by David Chipperfield Architects, your eye is immediately drawn to the fresco, “Pétales et jardin de la nymphe Ancolie”, by Max Ernst from 1934." ;
+    nami:confidence 0.7 |} .
+wd:Q155236 nami:mentionedAt wd:Q110194333 {| nami:source <https://www.zuerich.com/de/node/3606> ;
+    nami:evidence "Was einst als Udo Jürgens «Wohnzimmer» bezeichnet wurde – immerhin wohnte er oberhalb des Clubs –, ist auch heute noch eine der zentralen Anlaufstellen für feierfreudige Nachtvögel." ;
+    nami:confidence 0.7 |} .
+wd:Q1555881 nami:mentionedAt wd:Q105171843 {| nami:source <https://www.zuerich.com/en/node/1834> ;
+    nami:evidence "The Work Gustav Gull, until 1900 Zurich’s municipal architect and mastermind behind the National Museum , was entrusted with the task of converting a former orphanage into a municipal building to house the city police headquarters." ;
+    nami:confidence 0.7 |} .
+wd:Q1555881 nami:mentionedAt wd:Q2256718 {| nami:source <https://www.zuerich.com/en/node/231298> ;
+    nami:evidence "Approaching from the main station, the first part of this museum of cultural history you notice is the building designed in 1898 by Zurich architect Gustav Gull." ;
+    nami:confidence 0.7 |} .
+wd:Q1555881 nami:mentionedAt wd:Q39595754 {| nami:source <https://www.zuerich.com/en/node/1666> ;
+    nami:evidence "However, anyone passing through the arches into the inner courtyard will also find a modern new building, which counterbalances the original one designed by architect Gustav Gull in the historicism style." ;
+    nami:confidence 0.7 |} .
+wd:Q1555881 nami:mentionedAt wd:Q39934978 {| nami:source <https://www.zuerich.com/en/node/313748> ;
+    nami:evidence "After it was extended by Gustav Gull between 1914 and 1925, the only part of the original Semper building still remaining was the façade overlooking the city." ;
+    nami:confidence 0.7 |} .
+wd:Q157183 nami:mentionedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/en/node/311631> ;
+    nami:evidence "In addition, Gmurzynska has represented the estate of Yves Klein and also includes works by Juan Miró and Fernand Léger in its program." ;
+    nami:confidence 0.7 |} .
+wd:Q157194 nami:mentionedAt wd:Q105171843 {| nami:source <https://www.zuerich.com/en/node/1834> ;
+    nami:evidence "He came from the famous Giacometti dynasty of painters, which also included Giovanni Giacometti and sculptor Alberto Giacometti." ;
+    nami:confidence 0.7 |} .
+wd:Q157194 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "At the Kunsthaus Zürich, art enthusiasts and novices alike can immerse themselves in the world of the Old Masters, discover Swiss artists such as Giacometti and Fischli/Weiss, or admire Impressionist or contemporary art." ;
+    nami:confidence 0.5 |} .
+wd:Q157194 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "At the tender age of seven, Iwan Wirth copied sculptures by Giacometti and sold them for CHF 75." ;
+    nami:confidence 0.5 |} .
+wd:Q15811690 nami:mentionedAt wd:Q1124534 {| nami:source <https://www.zuerich.com/de/node/1562> ;
+    nami:evidence "Der Name rührt vom Gründungsjahr her, in dem der Bäcker Johann Georg Eberle mit einem Süsskramladen den Grundstein für das heutige Café mit Konditorei legte." ;
+    nami:confidence 0.7 |} .
+wd:Q158175 nami:performedAt wd:Q23681769 {| nami:source <https://www.zuerich.com/en/node/14216> ;
+    nami:evidence "In the past, famous names such as Billy Idol, Kid Rock or Lady Gaga have performed on the stage, and musicals and dance shows stop off here on their tours." ;
+    nami:confidence 0.7 |} .
+wd:Q15819406 nami:mentionedAt wd:Q111409736 {| nami:source <https://www.zuerich.com/de/node/164344> ;
+    nami:evidence "Das Bad ist ausgestattet mit einer Hans Grohe Raindance-Dusche, einem Fön, einem Kosmetikspiegel, Kosmetiktücher sowie Organic Handseife und Duschgel." ;
+    nami:confidence 0.7 |} .
+wd:Q15842678 nami:mentionedAt wd:Q1789864 {| nami:source <https://www.zuerich.com/de/node/524706> ;
+    nami:evidence "Die Kronenhalle Bar wurde 1965 vom Zürcher Architekten Robert Haussmann als Gesamtkunstwerk gestaltet." ;
+    nami:confidence 0.7 |} .
+wd:Q1584657 nami:mentionedAt wd:Q55167899 {| nami:source <https://www.zuerich.com/en/node/338698> ;
+    nami:evidence "Nowadays, the work by the controversial graffiti artist, Harald Nägeli – who illegally sprayed numerous buildings in the 1970s and can be regarded as the Swiss precursor of Banksy – is under a preservation order." ;
+    nami:confidence 0.7 |} .
+wd:Q15897 nami:performedAt wd:Q689762 {| nami:source <https://www.zuerich.com/en/node/1011143> ;
+    nami:evidence "Stars such as AC/DC, Scorpions, The Black Eyed Peas, and Amy Winehouse have already performed on stage here." ;
+    nami:confidence 0.7 |} .
+wd:Q159409 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q1594692 nami:mentionedAt wd:Q89502799 {| nami:source <https://www.zuerich.com/de/node/3688> ;
+    nami:evidence "Der Chef Fine Dining, Heiko Nieder, zelebriert im «The Restaurant» höchste Kochkunst." ;
+    nami:confidence 0.7 |} .
+wd:Q1594692 nami:mentionedAt <https://example.org/nami/data/poi/1011875> {| nami:source <https://www.zuerich.com/de/node/1011875> ;
+    nami:evidence "Michelin-Stern-Koch Heiko Nieder." ;
+    nami:confidence 0.7 |} .
+wd:Q160149 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In addition, it features key works from late-20th and 21st centuries, for example by Warhol, Rothko, and Beuys." ;
+    nami:confidence 0.5 |} .
+wd:Q163938 nami:mentionedAt <https://example.org/nami/data/poi/1920> {| nami:source <https://www.zuerich.com/en/node/1920> ;
+    nami:evidence "The largest Nana was created together with Jean Tinguely , who was later to become her husband." ;
+    nami:confidence 0.8 |} .
+wd:Q163938 nami:performedAt wd:Q1378316 {| nami:source <https://www.zuerich.com/en/node/1859> ;
+    nami:evidence "The Work Jean Tinguely created the huge kinetic sculpture entitled “Heureka” out of iron bars, wheels, and metal pans and pipes for the National Exhibition in Lausanne in 1964." ;
+    nami:confidence 0.7 |} .
+wd:Q16409 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q16409 nami:mentionedAt wd:Q60635988 {| nami:source <https://www.zuerich.com/en/node/2416> ;
+    nami:evidence "According to Tristan Tzara, it was a legendary evening: “1,500 people, all of whom had reached boiling point, filled the auditorium.”." ;
+    nami:confidence 0.7 |} .
+wd:Q16847787 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Nowadays, Eva Presenhuber is considered one of the most influential gallery owners of her generation." ;
+    nami:confidence 0.7 |} .
+wd:Q16847787 nami:mentionedAt <https://example.org/nami/data/poi/311826> {| nami:source <https://www.zuerich.com/en/node/311826> ;
+    nami:evidence "With the idea of founding a new art fair for a young generation of artists and gallerists, in 1996 he created the Basel “Liste” (List) in collaboration with Eva Presenhuber." ;
+    nami:confidence 0.7 |} .
+wd:Q168482 nami:mentionedAt wd:Q856547 {| nami:source <https://www.zuerich.com/en/node/231277> ;
+    nami:evidence "Which is hardly surprising because the building designed by Spanish star architect Santiago Calatrava is simply overwhelming." ;
+    nami:confidence 0.7 |} .
+wd:Q168482 nami:workedAt wd:Q673228 {| nami:source <https://www.zuerich.com/en/node/2020> ;
+    nami:evidence "The commission fell to the Spanish architect Santiago Calatrava, who had studied in Zurich and opened his first practice in the city." ;
+    nami:confidence 0.7 |} .
+wd:Q168704 nami:mentionedAt wd:Q1378316 {| nami:source <https://www.zuerich.com/en/node/1859> ;
+    nami:evidence "The artist, Niki de Saint Phalle , who was also very well-known at the time, was his second wife after fabric artist, Eva Aeppli." ;
+    nami:confidence 0.8 |} .
+wd:Q168704 nami:mentionedAt <https://example.org/nami/data/poi/1920> {| nami:source <https://www.zuerich.com/en/node/1920> ;
+    nami:evidence "The artist, Niki de Saint Phalle, supervised the installation in person." ;
+    nami:confidence 0.7 |} .
+wd:Q16976707 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q1698 nami:mentionedAt <https://example.org/nami/data/poi/84160> {| nami:source <https://www.zuerich.com/en/node/84160> ;
+    nami:evidence "This bar can be compared to the French chanson singer, Serge Gainsbourg: attractive, versatile, creative." ;
+    nami:confidence 0.7 |} .
+wd:Q1729504 nami:mentionedAt <https://example.org/nami/data/poi/1642> {| nami:source <https://www.zuerich.com/de/node/1642> ;
+    nami:evidence "Gegründet wurde das Zürich-Label von den Textildesignerinnen Manuela Helg und Karin Maurer." ;
+    nami:confidence 0.7 |} .
+wd:Q173782 nami:mentionedAt wd:Q111409731 {| nami:source <https://www.zuerich.com/it/node/1293> ;
+    nami:evidence "Costruita negli anni Trenta in stile Art Déco, la struttura conta 9 ampie suite e 57 confortevoli camere, alcune delle quali con balcone o terrazzo." ;
+    nami:confidence 0.7 |} .
+wd:Q173782 nami:mentionedAt wd:Q112013484 {| nami:source <https://www.zuerich.com/en/node/1144> ;
+    nami:evidence "Situated in the heart of Zurich, with the lake on the doorstep and Sechseläutenplatz nearby, this elegant hotel is reminiscent of the Art Deco period." ;
+    nami:confidence 0.7 |} .
+wd:Q173782 nami:mentionedAt wd:Q2358665 {| nami:source <https://www.zuerich.com/it/node/1010822> ;
+    nami:evidence "Nell’elegante ristorante dall’atmosfera cosmopolita e dagli splendidi interni in Art Déco, i protagonisti sono carne di altissima qualità da allevamenti consoni alla specie, pesce e verdure coltivate sostenibilmente." ;
+    nami:confidence 0.7 |} .
+wd:Q173782 nami:mentionedAt wd:Q811691 {| nami:source <https://www.zuerich.com/en/node/1135> ;
+    nami:evidence "The style of the rooms varies between Art Deco, Louis XVI and English Regency, along with some more contemporary touches." ;
+    nami:confidence 0.7 |} .
+wd:Q17590 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/it/node/214819> ;
+    nami:evidence "Parlon, Rosenthal meets Versace, Rosenthal, Saint-Louis, San Lorenzo, Schleissner Silber, Sieger by Fürstenberg, Sonja Quandt, Theresienthal, Venini, Wilkens, Zanetto." ;
+    nami:confidence 0.7 |} .
+wd:Q1779 nami:performedAt wd:Q110194333 {| nami:source <https://www.zuerich.com/en/node/3606> ;
+    nami:evidence "Zurich’s oldest club is legendary – Josephine Baker and Louis Armstrong performed here, the “Corso” lettering was created by none other than Max Bill, and illustrious names are not uncommon in recent history either." ;
+    nami:confidence 0.7 |} .
+wd:Q180455 nami:mentionedAt <https://example.org/nami/data/poi/1010764> {| nami:source <https://www.zuerich.com/en/node/1010764> ;
+    nami:evidence "Gliding over the water on a luxury yacht in Sixties’ style like James Bond or Aristotle Onassis: this dream can become reality thanks to the unique, private cruises offered by White Pearl Cruises." ;
+    nami:confidence 0.7 |} .
+wd:Q18384797 nami:mentionedAt <https://example.org/nami/data/poi/1532> {| nami:source <https://www.zuerich.com/fr/node/1532> ;
+    nami:evidence "Des marques internationales telles que Aurélie Bidermann, Bibi van der Velden, Christina Soubli, Dinh Van, Elé Karela, Gellner Perlen, Georg Jensen, IsabelleFa, Le Gramme, Louis Fiessler, Marco Bicego, Noor Fares, Statement et Yannis Sergakis complètent la collection de bijoux." ;
+    nami:confidence 0.7 |} .
+wd:Q18410188 nami:mentionedAt wd:Q5764402 {| nami:source <https://www.zuerich.com/de/node/2462> ;
+    nami:evidence "Wenige Jahre nach seiner Eröffnung im Jahr 1898 übernahm Ambrosius Hiltl das damals als «Wurzelbunker» verschriene Lokal und führte es mit abwechslungsreicher fleischloser Küche sowie seiner besonderen Atmosphäre zum Erfolg." ;
+    nami:confidence 0.7 |} .
+wd:Q186030 nami:commemoratedAt wd:Q1380528 {| nami:source <https://www.zuerich.com/en/node/1691> ;
+    nami:evidence "Since 1966, the Migros Museum of Contemporary Art has been dedicated to exhibiting, collecting and making international contemporary art accessible to a broad sector of the public." ;
+    nami:confidence 0.7 |} .
+wd:Q186030 nami:mentionedAt wd:Q136490852 {| nami:source <https://www.zuerich.com/de/node/1620> ;
+    nami:evidence "Zeitgenössische Kunst." ;
+    nami:confidence 0.7 |} .
+wd:Q186030 nami:performedAt wd:Q110518177 {| nami:source <https://www.zuerich.com/en/node/2063> ;
+    nami:evidence "Migros Museum of Contemporary Art Varied group and individual exhibitions by contemporary artists are displayed here alongside works from the museum’s own collection." ;
+    nami:confidence 0.8 |} .
+wd:Q1912995 nami:mentionedAt <https://example.org/nami/data/poi/167818> {| nami:source <https://www.zuerich.com/de/node/167818> ;
+    nami:evidence "Wo früher die Max Maag Zahnradfabrik war, geniessen heute die Besucher und Besucherinnen des feinen «k2 Bistro und Bar» leckere Speisen." ;
+    nami:confidence 0.7 |} .
+wd:Q192785 nami:mentionedAt wd:Q27230204 {| nami:source <https://www.zuerich.com/en/node/227203> ;
+    nami:evidence "On the other, it resembles a slingshot, which, based on the Bible story about David and Goliath, can be seen as a symbol of resistance." ;
+    nami:confidence 0.5 |} .
+wd:Q19848 nami:performedAt wd:Q23681769 {| nami:source <https://www.zuerich.com/en/node/14216> ;
+    nami:evidence "In the past, famous names such as Billy Idol, Kid Rock or Lady Gaga have performed on the stage, and musicals and dance shows stop off here on their tours." ;
+    nami:confidence 0.7 |} .
+wd:Q19971475 nami:mentionedAt <https://example.org/nami/data/poi/1011596> {| nami:source <https://www.zuerich.com/de/node/1011596> ;
+    nami:evidence "Diese direkt am Central gelegene Niederlassung bietet neben dem Verkauf von Backwaren und Zürcher Spezialitäten auch Kaffeespezialitäten von Stoll an." ;
+    nami:confidence 0.7 |} .
+wd:Q2058946 nami:mentionedAt wd:Q690944 {| nami:source <https://www.zuerich.com/en/node/1763> ;
+    nami:evidence "The cloister also reveals a series of frescos by Paul Bodmer." ;
+    nami:confidence 0.7 |} .
+wd:Q2074883 nami:mentionedAt <https://example.org/nami/data/poi/227362> {| nami:source <https://www.zuerich.com/de/node/227362> ;
+    nami:evidence "Die Schöpfer: Peter Fischli (*1952) und David Weiss (1946 – 2012) gehören zu einer Generation Zürcher Kunstschaffenden, die Zürich wieder auf den Radar der internationalen Kunstszene gebracht haben." ;
+    nami:confidence 0.7 |} .
+wd:Q207898 nami:mentionedAt wd:Q491344 {| nami:source <https://www.zuerich.com/en/node/2302> ;
+    nami:evidence "Soon bands such as Nirvana, Red Hot Chili Peppers, Bad Religion, and Manu Chao were playing legendary concerts here, long before they became known in Europe." ;
+    nami:confidence 0.7 |} .
+wd:Q21010205 nami:mentionedAt <https://example.org/nami/data/poi/227368> {| nami:source <https://www.zuerich.com/en/node/227368> ;
+    nami:evidence "Location On Escher-Wyss-Platz in Zürich-West The Creators The artist duo, Marco Antonio Castillo Valdés (born in 1971) and Dagoberto Rodríguez Sánchez (born in 1969), were part of the Cuban artist collective, Los Carpinteros (the carpenters)." ;
+    nami:confidence 0.7 |} .
+wd:Q2145216 nami:mentionedAt wd:Q27332027 {| nami:source <https://www.zuerich.com/en/node/19507> ;
+    nami:evidence "John Architects, Max Dudler and Wiel Arets." ;
+    nami:confidence 0.7 |} .
+wd:Q2149336 nami:mentionedAt <https://example.org/nami/data/poi/332248> {| nami:source <https://www.zuerich.com/de/node/332248> ;
+    nami:evidence "Der Mitinhaber, «musikalischer Kurator» und DJ Richard Dorfmeister erklärt es so: Die «Kanonaegass» ist ein Lokal für eine bestimmte Altersklasse, in der das Bedürfnis nach Ausgang und Gesellschaft zu vernünftigen Zeiten umgesetzt wird." ;
+    nami:confidence 0.7 |} .
+wd:Q215457 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q221732 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q2291 nami:mentionedAt <https://example.org/nami/data/poi/2131> {| nami:source <https://www.zuerich.com/en/node/2131> ;
+    nami:evidence "Incidentally, the Totò gets its name from the Italian comedian, Antonio De Curtis." ;
+    nami:confidence 0.7 |} .
+wd:Q2294414 nami:mentionedAt <https://example.org/nami/data/poi/227368> {| nami:source <https://www.zuerich.com/fr/node/227368> ;
+    nami:evidence "Emplacement : Place Escher-Wyss à Zurich-Ouest Les créateurs : Le duo Los Carpinteros (« les charpentiers ») composé de Marco Antonio Castillo Valdés (*1971) et Dagoberto Rodríguez Sánchez (*1969) est né de l’ancien collectif artistique cubain du même nom." ;
+    nami:confidence 0.7 |} .
+wd:Q23481 nami:performedAt wd:Q675022 {| nami:source <https://www.zuerich.com/en/node/1874> ;
+    nami:evidence "Some of Bertolt Brecht’s most important works celebrated their world premiere at the Pfauen, and numerous dramas by Swiss writers Max Frisch and Friedrich Dürrenmatt were also premiered here." ;
+    nami:confidence 0.7 |} .
+wd:Q2369073 nami:mentionedAt wd:Q27329928 {| nami:source <https://www.zuerich.com/en/node/1010518> ;
+    nami:evidence "Susanna Orelli-Rinderknecht (1845–1939)." ;
+    nami:confidence 0.7 |} .
+wd:Q23857039 nami:mentionedAt wd:Q89504014 {| nami:source <https://www.zuerich.com/it/node/225661> ;
+    nami:evidence "Carlo Rampazzi, che ha già dimostrato il suo valore al Carlton di St." ;
+    nami:confidence 0.7 |} .
+wd:Q2419774 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q254 nami:foundedAt <https://example.org/nami/data/poi/3703> {| nami:source <https://www.zuerich.com/en/node/3703> ;
+    nami:evidence "The weekly flower and vegetable market is held where tourism originated in Zurich – at the spot where Goethe and Mozart enjoyed the city as the gateway to the Alps." ;
+    nami:confidence 0.5 |} .
+wd:Q265581 nami:mentionedAt wd:Q111874779 {| nami:source <https://www.zuerich.com/de/node/1119> ;
+    nami:evidence "Es vereint die Pracht des Fin de Siècle mit dem puristischen Design und den High-Tech-Annehmlichkeiten der Moderne." ;
+    nami:confidence 0.7 |} .
+wd:Q27229258 nami:mentionedAt wd:Q104633877 {| nami:source <https://www.zuerich.com/de/node/1011922> ;
+    nami:evidence "Das Hallenbad City, ein architektonisches Juwel der 1940er Jahre, wurde vom Stadtbaumeister Hermann Herter im Stil der klassischen Moderne entworfen." ;
+    nami:confidence 0.7 |} .
+wd:Q28045308 nami:mentionedAt wd:Q768482 {| nami:source <https://www.zuerich.com/de/node/1751> ;
+    nami:evidence "Sehenswert sind der schlicht gestaltete Chorraum, die Kreuzigungsgruppe, der Blockaltar und der Taufstein von Franz Fischer sowie die Glasgemälde von August Wanner." ;
+    nami:confidence 0.7 |} .
+wd:Q28605957 nami:mentionedAt <https://example.org/nami/data/poi/2495> {| nami:source <https://www.zuerich.com/en/node/2495> ;
+    nami:evidence "History/Architecture The concrete construction of the Flussbad Oberer Letten was built by architect Elsa Burckhardt-Blum in the style of hygienic modernism in 1952." ;
+    nami:confidence 0.7 |} .
+wd:Q2872025 nami:mentionedAt <https://example.org/nami/data/poi/1011715> {| nami:source <https://www.zuerich.com/fr/node/1011715> ;
+    nami:evidence "L’équipe expérimentée, composée d’Aurélien Blanc, Marc Almert et du chef Maximilian Müller, assure un service compétent et chaleureux." ;
+    nami:confidence 0.7 |} .
+wd:Q288218 nami:mentionedAt <https://example.org/nami/data/poi/1532> {| nami:source <https://www.zuerich.com/en/node/1532> ;
+    nami:evidence "International jewellery brands such as Aurélie Bidermann, Bibi van der Velden, Christina Soubli, Dinh Van, Elé Karela, Gellner Perlen, Georg Jensen, IsabelleFa, Le Gramme, Louis Fiessler, Marco Bicego, Noor Fares, Statement and Yannis Sergakis complete the jewellery range." ;
+    nami:confidence 0.7 |} .
+wd:Q288218 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/en/node/214819> ;
+    nami:evidence "The entire product range includes the following brands: Augarten, Baccarat, Bernardaud, Buccellati, Christian Lacroix by Vista Alegre, Christofle, Daum, De Vecchi Milano, Ercuis, Evald Nielsen, Fürstenberg, Georg Jensen, Haviland, Herend, Hermann Bauer, Hermès, Holmsted Design, Jezler, Koch & Bergfeld, Königliche Porzellan-Manufaktur Berlin, Lalique, L’Objet, Lukas Jaburek, Möhrle Silber, Moser Crystal, Nude Glass, Odiot, Pampaloni, Porzellanmanufaktur Meissen, Puiforcat, Raynaud, Reiner Silber, Richard Ginori, Robbe & Berking, Robert Haviland & C." ;
+    nami:confidence 0.7 |} .
+wd:Q302 nami:mentionedAt wd:Q2256718 {| nami:source <https://www.zuerich.com/en/node/231298> ;
+    nami:evidence "Built to a design by architectural firm Christ & Gantenbein in 2016, this modern building – with its strong lines and even surfaces punctuated by bullseye windows – presents a stark contrast to the older structure." ;
+    nami:confidence 0.5 |} .
+wd:Q302 nami:mentionedAt wd:Q477189 {| nami:source <https://www.zuerich.com/en/node/1794> ;
+    nami:evidence "A particularly attractive highlight are the choir windows by Augusto Giacometti, which contrast the life of Jesus Christ with the life of modern man." ;
+    nami:confidence 0.7 |} .
+wd:Q302 nami:mentionedAt <https://example.org/nami/data/poi/1894> {| nami:source <https://www.zuerich.com/en/node/1894> ;
+    nami:evidence "They all move in the direction of the birth of Christ and thus toward the chancel window created by Augusto Giacometti in 1933." ;
+    nami:confidence 0.5 |} .
+wd:Q3044 nami:foundedAt wd:Q684948 {| nami:source <https://www.zuerich.com/en/node/1578> ;
+    nami:evidence "The Grossmünster Church is a former monastery built on the graves of the city’s patron saints, Felix and Regula, and is the site of the first secondary school, which according to legend, was founded by Charlemagne." ;
+    nami:confidence 0.5 |} .
+wd:Q3044 nami:livedAt wd:Q39374 {| nami:source <https://www.zuerich.com/en/node/1594> ;
+    nami:evidence "In the 4th century a Roman fort stood on Lindenhof – and in the 9th century the grandson of Charlemagne built a regal palace as place of residence on the very same site." ;
+    nami:confidence 0.5 |} .
+wd:Q3052925 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q30755 nami:mentionedAt <https://example.org/nami/data/poi/1881> {| nami:source <https://www.zuerich.com/en/node/1881> ;
+    nami:evidence "The famous \"Thinker\" by Auguste Rodin can also be found in the Gates of Hell outside the Kunsthaus Zurich (art museum)." ;
+    nami:confidence 0.7 |} .
+wd:Q312639 nami:mentionedAt <https://example.org/nami/data/poi/1011873> {| nami:source <https://www.zuerich.com/en/node/1011873> ;
+    nami:evidence "Another highlight is the on-site Fred Perry store for women and men." ;
+    nami:confidence 0.7 |} .
+wd:Q316906 nami:mentionedAt wd:Q112013485 {| nami:source <https://www.zuerich.com/en/node/1166> ;
+    nami:evidence "Unique and elegant, the legendary hotel is reborn, after several months of an ambitious undertaking nurtured by the creativity of Philippe Starck and La Réserve’s vision of excellence." ;
+    nami:confidence 0.7 |} .
+wd:Q316906 nami:mentionedAt <https://example.org/nami/data/poi/3566> {| nami:source <https://www.zuerich.com/en/node/3566> ;
+    nami:evidence "Interior design by Philippe Starck." ;
+    nami:confidence 0.7 |} .
+wd:Q316906 nami:mentionedAt <https://example.org/nami/data/poi/555262> {| nami:source <https://www.zuerich.com/en/node/555262> ;
+    nami:evidence "Guests enjoy all these culinary delights in a room created by star designer and architect Philippe Starck." ;
+    nami:confidence 0.7 |} .
+wd:Q325142 nami:mentionedAt wd:Q130247276 {| nami:source <https://www.zuerich.com/en/node/1011367> ;
+    nami:evidence "The Artists: The seven panels have already featured the works of both Swiss and internationally known names, such as Olaf Breuning or Hamish Fulton." ;
+    nami:confidence 0.7 |} .
+wd:Q3350134 nami:mentionedAt wd:Q130247276 {| nami:source <https://www.zuerich.com/en/node/1011367> ;
+    nami:evidence "The Artists: The seven panels have already featured the works of both Swiss and internationally known names, such as Olaf Breuning or Hamish Fulton." ;
+    nami:confidence 0.7 |} .
+wd:Q33923 nami:mentionedAt <https://example.org/nami/data/poi/2619> {| nami:source <https://www.zuerich.com/it/node/2619> ;
+    nami:evidence "A spiccare sono soprattutto le isole di Lützelau e Ufnau , con la chiesa di San Pietro e Paolo, nonché l’ isola di Saffa , che si può raggiungere tramite una passerella ed è meta di tante gite." ;
+    nami:confidence 0.7 |} .
+wd:Q33977 nami:mentionedAt <https://example.org/nami/data/poi/1719> {| nami:source <https://www.zuerich.com/en/node/1719> ;
+    nami:evidence "Hardly any other restaurant has such a beautiful view of and over Zurich than the popular Jules Verne Panorama Bar in the heart of the city." ;
+    nami:confidence 0.7 |} .
+wd:Q33977 nami:mentionedAt <https://example.org/nami/data/poi/20055> {| nami:source <https://www.zuerich.com/en/node/20055> ;
+    nami:evidence "The elaborately designed interior looks as if it has been taken straight from a Jules Verne novel." ;
+    nami:confidence 0.7 |} .
+wd:Q34636 nami:mentionedAt wd:Q1542522 {| nami:source <https://www.zuerich.com/fr/node/1570> ;
+    nami:evidence "Café et restaurant de style Art Nouveau." ;
+    nami:confidence 0.7 |} .
+wd:Q34636 nami:mentionedAt <https://example.org/nami/data/poi/2072> {| nami:source <https://www.zuerich.com/en/node/2072> ;
+    nami:evidence "It’s worth visiting the original Art Nouveau swimming baths in the center of Zurich just to admire the architecture." ;
+    nami:confidence 0.7 |} .
+wd:Q34636 nami:mentionedAt <https://example.org/nami/data/poi/272201> {| nami:source <https://www.zuerich.com/en/node/272201> ;
+    nami:evidence "Nestled in the hillside, these magnificent Art Nouveau villas overlook the city and Lake Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q347771 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/it/node/311622> ;
+    nami:evidence "Il suo portfolio è incredibile e spazia da Douglas Aitken ed Emmanuelle Antille a Oscar Tuazon e Franz West, passando da Urs Fischer, Douglas Gordon e Richard Prince." ;
+    nami:confidence 0.7 |} .
+wd:Q350844 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/en/node/214819> ;
+    nami:evidence "The entire product range includes the following brands: Augarten, Baccarat, Bernardaud, Buccellati, Christian Lacroix by Vista Alegre, Christofle, Daum, De Vecchi Milano, Ercuis, Evald Nielsen, Fürstenberg, Georg Jensen, Haviland, Herend, Hermann Bauer, Hermès, Holmsted Design, Jezler, Koch & Bergfeld, Königliche Porzellan-Manufaktur Berlin, Lalique, L’Objet, Lukas Jaburek, Möhrle Silber, Moser Crystal, Nude Glass, Odiot, Pampaloni, Porzellanmanufaktur Meissen, Puiforcat, Raynaud, Reiner Silber, Richard Ginori, Robbe & Berking, Robert Haviland & C." ;
+    nami:confidence 0.7 |} .
+wd:Q352437 nami:mentionedAt wd:Q692578 {| nami:source <https://www.zuerich.com/en/node/1310> ;
+    nami:evidence "The Dolder Grand also houses an impressive art collection comprising over 100 works by world-famous artists, such as Takashi Murakami and Salvador Dalí, which take guests on an inspiring journey through the world of art." ;
+    nami:confidence 0.7 |} .
+wd:Q3553569 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/de/node/311622> ;
+    nami:evidence "Highlight-Exponate von Urs Fischer, Amy Granat und Valentin Carron." ;
+    nami:confidence 0.7 |} .
+wd:Q3607477 nami:mentionedAt <https://example.org/nami/data/poi/1443> {| nami:source <https://www.zuerich.com/it/node/1443> ;
+    nami:evidence "Al Bianchi, sul Limmatquai, si servono specialità di pesce." ;
+    nami:confidence 0.7 |} .
+wd:Q36153 nami:mentionedAt wd:Q207623 {| nami:source <https://www.zuerich.com/en/node/1011680> ;
+    nami:evidence "Since then, world-famous musicians have regularly thrilled their fans here, including stars such as Beyoncé, the Rolling Stones and Coldplay, to name just a few." ;
+    nami:confidence 0.5 |} .
+wd:Q366217 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q36970 nami:mentionedAt <https://example.org/nami/data/poi/204307> {| nami:source <https://www.zuerich.com/en/node/204307> ;
+    nami:evidence "Here guests can relax and watch the master at work as, with the composure of a Zen master and the speed of Jackie Chan, he transforms fish into mouthwatering sushi." ;
+    nami:confidence 0.7 |} .
+wd:Q37030 nami:commemoratedAt wd:Q27490316 {| nami:source <https://www.zuerich.com/en/node/1919> ;
+    nami:evidence "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name." ;
+    nami:confidence 0.7 |} .
+wd:Q37030 nami:mentionedAt <https://example.org/nami/data/poi/280833> {| nami:source <https://www.zuerich.com/en/node/280833> ;
+    nami:evidence "Jung, Thomas Mann, and Tina Turner –, which they are now instilling with new life with a great deal of expertise and passion." ;
+    nami:confidence 0.7 |} .
+wd:Q376062 nami:mentionedAt wd:Q684948 {| nami:source <https://www.zuerich.com/en/node/1578> ;
+    nami:evidence "The stained glass windows by Sigmar Polke , the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of the highlights that can be admired here." ;
+    nami:confidence 0.8 |} .
+wd:Q376062 nami:mentionedAt <https://example.org/nami/data/poi/1894> {| nami:source <https://www.zuerich.com/en/node/1894> ;
+    nami:evidence "Stained-glass windows by Sigmar Polke have adorned the Grossmünster in Zurich since 2009, impressing the many visitors." ;
+    nami:confidence 0.7 |} .
+wd:Q3785229 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/it/node/214819> ;
+    nami:evidence "L'assortimento completo comprende le seguenti marche: Augarten, Baccarat, Bernardaud, Buccellati, Christian Lacroix by Vista Alegre, Christofle, Daum, De Vecchi Milano, Ercuis, Evald Nielsen, Fürstenberg, Georg Jensen, Haviland, Herend, Hermann Bauer, Hermès, Holmsted Design, Jezler, Koch & Bergfeld, Königliche Porzellan-Manufaktur Berlin, Lalique, L’Objet, Lukas Jaburek, Möhrle Silber, Moser Crystal, Nude Glass, Odiot, Pampaloni, Porzellanmanufaktur Meissen, Puiforcat, Raynaud, Reiner Silber, Richard Ginori, Robbe & Berking, Robert Haviland & C." ;
+    nami:confidence 0.7 |} .
+wd:Q38757 nami:mentionedAt wd:Q675022 {| nami:source <https://www.zuerich.com/de/node/1874> ;
+    nami:evidence "Einige der wichtigsten Stücke von Bertolt Brecht feierten hier Weltpremiere und zahlreiche Dramen der Schweizer Max Frisch und Friedrich Dürrenmatt wurden im «Pfauen» uraufgeführt." ;
+    nami:confidence 0.7 |} .
+wd:Q40415 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "At the Kunsthaus Zürich, art enthusiasts and novices alike can immerse themselves in the world of the Old Masters, discover Swiss artists such as Giacometti and Fischli/Weiss, or admire Impressionist or contemporary art." ;
+    nami:confidence 0.7 |} .
+wd:Q41370 nami:mentionedAt wd:Q27230204 {| nami:source <https://www.zuerich.com/en/node/227203> ;
+    nami:evidence "On the other, it resembles a slingshot, which, based on the Bible story about David and Goliath, can be seen as a symbol of resistance." ;
+    nami:confidence 0.5 |} .
+wd:Q41370 nami:mentionedAt <https://example.org/nami/data/poi/1894> {| nami:source <https://www.zuerich.com/en/node/1894> ;
+    nami:evidence "The motifs feature Old Testament figures: the scapegoat, Isaac, the Son of Man, Elijah and David." ;
+    nami:confidence 0.5 |} .
+wd:Q41532 nami:mentionedAt <https://example.org/nami/data/poi/280833> {| nami:source <https://www.zuerich.com/fr/node/280833> ;
+    nami:evidence "Küsnacht est la ville d’adoption de Carl Gustav Jung, Thomas Mann et Tina Turner." ;
+    nami:confidence 0.7 |} .
+wd:Q44007 nami:mentionedAt wd:Q24648846 {| nami:source <https://www.zuerich.com/en/node/1899> ;
+    nami:evidence "He belonged to the Zurich School of Concrete Artists, which in turn was inspired by Wassily Kandinsky and Paul Klee." ;
+    nami:confidence 0.7 |} .
+wd:Q44634 nami:mentionedAt <https://example.org/nami/data/poi/3670> {| nami:source <https://www.zuerich.com/en/node/3670> ;
+    nami:evidence "The three passionate restaurateurs, Nico, Gian and Nicolas, are known for their honest, contemporary, and sustainable cuisine." ;
+    nami:confidence 0.5 |} .
+wd:Q458494 nami:mentionedAt wd:Q1378316 {| nami:source <https://www.zuerich.com/en/node/1859> ;
+    nami:evidence "The artist, Niki de Saint Phalle , who was also very well-known at the time, was his second wife after fabric artist, Eva Aeppli." ;
+    nami:confidence 0.7 |} .
+wd:Q466241 nami:mentionedAt <https://example.org/nami/data/poi/1910> {| nami:source <https://www.zuerich.com/en/node/1910> ;
+    nami:evidence "Next to edgy international avant-garde designers such as Rick Owens, Ann Demeulemeester, Dries Van Noten and others Roma feels to hold the mission to promote the finest artisanal mens and womenswear designers and shoes manufacturers around the world who are basically characterised by traditional craftsmanship, the utilisation of high quality materials and the application of old handwork techniques." ;
+    nami:confidence 0.7 |} .
+wd:Q4692 nami:mentionedAt wd:Q7878010 {| nami:source <https://www.zuerich.com/en/node/1853> ;
+    nami:evidence "Around 260 very valuable exhibits present the history of timekeeping from 1400 BC to the present day: from sundials to water and tower clocks, Renaissance automata, magnificent pendulum clocks, elaborately decorated pocket watches and the prototype of the first quartz wristwatch." ;
+    nami:confidence 0.7 |} .
+wd:Q4692 nami:themedAfter wd:Q9315546 {| nami:source <https://www.zuerich.com/en/node/1728> ;
+    nami:evidence "Although it has Baroque elements, its basic features are of Renaissance style." ;
+    nami:confidence 0.7 |} .
+wd:Q4724 nami:mentionedAt wd:Q19759382 {| nami:source <https://www.zuerich.com/fr/node/1938> ;
+    nami:evidence "Près du Pavillon Le Corbusier." ;
+    nami:confidence 0.7 |} .
+wd:Q4724 nami:mentionedAt <https://example.org/nami/data/poi/226423> {| nami:source <https://www.zuerich.com/en/node/226423> ;
+    nami:evidence "Now comes the final spurt – past the Seebad Utoquai bathing facility to Blätterwiese, where the pavilion designed by Le Corbusier and the Chinese Garden are awaiting you." ;
+    nami:confidence 0.7 |} .
+wd:Q4724 nami:mentionedAt <https://example.org/nami/data/poi/464045> {| nami:source <https://www.zuerich.com/en/node/464045> ;
+    nami:evidence "The gallery for Original Posters and the artistic oeuvre of the artist, Le Corbusier." ;
+    nami:confidence 0.7 |} .
+wd:Q4724 nami:performedAt wd:Q638236 {| nami:source <https://www.zuerich.com/en/node/2026> ;
+    nami:evidence "The exhibition pavilion is designed entirely according to the Modulor system, an anthropometric scale of proportions devised by Le Corbusier based on the human body and the golden ratio." ;
+    nami:confidence 0.7 |} .
+wd:Q496565 nami:mentionedAt wd:Q111874795 {| nami:source <https://www.zuerich.com/de/node/21140> ;
+    nami:evidence "Die kulinarischen Highlights in unserem Haus - das IGNIV by Andreas Caminada steht für ein gelungenes Fine Dining Sharing Erlebnis." ;
+    nami:confidence 0.7 |} .
+wd:Q496565 nami:mentionedAt <https://example.org/nami/data/poi/556181> {| nami:source <https://www.zuerich.com/de/node/556181> ;
+    nami:evidence "Fine-Dining und Sharing-Konzept in einem: Das bietet das Spitzenrestaurant Igniv von Andreas Caminada." ;
+    nami:confidence 0.7 |} .
+wd:Q51673 nami:mentionedAt <https://example.org/nami/data/poi/227368> {| nami:source <https://www.zuerich.com/it/node/227368> ;
+    nami:evidence "Gli autori Dal gruppo di artisti cubani Los Carpinteros (i falegnami) è nato il duo formato da Marco Antonio Castillo Valdés (*1971) e Dagoberto Rodríguez Sánchez (*1969)." ;
+    nami:confidence 0.7 |} .
+wd:Q51879890 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In two buildings, the Moser building and the extension designed by David Chipperfield (opened in 2021), the Kunsthaus presents the largest collection of Munch paintings outside Norway, famous names such as Picasso, van Gogh, and Chagall, and leading representatives of the Expressionist movement." ;
+    nami:confidence 0.5 |} .
+wd:Q51879890 nami:mentionedAt <https://example.org/nami/data/poi/1881> {| nami:source <https://www.zuerich.com/en/node/1881> ;
+    nami:evidence "Since 1949 next to the entrance to the Moser building at the Kunsthaus Zürich." ;
+    nami:confidence 0.5 |} .
+wd:Q51879890 nami:performedAt wd:Q29574336 {| nami:source <https://www.zuerich.com/en/node/224377> ;
+    nami:evidence "History/Architecture The Freibad Allenmoos was designed by architects Max Häfeli and Werner Moser, together with landscape architect Gustav Ammann, and opened for the Swiss National Exhibition in 1939." ;
+    nami:confidence 0.7 |} .
+wd:Q526407 nami:mentionedAt wd:Q27325635 {| nami:source <https://www.zuerich.com/fr/node/5704> ;
+    nami:evidence "Cette brasserie moderne met l’accent sur le vin et le bœuf d’Argentine dont la provenance est bien tracée : la ferme de Dieter Meier « Ojo de Agua »." ;
+    nami:confidence 0.7 |} .
+wd:Q526407 nami:mentionedAt <https://example.org/nami/data/poi/227380> {| nami:source <https://www.zuerich.com/en/node/227380> ;
+    nami:evidence "The gold-plated century ball by Dieter Meier, frontman of the Swiss pop band, Yello, is deposited in the ground at Zurich Main Station." ;
+    nami:confidence 0.7 |} .
+wd:Q526407 nami:mentionedAt <https://example.org/nami/data/poi/294909> {| nami:source <https://www.zuerich.com/en/node/294909> ;
+    nami:evidence "Since 2010, the business has been run by Eleonore, Sophie and Anna Meier, daughters of the founder and the well-known Swiss musician, Dieter Meier." ;
+    nami:confidence 0.7 |} .
+wd:Q526407 nami:mentionedAt <https://example.org/nami/data/poi/5683> {| nami:source <https://www.zuerich.com/fr/node/5683> ;
+    nami:evidence "Parmi les vins, on trouve des spécialités comme le Dieter Meier Puro, l'un des rares vins bio auquel Robert Parker a attribué 90 points." ;
+    nami:confidence 0.7 |} .
+wd:Q526407 nami:mentionedAt <https://example.org/nami/data/poi/5725> {| nami:source <https://www.zuerich.com/fr/node/5725> ;
+    nami:evidence "Connu pour le bœuf argentin Premium de Dieter Meier" ;
+    nami:confidence 0.7 |} .
+wd:Q530367 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q538534 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/en/node/311823> ;
+    nami:evidence "Besides managing the estates of Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley, and Maria Lassnig, Hauser & Wirth represent artists such as Pippilotti Rist, Paul McCarthy, and Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q5415253 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/en/node/214819> ;
+    nami:evidence "The entire product range includes the following brands: Augarten, Baccarat, Bernardaud, Buccellati, Christian Lacroix by Vista Alegre, Christofle, Daum, De Vecchi Milano, Ercuis, Evald Nielsen, Fürstenberg, Georg Jensen, Haviland, Herend, Hermann Bauer, Hermès, Holmsted Design, Jezler, Koch & Bergfeld, Königliche Porzellan-Manufaktur Berlin, Lalique, L’Objet, Lukas Jaburek, Möhrle Silber, Moser Crystal, Nude Glass, Odiot, Pampaloni, Porzellanmanufaktur Meissen, Puiforcat, Raynaud, Reiner Silber, Richard Ginori, Robbe & Berking, Robert Haviland & C." ;
+    nami:confidence 0.7 |} .
+wd:Q5432 nami:mentionedAt wd:Q27490235 {| nami:source <https://www.zuerich.com/en/node/1600> ;
+    nami:evidence "Treasures from the collection range from the works of old masters such as Dürer and Rembrandt to Goya and Picasso and the artists of today." ;
+    nami:confidence 0.5 |} .
+wd:Q543294 nami:mentionedAt <https://example.org/nami/data/poi/311823> {| nami:source <https://www.zuerich.com/de/node/311823> ;
+    nami:evidence "Neben Nachlässen von Eva Hesse, Lee Lozano, Louise Bourgeois, Mike Kelley oder Maria Lassnig vertreten Hauser & Wirth KünstlerInnen wie Pippilotti Rist, Paul McCarthy oder Martin Creed." ;
+    nami:confidence 0.7 |} .
+wd:Q55218831 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Highlight: exhibits by Urs Fischer, Amy Granat and Valentin Carron." ;
+    nami:confidence 0.7 |} .
+wd:Q556462 nami:mentionedAt <https://example.org/nami/data/poi/1910> {| nami:source <https://www.zuerich.com/en/node/1910> ;
+    nami:evidence "Next to edgy international avant-garde designers such as Rick Owens, Ann Demeulemeester, Dries Van Noten and others Roma feels to hold the mission to promote the finest artisanal mens and womenswear designers and shoes manufacturers around the world who are basically characterised by traditional craftsmanship, the utilisation of high quality materials and the application of old handwork techniques." ;
+    nami:confidence 0.7 |} .
+wd:Q5577 nami:mentionedAt wd:Q692578 {| nami:source <https://www.zuerich.com/en/node/1310> ;
+    nami:evidence "The Dolder Grand also houses an impressive art collection comprising over 100 works by world-famous artists, such as Takashi Murakami and Salvador Dalí, which take guests on an inspiring journey through the world of art." ;
+    nami:confidence 0.7 |} .
+wd:Q5580 nami:mentionedAt wd:Q27490235 {| nami:source <https://www.zuerich.com/en/node/1600> ;
+    nami:evidence "Treasures from the collection range from the works of old masters such as Dürer and Rembrandt to Goya and Picasso and the artists of today." ;
+    nami:confidence 0.5 |} .
+wd:Q5582 nami:mentionedAt wd:Q23681769 {| nami:source <https://www.zuerich.com/fr/node/1001084> ;
+    nami:evidence "L’art illuminé, animé et sonorisé enthousiasme un large public à Zürich-West. À l'affiche : VINCENT – Entre folie et miracle Van Gogh immersif Lichthalle MAAG à Zurich offre une plate-forme impressionnante pour des expériences immersives à 360 degrés." ;
+    nami:confidence 0.7 |} .
+wd:Q5593 nami:mentionedAt wd:Q1789864 {| nami:source <https://www.zuerich.com/en/node/3655> ;
+    nami:evidence "Some of them used to pay with artwork, which is why guests today can gaze at genuine works by Chagall, Picasso, and Miró while dining." ;
+    nami:confidence 0.5 |} .
+wd:Q5593 nami:mentionedAt wd:Q27490235 {| nami:source <https://www.zuerich.com/en/node/1600> ;
+    nami:evidence "Treasures from the collection range from the works of old masters such as Dürer and Rembrandt to Goya and Picasso and the artists of today." ;
+    nami:confidence 0.5 |} .
+wd:Q5593 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In two buildings, the Moser building and the extension designed by David Chipperfield (opened in 2021), the Kunsthaus presents the largest collection of Munch paintings outside Norway, famous names such as Picasso, van Gogh, and Chagall, and leading representatives of the Expressionist movement." ;
+    nami:confidence 0.5 |} .
+wd:Q5598 nami:mentionedAt wd:Q27490235 {| nami:source <https://www.zuerich.com/en/node/1600> ;
+    nami:evidence "Treasures from the collection range from the works of old masters such as Dürer and Rembrandt to Goya and Picasso and the artists of today." ;
+    nami:confidence 0.5 |} .
+wd:Q5603 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In addition, it features key works from late-20th and 21st centuries, for example by Warhol, Rothko, and Beuys." ;
+    nami:confidence 0.5 |} .
+wd:Q571395 nami:mentionedAt <https://example.org/nami/data/poi/1011715> {| nami:source <https://www.zuerich.com/en/node/1011715> ;
+    nami:evidence "The experienced team, comprising Aurélien Blanc, Marc Almert, and head chef Maximilian Müller, guarantee a highly competent and friendly service." ;
+    nami:confidence 0.7 |} .
+wd:Q57386 nami:frequented <https://example.org/nami/data/poi/291104> {| nami:source <https://www.zuerich.com/en/node/291104> ;
+    nami:evidence "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages." ;
+    nami:confidence 0.5 |} .
+wd:Q5879 nami:foundedAt <https://example.org/nami/data/poi/3703> {| nami:source <https://www.zuerich.com/en/node/3703> ;
+    nami:evidence "The weekly flower and vegetable market is held where tourism originated in Zurich – at the spot where Goethe and Mozart enjoyed the city as the gateway to the Alps." ;
+    nami:confidence 0.5 |} .
+wd:Q594150 nami:mentionedAt wd:Q27490260 {| nami:source <https://www.zuerich.com/en/node/1718> ;
+    nami:evidence "Situated in the heart of Zurich‘s Old Town, the Musée Visionnaire offers a platform for Art Brut and Outsider Art." ;
+    nami:confidence 0.7 |} .
+wd:Q60116 nami:mentionedAt <https://example.org/nami/data/poi/538186> {| nami:source <https://www.zuerich.com/en/node/538186> ;
+    nami:evidence "The compilation of the plants was inspired by the naturalist and universal scholar, Konrad Gessner, who is laid to rest in the cloister." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/16030> ;
+    nami:evidence "An absolute must for culture fans: it is here that Hugo Ball and Emmy Hennings started the Dada movement." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/1840> ;
+    nami:evidence "It was here that Dada was born." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:frequented wd:Q1542522 {| nami:source <https://www.zuerich.com/en/node/1570> ;
+    nami:evidence "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:mentionedAt <https://example.org/nami/data/poi/1011732> {| nami:source <https://www.zuerich.com/en/node/1011732> ;
+    nami:evidence "The hotel – a former paper factory that has been newly renovated – is inspired by the spirit of the Dada art movement and offers a creative oasis in the picturesque Wollishofen quarter." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:performedAt wd:Q5518446 {| nami:source <https://www.zuerich.com/en/node/311631> ;
+    nami:evidence "Incidentally, the gallery’s location on Paradeplatz is particularly interesting: it is housed in the same block in which the Dada movement presented its first exhibition at the Galerie Dada in 1917." ;
+    nami:confidence 0.7 |} .
+wd:Q6034 nami:performedAt wd:Q60635988 {| nami:source <https://www.zuerich.com/en/node/2416> ;
+    nami:evidence "The eighth and final official Dada Soirée in Zurich took place on April 9, 1919." ;
+    nami:confidence 0.8 |} .
+wd:Q6034 nami:themedAfter wd:Q111874805 {| nami:source <https://www.zuerich.com/en/node/1241> ;
+    nami:evidence "For cocktails, an extended apéro, or simply coffee and cake, guests can head for the Dada Bar, with its boulevard terrace, where they can experience the lively hustle and bustle on the Limmatquai at first hand." ;
+    nami:confidence 0.7 |} .
+wd:Q61064 nami:themedAfter wd:Q24648846 {| nami:source <https://www.zuerich.com/en/node/1899> ;
+    nami:evidence "He belonged to the Zurich School of Concrete Artists, which in turn was inspired by Wassily Kandinsky and Paul Klee." ;
+    nami:confidence 0.7 |} .
+wd:Q61342 nami:mentionedAt wd:Q39934978 {| nami:source <https://www.zuerich.com/en/node/313748> ;
+    nami:evidence "The original building was constructed in 1864 by Gottfried Semper, who was also responsible for the Semperoper in Dresden, which bears his name." ;
+    nami:confidence 0.7 |} .
+wd:Q61342 nami:mentionedAt <https://example.org/nami/data/poi/1563> {| nami:source <https://www.zuerich.com/en/node/1563> ;
+    nami:evidence "The imposing Federal Institute of Technology (ETH) building was constructed in 1864 from plans drawn up by Gottfried Semper." ;
+    nami:confidence 0.7 |} .
+wd:Q62092394 nami:mentionedAt <https://example.org/nami/data/poi/1011715> {| nami:source <https://www.zuerich.com/en/node/1011715> ;
+    nami:evidence "The wine selection is curated by sommelier Marc Almert, with a focus on Mediterranean specialties." ;
+    nami:confidence 0.7 |} .
+wd:Q62919 nami:performedAt wd:Q491344 {| nami:source <https://www.zuerich.com/en/node/2302> ;
+    nami:evidence "Günter Grass and Alice Schwarzer held readings in the club room, while performances and discussion evenings with an interested young public took place in the factory theater." ;
+    nami:confidence 0.7 |} .
+wd:Q63361568 nami:mentionedAt <https://example.org/nami/data/poi/1012705> {| nami:source <https://www.zuerich.com/de/node/1012705> ;
+    nami:evidence "Das Herzstück ist die offene Küche: Direkt an der Theke erleben Gäste, wie Küchenchef Mitja Birlo und sein Team die einzelnen Gänge zubereiten und anrichten." ;
+    nami:confidence 0.7 |} .
+wd:Q648761 nami:mentionedAt wd:Q111409779 {| nami:source <https://www.zuerich.com/en/node/6020> ;
+    nami:evidence "The 245 rooms and suites designed by Marcel Wanders integrate a feeling of Swissness with a nod to the sweetest of the country’s export hits, chocolate." ;
+    nami:confidence 0.7 |} .
+wd:Q6527 nami:mentionedAt wd:Q27132811 {| nami:source <https://www.zuerich.com/en/node/1705> ;
+    nami:evidence "He espoused the theories of Jean Jacques Rousseau and developed them further." ;
+    nami:confidence 0.7 |} .
+wd:Q6538 nami:performedAt wd:Q491344 {| nami:source <https://www.zuerich.com/en/node/2302> ;
+    nami:evidence "Günter Grass and Alice Schwarzer held readings in the club room, while performances and discussion evenings with an interested young public took place in the factory theater." ;
+    nami:confidence 0.7 |} .
+wd:Q66086658 nami:mentionedAt wd:Q668300 {| nami:source <https://www.zuerich.com/de/node/1762> ;
+    nami:evidence "Auch architektonisch ist das Museum Rietberg interessant: Der weitgehend unterirdische Neubau «Smaragd» der Architekten Alfred Grazioli und Adolf Krischanitz bildet neben den historischen Villen einen modernen Hingucker, der mit Klarheit, Eleganz und Grosszügigkeit überzeugt." ;
+    nami:confidence 0.7 |} .
+wd:Q661520 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q671236 nami:mentionedAt wd:Q105171843 {| nami:source <https://www.zuerich.com/en/node/1834> ;
+    nami:evidence "Thanks to Augusto Giacometti, what is probably the most beautiful police station entrance hall worldwide is located in the heart of Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q671236 nami:mentionedAt wd:Q477189 {| nami:source <https://www.zuerich.com/en/node/1794> ;
+    nami:evidence "A particularly attractive highlight are the choir windows by Augusto Giacometti, which contrast the life of Jesus Christ with the life of modern man." ;
+    nami:confidence 0.7 |} .
+wd:Q671236 nami:mentionedAt wd:Q684948 {| nami:source <https://www.zuerich.com/en/node/1578> ;
+    nami:evidence "The stained glass windows by Sigmar Polke , the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of the highlights that can be admired here." ;
+    nami:confidence 0.7 |} .
+wd:Q671236 nami:mentionedAt wd:Q690944 {| nami:source <https://www.zuerich.com/en/node/1763> ;
+    nami:evidence "Its most stunning treasures are the stained glass windows: those in the north transept are by Augusto Giacometti and the five-part cycle in the chancel and rosette in the southern transept the works of Marc Chagall ." ;
+    nami:confidence 0.7 |} .
+wd:Q671236 nami:mentionedAt <https://example.org/nami/data/poi/1894> {| nami:source <https://www.zuerich.com/en/node/1894> ;
+    nami:evidence "They all move in the direction of the birth of Christ and thus toward the chancel window created by Augusto Giacometti in 1933." ;
+    nami:confidence 0.7 |} .
+wd:Q6791024 nami:mentionedAt <https://example.org/nami/data/poi/1532> {| nami:source <https://www.zuerich.com/en/node/1532> ;
+    nami:evidence "Watch winders, table clocks from Around Five, L’Epée and Matthew Norman as well as music boxes from Reuge complete the collection." ;
+    nami:confidence 0.7 |} .
+wd:Q679754 nami:mentionedAt <https://example.org/nami/data/poi/1532> {| nami:source <https://www.zuerich.com/en/node/1532> ;
+    nami:evidence "Swiss leading watch brands such as Bell & Ross, Chronoswiss, Franck Muller, Graham, Longines, Ressence, Ulysse Nardin and Zenith contain the watches collection." ;
+    nami:confidence 0.7 |} .
+wd:Q6882 nami:foundedAt wd:Q230416 {| nami:source <https://www.zuerich.com/en/node/1012186> ;
+    nami:evidence "A unique place for all friends of literature: The James Joyce Foundation was established with a view to keeping alive the heritage of the famous Irish writer." ;
+    nami:confidence 0.7 |} .
+wd:Q6882 nami:frequented wd:Q1542522 {| nami:source <https://www.zuerich.com/en/node/1570> ;
+    nami:evidence "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape." ;
+    nami:confidence 0.7 |} .
+wd:Q6882 nami:frequented <https://example.org/nami/data/poi/291104> {| nami:source <https://www.zuerich.com/en/node/291104> ;
+    nami:evidence "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages." ;
+    nami:confidence 0.5 |} .
+wd:Q6882 nami:mentionedAt wd:Q111874784 {| nami:source <https://www.zuerich.com/fr/node/1252> ;
+    nami:evidence "Ce charmant et chaleureux hôtel se trouve près du jardin botanique, de la fondation zurichoise James Joyce et du centre des banques et des finances." ;
+    nami:confidence 0.7 |} .
+wd:Q689411 nami:mentionedAt wd:Q105171843 {| nami:source <https://www.zuerich.com/en/node/1834> ;
+    nami:evidence "He came from the famous Giacometti dynasty of painters, which also included Giovanni Giacometti and sculptor Alberto Giacometti." ;
+    nami:confidence 0.7 |} .
+wd:Q694964 nami:mentionedAt wd:Q136490825 {| nami:source <https://www.zuerich.com/en/node/1961> ;
+    nami:evidence "The city engineer Arnold Bürkli was responsible for constructing the lakeside park area from 1882 until 1887." ;
+    nami:confidence 0.7 |} .
+wd:Q69638 nami:mentionedAt wd:Q675022 {| nami:source <https://www.zuerich.com/en/node/1874> ;
+    nami:evidence "It was given a breath of fresh artistic life by the arrival of emigrant actors and actresses from Germany, including Therese Giehse and Kurt Horwitz, who were fleeing the Nazi regime." ;
+    nami:confidence 0.7 |} .
+wd:Q697200 nami:mentionedAt <https://example.org/nami/data/poi/311622> {| nami:source <https://www.zuerich.com/en/node/311622> ;
+    nami:evidence "Her portfolio is exquisite – ranging from Douglas Aitken and Emmanuelle Antille, to Urs Fischer, Douglas Gordon and Richard Prince, through to Oscar Tuazon and Franz West." ;
+    nami:confidence 0.7 |} .
+wd:Q698877 nami:mentionedAt <https://example.org/nami/data/poi/1828> {| nami:source <https://www.zuerich.com/en/node/1828> ;
+    nami:evidence "The Philosopher’s Egg by Mario Merz decorates the station concourse at Zurich's Main Railway Station." ;
+    nami:confidence 0.7 |} .
+wd:Q700791 nami:mentionedAt wd:Q673575 {| nami:source <https://www.zuerich.com/en/node/1820> ;
+    nami:evidence "Under its music director and chief conductor, Paavo Järvi, around 100 musicians present around 50 different programs each season." ;
+    nami:confidence 0.7 |} .
+wd:Q70666 nami:mentionedAt <https://example.org/nami/data/poi/128881> {| nami:source <https://www.zuerich.com/en/node/128881> ;
+    nami:evidence "Jakob Beck bakery is located in the Viadukt indoor markets and provides hungry customers with bread and sweet culinary delights." ;
+    nami:confidence 0.7 |} .
+wd:Q707020 nami:mentionedAt wd:Q136502748 {| nami:source <https://www.zuerich.com/en/node/1010075> ;
+    nami:evidence "In the bar fitted out by David Chipperfield Architects, your eye is immediately drawn to the fresco, “Pétales et jardin de la nymphe Ancolie”, by Max Ernst from 1934." ;
+    nami:confidence 0.7 |} .
+wd:Q707020 nami:mentionedAt wd:Q27332027 {| nami:source <https://www.zuerich.com/en/node/19507> ;
+    nami:evidence "Architects: various, including Gigon/Guye, David Chipperfield, Caruso St." ;
+    nami:confidence 0.7 |} .
+wd:Q707020 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "Switzerland's largest art museum inspires with its light-flooded extension by David Chipperfield, as well as with one of the most important collections of art in the country." ;
+    nami:confidence 0.7 |} .
+wd:Q70989 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q70989 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/16030> ;
+    nami:evidence "An absolute must for culture fans: it is here that Hugo Ball and Emmy Hennings started the Dada movement." ;
+    nami:confidence 0.7 |} .
+wd:Q70989 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/1840> ;
+    nami:evidence "Hugo Ball and Emmy Hennings founded the Cabaret Voltaire in the middle of Zurich’s Old Town in 1916." ;
+    nami:confidence 0.7 |} .
+wd:Q7109740 nami:mentionedAt wd:Q684948 {| nami:source <https://www.zuerich.com/en/node/1578> ;
+    nami:evidence "The stained glass windows by Sigmar Polke , the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of the highlights that can be admired here." ;
+    nami:confidence 0.7 |} .
+wd:Q7143916 nami:mentionedAt <https://example.org/nami/data/poi/450792> {| nami:source <https://www.zuerich.com/en/node/450792> ;
+    nami:evidence "In an exclusive setting, up to 70 spectators experience mental magic and magic tricks at the highest level – for Pat Perry is world champion in general magic, illusionist, and mentalist." ;
+    nami:confidence 0.7 |} .
+wd:Q7294 nami:mentionedAt wd:Q673575 {| nami:source <https://www.zuerich.com/en/node/1820> ;
+    nami:evidence "While Zurich’s very first Tonhalle stood on Sechsläutenplatz from 1867 to 1896, the Tonhalle Zurich was ceremoniously inaugurated by Johannes Brahms in 1895." ;
+    nami:confidence 0.7 |} .
+wd:Q73437 nami:performedAt wd:Q23681769 {| nami:source <https://www.zuerich.com/en/node/14216> ;
+    nami:evidence "In the past, famous names such as Billy Idol, Kid Rock or Lady Gaga have performed on the stage, and musicals and dance shows stop off here on their tours." ;
+    nami:confidence 0.7 |} .
+wd:Q73932436 nami:mentionedAt <https://example.org/nami/data/poi/234787> {| nami:source <https://www.zuerich.com/de/node/234787> ;
+    nami:evidence "Mitten in der Zürcher Altstadt hat Nenad Mlinarevic nach einigen Jahren in der Luxusgastronomie sein Restaurant eröffnet." ;
+    nami:confidence 0.7 |} .
+wd:Q75156 nami:mentionedAt wd:Q111409753 {| nami:source <https://www.zuerich.com/en/node/158743> ;
+    nami:evidence "Designer Werner Aisslinger sees the hotel as a small, autonomous universe, inspired by the contrasts between banks and red light district, and art and finance." ;
+    nami:confidence 0.7 |} .
+wd:Q7530882 nami:mentionedAt wd:Q27230204 {| nami:source <https://www.zuerich.com/en/node/227203> ;
+    nami:evidence "The Work The 15 meter (49ft) tall sculpture, “Y”, by artist Sislej Xhafa stands in a park in the middle of the Zürich-West district." ;
+    nami:confidence 0.7 |} .
+wd:Q75454 nami:mentionedAt <https://example.org/nami/data/poi/214819> {| nami:source <https://www.zuerich.com/en/node/214819> ;
+    nami:evidence "The entire product range includes the following brands: Augarten, Baccarat, Bernardaud, Buccellati, Christian Lacroix by Vista Alegre, Christofle, Daum, De Vecchi Milano, Ercuis, Evald Nielsen, Fürstenberg, Georg Jensen, Haviland, Herend, Hermann Bauer, Hermès, Holmsted Design, Jezler, Koch & Bergfeld, Königliche Porzellan-Manufaktur Berlin, Lalique, L’Objet, Lukas Jaburek, Möhrle Silber, Moser Crystal, Nude Glass, Odiot, Pampaloni, Porzellanmanufaktur Meissen, Puiforcat, Raynaud, Reiner Silber, Richard Ginori, Robbe & Berking, Robert Haviland & C." ;
+    nami:confidence 0.7 |} .
+wd:Q761630 nami:mentionedAt wd:Q1823936 {| nami:source <https://www.zuerich.com/de/node/1771> ;
+    nami:evidence "Nach Plänen des Architekten August Hardegger wurde die Liebfrauenkirche 1894 im Stil einer frühchristlichen Basilika gebaut." ;
+    nami:confidence 0.7 |} .
+wd:Q764478 nami:mentionedAt <https://example.org/nami/data/poi/1532> {| nami:source <https://www.zuerich.com/en/node/1532> ;
+    nami:evidence "International jewellery brands such as Aurélie Bidermann, Bibi van der Velden, Christina Soubli, Dinh Van, Elé Karela, Gellner Perlen, Georg Jensen, IsabelleFa, Le Gramme, Louis Fiessler, Marco Bicego, Noor Fares, Statement and Yannis Sergakis complete the jewellery range." ;
+    nami:confidence 0.7 |} .
+wd:Q76478 nami:mentionedAt <https://example.org/nami/data/poi/294909> {| nami:source <https://www.zuerich.com/en/node/294909> ;
+    nami:evidence "The store on Strehlgasse is popular not only among hipsters from Zurich’s creative establishment; Hollywood star, Kirsten Dunst, is also a fan." ;
+    nami:confidence 0.7 |} .
+wd:Q76530 nami:mentionedAt <https://example.org/nami/data/poi/168649> {| nami:source <https://www.zuerich.com/en/node/168649> ;
+    nami:evidence "In the former factory hall with its old industrial ambiance, an urban clientele can enjoy a drink at the large bar, look down from the gallery on the dancing masses and the DJ console, or listen to concerts by national and international DJs or artists such as Hurts, Placebo or Samy Deluxe." ;
+    nami:confidence 0.7 |} .
+wd:Q76601 nami:mentionedAt wd:Q768482 {| nami:source <https://www.zuerich.com/fr/node/1751> ;
+    nami:evidence "Sa visite permet de découvrir la sobriété du chœur, le calvaire, l'autel ainsi que les fonts baptismaux de Franz Fischer, sans oublier les vitraux d'August Wanner." ;
+    nami:confidence 0.7 |} .
+wd:Q768100 nami:mentionedAt wd:Q27230218 {| nami:source <https://www.zuerich.com/en/node/227374> ;
+    nami:evidence "His field of activity focuses on drawings, paintings, Lettrism, graphic prints, and object art." ;
+    nami:confidence 0.7 |} .
+wd:Q76815 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q76815 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/16030> ;
+    nami:evidence "An absolute must for culture fans: it is here that Hugo Ball and Emmy Hennings started the Dada movement." ;
+    nami:confidence 0.7 |} .
+wd:Q76815 nami:foundedAt wd:Q661745 {| nami:source <https://www.zuerich.com/en/node/1840> ;
+    nami:evidence "Hugo Ball and Emmy Hennings founded the Cabaret Voltaire in the middle of Zurich’s Old Town in 1916." ;
+    nami:confidence 0.7 |} .
+wd:Q76853 nami:foundedAt wd:Q20731378 {| nami:source <https://www.zuerich.com/en/node/1969> ;
+    nami:evidence "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it." ;
+    nami:confidence 0.7 |} .
+wd:Q7732 nami:mentionedAt wd:Q811691 {| nami:source <https://www.zuerich.com/en/node/1135> ;
+    nami:evidence "The style of the rooms varies between Art Deco, Louis XVI and English Regency, along with some more contemporary touches." ;
+    nami:confidence 0.7 |} .
+wd:Q80113 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In two buildings, the Moser building and the extension designed by David Chipperfield (opened in 2021), the Kunsthaus presents the largest collection of Munch paintings outside Norway, famous names such as Picasso, van Gogh, and Chagall, and leading representatives of the Expressionist movement." ;
+    nami:confidence 0.7 |} .
+wd:Q83235 nami:mentionedAt <https://example.org/nami/data/poi/1011187> {| nami:source <https://www.zuerich.com/en/node/1011187> ;
+    nami:evidence "The Lady Hamilton’s Pub is named for the famous British noblewoman and mistress of Admiral Horatio Nelson." ;
+    nami:confidence 0.7 |} .
+wd:Q83235 nami:mentionedAt <https://example.org/nami/data/poi/524733> {| nami:source <https://www.zuerich.com/en/node/524733> ;
+    nami:evidence "Authenticity is of key importance at the Nelson: after all, the entire interior was specially imported from England!" ;
+    nami:confidence 0.5 |} .
+wd:Q870322 nami:mentionedAt wd:Q27229968 {| nami:source <https://www.zuerich.com/fr/node/1663> ;
+    nami:evidence "La sculpture réalisée en 1952 par Hermann Hubacher ne représente pas l’enlèvement, mais symbolise le désir de l’être humain de rejoindre l’Olympe : la main levée, Ganymède demande à Zeus métamorphosé en aigle de l’entraîner." ;
+    nami:confidence 0.7 |} .
+wd:Q874137 nami:mentionedAt wd:Q111874850 {| nami:source <https://www.zuerich.com/en/node/1001231> ;
+    nami:evidence "Sporting a stylish design by Matteo Thun, the international hotel welcomes visitors from all over the world." ;
+    nami:confidence 0.7 |} .
+wd:Q8763 nami:mentionedAt <https://example.org/nami/data/poi/1828> {| nami:source <https://www.zuerich.com/de/node/1828> ;
+    nami:evidence "Die Ziffern sind eine Hommage an den mittelalterlichen italienischen Mathematiker Leonardo Fibonacci, der mit seiner Zahlenreihe bewies, dass die Natur mathematische Gesetzmässigkeiten befolgt." ;
+    nami:confidence 0.7 |} .
+wd:Q877638 nami:mentionedAt wd:Q63348861 {| nami:source <https://www.zuerich.com/de/node/1693> ;
+    nami:evidence "Das Zwingli-Denkmal bei der Wasserkirche wurde vom österreichischen Bildhauer Heinrich Natter geschaffen und 1885 eingeweiht." ;
+    nami:confidence 0.7 |} .
+wd:Q87827 nami:mentionedAt wd:Q668300 {| nami:source <https://www.zuerich.com/en/node/1762> ;
+    nami:evidence "Designed by architects Alfred Grazioli and Adolf Krischanitz, in contrast to the historical villas it comprises an eye-catching, modern building, which convinces as a result of its generous scale, clarity, and restrained elegance." ;
+    nami:confidence 0.7 |} .
+wd:Q882 nami:mentionedAt <https://example.org/nami/data/poi/77143> {| nami:source <https://www.zuerich.com/en/node/77143> ;
+    nami:evidence "Back in the day, Charlie Chaplin owned a model of the luxury brand Jaeger-LeCoultre and nowadays many other famous names are fans of the Swiss manufacture." ;
+    nami:confidence 0.7 |} .
+wd:Q92955049 nami:mentionedAt wd:Q2415934 {| nami:source <https://www.zuerich.com/de/node/152341> ;
+    nami:evidence "Beim Spaziergang auf dem Zürichberg geniessen Gäste im Restaurant Rigiblick bei Vreni Giger feine Leckereien." ;
+    nami:confidence 0.7 |} .
+wd:Q93284 nami:mentionedAt wd:Q1789864 {| nami:source <https://www.zuerich.com/en/node/3655> ;
+    nami:evidence "Some of them used to pay with artwork, which is why guests today can gaze at genuine works by Chagall, Picasso, and Miró while dining." ;
+    nami:confidence 0.5 |} .
+wd:Q93284 nami:mentionedAt wd:Q685038 {| nami:source <https://www.zuerich.com/en/node/1648> ;
+    nami:evidence "In two buildings, the Moser building and the extension designed by David Chipperfield (opened in 2021), the Kunsthaus presents the largest collection of Munch paintings outside Norway, famous names such as Picasso, van Gogh, and Chagall, and leading representatives of the Expressionist movement." ;
+    nami:confidence 0.5 |} .
+wd:Q93284 nami:mentionedAt wd:Q690944 {| nami:source <https://www.zuerich.com/en/node/1763> ;
+    nami:evidence "Its most stunning treasures are the stained glass windows: those in the north transept are by Augusto Giacometti and the five-part cycle in the chancel and rosette in the southern transept the works of Marc Chagall ." ;
+    nami:confidence 0.8 |} .
+wd:Q93284 nami:mentionedAt wd:Q9392139 {| nami:source <https://www.zuerich.com/en/node/2039> ;
+    nami:evidence "The magnificent Zunfthaus zur Waag stands directly facing the Fraumünster, which attracts tourists and locals alike with its breathtaking Chagall windows." ;
+    nami:confidence 0.5 |} .
+wd:Q93284 nami:mentionedAt <https://example.org/nami/data/poi/1888> {| nami:source <https://www.zuerich.com/en/node/1888> ;
+    nami:evidence "Marc Chagall created 5 windows for the Fraumünster church in Zurich." ;
+    nami:confidence 0.7 |} .
+wd:Q937 nami:frequented wd:Q1542522 {| nami:source <https://www.zuerich.com/en/node/1570> ;
+    nami:evidence "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape." ;
+    nami:confidence 0.5 |} .
+wd:Q94911873 nami:mentionedAt wd:Q856547 {| nami:source <https://www.zuerich.com/de/node/231277> ;
+    nami:evidence "Von Aussen betrachtet hat sich das 1909 von Hermann Fietz erstellte Gebäude der Rechtswissenschaftlichen Fakultät an der Universität Zürich nicht sehr verändert." ;
+    nami:confidence 0.7 |} .
+wd:Q9726 nami:mentionedAt wd:Q90311837 {| nami:source <https://www.zuerich.com/en/node/230908> ;
+    nami:evidence "With his brother Gino working his magic in the kitchen, the elegant ristorante presents signature dishes such as carne cruda, Rossini fillet, ricciola sashimi, or carbonara ravioli." ;
+    nami:confidence 0.5 |} .
+wd:Q977065 nami:mentionedAt <https://example.org/nami/data/poi/556607> {| nami:source <https://www.zuerich.com/de/node/556607> ;
+    nami:evidence "Das angesagte Magazin Monocle von Tyler Brûlé kennen Medienschaffende, Designer und Geschäftsleute weltweit." ;
+    nami:confidence 0.7 |} .
+wd:Q99600895 nami:mentionedAt wd:Q29574344 {| nami:source <https://www.zuerich.com/en/node/2350> ;
+    nami:evidence "Modern-style Japanese cuisine in an elegant ambiance between the Bahnhofstrasse and the Limmat." ;
+    nami:confidence 0.7 |} .

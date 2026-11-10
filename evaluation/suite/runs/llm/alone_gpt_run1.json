@@ -1,0 +1,4306 @@
+{
+ "setting": "alone",
+ "model": "gpt",
+ "run": "run1",
+ "files": {
+  "gpt_block1.txt": "json",
+  "gpt_block2.txt": "json",
+  "gpt_block3.txt": "json",
+  "gpt_block4.txt": "json",
+  "gpt_block5.txt": "json",
+  "gpt_block6.txt": "json",
+  "gpt_block7.txt": "json"
+ },
+ "answers": [
+  {
+   "interest_id": "Q937",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "ETH Zürich – Main Building",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein studied at the institution from 1896 to 1900.",
+       "url": "https://www.zuerich.com/en/albert-einstein",
+       "quote": "Albert Einstein studied at the polytechnic, which is now called the Swiss Federal Institute of Technology (ETH Zürich), from 1896 to 1900.",
+       "check": "verified"
+      },
+      {
+       "reason": "He returned as Professor of Theoretical Physics from 1912 to 1914.",
+       "url": "https://www.zuerich.com/en/albert-einstein",
+       "quote": "From 1909, he was an Extraordinary Professor at the University of Zurich and from 1912 to 1914 he worked as a Professor of Theoretical Physics at ETH Zürich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Unionstrasse 4",
+     "address": "Unionstrasse 4, 8003 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein's student residence for two periods.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+       "quote": "Die meiste Zeit davon lebte er bei Henriette Hägi-Hoffmann (1843–1906) – zuerst an der Unionstrasse 4 von 1896 bis 1898 und von 1899 bis 1900.",
+       "check": "verified"
+      },
+      {
+       "reason": "A memorial plaque commemorates his residence.",
+       "url": "https://www.zuerich.com/en/albert-einstein",
+       "quote": "At the property on Unionsstrasse 4, a plaque pays tribute to its former famous resident.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697627,
+      "lon": 8.5576611,
+      "query": "Unionstrasse 4, 8003 Zürich",
+      "qid": null,
+      "osm": "4, Unionstrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Svizzer"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Klosbachstrasse 87",
+     "address": "Klosbachstrasse 87, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein lived here during 1898–1899.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+       "quote": "Dazwischen lebte er ein Jahr an der Klosbachstrasse 87 bei Stephanie Markwalder-Bürgin (1851–1934).",
+       "check": "verified"
+      },
+      {
+       "reason": "The address is included in ETH's historical Einstein walking itinerary.",
+       "url": "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+       "quote": "1898–1899: Klosbachstrasse 87 (private address)",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3678456,
+      "lon": 8.5600785,
+      "query": "Klosbachstrasse 87, 8032 Zürich",
+      "qid": null,
+      "osm": "87, Klosbachstrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Svi"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Dolderstrasse 17",
+     "address": "Dolderstrasse 17, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein lived at this address from 1900 to 1901.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+       "quote": "Danach an der Dolderstrasse 17 (1900–1901).",
+       "check": "verified"
+      },
+      {
+       "reason": "It is included in ETH's Einstein walking itinerary.",
+       "url": "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+       "quote": "1900–1901: Dolderstrasse 17 (private address)",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3705323,
+      "lon": 8.5575704,
+      "query": "Dolderstrasse 17, 8032 Zürich",
+      "qid": null,
+      "osm": "17, Dolderstrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Svizz"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "University of Zurich – former Physics Building",
+     "address": "Rämistrasse 69, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein worked as an Extraordinary Professor at the University of Zurich from 1909.",
+       "url": "https://www.zuerich.com/en/albert-einstein",
+       "quote": "From 1909, he was an Extraordinary Professor at the University of Zurich and from 1912 to 1914 he worked as a Professor of Theoretical Physics at ETH Zürich.",
+       "check": "verified"
+      },
+      {
+       "reason": "The former university Physics Building is identified in ETH's Einstein walking itinerary.",
+       "url": "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+       "quote": "Rämistrasse 69, Physics Building of the University of Zurich, now Medical Museum, University of Zurich",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3739688,
+      "lon": 8.5494734,
+      "query": "Rämistrasse 69, 8001 Zürich",
+      "qid": null,
+      "osm": "UZH-SOC, 69, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Moussonstrasse 10",
+     "address": "Moussonstrasse 10, 8044 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein's private residence during his University of Zurich period.",
+       "url": "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+       "quote": "Moussonstrasse 12 (now no. 10, private address)",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3755274,
+      "lon": 8.5556312,
+      "query": "Moussonstrasse 10, 8044 Zürich",
+      "qid": null,
+      "osm": "10, Moussonstrasse, Fluntern, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8044, Schweiz / Suisse / Svizz"
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Gloriastrasse 35 – former ETH Physics Building",
+     "address": "Gloriastrasse 35, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Einstein worked as Professor of Theoretical Physics at ETH from 1912 to 1914.",
+       "url": "https://www.zuerich.com/en/albert-einstein",
+       "quote": "From 1909, he was an Extraordinary Professor at the University of Zurich and from 1912 to 1914 he worked as a Professor of Theoretical Physics at ETH Zürich.",
+       "check": "verified"
+      },
+      {
+       "reason": "ETH identifies the former Physics Building associated with Einstein's professorship.",
+       "url": "https://ethz.ch/content/dam/ethz/associates/eth-library-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+       "quote": "Gloriastrasse 35, Physics Building of ETH Zurich (demolished in 1977), now Department of Information Technology and Electrical Engineering",
+       "check": "unreachable"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.377657,
+      "lon": 8.5526242,
+      "query": "Gloriastrasse 35, 8006 Zürich",
+      "qid": null,
+      "osm": "ETH ETZ, 35, Gloriastrasse, Fluntern, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suisse"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q6882",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Universitätsstrasse 38 – James Joyce memorial plaque",
+     "address": "Universitätsstrasse 38, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Joyce lived at this address and a memorial plaque commemorates him.",
+       "url": "https://www.zuerich.com/en/james-joyce",
+       "quote": "A memorial plaque adorns the wall at Universitätsstrasse 38, one of the addresses where Joyce lived.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 2,
+     "name": "Zurich James Joyce Foundation",
+     "address": "Augustinergasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The foundation preserves Joyce's literary heritage.",
+       "url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+       "quote": "The James Joyce Foundation is an institution of international renown.",
+       "check": "verified"
+      },
+      {
+       "reason": "It houses a substantial library and rare first editions.",
+       "url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+       "quote": "The spaces are open to the public and house a comprehensive library, precious first editions and numerous research resources.",
+       "check": "verified"
+      },
+      {
+       "reason": "The foundation organises public literary events.",
+       "url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+       "quote": "Reading groups as well as lectures and workshops regarding Joyce’s work and its influence on literary history are held regularly.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3717214,
+      "lon": 8.5400169,
+      "query": "Augustinergasse 9, 8001 Zürich",
+      "qid": "Q27490264",
+      "osm": "Museum Strauhof, 9, Augustinergasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schwe"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Friedhof Fluntern – James Joyce's grave",
+     "address": "Zürichbergstrasse 189, 8044 Zürich",
+     "reasons": [
+      {
+       "reason": "Joyce was buried in this cemetery, in grave number 1449.",
+       "url": "https://www.zuerich.com/en/james-joyce",
+       "quote": "He was buried at the Zurich-Fluntern cemetery, in grave no. 1449.",
+       "check": "verified"
+      },
+      {
+       "reason": "The cemetery is an important place associated with Joyce's final years in Zurich.",
+       "url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+       "quote": "Zurich played an important role in the author’s life who spent his last years here and is buried in the Friedhof Fluntern cemetery (grave number 1449).",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3834099,
+      "lon": 8.5722055,
+      "query": "Zürichbergstrasse 189, 8044 Zürich",
+      "qid": null,
+      "osm": "189, Zürichbergstrasse, Fluntern, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8044, Schweiz / Suisse / S"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Kronenhalle",
+     "address": "Rämistrasse 4, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Joyce regularly visited this restaurant during his lifetime.",
+       "url": "https://www.zuerich.com/en/visit/culture/zurich-james-joyce-foundation",
+       "quote": "To this day, his legacy is palpable in the city – be it at the iconic Kronenhalle, which he regularly visited during his lifetime or the James Joyce Restaurant & Bar that is reminiscent of the Irish pub culture with its original interior from Dublin.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3685224,
+      "lon": 8.5467817,
+      "query": "Rämistrasse 4, 8001 Zürich",
+      "qid": null,
+      "osm": "Wick Shoes, 4, Rämistrasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1394",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Spiegelgasse 14 – Lenin's former residence",
+     "address": "Spiegelgasse 14, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Lenin lived here with his wife during his Swiss exile for approximately one year.",
+       "url": "https://www.zuerich.com/en/lenin",
+       "quote": "During the First World War, Lenin lived with his wife Nadeshda Krupskaja at Spiegelgasse 14 in Zurich for about a year – a commemorative plaque on the house serves as a reminder.",
+       "check": "verified"
+      },
+      {
+       "reason": "He completed his work Imperialism as the Highest Stage of Capitalism in Zurich.",
+       "url": "https://www.zuerich.com/en/lenin",
+       "quote": "He finished his work \"Imperialism as the Highest Stage of Capitalism\" in Zurich.",
+       "check": "verified"
+      },
+      {
+       "reason": "He used Zurich's libraries during his exile.",
+       "url": "https://www.zuerich.com/en/lenin",
+       "quote": "He spent a lot of his time in Zurich’s libraries.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3719136,
+      "lon": 8.5449844,
+      "query": "Spiegelgasse 14, 8001 Zürich",
+      "qid": null,
+      "osm": "14, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzer"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Spiegelgasse – historic street",
+     "address": "Spiegelgasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Lenin lived on this street while preparing for the Russian Revolution.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution.",
+       "check": "verified"
+      },
+      {
+       "reason": "The street was home to European political revolutionaries and artistic avant-gardists.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Spiegelgasse was the home of revolutionaries and avant-gardists.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3718125,
+      "lon": 8.5445773,
+      "query": "Spiegelgasse, 8001 Zürich",
+      "qid": "Q20731378",
+      "osm": "Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Cabaret Voltaire was located close to Lenin's residence, creating a remarkable historical juxtaposition between revolutionary politics and avant-garde art.",
+       "url": "https://www.zuerich.com/en/lenin",
+       "quote": "Before the Russian Revolution, Lenin and his wife spent a year in exile in Zurich. They lived on the Spiegelgasse close to Cabaret Voltaire",
+       "check": "verified"
+      },
+      {
+       "reason": "Lenin's possible connection with the Dadaists has been the subject of historical speculation.",
+       "url": "https://www.zuerich.com/en/lenin",
+       "quote": "Whether Lenin visited the Cabaret Voltaire, the birthplace of Dadaism, is still unknown but has fuelled speculation as to whether Lenin was a secret Dadaist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q6034",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The birthplace of the Dada movement in 1916.",
+       "url": "https://zuercher-museen.ch/en/museums/cabaret-voltaire",
+       "quote": "The Cabaret Voltaire is the birthplace of world-renowned Dada, which emerged in Zurich in 1916 and, in the midst of war, awakened the need to interrogate the present with new artistic forms and formats.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Dada movement was founded here by Hugo Ball, Emmy Hennings and other avant-garde artists.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it.",
+       "check": "verified"
+      },
+      {
+       "reason": "The institution continues to preserve and present Dada's artistic legacy.",
+       "url": "https://zuercher-museen.ch/en/museums/cabaret-voltaire",
+       "quote": "Today, its cross-disciplinary legacy continues to take center stage.",
+       "check": "verified"
+      },
+      {
+       "reason": "The building contains a Dada Library with important publications.",
+       "url": "https://zuercher-museen.ch/en/museums/cabaret-voltaire",
+       "quote": "On the second floor of the Cabaret Voltaire is the Dada Library, which includes important Dada publications and can be used as a workplace during the day.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Spiegelgasse",
+     "address": "Spiegelgasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The street is recognised as the birthplace of Dada.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Many European artists found refuge from the turmoil of World War I in Zurich 80 years later.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Dadaists established their movement at number 1.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3718125,
+      "lon": 8.5445773,
+      "query": "Spiegelgasse, 8001 Zürich",
+      "qid": "Q20731378",
+      "osm": "Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Kunsthaus Zürich",
+     "address": "Heimplatz 1/5, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The museum has significant Dada holdings and presents the movement in its art collections.",
+       "url": "https://www.kunsthaus.ch/en/",
+       "quote": "",
+       "check": "no_source"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3704859,
+      "lon": 8.5481478,
+      "query": "Heimplatz 1/5, 8001 Zürich",
+      "qid": "Q24037808",
+      "osm": "Heimplatz, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizzera /"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q24906109",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Grossmünster",
+     "address": "Zwingliplatz 7, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Zwingli served as minister of the church and established the Reformation in Zurich.",
+       "url": "https://www.zuerich.com/en/reformation-in-zurich",
+       "quote": "In the 16th century, as moral decline reached its peak and the council could not bring the population to their senses, Ulrich Zwingli became the priest of Grossmünster Church.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "Zwingli arrived in Zurich in 1519 as a preacher at Grossmünster.",
+       "url": "https://www.zuerich.com/sites/default/files/download/2025/2507_Research%20Text_Zurich%27s%20History_EN.pdf",
+       "quote": "In 1519, Huldrych Zwingli came to Zurich as the first lay preacher at the Grossmünster Church.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The church became the starting point for the Reformation in Zurich.",
+       "url": "https://www.zuerich.com/sites/default/files/download/2021/1904_Media_Text_Zurich%20in%20Brief_EN.pdf",
+       "quote": "Huldrych Zwingli comes to Zurich to work as a lay preacher at the Grossmünster Church, and makes it the starting point of the Reformation in Zurich, and later in all of Switzerland.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.370163,
+      "lon": 8.543925,
+      "query": "Zwingliplatz 7, 8001 Zürich",
+      "qid": null,
+      "osm": "7, Zwingliplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Zwingli Monument at Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The monument commemorates Huldrych Zwingli, Zurich's first reformer.",
+       "url": "https://www.zuerich.com/en/visit/attractions/monument-huldrych-zwingli-zurichs-first-reformer",
+       "quote": "Zwingli was Zurich’s first reformer. His theology gave rise to the Reformed Church.",
+       "check": "verified"
+      },
+      {
+       "reason": "The monument was created by Heinrich Natter and unveiled in 1885.",
+       "url": "https://www.zuerich.com/en/visit/attractions/monument-huldrych-zwingli-zurichs-first-reformer",
+       "quote": "The Zwingli monument at the Wasserkirche (water church) was created by Austrian sculptor Heinrich Natter and officially unveiled in 1885.",
+       "check": "verified"
+      },
+      {
+       "reason": "Zwingli's preaching and writings initiated the Reformation in Zurich.",
+       "url": "https://www.zuerich.com/en/huldrych-zwingli",
+       "quote": "This brilliant orator persuaded Zurich’s council and population to accept his ideas – and published the first Reformation writings in 1522, inciting the ire of the bishop and the Pope.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3698494,
+      "lon": 8.5430379,
+      "query": "Limmatquai 31, 8001 Zürich",
+      "qid": null,
+      "osm": "31, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Fraumünster",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The church and its abbey were handed over to the Zurich council in 1524, marking a significant institutional change during the Reformation.",
+       "url": "https://www.zuerich.com/en/inform-plan/useful-information-and-services/history-and-traditions",
+       "quote": "In the 16th century, as moral decline reached its peak and the council could not bring the population to their senses, Ulrich Zwingli became the priest of Grossmünster Church.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The church is directly associated with the Zwingli monument and provides the historical setting for commemorating Zurich's first reformer.",
+       "url": "https://www.zuerich.com/en/visit/attractions/monument-huldrych-zwingli-zurichs-first-reformer",
+       "quote": "The Zwingli monument at the Wasserkirche (water church) was created by Austrian sculptor Heinrich Natter and officially unveiled in 1885.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3698494,
+      "lon": 8.5430379,
+      "query": "Limmatquai 31, 8001 Zürich",
+      "qid": null,
+      "osm": "31, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q123839",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Grossmünster – Heinrich Bullinger sculpture",
+     "address": "Grossmünsterplatz, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Bullinger succeeded Huldrych Zwingli at the Grossmünster and continued the Reformation in Zurich.",
+       "url": "https://www.zuerich.com/en/visit/attractions/heinrich-bullinger-sculpture",
+       "quote": "He succeeded Huldrych Zwingli at the Grossmünster church at the age of 27 and was definitely his equal in terms of passionate preaching.",
+       "check": "verified"
+      },
+      {
+       "reason": "A sculpture of Heinrich Bullinger is located on the southern exterior wall of the church.",
+       "url": "https://www.zuerich.com/en/visit/attractions/heinrich-bullinger-sculpture",
+       "quote": "His sculpture can be found on the southern outside wall of the Grossmünster church.",
+       "check": "verified"
+      },
+      {
+       "reason": "Bullinger played a major role in consolidating the Protestant Reformation in Zurich and beyond.",
+       "url": "https://www.zuerich.com/en/visit/attractions/heinrich-bullinger-sculpture",
+       "quote": "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3700869,
+      "lon": 8.5435835,
+      "query": "Grossmünsterplatz, 8001 Zürich, Switzerland",
+      "qid": null,
+      "osm": "Grossmünsterplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizze"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Grossmünster – Bullinger memorial and commemorative plaque",
+     "address": "Zwingliplatz 4, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The Zurich City Archives identify the Grossmünster as the location of Bullinger's monument and commemorative plaque.",
+       "url": "https://amsquery.stadt-zuerich.ch/detail.aspx?ID=504176",
+       "quote": "Bemerkungen: Standort Gedenktafel: Zwingliplatz 4; Grossmünster (Kreuzgang)",
+       "check": "verified"
+      },
+      {
+       "reason": "The church's historical significance is directly connected to Bullinger's leadership following Zwingli.",
+       "url": "https://www.zuerich.com/en/visit/attractions/heinrich-bullinger-sculpture",
+       "quote": "Heinrich Bullinger, one of the leading Protestant theologians of the 16th century, was responsible for reinforcing and sustaining the Reformation in Zurich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3704284,
+      "lon": 8.5442344,
+      "query": "Zwingliplatz 4, 8001 Zürich, Switzerland",
+      "qid": "Q27328972",
+      "osm": "Zwingliplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Bullingerkirche",
+     "address": "Bullingerstrasse 8, 8004 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The church complex is named after Heinrich Bullinger.",
+       "url": "https://reformiert-zuerich.ch/kirchgemeinde/kirchen/bullingerhaus/geschichte/",
+       "quote": "Der Name des ab 1925 in drei Etappen entstandenen Gebäudekomplexes, bestehend aus dem Kirchgemeindehaus, zwei Pfarrhäusern und der Kirche, bezieht sich auf den Reformator und Theologen Heinrich Bullinger (1504–1575), einem Weggenossen von Huldrych Zwingli.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3800786,
+      "lon": 8.5147991,
+      "query": "Bullingerstrasse 8, 8004 Zürich, Switzerland",
+      "qid": null,
+      "osm": "8, Bullingerstrasse, Hard, Kreis 4, Zürich, Bezirk Zürich, Zürich, 8004, Schweiz / Suisse / Svizzera"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1411919",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Fraumünster – Katharina von Zimmern memorial in the cloister",
+     "address": "Münsterhof 2, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Katharina von Zimmern was the last abbess of the Fraumünster.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/kultur/kultur-leben/kunst-und-bau/werke/kreis-1/fraumuenster-kreuzgang-bauer.html",
+       "quote": "Die letzte Äbtissin von Zürich verhinderte damit ein grösseres Blutbad und verzichtete bewusst auf Macht und Ansehen.",
+       "check": "verified"
+      },
+      {
+       "reason": "She transferred the Fraumünster abbey to the Zurich reformers in December 1524.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/kultur/kultur-leben/kunst-und-bau/werke/kreis-1/fraumuenster-kreuzgang-bauer.html",
+       "quote": "Mit diesen Worten übergab Katharina von Zimmern (1478–1547) am 8. Dezember 1524 das Fraumünsterstift den Reformatoren.",
+       "check": "verified"
+      },
+      {
+       "reason": "The cloister contains a memorial sculpture dedicated to Katharina von Zimmern.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/kultur/kultur-leben/kunst-und-bau/werke/kreis-1/fraumuenster-kreuzgang-bauer.html",
+       "quote": "Als erstes Denkmal für eine historische Frauenpersönlichkeit in der Stadt Zürich wurde die Blockskulptur von Anna-Maria Bauer 2004 eingeweiht.",
+       "check": "verified"
+      },
+      {
+       "reason": "Her memorial includes her own historical words from the 1524 transfer.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/kultur/kultur-leben/kunst-und-bau/werke/kreis-1/fraumuenster-kreuzgang-bauer.html",
+       "quote": "Im Boden des Kreuzganges ist zudem zweimal das Zitat von Katharina von Zimmern von 1524 eingelassen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich, Switzerland",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Fraumünster Abbey – historical monastery site",
+     "address": "Münsterhof 2, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Katharina entered the Fraumünster abbey as a young woman and became its abbess in 1496.",
+       "url": "https://hls-dhs-dss.ch/de/articles/026577/2021-04-16/",
+       "quote": "In Zürich trat sie 1491 in die Abtei Fraumünster ein und legte 1493 mit ihrer Schwester das Gelübde ab.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "She became abbess of the monastery in 1496.",
+       "url": "https://hls-dhs-dss.ch/de/articles/026577/2021-04-16/",
+       "quote": "1496 wurde sie Äbtissin des Klosters.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "Her voluntary transfer of the abbey to the city facilitated the Reformation without civil war.",
+       "url": "https://hls-dhs-dss.ch/de/articles/026577/2021-04-16/",
+       "quote": "Ende 1524 verzichtete die Fürstäbtissin auf ihr Amt, übergab die Fraumünsterabtei der Stadt und ermöglichte so die Reformation in Zürich ohne Bürgerkrieg.",
+       "check": "unreachable"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich, Switzerland",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Haus zum Rech",
+     "address": "Neumarkt 4, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The building hosted a historical exhibition devoted to Katharina von Zimmern and her contemporary, Mayor Diethelm Röist.",
+       "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/08/die-aebtissin-und-der-buergermeister.html",
+       "quote": "Im Zentrum der Ausstellung stehen die Biografien der Äbtissin Katharina von Zimmern und des Zürcher Bürgermeisters Diethelm Röist.",
+       "check": "verified"
+      },
+      {
+       "reason": "The exhibition commemorated the 500th anniversary of the transfer of the Fraumünster to Zurich.",
+       "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/08/die-aebtissin-und-der-buergermeister.html",
+       "quote": "Sie erinnert an die Übergabe des Fraumünsters an die Stadt Zürich vor 500 Jahren.",
+       "check": "verified"
+      },
+      {
+       "reason": "The exhibition explored the circumstances and political significance of Katharina's decision.",
+       "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/08/die-aebtissin-und-der-buergermeister.html",
+       "quote": "So geriet Katharinas Vater in kaiserliche Missgunst.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3723265,
+      "lon": 8.5458015,
+      "query": "Neumarkt 4, 8001 Zürich, Switzerland",
+      "qid": "Q29574362",
+      "osm": "Haus zum Rech, 4, Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q124408",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hans Waldmann Monument",
+     "address": "Münsterbrücke, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The bronze equestrian statue commemorates Hans Waldmann, former mayor of Zurich.",
+       "url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+       "quote": "The former mayor Hans Waldmann can be seen by the Münsterbrücke bridge between the Fraumünster and Grossmünster churches.",
+       "check": "verified"
+      },
+      {
+       "reason": "Waldmann was a successful military commander during the Burgundian Wars.",
+       "url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+       "quote": "Hans Waldmann was an ambitious military leader who achieved great fame when he and the Swiss Confederates decisively defeated Charles the Bold in the Burgundian Wars in 1476.",
+       "check": "verified"
+      },
+      {
+       "reason": "He was elected mayor of Zurich in 1483.",
+       "url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+       "quote": "In 1483, Hans Waldmann was elected to the leading position of mayor of Zurich and was therefore one of the most powerful and wealthy Swiss people of his time.",
+       "check": "verified"
+      },
+      {
+       "reason": "His political career ended with his execution in 1489.",
+       "url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+       "quote": "He was executed six years later in response to pressure by farmers who could not accept his land reform policies.",
+       "check": "verified"
+      },
+      {
+       "reason": "The statue was created by sculptor Hermann Haller.",
+       "url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+       "quote": "Hermann Haller created the bronze statue that stands on the Münsterbrücke bridge between the Fraumünster and Grossmünster churches.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.369942,
+      "lon": 8.542507,
+      "query": "Münsterbrücke, 8001 Zürich, Switzerland",
+      "qid": "Q18716357",
+      "osm": "Münsterbrücke, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera /"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Fraumünster – historical burial location of Hans Waldmann",
+     "address": "Münsterhof 2, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Waldmann's body was buried near the north wall of the church's transept after his execution.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/zuerich-waechst-frueher-heute-morgen/d.2.2.-geschichte-fraumuenster-lp.pdf",
+       "quote": "An diesem Tage wurde Hans Waldmann (geb. 1435, Bürgermeister) enthauptet. Sein Leichnam wurde unweit der Nordwand des Querschiffes beigesetzt.",
+       "check": "verified"
+      },
+      {
+       "reason": "Waldmann's execution took place in April 1489.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/zuerich-waechst-frueher-heute-morgen/d.2.2.-geschichte-fraumuenster-lp.pdf",
+       "quote": "6. April 1489",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich, Switzerland",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Lindenhof",
+     "address": "Lindenhof, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The Lindenhof is associated with a monument commemorating Hans Waldmann.",
+       "url": "https://de.wikipedia.org/wiki/Liste_von_Denkm%C3%A4lern_in_Z%C3%BCrich",
+       "quote": "Hans-Waldmann-Denkmal | 1937 | Hermann Haller | Kreis 1, Lindenhof | Fraumünster",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729964,
+      "lon": 8.5407992,
+      "query": "Lindenhof, 8001 Zürich, Switzerland",
+      "qid": "Q39374",
+      "osm": "Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1704063",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Zurich Old Town – historic cityscape represented by the Murerplan",
+     "address": "Altstadt, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Jos Murer created the historic plan of Zurich in 1576, making the Old Town the principal geographical subject of his work.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "Neben dem heutigen Schulplan darf der bekannte Murerplan von Jos Murer aus dem 16. Jhd. nicht fehlen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Murerplan is an important historical representation of Zurich and is used by the city for teaching about historical cartography.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "Schüler*innen lernen das Kartenlesen ganz konkret am Stadtplan von Zürich.",
+       "check": "verified"
+      },
+      {
+       "reason": "The 1576 plan is considered the oldest surviving cartographic representation of Zurich.",
+       "url": "https://statistik.stadt-zuerich.ch/modules/StatNat/1946/1946_ZSN_50-Jahre-Vermessungsamt-der-Stadt-Zuerich.pdf",
+       "quote": "Als älteste erhaltene kartographische Darstellung der Stadt Zürich ist der Plan von Jos Murer aus dem Jahre 1576 anzusehen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3722329,
+      "lon": 8.5423291,
+      "query": "Altstadt, 8001 Zürich, Switzerland",
+      "qid": "Q445559",
+      "osm": "Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Rathaus and Rathausbrücke",
+     "address": "Limmatquai 55, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The Murerplan depicts the historic Rathaus and the Untere Brücke, allowing visitors to compare important historical landmarks with their modern surroundings.",
+       "url": "https://statistik.stadt-zuerich.ch/modules/StatNat/1946/1946_ZSN_50-Jahre-Vermessungsamt-der-Stadt-Zuerich.pdf",
+       "quote": "Ausschnitt aus dem Stadtplan Jos Murers von 1576 (Untere Brücke, Rathaus, Richthaus und Metzg)",
+       "check": "verified"
+      },
+      {
+       "reason": "The city identifies the 1576 Murerplan as a significant historical city map.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "Neben dem heutigen Schulplan darf der bekannte Murerplan von Jos Murer aus dem 16. Jhd. nicht fehlen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3714926,
+      "lon": 8.542676,
+      "query": "Limmatquai 55, 8001 Zürich, Switzerland",
+      "qid": "Q9315546",
+      "osm": "Rathaus, 55, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich City historical map collection – Murerplan",
+     "address": "Online resource of the City of Zurich; the map depicts the historic city centre.",
+     "reasons": [
+      {
+       "reason": "The City of Zurich provides the Murerplan as a dedicated historical map resource, including the map itself and explanatory material.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "A.3.1. Kommentar MurerplanPDF | 2 Seiten | 106 KB",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The city provides a reproduction of the historical map.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "A.3.2. MurerplanBild | 9 MB",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The city also provides a separate legend to interpret the map's historical features.",
+       "url": "https://www.stadt-zuerich.ch/de/bildung/volksschule/unterrichtsmaterial/gang-dur-zueri/karten-und-plaene.html",
+       "quote": "A.3.3. Legende zum MurerplanPDF | 8 Seiten | 464 KB",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    }
+   ]
+  },
+  {
+   "interest_id": "Q37030",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Thomas Mann Archive at ETH Zurich",
+     "address": "ETH Zurich, Rämistrasse 101, 8092 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The archive preserves Thomas Mann's literary legacy and makes it available to researchers and the public.",
+       "url": "https://tma.ethz.ch/en/archive.html",
+       "quote": "The Thomas Mann Archive at ETH Zurich preserves and maintains the literary heritage of Thomas Mann.",
+       "check": "verified"
+      },
+      {
+       "reason": "The archive holds manuscripts, documents, and materials personally left by Thomas Mann.",
+       "url": "https://tma.ethz.ch/en/archive.html",
+       "quote": "When the archive was founded, the holdings of the Thomas Mann Archive consisted of the writings and documentations handed down personally by Thomas Mann, as well as the study he left behind with the personal library and objects.",
+       "check": "verified"
+      },
+      {
+       "reason": "The archive includes his last study and personal library.",
+       "url": "https://www.zuerich.com/en/visit/culture/thomas-mann-archive",
+       "quote": "The permanent exhibition, which is located in the main building of the ETH Zurich, shows interested members of the public the furnishings of the writer’s last study.",
+       "check": "verified"
+      },
+      {
+       "reason": "The permanent exhibition features Mann's famous writing desk and personal possessions.",
+       "url": "https://www.zuerich.com/en/visit/culture/thomas-mann-archive",
+       "quote": "The exhibition also includes numerous personal items, letters, Mann’s original writing utensils, and his private library.",
+       "check": "verified"
+      },
+      {
+       "reason": "The archive is dedicated to researching and communicating Mann's life and work.",
+       "url": "https://www.zuerich.com/en/visit/culture/thomas-mann-archive",
+       "quote": "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 2,
+     "name": "Baur au Lac",
+     "address": "Talstrasse 1, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Thomas Mann stayed at the hotel during his honeymoon visit to Zurich in 1905.",
+       "url": "https://www.zuerich.com/en/thomas-mann",
+       "quote": "Thomas Mann visited Zurich for the first time in 1905 while on honeymoon with his wife, Katja.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Baur au Lac was the hotel where the couple stayed during that first visit.",
+       "url": "https://www.zuerich.com/en/thomas-mann",
+       "quote": "He stayed at the Baur au Lac, which at that time was the only hotel by the lake with a view of the Alps on the horizon.",
+       "check": "verified"
+      },
+      {
+       "reason": "The hotel became a recurring destination for Mann and his wife on subsequent visits.",
+       "url": "https://www.zuerich.com/en/thomas-mann",
+       "quote": "Whenever the couple returned to the Baur au Lac, they always tried to stay in the same room and dine at the same table.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3671121,
+      "lon": 8.5393433,
+      "query": "Talstrasse 1, 8001 Zürich, Switzerland",
+      "qid": "Q811691",
+      "osm": "Hotel Baur au Lac, 1, Talstrasse, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Sui"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "ETH Zurich Main Building",
+     "address": "Rämistrasse 101, 8092 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The ETH Zurich main building houses the Thomas Mann Archive and its permanent exhibition.",
+       "url": "https://www.zuerich.com/en/visit/culture/thomas-mann-archive",
+       "quote": "The permanent exhibition, which is located in the main building of the ETH Zurich, shows interested members of the public the furnishings of the writer’s last study.",
+       "check": "verified"
+      },
+      {
+       "reason": "ETH Zurich awarded Thomas Mann an honorary doctorate shortly before his death.",
+       "url": "https://www.zuerich.com/en/thomas-mann",
+       "quote": "Shortly before, the Swiss Federal College of Technology (ETH) bestowed on him the title of honorary doctor.",
+       "check": "verified"
+      },
+      {
+       "reason": "Mann entrusted his literary estate to the ETH Zurich archive.",
+       "url": "https://www.zuerich.com/en/thomas-mann",
+       "quote": "The author left his works in his will to the Thomas Mann archive at the ETH Zurich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich, Switzerland",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q41532",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Psychiatric University Hospital Zurich (Burghölzli)",
+     "address": "Lenggstrasse 31, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "Carl Gustav Jung worked as a psychiatrist at the Burghölzli from 1903 to 1909.",
+       "url": "https://library.ethz.ch/en/collections-and-archives/short-portraits/carl-gustav-jung-1875-1961.html",
+       "quote": "1903 bis 1909 arbeitete er als Arzt in der psychiatrischen Klinik Burghölzli in Zürich und wirkte von 1905 bis 1913 als PD an der Universität Zürich.",
+       "check": "verified"
+      },
+      {
+       "reason": "Jung conducted association experiments at the clinic, contributing to the development of analytical psychology.",
+       "url": "https://www2.pukzh.ch/ueber-uns/zeitreise/details/assoziationsexperimente/",
+       "quote": "Im Jahre 1905 habilitiert sich C.G. Jung (1875 - 1961) in Anlehnung an die Theorien Sigmund Freuds über Assoziationsexperimente, die er in einem eigens dafür errichteten Laboratorium durchführt.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "The hospital was the setting for Jung's influential encounter with psychoanalysis.",
+       "url": "https://isapzurich.com/en/about",
+       "quote": "While working as a psychiatrist at the famous Burghölzli Clinic in Zurich, Jung came in contact with the writings of Sigmund Freud.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.35317,
+      "lon": 8.5703856,
+      "query": "Lenggstrasse 31, 8032 Zürich",
+      "qid": "Q577131",
+      "osm": "Psychiatrische Universitätsklinik Zürich, 31, Lenggstrasse, Weinegg, Kreis 8, Zürich, Bezirk Zürich,"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "University of Zurich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Jung worked as a lecturer at the University of Zurich between 1905 and 1913.",
+       "url": "https://library.ethz.ch/en/collections-and-archives/short-portraits/carl-gustav-jung-1875-1961.html",
+       "quote": "1903 bis 1909 arbeitete er als Arzt in der psychiatrischen Klinik Burghölzli in Zürich und wirkte von 1905 bis 1913 als PD an der Universität Zürich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3746371,
+      "lon": 8.5490938,
+      "query": "Rämistrasse 71, 8006 Zürich",
+      "qid": null,
+      "osm": "UZH-KOL, 71, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Former C.G. Jung Institute Zurich",
+     "address": "Gemeindestrasse 27, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "The institute was established under Jung's guidance and operated at this Zurich address between 1948 and 1979.",
+       "url": "https://junginstitut.ch/en/About-Us/History",
+       "quote": "Under C.G. Jung's guidance, and with a minimum of overhead, a post-graduate training program in psychotherapy started up on the Gemeindestrasse 27 in Zurich-Hottingen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The institute was founded as an institution dedicated to analytical psychology and psychotherapy.",
+       "url": "https://junginstitut.ch/en/About-Us/History",
+       "quote": "On April 24th, 1948 the C.G. Jung Institute Zurich was founded as a non-profit, charitable foundation.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3690061,
+      "lon": 8.5525068,
+      "query": "Gemeindestrasse 27, 8032 Zürich",
+      "qid": "Q27490282",
+      "osm": "27, Gemeindestrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Svi"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q122370",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rindermarkt 9 – Gottfried Keller's childhood home",
+     "address": "Rindermarkt 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "This was Gottfried Keller's childhood home.",
+       "url": "https://www.zuerich.com/en/gottfried-keller",
+       "quote": "One of the most important German-speaking writers of the 19th century was at home in Zurich. Gottfried Keller's childhood home was based at Rindermarkt 9.",
+       "check": "verified"
+      },
+      {
+       "reason": "Keller grew up in this historic Old Town street.",
+       "url": "https://www.zuerich.com/en/visit/attractions/rindermarkt-cattle-market-where-gottfried-keller-grew-up",
+       "quote": "At Rindermarkt, you can find the house where the well-known writer Gottfried Keller lived as a boy and the legendary wine bar Öpfelchammer (Apple Chamber) slightly offset across the street, which the Swiss author liked to frequent.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3724407,
+      "lon": 8.5443831,
+      "query": "Rindermarkt 9, 8001 Zürich",
+      "qid": null,
+      "osm": "Haus zur Sichel, 9, Rindermarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / S"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Öpfelchammer",
+     "address": "Rindermarkt 12, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "It was one of Keller's favourite pubs.",
+       "url": "https://www.zuerich.com/en/gottfried-keller",
+       "quote": "One of his favorite pubs was the \"Öpfelkammer\", Zurich’s oldest tavern, where he still looks down from the wall today with a severe expression.",
+       "check": "verified"
+      },
+      {
+       "reason": "Keller frequented the historic wine bar near his childhood home.",
+       "url": "https://www.zuerich.com/en/visit/attractions/rindermarkt-cattle-market-where-gottfried-keller-grew-up",
+       "quote": "At Rindermarkt, you can find the house where the well-known writer Gottfried Keller lived as a boy and the legendary wine bar Öpfelchammer (Apple Chamber) slightly offset across the street, which the Swiss author liked to frequent.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3722918,
+      "lon": 8.5446156,
+      "query": "Rindermarkt 12, 8001 Zürich",
+      "qid": null,
+      "osm": "12, Rindermarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich City Hall (Rathaus)",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Keller worked as secretary of the Canton of Zurich from 1861 to 1876.",
+       "url": "https://www.zuerich.com/en/gottfried-keller",
+       "quote": "Gottfried Keller was employed as a secretary at the City Hall from 1861 to 1876.",
+       "check": "verified"
+      },
+      {
+       "reason": "His public service career was an important part of his Zurich life.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/gottfried-keller",
+       "quote": "In 1861, Keller joined Alfred Escher’s government as First Official Secretary.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3714926,
+      "lon": 8.542676,
+      "query": "Limmatquai 55, 8001 Zürich",
+      "qid": "Q9315546",
+      "osm": "Rathaus, 55, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / "
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Zentralbibliothek Zürich",
+     "address": "Zähringerplatz 6, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The library preserves Keller's literary estate, manuscripts and personal collections.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/gottfried-keller",
+       "quote": "The estate of Gottfried Keller can be accessed in the Zentralbibliothek.",
+       "check": "verified"
+      },
+      {
+       "reason": "The library holds numerous editions of his literary works.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/gottfried-keller",
+       "quote": "We hold his estate as well as numerous editions of his literary works and the main literature about Keller.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3742527,
+      "lon": 8.5453412,
+      "query": "Zähringerplatz 6, 8001 Zürich",
+      "qid": "Q190260",
+      "osm": "Zentralbibliothek Zürich, 6, Zähringerplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001,"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Gottfried Keller Monument, Mythenquai",
+     "address": "Mythenquai 61, 8002 Zürich",
+     "reasons": [
+      {
+       "reason": "The monument commemorates Keller as one of Switzerland's most important nineteenth-century writers.",
+       "url": "https://www.zuerich.com/en/visit/attractions/gottfried-keller-statue",
+       "quote": "You can still view a statue honoring Gottfried Keller, the most successful Swiss writer of the 19th century, at Mythenquai.",
+       "check": "verified"
+      },
+      {
+       "reason": "The monument is located on the lakeside promenade and provides a view of Lake Zurich.",
+       "url": "https://www.zuerich.com/en/visit/attractions/gottfried-keller-statue",
+       "quote": "The bust of Gottfried Keller looks out over Lake Zurich from Mythenquai.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3588681,
+      "lon": 8.5369653,
+      "query": "Mythenquai 61, 8002 Zürich",
+      "qid": null,
+      "osm": "Samigo, 61, Mythenquai, Enge, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8002, Schweiz / Suisse / Svizz"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q115569",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Alfred Escher Monument, Bahnhofplatz",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The bronze monument commemorates Alfred Escher, the Swiss politician and entrepreneur.",
+       "url": "https://www.zuerich.com/en/alfred-escher",
+       "quote": "A bronze statue of the visionary has been erected in the Bahnhofplatz in honor of the Zurich politician and entrepreneur Alfred Escher.",
+       "check": "verified"
+      },
+      {
+       "reason": "Escher was a co-founder of ETH Zurich, a major bank and several insurance companies.",
+       "url": "https://www.zuerich.com/en/alfred-escher",
+       "quote": "Escher, who was also known as the Railroad King, was a co-founder of the Swiss Federal Institute of Technology, a large bank and several insurance companies.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3769361,
+      "lon": 8.5408628,
+      "query": "Bahnhofplatz, 8001 Zürich",
+      "qid": "Q801700",
+      "osm": "Bahnhofplatz, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svi"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Villa Belvoir and Belvoir Park",
+     "address": "Seestrasse 125, 8002 Zürich",
+     "reasons": [
+      {
+       "reason": "Alfred Escher grew up at Villa Belvoir.",
+       "url": "https://www.zuerich.com/en/alfred-escher",
+       "quote": "Alfred Escher grew up at Villa Belvoir as the son of an influential Zurich family.",
+       "check": "verified"
+      },
+      {
+       "reason": "The villa was commissioned by his father, Heinrich Escher.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "Returning to Zurich, he commissioned the building of the Villa Belvoir, where he lived as a gentleman of means.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Escher family moved into the villa in 1831, where Alfred received private tuition.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "In 1831 the Escher family moves into the stately Villa Belvoir in the commune of Enge, now part of the city of Zurich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.357737,
+      "lon": 8.5333512,
+      "query": "Seestrasse 125, 8002 Zürich",
+      "qid": null,
+      "osm": "125, Seestrasse, Enge, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8002, Schweiz / Suisse / Svizzera / S"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "University of Zurich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Escher studied law at the University of Zurich between 1837 and 1842.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "From 1837 to 1842 Alfred Escher studies law at the University of Zurich, founded four years previously.",
+       "check": "verified"
+      },
+      {
+       "reason": "He subsequently taught German, French and Swiss law at the university.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "From 1844 to 1847 Escher gives private lectures on German, French and Swiss law at the University of Zurich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3746371,
+      "lon": 8.5490938,
+      "query": "Rämistrasse 71, 8006 Zürich",
+      "qid": null,
+      "osm": "UZH-KOL, 71, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "ETH Zurich, Main Building",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "Escher was one of the founders of the institution, originally established as the Polytechnic Institute.",
+       "url": "https://www.zuerich.com/en/alfred-escher",
+       "quote": "Escher, who was also known as the Railroad King, was a co-founder of the Swiss Federal Institute of Technology, a large bank and several insurance companies.",
+       "check": "verified"
+      },
+      {
+       "reason": "He became Vice-President of the Federal School Council, which governed the Polytechnic Institute.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "On 2 August 1854 he becomes Vice-President of the Federal School Council, the governing body of the Polytechnic Institute (now the ETH Zurich).",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Paradeplatz",
+     "address": "Paradeplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Escher co-founded Schweizerische Kreditanstalt, the bank whose historic building stood at Paradeplatz.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "He assiduously accumulated official positions, founded companies such as the “Schweizerische Kreditanstalt (SKA)” bank, and promoted the development of the ETH and the expansion of the railways.",
+       "check": "verified"
+      },
+      {
+       "reason": "The bank was established to finance railway construction.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/alfred-escher",
+       "quote": "From 1856 to 1877 Alfred Escher is Chairman of the Board of the Schweizerische Kreditanstalt (SKA), the bank that is today’s Credit Suisse.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3696557,
+      "lon": 8.5388307,
+      "query": "Paradeplatz, 8001 Zürich",
+      "qid": "Q537986",
+      "osm": "Paradeplatz, City, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1511",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Villa Wesendonck (Museum Rietberg)",
+     "address": "Gablerstrasse 15, 8002 Zürich",
+     "reasons": [
+      {
+       "reason": "Wagner lived next to Villa Wesendonck during his Zurich years.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "He lived next to the Villa Wesendonck and worked on \"Tristan and Isolde\" as well as setting the five poems by Mathilde Wesendonck to music.",
+       "check": "verified"
+      },
+      {
+       "reason": "His relationship with Mathilde Wesendonck was an important influence on his Zurich period and musical work.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "In Zurich Wagner fell in love with the married writer Mathilde Wesendonck.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3589183,
+      "lon": 8.5297352,
+      "query": "Gablerstrasse 15, 8002 Zürich",
+      "qid": "Q668300",
+      "osm": "Museum Rietberg, 15, Gablerstrasse, Enge, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8002, Schweiz / Su"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Hotel Baur au Lac",
+     "address": "Talstrasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Wagner gave the first public reading of his complete Ring poem at this hotel.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "He also gave the first public reading of his complete Ring poem in the Hotel Baur au Lac.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3671121,
+      "lon": 8.5393433,
+      "query": "Talstrasse 1, 8001 Zürich",
+      "qid": "Q811691",
+      "osm": "Hotel Baur au Lac, 1, Talstrasse, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Sui"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich Old Town (Limmat city centre)",
+     "address": "8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Wagner spent nine productive years in Zurich after arriving as a political refugee.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "The famous composer Richard Wagner came to Zurich as a political refugee and spent nine productive years in the Limmat city.",
+       "check": "verified"
+      },
+      {
+       "reason": "He wrote several important theoretical works on music and opera while living in Zurich.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "Among other works, Wagner wrote \"Art and Revolution\", \"The Artwork of the Future\" and \"Opera and Drama\" in Zurich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3725663,
+      "lon": 8.541689,
+      "query": "8001 Zürich",
+      "qid": null,
+      "osm": "8001, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q154014",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Spiegelgasse",
+     "address": "Spiegelgasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Büchner lived on Spiegelgasse during his Zurich exile.",
+       "url": "https://www.zuerich.com/en/georg-buchner",
+       "quote": "He lived on the Spiegelgasse right next to Lenin’s apartment during the later stages of his exile – and worked as a private lecturer at the University of Zurich.",
+       "check": "verified"
+      },
+      {
+       "reason": "He wrote Leonce und Lena and parts of Woyzeck at this location.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "The German author and revolutionary Georg Büchner wrote \"Leonce und Lena\" here in 1836, as well as his most well-known, fragmentarily handed-down \"Woyzeck\" works.",
+       "check": "verified"
+      },
+      {
+       "reason": "He arrived in Zurich in October 1836 after fleeing political persecution.",
+       "url": "https://www.zuerich.com/en/georg-buchner",
+       "quote": "Büchner fled into exile and arrived in Zurich in October 1836 after several detours.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3718125,
+      "lon": 8.5445773,
+      "query": "Spiegelgasse, 8001 Zürich",
+      "qid": "Q20731378",
+      "osm": "Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / "
+     }
+    },
+    {
+     "rank": 2,
+     "name": "University of Zurich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Büchner worked as a private lecturer at the University of Zurich.",
+       "url": "https://www.zuerich.com/en/georg-buchner",
+       "quote": "He lived on the Spiegelgasse right next to Lenin’s apartment during the later stages of his exile – and worked as a private lecturer at the University of Zurich.",
+       "check": "verified"
+      },
+      {
+       "reason": "He began teaching comparative anatomy at the university.",
+       "url": "https://www.zuerich.com/en/georg-buchner",
+       "quote": "This is where he began giving lectures on comparative anatomy.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3746371,
+      "lon": 8.5490938,
+      "query": "Rämistrasse 71, 8006 Zürich",
+      "qid": null,
+      "osm": "UZH-KOL, 71, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suis"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q115483",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Max Frisch's Birthplace, Heliosstrasse 31",
+     "address": "Heliosstrasse 31, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "Max Frisch was born at this address on 15 May 1911.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/biography.html",
+       "quote": "15 May: Max Frisch was born in Zurich, at Heliosstrasse 31.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3627544,
+      "lon": 8.5611087,
+      "query": "Heliosstrasse 31, 8032 Zürich",
+      "qid": null,
+      "osm": "31, Heliosstrasse, Hirslanden, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Sviz"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Max Frisch Archive, ETH Library",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "The archive preserves Frisch's literary estate, manuscripts, correspondence and personal documents.",
+       "url": "https://zuercher-museen.ch/en/museums/max-frisch-archive-at-the-eth-library",
+       "quote": "The Max Frisch Archive is an independent research institution belonging to the Max Frisch Foundation and based at ETH Library in Zurich.",
+       "check": "verified"
+      },
+      {
+       "reason": "Frisch was an alumnus of ETH Zurich.",
+       "url": "https://zuercher-museen.ch/en/museums/max-frisch-archive-at-the-eth-library",
+       "quote": "It curates and adds to the literary legacy of Swiss author and ETH Zurich alumnus Max Frisch (1911–1991).",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "ETH Zurich Main Building",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "Frisch studied architecture at ETH Zurich between 1936 and 1940.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/biography.html",
+       "quote": "Max Frisch studied architecture at ETH Zurich from 1936 to 1940.",
+       "check": "verified"
+      },
+      {
+       "reason": "The archive dedicated to Frisch is located in the ETH main building.",
+       "url": "https://library.ethz.ch/en/about-us-and-locations/locations-and-opening-hours/max-frisch-archive.html",
+       "quote": "Estate of the writer and architect Max Frisch",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Freibad Letzigraben (Max-Frisch-Bad)",
+     "address": "Edelweissstrasse 5, 8048 Zürich",
+     "reasons": [
+      {
+       "reason": "Frisch designed this outdoor swimming pool, his most famous architectural project.",
+       "url": "https://mfa.ethz.ch/en/exhibitions.html",
+       "quote": "The Letzigraben outdoor pool in Zurich is the most famous building by Max Frisch the architect.",
+       "check": "verified"
+      },
+      {
+       "reason": "The pool contains a permanent exhibition about his life and work.",
+       "url": "https://mfa.ethz.ch/en/exhibitions.html",
+       "quote": "The old changing rooms now house a permanent exhibition on the life and work of Max Frisch.",
+       "check": "verified"
+      },
+      {
+       "reason": "The swimming pool opened in 1949.",
+       "url": "https://mfa.ethz.ch/en/exhibitions.html",
+       "quote": "Opened in 1949, it is still highly popular among bathers from the city and culture enthusiasts from all over the world.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.378841,
+      "lon": 8.4982581,
+      "query": "Edelweissstrasse 5, 8048 Zürich",
+      "qid": null,
+      "osm": "5, Edelweissstrasse, Blüemliquartier, Albisrieden, Kreis 9, Zürich, Bezirk Zürich, Zürich, 8055, Sch"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Rosenhofbrunnen (Max-Frisch-Brunnen)",
+     "address": "Weingasse, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The fountain incorporates inscriptions written by Max Frisch.",
+       "url": "https://www.zuerich.com/en/visit/attractions/rosenhofbrunnen",
+       "quote": "The fountain is also known as the Max Frisch Fountain because the inscriptions were written by the famous Zurich writer.",
+       "check": "unreachable"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729216,
+      "lon": 8.5431649,
+      "query": "Weingasse, 8001 Zürich",
+      "qid": "Q27329972",
+      "osm": "Weingasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svi"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Bodega Española",
+     "address": "Münstergasse 15, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The restaurant was one of Frisch's favourite haunts in Zurich.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/virtual-city-walk.html",
+       "quote": "The city left its mark on his work: from the blue of Lake Zurich and the eleven-o’clock chimes of the churches to his favourite haunts, such as the legendary Bodega Española.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3712106,
+      "lon": 8.5440813,
+      "query": "Münstergasse 15, 8001 Zürich",
+      "qid": null,
+      "osm": "15, Münstergasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzer"
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Kronenhalle",
+     "address": "Rämistrasse 4, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Frisch regularly visited this restaurant, including with fellow writer Friedrich Dürrenmatt.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/biography.html",
+       "quote": "Max Frisch and Friedrich Dürrenmatt in the Kronenhalle in Zurich (1963).",
+       "check": "verified"
+      },
+      {
+       "reason": "The restaurant hosted many theatre premiere celebrations attended by Frisch.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/biography.html",
+       "quote": "In this restaurant many premiere after-parties were held.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3685224,
+      "lon": 8.5467817,
+      "query": "Rämistrasse 4, 8001 Zürich",
+      "qid": null,
+      "osm": "Wick Shoes, 4, Rämistrasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    },
+    {
+     "rank": 8,
+     "name": "Stadelhoferstrasse 28",
+     "address": "Stadelhoferstrasse 28, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "This was Max Frisch's last apartment in Zurich.",
+       "url": "https://mfa.ethz.ch/en/about-max-frisch/virtual-city-walk.html",
+       "quote": "Max Frisch's last apartment was located at Stadelhoferstrasse 28.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3674619,
+      "lon": 8.5473339,
+      "query": "Stadelhoferstrasse 28, 8001 Zürich",
+      "qid": null,
+      "osm": "28, Stadelhoferstrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q124949",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "University of Zurich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "Franz Hohler studied German and Romance languages and literature at the University of Zurich.",
+       "url": "https://literaturfestival.com/en/authors/franz-hohler/",
+       "quote": "After finishing school in 1963, he studied German and Romance languages and literature at the University of Zurich.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "His first cabaret programme, Pizzicato, was presented during his university studies.",
+       "url": "https://literaturfestival.com/en/authors/franz-hohler/",
+       "quote": "During this time, he presented his first cabaret program »Pizzicato« (1965) to great success.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "He abandoned his studies to pursue his artistic career.",
+       "url": "https://www.ibby.org/archive-storage/12_HCAA_Dossiers/2024_Authors/HCA_24__Authors_Hohler_Dossier_HCA_2024_def.pdf",
+       "quote": "His success on stage led Franz Hohler to give up his studies and from then on devote himself entirely to artistic creation and to “live from fantasy”, as the author put on record in an interview in 1989.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3746371,
+      "lon": 8.5490938,
+      "query": "Rämistrasse 71, 8006 Zürich",
+      "qid": null,
+      "osm": "UZH-KOL, 71, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Zürich-Oerlikon",
+     "address": "Zürich-Oerlikon, 8050 Zürich",
+     "reasons": [
+      {
+       "reason": "Hohler has lived in Oerlikon for many years.",
+       "url": "https://www.srf.ch/kultur/ansichten/autorenportraet-franz-hohler",
+       "quote": "Hohler wuchs in Olten auf und wohnt seit langem in Zürich-Oerlikon.",
+       "check": "verified"
+      },
+      {
+       "reason": "Oerlikon is his established residential neighbourhood in Zurich.",
+       "url": "https://atlantisverlag.ch/autoren/franz-hohler/",
+       "quote": "Hohler lebt in Zürich-Oerlikon.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.4114986,
+      "lon": 8.5441507,
+      "query": "Zürich-Oerlikon, 8050 Zürich",
+      "qid": "Q194887",
+      "osm": "Zürich Oerlikon, Hofwiesenstrasse, Oerlikon, Kreis 11, Zürich, Bezirk Zürich, Zürich, 8050, Schweiz "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Literaturhaus Zürich",
+     "address": "Limmatquai 62, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Hohler delivered a series of public poetry lectures at the institution in 2003.",
+       "url": "https://literaturhaus.ch/event/franz-hohler/",
+       "quote": "Seit 1996 führt das Deutsche Seminar zusammen mit dem Literaturpodium der Stadt Zürich öffentliche Poetikvorlesungen durch.",
+       "check": "verified"
+      },
+      {
+       "reason": "The lectures explored three central categories of his literary work.",
+       "url": "https://literaturhaus.ch/event/franz-hohler/",
+       "quote": "Dieses Jahr wird Franz Hohler in drei Vorlesungen über drei zentrale Kategorien nachdenken, die sein schriftstellerisches Werk bestimmen: das Kurze, das Einfache und das Kindliche.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3719838,
+      "lon": 8.5429968,
+      "query": "Limmatquai 62, 8001 Zürich",
+      "qid": null,
+      "osm": "62, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q58033",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Café Select (former Café Select)",
+     "address": "Limmatquai 16, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Else Lasker-Schüler was a regular visitor to the Terassen-Café, part of Zurich's historic café culture and meeting places for exiled writers.",
+       "url": "https://brill.com/display/book/9789004333147/B9789004333147-s006.pdf",
+       "quote": "The poet Else Lasker-Schüler was in residence at the Terassen-Café.",
+       "check": "unreachable"
+      },
+      {
+       "reason": "The Café Select was a meeting place for emigrants in Zurich, and Lasker-Schüler recorded appointments there.",
+       "url": "https://www.laskerschuelerarchives.org/items/show/1438",
+       "quote": "Addresses of relatives in Berlin whom Lasker-Schüler was supporting also appear. Lasker-Schüler recorded appointments as well, for instance at meeting places for emigrants in Zurich: at the ›Café Select‹ and the ›Kino Nord Süd‹ on Limmatquai 16.",
+       "check": "verified"
+      },
+      {
+       "reason": "The historic building housed the Café Select, which was popular with writers and artists.",
+       "url": "https://inzh.ch/de/places/zuerich/id/18706",
+       "quote": "Dieses war bei Literaten, Künstlern und Schauspielern besonders beliebt.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3690475,
+      "lon": 8.5438702,
+      "query": "Limmatquai 16, 8001 Zürich",
+      "qid": null,
+      "osm": "16, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Museumsgesellschaft Zürich / Literaturhaus",
+     "address": "Limmatquai 62, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Museumsgesellschaft was a place where writers in exile could work and meet other intellectuals.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+       "quote": "A somewhat calmer, yet magical place for the writers in exile was the Museumsgesellschaft Zürich, founded in 1834 on Limmatquai.",
+       "check": "verified"
+      },
+      {
+       "reason": "The institution provided a quiet place for writers to work and follow international events.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+       "quote": "Here, they could work in peace and keep up to date with what was going on around the world.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3719838,
+      "lon": 8.5429968,
+      "query": "Limmatquai 62, 8001 Zürich",
+      "qid": null,
+      "osm": "62, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Rabenhaus",
+     "address": "Limmatquai, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Rabenhaus was a meeting point for intellectuals and refugees during the 1930s.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+       "quote": "In the 1930s the “Rabenhaus” on Limmatquai was a meeting point for intellectuals and also a place where refugees could go.",
+       "check": "verified"
+      },
+      {
+       "reason": "Swiss authors and writers in exile met at the home of the Humm family.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+       "quote": "Here, in the home of the Humm family, authors from Switzerland met writers in exile.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3730728,
+      "lon": 8.5427732,
+      "query": "Limmatquai, 8001 Zürich",
+      "qid": "Q1658559",
+      "osm": "Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Sv"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Zurich Old Town",
+     "address": "8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Lasker-Schüler fled Germany in 1933 and went into exile in Zurich.",
+       "url": "https://www.lenbachhaus.de/fileadmin/Redaktion/Ausstellungen/2022/10_Kunst_und_Leben/Pressebereich/Wandtexte_Biografien_DE_EN.pdf",
+       "quote": "She went to Zurich, where she was not granted a work permit.",
+       "check": "verified"
+      },
+      {
+       "reason": "Her Zurich exile formed part of her life as a persecuted Jewish writer.",
+       "url": "https://www.srf.ch/kultur/gesellschaft-religion/gesellschaft-religion-der-spaziergang-der-das-leben-meines-grossvaters-veraenderte",
+       "quote": "Sie ist aus Deutschland geflohen; als Jüdin wurde sie dort beschimpft und bedroht. Nun weilt sie im Exil in Zürich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3725663,
+      "lon": 8.541689,
+      "query": "8001 Zürich",
+      "qid": null,
+      "osm": "8001, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q123075",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Zürcher Kantonalbank, Main Building",
+     "address": "Bahnhofstrasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Robert Walser worked at the Zurich Cantonal Bank in 1904.",
+       "url": "https://www.robertwalser.ch/en/rw/a-chronology",
+       "quote": "1904 | Clerk at the Zürcher Kantonalbank in Zurich.",
+       "check": "verified"
+      },
+      {
+       "reason": "He was employed as a temporary clerk in the bank's trading department from January 1904.",
+       "url": "https://www.zkb.ch/media/zkb/dokumente/publikationen/zkb-jubilaeumsbuch.pdf",
+       "quote": "Am 7. Januar 1904 wurde Robert Walser als «provisorischer Gehilfe der Handelsabteilung» der Bank mit einem Monatsgehalt von 150 Franken angestellt.",
+       "check": "verified"
+      },
+      {
+       "reason": "His experience working in the bank influenced his literary depictions of office life.",
+       "url": "https://www.zkb.ch/media/zkb/dokumente/publikationen/zkb-jubilaeumsbuch.pdf",
+       "quote": "Walser arbeitete als ebensolcher Gehilfe und schrieb eine Erzählung mit diesem Titel.",
+       "check": "verified"
+      },
+      {
+       "reason": "He wrote several stories between 1907 and 1913 about the daily working life of bank employees.",
+       "url": "https://www.zkb.ch/media/zkb/dokumente/publikationen/zkb-jubilaeumsbuch.pdf",
+       "quote": "Er schilderte in vier weiteren Erzählungen zwischen 1907 bis 1913 (Germer, Ein Vormittag, Das Büebli und Helblings Geschichte) den Arbeitsalltag in einer Bank.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3680179,
+      "lon": 8.5394313,
+      "query": "Bahnhofstrasse 9, 8001 Zürich",
+      "qid": null,
+      "osm": "FairForKids Schweiz, 9, Bahnhofstrasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Sc"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Zurich Old Town",
+     "address": "8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Walser lived in Zurich for much of the period between 1896 and 1905.",
+       "url": "https://www.robertwalser.ch/en/rw/a-chronology",
+       "quote": "Lives mostly in Zurich until 1905.",
+       "check": "verified"
+      },
+      {
+       "reason": "He began his literary career while living in Zurich.",
+       "url": "https://www.munzinger.de/register/portrait/biographien/Robert%2BWalser/00/10292",
+       "quote": "In Zürich, wo W. von 1896 bis 1905 lebte, begann er zu schreiben.",
+       "check": "verified"
+      },
+      {
+       "reason": "His earliest prose works appeared in newspapers in 1902.",
+       "url": "https://www.munzinger.de/register/portrait/biographien/Robert%2BWalser/00/10292",
+       "quote": "Josef Victor Widmann, Feuilletonredakteur am \"Bund\", der W. bereits 1898 als Lyriker vorgestellt hatte, druckte seine frühesten Prosaarbeiten 1902 einzeln in seiner Zeitung ab.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3725663,
+      "lon": 8.541689,
+      "query": "8001 Zürich",
+      "qid": null,
+      "osm": "8001, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q671236",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Giacometti Frescos (Blüemlihalle), Amtshaus I",
+     "address": "Bahnhofquai 3, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Augusto Giacometti created the famous entrance hall paintings between 1923 and 1925.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "His design in warm red and ochre tones was executed between 1923 and 1925 using the al fresco and al secco techniques.",
+       "check": "verified"
+      },
+      {
+       "reason": "The ceiling and vault contain floral ornaments and geometric patterns.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "The ceiling and vault paintings comprise ornamental floral designs and geometric patterns.",
+       "check": "verified"
+      },
+      {
+       "reason": "The walls depict people working in different professions.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "The walls, meanwhile, depict people at work: stone carvers and carpenters represent the handicraft trade, while astronomers and magicians denote science.",
+       "check": "verified"
+      },
+      {
+       "reason": "The work is considered nationally important.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "Nowadays, the art-in-architecture work, which was extensively restored in 2019, is considered to be of national importance.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3752038,
+      "lon": 8.5412136,
+      "query": "Bahnhofquai 3, 8001 Zürich",
+      "qid": "Q22909689",
+      "osm": "Amtshaus I, 3, Bahnhofquai, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Grossmünster",
+     "address": "Zwingliplatz 7, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Giacometti created the church's choir windows in 1933.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "The Creator: Augusto Giacometti (1877–1947) created the choir windows in the Grossmünster in 1933, as well as a stained-glass window in the Fraumünster in 1945.",
+       "check": "verified"
+      },
+      {
+       "reason": "The windows are among the church's major artistic attractions.",
+       "url": "https://www.zuerich.com/en/visit/attractions/grossmunster",
+       "quote": "The stained glass windows by Sigmar Polke, the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of the highlights that can be admired here.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.370163,
+      "lon": 8.543925,
+      "query": "Zwingliplatz 7, 8001 Zürich",
+      "qid": null,
+      "osm": "7, Zwingliplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Fraumünster",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Giacometti created a stained-glass window for the church in 1945.",
+       "url": "https://www.zuerich.com/en/visit/attractions/giacometti-frescos-bluemlihalle",
+       "quote": "The Creator: Augusto Giacometti (1877–1947) created the choir windows in the Grossmünster in 1933, as well as a stained-glass window in the Fraumünster in 1945.",
+       "check": "verified"
+      },
+      {
+       "reason": "His windows are located in the north transept.",
+       "url": "https://www.zuerich.com/en/visit/attractions/fraumunster-art-history-and-divine-stained-glass-windows",
+       "quote": "Those in the north transept are by Augusto Giacometti and the five-part cycle in the chancel and rosette in the southern transept the works of Marc Chagall.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Giacometti created the church's choir windows, which contrast religious and modern life.",
+       "url": "https://www.zuerich.com/en/visit/attractions/wasserkirche",
+       "quote": "A particularly attractive highlight are the choir windows by Augusto Giacometti, which contrast the life of Jesus Christ with the life of modern man.",
+       "check": "verified"
+      },
+      {
+       "reason": "The windows are an important artistic feature of the church.",
+       "url": "https://www.zuerich.com/en/visit/attractions/wasserkirche",
+       "quote": "A particularly attractive highlight are the choir windows by Augusto Giacometti, which contrast the life of Jesus Christ with the life of modern man.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3698494,
+      "lon": 8.5430379,
+      "query": "Limmatquai 31, 8001 Zürich",
+      "qid": null,
+      "osm": "31, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Kunsthaus Zürich",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The museum is recommended as an additional destination for visitors interested in Augusto Giacometti's abstract paintings.",
+       "url": "https://www.zurichwalks.ch/giacometti-art-tour",
+       "quote": "Following this Zurich walking tour, you may wish to visit the Zürich Art Gallery (Kunsthaus) to view some of Augusto Giacometti’s abstract paintings.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3702241,
+      "lon": 8.5479797,
+      "query": "Heimplatz 1, 8001 Zürich",
+      "qid": "Q685038",
+      "osm": "Kunsthaus, 1, Heimplatz, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suiss"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1584657",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Parkhaus Hohe Promenade",
+     "address": "Rämistrasse 22a, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Three preserved original graffiti works by Harald Naegeli, created between 1977 and 1979. They are among the few surviving examples of his original work.",
+       "url": "https://www.stadt-zuerich.ch/kunstundbau-naegeli",
+       "quote": "Heute gehören sie zu den wenigen erhaltenen Arbeiten, die Zeugnis von Naegelis poetischer und origineller «Zeichensprache» ablegen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The car park contained dozens of Naegeli's spray figures, particularly in its stairwell.",
+       "url": "https://www.stadt-zuerich.ch/kunstundbau-naegeli",
+       "quote": "Allein im Parkhaus Promenade waren es Dutzende Sprayfiguren, die er vornehmlich im Treppenhaus anbrachte.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3682941,
+      "lon": 8.5487438,
+      "query": "Rämistrasse 22a, 8001 Zürich",
+      "qid": null,
+      "osm": "Parkhaus Hohe Promenade, 22a, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 800"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "University of Zurich, Deutsches Seminar",
+     "address": "Schönberggasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The building's rear facade features Naegeli's figure Undine, a surviving work associated with his artistic practice.",
+       "url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+       "quote": "The artist visits his water goddess, Undine (rear of the Deutsches Seminar, University of Zurich) and shows his unique style of painting.",
+       "check": "verified"
+      },
+      {
+       "reason": "The work is located on a heritage-protected facade.",
+       "url": "https://www.khist.uzh.ch/dam/jcr%3A52ff6e02-7f00-48b3-affd-d4ed52172ac2/Naegeli%20Tour_A%20Walk%20through%20Time%20and%20Space.pdf",
+       "quote": "„Undine“ (above) on the facade of Deutsches Seminar, which is under heritage protection from the Canton of Zurich;",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3731322,
+      "lon": 8.5491943,
+      "query": "Schönberggasse 9, 8001 Zürich",
+      "qid": null,
+      "osm": "UZH-SOD, 9, Schönberggasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Su"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Grossmünster",
+     "address": "Zwingliplatz 7, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Naegeli created his Totentanz (Dance of Death) series in the church towers.",
+       "url": "https://reformiert-zuerich.ch/fuehrungen/oeffentliche-fuehrungen/naegelis-totentanz/",
+       "quote": "Im Alter von fast 80 Jahren schuf er in den Grossmünster-Türmen seinen Totentanz-Zyklus.",
+       "check": "verified"
+      },
+      {
+       "reason": "The work extends into the bell tower, which is normally inaccessible to the public.",
+       "url": "https://reformiert-zuerich.ch/fuehrungen/oeffentliche-fuehrungen/naegelis-totentanz/",
+       "quote": "Wir bekommen auf dieser Führung das gesamte Werk zu Gesicht, auch im Glockenturm, der sonst nicht öffentlich zugänglich ist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.370163,
+      "lon": 8.543925,
+      "query": "Zwingliplatz 7, 8001 Zürich",
+      "qid": null,
+      "osm": "7, Zwingliplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "ETH underground car park",
+     "address": "ETH Zentrum, Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "Naegeli created 40 figures in the ETH underground car park alone.",
+       "url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+       "quote": "He was particularly active in the university district, creating 40 figures in the ETH underground car park alone.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 5,
+     "name": "Grossmünsterplatz",
+     "address": "Grossmünsterplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "It is the starting point of the English-language Naegeli audio walking tour, which continues through the city towards Kunsthaus Zürich.",
+       "url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+       "quote": "In addition, an English audio tour, which leads from Grossmünsterplatz through the city to the Kunsthaus Zürich, provides urban explorers with fascinating insights into the life of the renowned Swiss artist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3700869,
+      "lon": 8.5435835,
+      "query": "Grossmünsterplatz, 8001 Zürich",
+      "qid": null,
+      "osm": "Grossmünsterplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizze"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Kunsthaus Zürich",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Kunsthaus is the endpoint of the official English-language Naegeli audio walking tour.",
+       "url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+       "quote": "In addition, an English audio tour, which leads from Grossmünsterplatz through the city to the Kunsthaus Zürich, provides urban explorers with fascinating insights into the life of the renowned Swiss artist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3702241,
+      "lon": 8.5479797,
+      "query": "Heimplatz 1, 8001 Zürich",
+      "qid": "Q685038",
+      "osm": "Kunsthaus, 1, Heimplatz, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suiss"
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Musée Visionnaire",
+     "address": "Predigerplatz 10, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The museum presented Naegeli's artistic work beyond his graffiti and organized exhibitions dedicated to him.",
+       "url": "https://zuercher-museen.ch/museen/musee-visionnaire/archiv/harald-naegeli-der-bekannte-unbekannte",
+       "quote": "Erstmals wird Harald Naegeli nicht in erster Linie für seine Werke im öffentlichen Raum, sondern als vielseitiger, unbekannter stiller Schaffer gewürdigt.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3734515,
+      "lon": 8.5453189,
+      "query": "Predigerplatz 10, 8001 Zürich",
+      "qid": null,
+      "osm": "Zur Gemse, 10, Predigerplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1383821",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Spiegelgasse 1 – Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "European artists took refuge in Zurich during the First World War. Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded Cabaret Voltaire and the Dada movement here.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Many European artists found refuge from the turmoil of World War I in Zurich 80 years later.",
+       "check": "verified"
+      },
+      {
+       "reason": "The location was the birthplace of the Dada movement, founded by exiled artists.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Universitätsstrasse 38 – James Joyce residence",
+     "address": "Universitätsstrasse 38, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "James Joyce fled to Zurich from Trieste during the First World War with his family and lived at this address.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich",
+       "quote": "Following the outbreak of the First World War, Joyce flees from Trieste to Zurich, along with his future wife Nora Barnacle and their children Giorgio and Lucia.",
+       "check": "verified"
+      },
+      {
+       "reason": "Joyce wrote five episodes of Ulysses in the house.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich",
+       "quote": "On the first floor of this house at Universitätsstrasse 38, Joyce writes five episodes of «Ulysses» (image: BAZ)",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "A commemorative plaque identifies one of the residences of Joyce and his family.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich",
+       "quote": "A commemorative plaque can be seen at Universitätsstrasse 38, one of the places where Joyce and his family live.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 3,
+     "name": "Thomas Mann Archives, ETH Zurich",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "reasons": [
+      {
+       "reason": "The archive preserves Thomas Mann's literary legacy and his writing desk, which accompanied him into exile.",
+       "url": "https://www.archiv.uzh.ch/en/archiv0/benutzung/ausstellungen/thomas-mann-archiv.html",
+       "quote": "The Thomas Mann Archive is dedicated to preserving, researching, and communicating the literary legacy of Thomas Mann.",
+       "check": "unreachable"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3764545,
+      "lon": 8.5481666,
+      "query": "Rämistrasse 101, 8092 Zürich",
+      "qid": "Q684773",
+      "osm": "ETH-Bibliothek, 101, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8092, Schwei"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Predigerchor, Zentralbibliothek Zürich",
+     "address": "Predigerplatz 33, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The location hosted an exhibition devoted to foreign writers who sought refuge in Zurich.",
+       "url": "https://www.zb.uzh.ch/en/exhibits/zuflucht-und-sehnsucht",
+       "quote": "Writers from abroad in Zurich",
+       "check": "verified"
+      },
+      {
+       "reason": "Zurich served as a refuge and adopted home for writers fleeing political persecution and war.",
+       "url": "https://www.zb.uzh.ch/en/exhibits/zuflucht-und-sehnsucht",
+       "quote": "Zurich is more than just home to great authors such as Gottfried Keller and Max Frisch: it has frequently been a destination, stopping-off point, refuge or adopted home for writers from abroad who came to the city seeking inspiration or protection, stayed for varying lengths of time, and even died here.",
+       "check": "verified"
+      },
+      {
+       "reason": "The exhibition covered writers escaping fascism and war in the twentieth century.",
+       "url": "https://www.zb.uzh.ch/en/exhibits/zuflucht-und-sehnsucht",
+       "quote": "while in the 20th a whole series of literary figures sought shelter from the ravages of war and Fascism.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.37397,
+      "lon": 8.545692,
+      "query": "Predigerplatz 33, 8001 Zürich",
+      "qid": null,
+      "osm": "33, Predigerplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizze"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Spiegelgasse – Lenin's former residence",
+     "address": "Spiegelgasse 14, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Lenin lived in Spiegelgasse while preparing for the Russian Revolution.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution.",
+       "check": "verified"
+      },
+      {
+       "reason": "The street brought together political revolutionaries and artistic avant-garde figures.",
+       "url": "https://www.zuerich.com/en/visit/attractions/spiegelgasse-hot-bed-of-revolutionary-art-literature-and-politics",
+       "quote": "Europe's artistic and political avant-garde met at the Spiegelgasse at the beginning of the 20th century.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3719136,
+      "lon": 8.5449844,
+      "query": "Spiegelgasse 14, 8001 Zürich",
+      "qid": null,
+      "osm": "14, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzer"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Zurich James Joyce Foundation",
+     "address": "Augustinergasse 9, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The institution documents the life and work of James Joyce, whose Zurich years formed part of his life in exile.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich",
+       "quote": "For Joyce, Zurich is one among a number of homes in exile.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3717214,
+      "lon": 8.5400169,
+      "query": "Augustinergasse 9, 8001 Zürich",
+      "qid": "Q27490264",
+      "osm": "Museum Strauhof, 9, Augustinergasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schwe"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q188494",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Wellenberg Prison Tower",
+     "address": "Former Wellenberg prison tower, Limmat, Zürich",
+     "reasons": [
+      {
+       "reason": "The tower imprisoned and tortured people accused of witchcraft, including the eight defendants in the last Zurich witch trial in 1701.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Die acht Menschen wurden verhaftet, in den Gefängnisturm Wellenberg überführt und aufs Schwerste gefoltert, bis sie gestanden, sich mit dem Teufel eingelassen zu haben.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Wellenberg tower was used by the authorities as a prison for accused witches and as a place of torture.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Sie wurden von den staatlichen Behörden in den Wellenberg-Turm gesperrt und der «Kleine Rat» übernahm als Malefizrat, als Strafgericht.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 2,
+     "name": "Limmat River – execution site of Agatha Studler",
+     "address": "Limmat, central Zurich",
+     "reasons": [
+      {
+       "reason": "Agatha Studler, the only victim of witch persecution from the city of Zurich, was drowned in the Limmat in 1546.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Angeklagte, die dem Vorwurf der Teufelsbuhlschaft entgehen konnten, wurden in der Limmat ertränkt. So z. B. auch Agatha Studler, das einzige Stadtzürcher Opfer der Hexenverfolgung.",
+       "check": "verified"
+      },
+      {
+       "reason": "The historical account describes the drowning of Agatha Studler in the river.",
+       "url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-by-wick",
+       "quote": "As she prayed for mercy, she was drowned instead of burnt.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 3,
+     "name": "Sihl riverbank – historical execution site",
+     "address": "Sihl riverbank, central Zurich",
+     "reasons": [
+      {
+       "reason": "People convicted of witchcraft were burned alive on a gravel bank of the Sihl.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Die Verurteilten wurden bei lebendigem Leibe auf einer Kiesbank der Sihl verbrannt, in späteren Jahren wurden sie vermehrt gnadenhalber zuvor enthauptet.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 4,
+     "name": "Zurich City Hall and the Kleine Rat",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Kleine Rat acted as the criminal court responsible for witchcraft cases.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Der Kleine Rat, der gleichzeitig Regierung, Parlament und Gerichtshof des Stadtstaats Zürich fungierte, setzte sich aus 48 Ratsherren aus den Zünften und der Gesellschaft zur Constaffel (der früheren Zürcher Oberschicht) zusammen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The court used torture and confession as instruments of prosecution.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/hexenverfolgung-in-zuerich.html",
+       "quote": "Ein Schuldbekenntnis war die Voraussetzung für die Vergebung der Sünden.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3714926,
+      "lon": 8.542676,
+      "query": "Limmatquai 55, 8001 Zürich",
+      "qid": "Q9315546",
+      "osm": "Rathaus, 55, Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / "
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q208701",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Münsterplatz",
+     "address": "Münsterplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The army violently dispersed a demonstration at Münsterplatz on 10 November 1918. Three workers were injured and one soldier died.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Am Tag darauf löste die Armee eine Demonstration auf dem Zürcher Münsterplatz gewaltsam auf. Drei Arbeiter wurden verletzt, ein Soldat starb.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 2,
+     "name": "Zurich Kaserne",
+     "address": "Kasernenstrasse 29, 8004 Zürich",
+     "reasons": [
+      {
+       "reason": "During the military occupation of Zurich in November 1918, the cantonal government moved its headquarters to the barracks and held its meetings under military protection.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Gleichzeitig verlegte der Zürcher Regierungsrat seinen Sitz in die Kaserne, wo er unter Militärschutz tagte.",
+       "check": "verified"
+      },
+      {
+       "reason": "The military occupation of Zurich was a decisive event leading to the national general strike.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Die militärische Besetzung Zürichs 1918 löste den nationalen Landesstreik aus, die schwerste politische Krise des Bundesstaats.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3749686,
+      "lon": 8.532081,
+      "query": "Kasernenstrasse 29, 8004 Zürich",
+      "qid": null,
+      "osm": "Durchgangszentrum Polizeikaserne, 29, Kasernenstrasse, Langstrasse, Kreis 4, Zürich, Bezirk Zürich, "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich city centre – military occupation and street patrols",
+     "address": "Central Zurich, including bridges, streets and administrative buildings",
+     "reasons": [
+      {
+       "reason": "Military troops were stationed at public buildings, banks, bridges and street intersections during the occupation.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Soldaten wurden vor Amts- und Dienstgebäuden, Banken, Konsulaten, auf Brücken und Strassenkreuzungen postiert und fuhren mit aufgepflanzten Bajonetten auf den Plattformen der Strassenbahnen mit.",
+       "check": "verified"
+      },
+      {
+       "reason": "The military presence was widespread throughout the city.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Die Präsenz des Militärs in Zürich war allgegenwärtig.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 4,
+     "name": "Zurich financial district – banks and Paradeplatz",
+     "address": "Paradeplatz, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Bank employees in Zurich went on strike on 30 September and 1 October 1918, supported by the local workers' union.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Am 30. September und 1. Oktober 1918 streikten die Zürcher Bankangestellten. Unterstützt wurden sie dabei von der lokalen Arbeiterunion.",
+       "check": "verified"
+      },
+      {
+       "reason": "Banks were among the locations occupied by military personnel during the crisis.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Soldaten wurden vor Amts- und Dienstgebäuden, Banken, Konsulaten, auf Brücken und Strassenkreuzungen postiert und fuhren mit aufgepflanzten Bajonetten auf den Plattformen der Strassenbahnen mit.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3696557,
+      "lon": 8.5388307,
+      "query": "Paradeplatz, 8001 Zürich",
+      "qid": "Q537986",
+      "osm": "Paradeplatz, City, Altstadt, Zürich, Bezirk Zürich, Zürich, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Zurich – workers' movement and general strike",
+     "address": "Citywide historical walking route, Zürich",
+     "reasons": [
+      {
+       "reason": "The strike movement was driven by workers' opposition to political marginalization, poor wages and shortages.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Die gewerkschaftlich organisierte Arbeiterschaft und einzelne Angestelltenverbände wehrten sich in verschiedenen zeitlich und örtlich begrenzten Streiks gegen ihre politische Marginalisierung.",
+       "check": "verified"
+      },
+      {
+       "reason": "The general strike included demands for the 48-hour working week, women's suffrage and social insurance.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Einführung des Frauenstimmrechts",
+       "check": "verified"
+      },
+      {
+       "reason": "The strike was a major turning point for the Swiss labour movement.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/landesstreik-1918-zuerich.html",
+       "quote": "Obwohl der Landesstreik einer Niederlage der Arbeiterschaft gleichkam, ging sie langfristig doch gestärkt daraus hervor.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1279400",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Fraumünster",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Fraumünster was founded as a convent for women in 853.",
+       "url": "https://www.zuerich.com/en/visit/attractions/fraumunster-art-history-and-divine-stained-glass-windows",
+       "quote": "Founded in 853 by King Louis the German, this church with its convent was inhabited by the female members of the aristocracy of Europe.",
+       "check": "verified"
+      },
+      {
+       "reason": "The abbesses exercised considerable political and economic power, including the right to mint coins.",
+       "url": "https://www.zuerich.com/en/visit/attractions/fraumunster-art-history-and-divine-stained-glass-windows",
+       "quote": "The convent enjoyed the patronage of kings and the abbess the right to mint coins in Zurich until well into the 13th century.",
+       "check": "verified"
+      },
+      {
+       "reason": "The abbey was an important centre of power in medieval Zurich.",
+       "url": "https://www.fraumuenster.ch/file_download.php?fileIDX=57388",
+       "quote": "In addition, the incumbent abbess was the official ruler of Zurich from the 13th century onwards, holding the title of royal princess.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Lindenhof",
+     "address": "Lindenhof, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "According to Zurich's historical legend, women defended the city against an attacking army in 1292.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "In 1292, with the city under siege, Zürich's women are said to have lined the Lindenhof in armour and turned the attackers away.",
+       "check": "verified"
+      },
+      {
+       "reason": "The location is a key stop on the walking tour dedicated to women who shaped Zurich.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "The hilltop where the women of Zürich are said to have saved the city in 1292.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729964,
+      "lon": 8.5407992,
+      "query": "Lindenhof, 8001 Zürich",
+      "qid": "Q39374",
+      "osm": "Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "University of Zurich, Main Building",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The University of Zurich was one of the first universities in Europe to admit women, beginning in 1866.",
+       "url": "https://med.uzh.ch/de/fakultaet/Geschichte/Kulturgeschichte/Frauenstudium.html",
+       "quote": "Lange Zeit waren Frauen vom Hochschulstudium ausgeschlossen, bis die Universität Zürich 1866 nach der Universität Sorbonne in Paris als eine der ersten Hochschulen in Europa Frauen zum Studium zuließ.",
+       "check": "verified"
+      },
+      {
+       "reason": "Nadeschda Suslowa became the first woman to earn a doctorate in the German-speaking world at Zurich.",
+       "url": "https://med.uzh.ch/de/fakultaet/Geschichte/Kulturgeschichte/Frauenstudium.html",
+       "quote": "In Zürich promovierte sie 1867 als erste Frau im deutschsprachigen Raum und legte im folgenden Jahr in Russland als erste Frau das russische Staatsexamen ab.",
+       "check": "verified"
+      },
+      {
+       "reason": "The university honours Nadeschda Suslowa with a commemorative plaque in its main building.",
+       "url": "https://www.edi.uzh.ch/de/ueberuns/geschichte/pionierinnen.html",
+       "quote": "In einer feierlichen Zeremonie wurde der Pionierin im Juli 2020 im Hauptgebäude der UZH eine Gedenktafel gewidmet.",
+       "check": "verified"
+      },
+      {
+       "reason": "Emilie Kempin-Spyri became the first female lecturer at the university.",
+       "url": "https://www.edi.uzh.ch/de/ueberuns/geschichte/pionierinnen.html",
+       "quote": "1891 wurde sie als Privatdozentin für römisches, englisches und amerikanisches Recht an der Universität Zürich zugelassen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3746371,
+      "lon": 8.5490938,
+      "query": "Rämistrasse 71, 8006 Zürich",
+      "qid": null,
+      "osm": "UZH-KOL, 71, Rämistrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Chaiselongue monument to Emilie Kempin-Spyri",
+     "address": "University of Zurich, Rämistrasse 71, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The monument commemorates Emilie Kempin-Spyri, a pioneer of women's equality and the first woman to obtain habilitation in the German-speaking world.",
+       "url": "https://www.edi.uzh.ch/de/ueberuns/geschichte/pionierinnen.html",
+       "quote": "2008 ehrte die UZH PD Dr. Emilie Kempin-Spyri mit dem Denkmal «Chaiselongue», gestaltet von Pipilotti Rist.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 5,
+     "name": "Former practice of Marie Heim-Vögtlin",
+     "address": "Hottingerstrasse 25, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "This was the former practice of Marie Heim-Vögtlin, Switzerland's first female doctor.",
+       "url": "https://dlf.uzh.ch/sites/medizingeschichte/die-praxis-der-ersten-schweizer-aerztin/",
+       "quote": "An der Hottingerstrasse 25 befindet sich die ehemalige Praxis von Dr. med. Marie Heim-Vögtlin, der ersten Schweizer Ärztin und Gründerin der Schweizerischen Pflegerinnenschule.",
+       "check": "verified"
+      },
+      {
+       "reason": "She practised medicine here from 1874 until her final illness.",
+       "url": "https://dlf.uzh.ch/sites/medizingeschichte/die-praxis-der-ersten-schweizer-aerztin/",
+       "quote": "Von 1874 bis zu ihrer letzten Erkrankung wohnte und praktizierte Dr. med. Marie Heim Vögtlin in diesem Haus an der Hottingerstrasse 25 als Frauen- und Kinderärztin.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3699041,
+      "lon": 8.5527426,
+      "query": "Hottingerstrasse 25, 8032 Zürich",
+      "qid": null,
+      "osm": "Athenaeum, 25, Hottingerstrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / "
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Schweizerische Pflegerinnenschule – Die Pflegi",
+     "address": "Carmenstrasse 40, 8032 Zürich",
+     "reasons": [
+      {
+       "reason": "The institution was founded by women as a nursing school and women's hospital, representing an important achievement of the women's movement.",
+       "url": "https://dlf.uzh.ch/sites/medizingeschichte/pflegi/",
+       "quote": "Bis heute gilt die “Pflegi” als Symbol für die Reform des Pflegeberufes, als Andenken an die bürgerliche Frauenbewegung und formt einen Teil Zürcher Stadtgeschichte.",
+       "check": "verified"
+      },
+      {
+       "reason": "The school and women's hospital opened in 1901.",
+       "url": "https://dlf.uzh.ch/sites/medizingeschichte/pflegi/",
+       "quote": "1901 wurde die Schweizerische Pflegerinnenschule mit Frauenspital in Zürich eröffnet.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.368054,
+      "lon": 8.5629795,
+      "query": "Carmenstrasse 40, 8032 Zürich",
+      "qid": "Q27330250",
+      "osm": "Carmenstrasse, Hottingen, Kreis 7, Zürich, Bezirk Zürich, Zürich, 8032, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Frauenbad Stadthausquai",
+     "address": "Stadthausquai 12, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The historic bathing facility was created specifically for women and remains a women-only swimming venue during the day.",
+       "url": "https://www.zuerich.com/en/visit/nature/frauenbad-at-stadthausquai",
+       "quote": "The art nouveau open-air bathing facility at Stadthausquai still remains the exclusive domain of female guests to this day.",
+       "check": "verified"
+      },
+      {
+       "reason": "The first public bathing house for women was constructed in 1837.",
+       "url": "https://www.zuerich.com/en/visit/nature/frauenbad-at-stadthausquai",
+       "quote": "In 1837, the first “public bathing house for women” was constructed by the entrenchment of the old city fortifications (“Bauschänzli”).",
+       "check": "verified"
+      },
+      {
+       "reason": "The building was renovated in Art Nouveau style in 1888.",
+       "url": "https://www.zuerich.com/en/visit/nature/frauenbad-at-stadthausquai",
+       "quote": "In 1888, the bathhouse was renovated in art nouveau style, crowned with a cupola and with four small turrets at the corners.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3684507,
+      "lon": 8.542037,
+      "query": "Stadthausquai 12, 8001 Zürich",
+      "qid": "Q972427",
+      "osm": "Frauenbad Stadthausquai, 12, Stadthausquai, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001"
+     }
+    },
+    {
+     "rank": 8,
+     "name": "Former Zurich women's movement and feminist walking tour route",
+     "address": "Rennweg, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The route introduces pioneering women who transformed art, medicine, law, literature and civic life.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "A narrative walk through the pioneers in art, medicine, law, literature and defence who fought rigid systems and left their mark on the city.",
+       "check": "verified"
+      },
+      {
+       "reason": "The route includes the history of Emilie Kempin-Spyri, the first woman in Switzerland to earn a doctorate in law.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "The first woman in Switzerland to earn a doctorate in law (University of Zürich, 1887), who fought to be allowed to practise.",
+       "check": "verified"
+      },
+      {
+       "reason": "The route also covers Johanna Spyri, the author of Heidi.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "The Zürich author whose ‘Heidi’ became one of the best-loved books in the world.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3730898,
+      "lon": 8.5395083,
+      "query": "Rennweg, 8001 Zürich",
+      "qid": "Q1313725",
+      "osm": "Rennweg, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svi"
+     }
+    },
+    {
+     "rank": 9,
+     "name": "Helvetia / Hedwigbrunnen, Lindenhof",
+     "address": "Lindenhof, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The location is associated with the legend of the women who defended Zurich in 1292.",
+       "url": "https://www.freewalk.ch/zurich/women-tour-zurich.php",
+       "quote": "The women of Zürich In 1292, with the city under siege, Zürich's women are said to have lined the Lindenhof in armour and turned the attackers away.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729964,
+      "lon": 8.5407992,
+      "query": "Lindenhof, 8001 Zürich",
+      "qid": "Q39374",
+      "osm": "Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q17897",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Theater Neumarkt (former Restaurant Eintracht)",
+     "address": "Neumarkt 5, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The former meeting and celebration venue of Der Kreis, an internationally influential homosexual organisation.",
+       "url": "https://www.stadt-zuerich.ch/de/lebenslagen/unterstuetzung-und-beratung/diversitaet-und-inklusion/gleichstellung/projekte/infotafel-brunngasse.html",
+       "quote": "«Der Kreis» veranstaltet zwischen 1948 und 1960 im Theatersaal des ehemaligen Restaurants Eintracht am Neumarkt 5 grosse festliche Anlässe für homosexuelle Männer.",
+       "check": "verified"
+      },
+      {
+       "reason": "The events provided a protected social environment for homosexual men facing persecution.",
+       "url": "https://www.stadt-zuerich.ch/de/lebenslagen/unterstuetzung-und-beratung/diversitaet-und-inklusion/gleichstellung/projekte/infotafel-brunngasse.html",
+       "quote": "Die Anlässe im heutigen Theater Neumarkt haben eine europaweite Ausstrahlung und bieten den gesellschaftlich verfolgten Männern einen geschützten Raum.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3726451,
+      "lon": 8.5457546,
+      "query": "Neumarkt 5, 8001 Zürich",
+      "qid": "Q2416020",
+      "osm": "Theater am Neumarkt, 5, Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / "
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Brunngasse 15",
+     "address": "Brunngasse 15, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The location of municipal information panels commemorating Zurich's lesbian and gay history.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2015/09/150915a.html",
+       "quote": "An der Brunngasse 15 hat Stadtpräsidentin Corine Mauch drei Infotafeln zur schwul-lesbischen Geschichte in Zürich enthüllt.",
+       "check": "verified"
+      },
+      {
+       "reason": "The panels document the beginnings of the LGBT movements in Zurich.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2015/09/150915a.html",
+       "quote": "Drei Infotafeln in der Zürcher Altstadt erinnern an eine Zeit, die von Aufbruchsstimmung aber auch Repression geprägt war, und in der die Grundsteine für die LGBT-Bewegungen in Zürich gelegt wurden.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3734223,
+      "lon": 8.5446989,
+      "query": "Brunngasse 15, 8001 Zürich",
+      "qid": null,
+      "osm": "15, Brunngasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Platzspitz Pavillon",
+     "address": "Platzspitz, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The site of early political demonstrations against police registration of homosexual people.",
+       "url": "https://www.zueribunt.ch/",
+       "quote": "Proteste gegen die polizeiliche Registrierung von Schwulen und Lesben.",
+       "check": "verified"
+      },
+      {
+       "reason": "The site hosted the first Swiss Christopher Street Day in 1978.",
+       "url": "https://www.zuerich.com/de/informieren-planen/nuetzliche-infos-und-services/lgbtq-zuerich/lgbtq-geschichte",
+       "quote": "Zusammen mit zwei anderen Organisationen veranstaltete die SOH 1978 den ersten Christopher Street Day der Schweiz auf dem Zürcher Platzspitz.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3812843,
+      "lon": 8.540001,
+      "query": "Platzspitz, 8006 Zürich",
+      "qid": null,
+      "osm": "Platzspitz, 9, Platzpromenade, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8031, Schweiz / Suisse"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Barfüsser Bar",
+     "address": "Spitalgasse 3, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "An important gathering place in Zurich's homosexual nightlife from the 1950s onwards.",
+       "url": "https://www.stadt-zuerich.ch/de/lebenslagen/unterstuetzung-und-beratung/diversitaet-und-inklusion/gleichstellung/projekte/infotafel-brunngasse.html",
+       "quote": "Die Anfänge der schwul-lesbischen Bewegung in Zürich und ihre Entwicklung",
+       "check": "verified"
+      },
+      {
+       "reason": "The venue is documented as a successor meeting point following the dissolution of Der Kreis.",
+       "url": "https://www.zueribunt.ch/",
+       "quote": "Barfüsser Bar: Zürich’s buntes Nachtleben in den 50’ern bis heute",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3735805,
+      "lon": 8.5440022,
+      "query": "Spitalgasse 3, 8001 Zürich",
+      "qid": null,
+      "osm": "3, Spitalgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Regenbogenhaus Zürich",
+     "address": "Zollstrasse 117, 8005 Zürich",
+     "reasons": [
+      {
+       "reason": "A contemporary LGBTQ+ community centre continuing Zurich's queer organising and community-building history.",
+       "url": "https://www.zueribunt.ch/",
+       "quote": "Regenbogenhaus: Ort für Entfaltung",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3814916,
+      "lon": 8.5300518,
+      "query": "Zollstrasse 117, 8005 Zürich",
+      "qid": null,
+      "osm": "117, Zollstrasse, Gewerbeschule, Industriequartier, Zürich, Bezirk Zürich, Zürich, 8005, Schweiz / S"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q7167",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Villa Patumbah",
+     "address": "Zollikerstrasse 128, 8008 Zürich",
+     "reasons": [
+      {
+       "reason": "The villa was built using wealth accumulated by its owner through tobacco plantations in colonial Sumatra.",
+       "url": "https://www.heimatschutzzentrum.ch/en/offer/villa-and-park",
+       "quote": "The magnificent historicist-style building bears witness to Switzerland’s colonial ties: Grob lived from 1869 to 1879 in Sumatra, which at that time belonged to the Dutch Indies, and gained tremendous wealth through the operation of tobacco plantations.",
+       "check": "verified"
+      },
+      {
+       "reason": "Its owner's wealth depended on colonial structures and precarious plantation labour.",
+       "url": "https://www.heimatschutzzentrum.ch/en/offer/villa-and-park",
+       "quote": "Numerous Swiss like Carl F. Grob profited from the existing colonial structures and from thousands of plantation workers employed under precarious conditions.",
+       "check": "verified"
+      },
+      {
+       "reason": "The villa's history is explicitly connected to the expansion of Dutch colonial rule in Southeast Asia.",
+       "url": "https://www.zuercher-museen.ch/en/museums/swiss-heritage-center/patumbah-is-a-place-in-sumatra",
+       "quote": "Grob and many other European “planters” played an important role in the expansion and consolidation of Dutch colonial rule.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The plantation system displaced indigenous communities and imposed exploitative labour structures.",
+       "url": "https://www.zuercher-museen.ch/en/museums/swiss-heritage-center/patumbah-is-a-place-in-sumatra",
+       "quote": "They gained easy access to land, displaced the indigenous population from their habitats, and established power structures and an exploitative system of contract labour.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3569063,
+      "lon": 8.5596816,
+      "query": "Zollikerstrasse 128, 8008 Zürich",
+      "qid": "Q1588172",
+      "osm": "Villa Patumbah, 128, Zollikerstrasse, Weinegg, Kreis 8, Zürich, Bezirk Zürich, Zürich, 8008, Schweiz"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Swiss National Museum",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The museum hosted an exhibition examining Swiss participation in colonialism, including slavery and the colonial commodity trade.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "Swiss citizens and companies were heavily involved in the colonial system from the 16th century onwards.",
+       "check": "verified"
+      },
+      {
+       "reason": "The exhibition addressed the involvement of Swiss individuals and companies in the transatlantic slave trade.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "Some Swiss companies and private individuals took part in the transatlantic slave trade and earned a fortune from the trade in colonial goods and exploitation of slave labour.",
+       "check": "verified"
+      },
+      {
+       "reason": "The museum's colonial history material specifically examines the involvement of Zurich universities in scientific racism.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "And the racial theories prevalent at the time, which were used to justify the colonial system, formed part of the curriculum at the universities of Zurich and Geneva.",
+       "check": "verified"
+      },
+      {
+       "reason": "Colonial commodities included silk, tobacco and other overseas products.",
+       "url": "https://www.landesmuseum.ch/en/exhibitions/temporary/2024/colonial/colonial-content",
+       "quote": "Swiss merchants began trading in so-called colonial wares in the 16th century: among them silk, spices, tobacco, and tea from overseas.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3792397,
+      "lon": 8.5407019,
+      "query": "Museumstrasse 2, 8001 Zürich",
+      "qid": "Q691896",
+      "osm": "Landesmuseum, 2, Museumstrasse, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8021, Schweiz / Suiss"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Ethnographic Museum of the University of Zurich",
+     "address": "Pelikanstrasse 40, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The museum's collections and exhibitions provide an opportunity to examine colonial histories of ethnographic collecting and representation.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/erinnerungskultur/koloniales-erbe.html",
+       "quote": "Die Stadt Zürich möchte sich verstärkt mit ihrer kolonialen Vergangenheit und deren Auswirkungen bis in die Gegenwart befassen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The history of Zurich's academic institutions includes participation in colonial racial theories.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "And the racial theories prevalent at the time, which were used to justify the colonial system, formed part of the curriculum at the universities of Zurich and Geneva.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3708264,
+      "lon": 8.5343297,
+      "query": "Pelikanstrasse 40, 8001 Zürich",
+      "qid": "Q2536345",
+      "osm": "Völkerkundemuseum der Universität Zürich, 40, Pelikanstrasse, City, Altstadt, Zürich, Bezirk Zürich,"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Belvoirpark",
+     "address": "Seestrasse 125, 8002 Zürich",
+     "reasons": [
+      {
+       "reason": "The park is included as a stop on the Zurich colonial-history walking tour.",
+       "url": "https://www.zh-kolonial.ch/",
+       "quote": "Ein Stadtrundgang durch Zürichs koloniale Vergangenheit",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.357737,
+      "lon": 8.5333512,
+      "query": "Seestrasse 125, 8002 Zürich",
+      "qid": null,
+      "osm": "125, Seestrasse, Enge, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8002, Schweiz / Suisse / Svizzera / S"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Villa Sumatra",
+     "address": "Sumatrastrasse, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The villa was constructed using the fortune of a Swiss plantation owner who had worked in the Dutch East Indies.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "In 1881 he bought his own estate and named it after his wife Mary.",
+       "check": "verified"
+      },
+      {
+       "reason": "The National Museum documents the connection between Swiss plantation fortunes and Zurich's residential architecture.",
+       "url": "https://www.landesmuseum.ch/colonial",
+       "quote": "He sold up in 1893, and with his fortune he had Villa Sumatra built in what is now Zurich’s Sumatrastrasse.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3818281,
+      "lon": 8.5430853,
+      "query": "Sumatrastrasse, 8006 Zürich",
+      "qid": "Q27324637",
+      "osm": "Sumatrastrasse, Unterstrass, Kreis 6, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suisse / Svizze"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q23642627",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rote Fabrik (former Seidenweberei Henneberg)",
+     "address": "Seestrasse 407, 8038 Zürich",
+     "reasons": [
+      {
+       "reason": "The building was originally a silk-weaving factory and is a surviving example of Zurich's textile industrialisation.",
+       "url": "https://www.stadt-zuerich.ch/de/planen-und-bauen/portfolio/bauten-anlagen/kulturbauten/rote-fabrik.html",
+       "quote": "Die Rote Fabrik – ursprünglich Seidenweberei Henneberg – war das erste repräsentative Fabrikgebäude in Wollishofen.",
+       "check": "verified"
+      },
+      {
+       "reason": "The factory complex was built during the late nineteenth-century expansion of textile manufacturing.",
+       "url": "https://www.stadt-zuerich.ch/de/planen-und-bauen/portfolio/bauten-anlagen/kulturbauten/rote-fabrik.html",
+       "quote": "Der am Wasser gelegene Fabrikkomplex entstand Ende des 19. Jahrhunderts im Zuge der textilen Industrialisierung.",
+       "check": "verified"
+      },
+      {
+       "reason": "The factory architecture preserves the industrial heritage of Zurich's silk industry.",
+       "url": "https://www.stadt-zuerich.ch/de/planen-und-bauen/portfolio/bauten-anlagen/kulturbauten/rote-fabrik.html",
+       "quote": "Die Gebäude des Fabrikensembles sind als Skelettbauten mit Backsteinverblendung typische Vertreter der späthistorisch – eklektischen Architektur der 1890er-Jahre in Zürich.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3431217,
+      "lon": 8.5361265,
+      "query": "Seestrasse 407, 8038 Zürich",
+      "qid": null,
+      "osm": "407, Seestrasse, Wollishofen, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8038, Schweiz / Suisse / Svizz"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Former Hauser & Biedermann Silk Twisting Mill",
+     "address": "Bändlistrasse 86, 88 and 114a, 8049 Zürich",
+     "reasons": [
+      {
+       "reason": "The site preserves a nineteenth-century silk-twisting factory and associated factory owner's residence.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/aktuell/publikationen/2026/isos-inventaergaenzung/inventaergaenzung-isos.pdf",
+       "quote": "Das Fabrikgebäude der Seidenzwirnerei Hauser & Biedermann und das zugehörige Fabrikantenwohnhaus entstanden um 1865 anstelle einer älteren Pulvermühle.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The owners operated additional silk-processing and production businesses.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/aktuell/publikationen/2026/isos-inventaergaenzung/inventaergaenzung-isos.pdf",
+       "quote": "Die Seidenhersteller Hauser & Biedermann waren im Besitz weiterer Betriebe in der Seidenverarbeitung und -produktion.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The preserved industrial complex is recognised as evidence of Zurich's industrial history.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/aktuell/publikationen/2026/isos-inventaergaenzung/inventaergaenzung-isos.pdf",
+       "quote": "Das gut erhaltene Industrieensemble samt Kanalabschnitt ist ein Zeuge der Industriegeschichte der Stadt Zürich.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 3,
+     "name": "Villa Patumbah",
+     "address": "Zollikerstrasse 128, 8008 Zürich",
+     "reasons": [
+      {
+       "reason": "The villa's owner was a tobacco and plantation entrepreneur whose wealth was connected to overseas trade, providing a useful comparative perspective on the global economic connections of Zurich's industrial bourgeoisie.",
+       "url": "https://www.heimatschutzzentrum.ch/en/offer/villa-and-park",
+       "quote": "The merchant Carl Fürchtegott Grob had Villa Patumbah built in 1885 by the well-known Zurich architects Alfred Chiodera and Theophil Tschudy.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3569063,
+      "lon": 8.5596816,
+      "query": "Zollikerstrasse 128, 8008 Zürich",
+      "qid": "Q1588172",
+      "osm": "Villa Patumbah, 128, Zollikerstrasse, Weinegg, Kreis 8, Zürich, Bezirk Zürich, Zürich, 8008, Schweiz"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q1260003",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Platzspitz Park (Needle Park)",
+     "address": "Platzspitz, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The park became an internationally notorious open drug scene during the 1980s and early 1990s.",
+       "url": "https://www.zuerich.com/en/visit/nature/platzspitz-park",
+       "quote": "Unfortunately, the park gained notoriety in the 1990s when it became a meeting place for drug addicts from all over the world.",
+       "check": "verified"
+      },
+      {
+       "reason": "Thousands of drug users and dealers gathered there daily.",
+       "url": "https://www.zuerich.com/en/visit/nature/platzspitz-park",
+       "quote": "At times, up to 3,000 dealers and drug users gathered in the Platzspitz every day.",
+       "check": "verified"
+      },
+      {
+       "reason": "The site became internationally known as Needle Park.",
+       "url": "https://www.zuerich.com/en/visit/nature/platzspitz-park",
+       "quote": "These tragic circumstances led to it becoming known internationally as “Needle Park”.",
+       "check": "verified"
+      },
+      {
+       "reason": "The closure and redevelopment of the park in 1992 marked a significant turning point in Zurich's drug policy.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1992: Der Platzspitz wird geschlossen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3812843,
+      "lon": 8.540001,
+      "query": "Platzspitz, 8006 Zürich",
+      "qid": null,
+      "osm": "Platzspitz, 9, Platzpromenade, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8031, Schweiz / Suisse"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Oberer Letten (former Letten railway station and open drug scene)",
+     "address": "Wasserwerkstrasse, 8006 Zürich",
+     "reasons": [
+      {
+       "reason": "The Letten area became the successor to the Platzspitz open drug scene after the park closed.",
+       "url": "https://www.zuerich.com/en/visit/nature/platzspitz-park",
+       "quote": "However, addicts then congregated on the site of the unused Letten train station (now Oberer Letten), where the open drug scene continued until 1995.",
+       "check": "verified"
+      },
+      {
+       "reason": "The city experienced a second major open drug scene at the former railway station.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1993: Es bildet sich eine neue offene Drogenszene am stillgelegten Bahnhof Letten.",
+       "check": "verified"
+      },
+      {
+       "reason": "The closure of the Letten drug scene marked a decisive moment in the transformation of Zurich's addiction policy.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1995: Die offene Drogenszene am Letten wird geschlossen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3830073,
+      "lon": 8.5403433,
+      "query": "Wasserwerkstrasse, 8006 Zürich",
+      "qid": "Q27330279",
+      "osm": "Wasserwerkstrasse, Unterstrass, Kreis 6, Zürich, Bezirk Zürich, Zürich, 8006, Schweiz / Suisse / Svi"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich's former controlled drug-consumption facilities (Fixerstübli)",
+     "address": "Various locations in Zurich",
+     "reasons": [
+      {
+       "reason": "Zurich introduced controlled consumption rooms as a harm-reduction measure in 1987.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1987: Das Sozialdepartement eröffnet «Fixerstübli» (kontrollierte Konsumräume), um die gesundheitlichen Risiken des Drogenkonsums zu reduzieren und die öffentliche Ordnung zu wahren.",
+       "check": "verified"
+      },
+      {
+       "reason": "The initial facilities operated in converted trolleybuses at changing locations.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "Vorerst sind die «Fixerstübli» in umgebauten Trolleybussen mit wechselnden Standorten.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 4,
+     "name": "Zurich's drug-policy history (municipal policy and harm-reduction development)",
+     "address": "City of Zurich, various locations",
+     "reasons": [
+      {
+       "reason": "Zurich introduced a four-pillar drug policy combining prevention, treatment, harm reduction and repression in 1994.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1994: Einführung des Vier-Säulen-Modells (Prävention, Therapie, Schadensminderung, Repression).",
+       "check": "verified"
+      },
+      {
+       "reason": "The four-pillar model became the foundation of Zurich's drug policy.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "Das Vier-Säulen-Modell wird zur Grundlage der Zürcher Drogenpolitik.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "Zurich experimented with controlled heroin distribution in the early 1990s.",
+       "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik/geschichte-drogenpolitik.html",
+       "quote": "1993: Erste Versuche kontrollierter Heroinabgabe.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    }
+   ]
+  },
+  {
+   "interest_id": "Q846047",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The venue was founded in 1916 by Hugo Ball and Emmy Hennings and became the birthplace of Dada.",
+       "url": "https://www.zuerich.com/en/visit/culture/cabaret-voltaire",
+       "quote": "Hugo Ball and Emmy Hennings founded the Cabaret Voltaire in the middle of Zurich’s Old Town in 1916.",
+       "check": "verified"
+      },
+      {
+       "reason": "Its performances brought together music, literature, dance and visual art.",
+       "url": "https://www.zuerich.com/en/visit/culture/cabaret-voltaire",
+       "quote": "In the middle of the First World War, Dada awakened the desire to question the present with new and surprising forms of artistic performance, expressed through music, literature, dance, and painting.",
+       "check": "verified"
+      },
+      {
+       "reason": "It was a meeting place for musicians, performers and artists challenging conventional artistic forms.",
+       "url": "https://www.zuerich.com/sites/default/files/download/2025/2507_Research%20Text_Zurich%27s%20History_EN.pdf",
+       "quote": "Artists, musicians, dancers and literati met here and called all existing forms of art into question.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3716594,
+      "lon": 8.5440651,
+      "query": "Spiegelgasse 1, 8001 Zürich",
+      "qid": "Q661745",
+      "osm": "Cabaret Voltaire, 1, Spiegelgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Tonhalle Zürich",
+     "address": "Claridenstrasse 7, 8002 Zürich",
+     "reasons": [
+      {
+       "reason": "The Tonhalle has been the home of the Tonhalle Orchestra since 1895.",
+       "url": "https://www.tonhalle-orchester.org/en/about-us/tonhalle-zuerich/",
+       "quote": "The Tonhalle Zürich has been the home of the Tonhalle-Orchester Zürich since 1895.",
+       "check": "verified"
+      },
+      {
+       "reason": "Its inauguration featured conductors Friedrich Hegar and Johannes Brahms.",
+       "url": "https://www.tonhalle-orchester.ch/en/home-tz/konzerthaus/tonhalle-zuerich/",
+       "quote": "The inaugural concerts were conducted by Friedrich Hegar, Chief Conductor at the time, and the composer Johannes Brahms.",
+       "check": "verified"
+      },
+      {
+       "reason": "The orchestra's origins go back to the foundation of a permanent professional musical organisation in 1868.",
+       "url": "https://tonhalleorchester.ch/en/orchester/geschichte/",
+       "quote": "After the Swiss Music Festival held in Zurich in 1867, interested parties succeeded in harnessing audiences’ enthusiasm to found a public limited company in 1868 with the aim of promoting musical life with a permanent orchestra: the Tonhalle-Gesellschaft Zürich, which continues to support the Tonhalle-Orchester Zürich to this day and is organised as a public limited company.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3661509,
+      "lon": 8.5380193,
+      "query": "Claridenstrasse 7, 8002 Zürich",
+      "qid": null,
+      "osm": "7, Claridenstrasse, Enge, Kreis 2, Zürich, Bezirk Zürich, Zürich, 8002, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Zurich Opera House",
+     "address": "Falkenstrasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Opera House originated with the Aktientheater, which opened in 1834 with Mozart's The Magic Flute.",
+       "url": "https://www.opernhaus.ch/en/opernhaus-zuerich/history-and-architecture/",
+       "quote": "The history of Zurich Opera House begins with the «Actien-Theater» (shares theatre), which opened in 1834 with Mozart’s «Zauberflöte».",
+       "check": "verified"
+      },
+      {
+       "reason": "The present building was inaugurated in 1891 with Wagner's Lohengrin.",
+       "url": "https://www.opernhaus.ch/en/opernhaus-zuerich/history-and-architecture/",
+       "quote": "It was inaugurated with Wagner’s «Lohengrin» under the name of «Stadttheater» (town theatre) in 1891.",
+       "check": "verified"
+      },
+      {
+       "reason": "The institution has played an important role in Zurich's opera and orchestral history.",
+       "url": "https://www.opernhaus.ch/en/orchester-der-oper-zuerich/",
+       "quote": "Founding of the Tonhalle-Orchester Zürich, which played both symphonic concerts and operatic performances through 1944.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3647459,
+      "lon": 8.546391,
+      "query": "Falkenstrasse 1, 8001 Zürich",
+      "qid": null,
+      "osm": "1, Falkenstrasse, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8008, Schweiz / Suisse / Svi"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Former Aktientheater site (today Zurich Obergericht)",
+     "address": "Hirschengraben 15, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The original Aktientheater was an important performance venue where Richard Wagner conducted operas.",
+       "url": "https://www.opernhaus.ch/en/orchester-der-oper-zuerich/",
+       "quote": "Richard Wagner conducted performances here in the early 1850s, including his own Der fliegende Holländer and Tannhäuser.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The venue was the starting point of Zurich's permanent theatre and orchestral traditions.",
+       "url": "https://www.opernhaus.ch/en/opernhaus-zuerich/history-and-architecture/",
+       "quote": "Zurich’s first permanent theatre, it was established in the form of a joint stock company by theatre-loving citizens.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3719797,
+      "lon": 8.5468166,
+      "query": "Hirschengraben 15, 8001 Zürich",
+      "qid": "Q2009690",
+      "osm": "Obergericht, 15, Hirschengraben, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Hotel Baur au Lac",
+     "address": "Talstrasse 1, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "Richard Wagner presented the first public reading of his complete Ring poem at the hotel.",
+       "url": "https://www.zuerich.com/en/richard-wagner",
+       "quote": "He also gave the first public reading of his complete Ring poem in the Hotel Baur au Lac.",
+       "check": "verified"
+      },
+      {
+       "reason": "The hotel was an important gathering place for Wagner and his musical and intellectual circle.",
+       "url": "https://www.thezurichaffair.com/copy-of-zurich-wagner-locationsbbc54dbc",
+       "quote": "The hotel was venue and meeting place of the Wagner circle for over seven years.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3671121,
+      "lon": 8.5393433,
+      "query": "Talstrasse 1, 8001 Zürich",
+      "qid": "Q811691",
+      "osm": "Hotel Baur au Lac, 1, Talstrasse, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Sui"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Casino / former Zurich Concert Hall",
+     "address": "Hirschengraben 13, 8001 Zürich",
+     "reasons": [
+      {
+       "reason": "The Casino was Zurich's principal concert hall until 1867.",
+       "url": "https://www.thezurichaffair.com/copy-of-zurich-wagner-locationsbbc54dbc",
+       "quote": "until 1867 the only concert hall in Zurich",
+       "check": "verified"
+      },
+      {
+       "reason": "Richard Wagner conducted subscription concerts there between 1850 and 1855.",
+       "url": "https://www.thezurichaffair.com/copy-of-zurich-wagner-locationsbbc54dbc",
+       "quote": "Wagner directed numerous subscription concerts of the Allgemeine Musikgesellschaft (AMG) from 1850 to 1855, amongst others Beethoven’s symphonies, works of Weber, Mozart and Gluck.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3716004,
+      "lon": 8.5468917,
+      "query": "Hirschengraben 13, 8001 Zürich",
+      "qid": null,
+      "osm": "13, Hirschengraben, Hochschulen, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / S"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q23498",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Lindenhof Archaeological Site and Lindenhof-Keller",
+     "address": "Lindenhof, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Roman settlement and military fortification.",
+       "url": "https://www.stadt-zuerich.ch/lindenhof",
+       "quote": "Zuerst als keltische Siedlung nachgewiesen, wurde der Lindenhof ab 15 v. Chr. zum römischen Militärstützpunkt.",
+       "check": "verified"
+      },
+      {
+       "reason": "Remains of medieval royal palaces.",
+       "url": "https://zuercher-museen.ch/museen/archaeologische-fenster",
+       "quote": "Im Keller auf dem Lindenhof, einst Brennpunkt und Machtzentrum der städtischen Siedlung, können heute die Reste des römischen Kastells und der mittelalterlichen Königspfalz besichtigt werden.",
+       "check": "verified"
+      },
+      {
+       "reason": "Archaeological remains of medieval and Roman buildings.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/archaeologie/stadt/ausgrabungen-bauuntersuchungen/lindenhof.html",
+       "quote": "Im Mittelalter standen auf dem Lindenhof grosse Pfalzgebäude, in denen Könige und Kaiser residierten.",
+       "check": "verified"
+      },
+      {
+       "reason": "Roman tombstone recording the ancient name of Zurich, Turicum.",
+       "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+       "quote": "To this day, a tombstone dating from 180 AD can be found on the way up to the Lindenhof.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729964,
+      "lon": 8.5407992,
+      "query": "Lindenhof, 8001 Zürich, Switzerland",
+      "qid": "Q39374",
+      "osm": "Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Thermengasse Roman Baths",
+     "address": "Thermengasse, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Preserved archaeological remains of Roman thermal baths.",
+       "url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+       "quote": "In 1983, during renovation work on a toyshop, the remains of ancient Roman baths were discovered, thus putting Zürich's history in a new light.",
+       "check": "verified"
+      },
+      {
+       "reason": "The remains can be viewed in situ through a protective metal grating.",
+       "url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+       "quote": "The baths were excavated and can now be viewed around the clock through a metal grating.",
+       "check": "verified"
+      },
+      {
+       "reason": "Evidence of Roman public bathing and social life.",
+       "url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+       "quote": "The thermal baths were heated and formed a central meeting place for the public at large – at least until the Romans withdrew from Zürich in 405 / 406 A.D.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3712922,
+      "lon": 8.5412393,
+      "query": "Thermengasse, 8001 Zürich, Switzerland",
+      "qid": "Q27329808",
+      "osm": "Thermengasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera "
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Parkhaus Opéra Archaeological Window",
+     "address": "Parkhaus Opéra, Sechseläutenplatz, 8008 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Archaeological remains from prehistoric pile-dwelling settlements and Zurich's earlier history.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "In so-called Archäologische Fenster (archaeological windows), the Department of City Planning shows treasures from Zurich’s past, such as the ruins of a Roman fort, the remains of prehistoric pile dwellings, and the Ehgraben sewer, which reveals how a medieval town dealt with its waste and sewage problems.",
+       "check": "verified"
+      },
+      {
+       "reason": "One of the publicly accessible archaeological exhibitions in the city.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "Most of these “windows” are open to the public free of charge – such as the one in the Parkhaus Opéra underground garage at Sechseläutenplatz and the small exhibition in the Thermengasse.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 4,
+     "name": "Ehgraben Archaeological Window",
+     "address": "Ehgraben, Zurich Old Town, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Preserved medieval sewer illustrating medieval waste disposal and sanitation.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "In so-called Archäologische Fenster (archaeological windows), the Department of City Planning shows treasures from Zurich’s past, such as the ruins of a Roman fort, the remains of prehistoric pile dwellings, and the Ehgraben sewer, which reveals how a medieval town dealt with its waste and sewage problems.",
+       "check": "verified"
+      },
+      {
+       "reason": "The site provides evidence of medieval everyday life and urban infrastructure.",
+       "url": "https://zuercher-museen.ch/museen/archaeologische-fenster",
+       "quote": "Und ein Gang durch den schmalen Ehgraben zeigt, wie im Spätmittelalter mit Abfällen aus den Küchen und Latrinen entsorgt wurden.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 5,
+     "name": "Brunngasse Archaeological Window",
+     "address": "Brunngasse, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Archaeological remains associated with a medieval Jewish house.",
+       "url": "https://www.myswitzerland.com/en-ch/experiences/archaeologische-fenster-1/",
+       "quote": "The spectrum of archaeological windows ranges from the pile dwellers and the ruins of the Roman fort to a view of a medieval Jewish house and the moat, which illustrates the waste and sewage problems of a medieval town.",
+       "check": "verified"
+      },
+      {
+       "reason": "One of the designated archaeological windows in Zurich's Old Town.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "However, a key is needed to visit the Ehgraben, Lindenhof-Keller, Stadtmauerkeller, and Brunngasse.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.373199,
+      "lon": 8.5443574,
+      "query": "Brunngasse, 8001 Zürich, Switzerland",
+      "qid": "Q27325685",
+      "osm": "Brunngasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Sv"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Stadtmauerkeller Archaeological Window",
+     "address": "Zurich Old Town, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Archaeological remains relating to the medieval city's fortifications.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "In so-called Archäologische Fenster (archaeological windows), the Department of City Planning shows treasures from Zurich’s past, such as the ruins of a Roman fort, the remains of prehistoric pile dwellings, and the Ehgraben sewer, which reveals how a medieval town dealt with its waste and sewage problems.",
+       "check": "verified"
+      },
+      {
+       "reason": "An officially designated archaeological exhibition in the Old Town.",
+       "url": "https://www.zuerich.com/en/visit/attractions/archaeological-windows",
+       "quote": "However, a key is needed to visit the Ehgraben, Lindenhof-Keller, Stadtmauerkeller, and Brunngasse.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": null
+    },
+    {
+     "rank": 7,
+     "name": "Fraumünster Archaeological Crypt",
+     "address": "Münsterhof 2, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Archaeological and historical interpretation of the church and its medieval past.",
+       "url": "https://zuercher-museen.ch/en/museums/altstadtkirchen-ln",
+       "quote": "A multimedia exhibition in the crypt spans 1200 years of city and church history.",
+       "check": "verified"
+      },
+      {
+       "reason": "The church is a former medieval abbey.",
+       "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+       "quote": "Not far from Paradeplatz, this church is known for its magnificent Chagall windows, but its history, too, is worth exploring.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3697153,
+      "lon": 8.5411996,
+      "query": "Münsterhof 2, 8001 Zürich, Switzerland",
+      "qid": "Q690944",
+      "osm": "Fraumünster, 2, Münsterhof, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suis"
+     }
+    },
+    {
+     "rank": 8,
+     "name": "Grossmünster",
+     "address": "Grossmünsterplatz, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Romanesque crypt and medieval ecclesiastical architecture.",
+       "url": "https://zuercher-museen.ch/en/museums/altstadtkirchen-ln",
+       "quote": "From archaeology to contemporary art: the Grossmünster fascinates with its Romanesque crypt, the Zurich Bible in the Scripture Collection and the stained-glass windows by Augusto Giacometti and Sigmar Polke.",
+       "check": "verified"
+      },
+      {
+       "reason": "The church's historical significance is accessible through guided tours.",
+       "url": "https://zuercher-museen.ch/en/museums/altstadtkirchen-ln",
+       "quote": "The rich history of the churches in the old town is made accessible to an interested public in regular guided tours.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3700869,
+      "lon": 8.5435835,
+      "query": "Grossmünsterplatz, 8001 Zürich, Switzerland",
+      "qid": null,
+      "osm": "Grossmünsterplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizze"
+     }
+    }
+   ]
+  },
+  {
+   "interest_id": "Q483453",
+   "interest": null,
+   "places": [
+    {
+     "rank": 1,
+     "name": "Amazonenbrunnen",
+     "address": "Strehlgasse 33, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "One of Zurich's oldest public fountains, dating from approximately 1430.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Er wurde vermutlich 1430 in Betrieb genommen.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "An early example of a fountain regarded as public artwork as well as a functional water source.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Bemerkenswert ist, dass der Amazonenbrunnen erstmals nicht nur der profanen Nutzung diente, sondern zugleich als öffentliches Kunstwerk betrachtet wurde.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The fountain is historically recognized as Zurich's first public running fountain.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2013/04/130419a.html",
+       "quote": "Der Rundgang führt vorbei am Amazonenbrunnen am Rennweg, der seit 1430 aktenkundig ist und als erster öffentlicher Laufbrunnen galt.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3721889,
+      "lon": 8.540362,
+      "query": "Strehlgasse 33, 8001 Zürich, Switzerland",
+      "qid": null,
+      "osm": "33, Strehlgasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizze"
+     }
+    },
+    {
+     "rank": 2,
+     "name": "Lindenhofbrunnen",
+     "address": "Lindenhof, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Historic fountain constructed in 1667.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Er wurde im Jahr 1667 im Zusammenhang mit der Pumpanlage an der Limmat und dem an der Mauer stehenden Reservoirhäuschen gebaut.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain features a historical female warrior figure associated with a Zurich legend dating from 1292.",
+       "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/park-und-gruenanlagen/lindenhof.html",
+       "quote": "Die Figur von Gustav Siber (1864–1927) erinnert an die Legende der tapferen Zürcherinnen, die 1292 in Kampfmontur das Heer von Herzog Albrecht I. von Habsburg abschreckten, indem sie sich auf dem Lindenhof versammelten und so ein kampfkräftiges Heer vortäuschten.",
+       "check": "verified"
+      },
+      {
+       "reason": "A historic fountain and landmark in one of Zurich's most important historical locations.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Brunnen auf dem Lindenhof hat eine bewegte Geschichte.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3729964,
+      "lon": 8.5407992,
+      "query": "Lindenhof, 8001 Zürich, Switzerland",
+      "qid": "Q39374",
+      "osm": "Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svizra"
+     }
+    },
+    {
+     "rank": 3,
+     "name": "Stüssibrunnen",
+     "address": "Stüssihofstatt 10, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Historic fountain probably constructed in 1575.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der vermutlich 1575 errichtete Stüssibrunnen nimmt unter den zahlreichen alten Brunnen eine Sonderstellung ein: Als einziger Zürcher Brunnen ist er mehrfigurig.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The fountain's armoured figure may represent the medieval mayor Rudolf Stüssi.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Ob die Figur tatsächlich den Rudolf Stüssi zeigt, der hier an der Hofstatt gewohnt und 1443 sein Leben im Alten Zürichkrieg verloren hat, ist umstritten.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain has a connection to Swiss literature through Gottfried Keller.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Durch Gottfried Kellers «Grünen Heinrich», wo Keller das Rauschen der nahen Limmat und das Plätschern des Brunnens schildert, gelangte der Stüssibrunnen in die Weltliteratur.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3725278,
+      "lon": 8.5439495,
+      "query": "Stüssihofstatt 10, 8001 Zürich, Switzerland",
+      "qid": null,
+      "osm": "10, Stüssihofstatt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizz"
+     }
+    },
+    {
+     "rank": 4,
+     "name": "Napfbrunnen",
+     "address": "Napfgasse 7, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "Historic fountain dating back to at least 1576.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Seit 1576 stand der Brunnen über 300 Jahre lang vor dem mittelalterlichen Brunnenzentrum am Napfplatz.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain occupies an historically important square in the medieval Old Town.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Ort war ein bedeutender Altstadtplatz.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain retains a sculptural figure dating from 1937.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Die heutige Brunnenfigur stammt aus dem Jahr 1937.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3715235,
+      "lon": 8.5441993,
+      "query": "Napfgasse 7, 8001 Zürich, Switzerland",
+      "qid": "Q27326111",
+      "osm": "Napfgasse, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Svi"
+     }
+    },
+    {
+     "rank": 5,
+     "name": "Hechtplatzbrunnen",
+     "address": "Hechtplatz, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The location had a simple wooden fountain trough as early as 1413.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Hechtplatz war einst eine kleine Limmatbucht, wo sich bereits 1413 ein einfacher Holztrog befand.",
+       "check": "not_on_page"
+      },
+      {
+       "reason": "The present fountain was constructed in 1760.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der heutige Brunnen entstand 1760.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain is decorated with a sculptural figure of a young man observing a pike.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Auf dem korinthischen Kapitell steht ein Jüngling, der seinen an Land gezogenen Hecht zufrieden betrachtet.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3684617,
+      "lon": 8.5445367,
+      "query": "Hechtplatz, 8001 Zürich, Switzerland",
+      "qid": "Q27330007",
+      "osm": "Hechtplatz, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8024, Schweiz / Suisse / Svizzera / Sv"
+     }
+    },
+    {
+     "rank": 6,
+     "name": "Herkulesbrunnen",
+     "address": "Bahnhofstrasse / Rennweg, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The fountain is documented historically from 1566.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Herkulesbrunnen ist 1566 erstmals geschichtlich erwähnt.",
+       "check": "verified"
+      },
+      {
+       "reason": "Its distinctive architectural design differs from the commonly used baluster-column design of Swiss fountains.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Von architektonischem Interesse ist, dass der Brunnen statt der in der Schweiz fast durchwegs üblichen Balustersäule einen mit Blattwerk profilierten Pfeiler aufweist.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain has a distinctive sandstone pillar.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Pfeiler wurde aus Sandstein aus Bargazoo gefertigt.",
+       "check": "not_on_page"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3740096,
+      "lon": 8.5386056,
+      "query": "Herkulesbrunnen, Zürich",
+      "qid": "Q27132067",
+      "osm": "Herkulesbrunnen, Bahnhofstrasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz /"
+     }
+    },
+    {
+     "rank": 7,
+     "name": "Jupiterbrunnen",
+     "address": "Neumarkt, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The fountain features a sculpture of the goddess Nike.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2010/04/100414a.html",
+       "quote": "Am Rindermarkt im Niederdorf erfährt man, warum auf dem Jupiterbrunnen die Göttin Nike thront.",
+       "check": "verified"
+      },
+      {
+       "reason": "It is included in the city's historical fountain tour, which introduces the cultural and historical significance of Zurich's fountains.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2010/04/100414a.html",
+       "quote": "Die Wasserversorgung möchte der Zürcher Bevölkerung auf einer Brunnentour Wissenswertes zur Geschichte und Kultur der Brunnen vermitteln.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.372475,
+      "lon": 8.5456607,
+      "query": "Neumarkt, 8001 Zürich, Switzerland",
+      "qid": "Q18391860",
+      "osm": "Neumarkt, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Sviz"
+     }
+    },
+    {
+     "rank": 8,
+     "name": "Fischmarktbrunnen / Samsonbrunnen",
+     "address": "Limmatquai 46–48, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The fountain was an emblem of the fishermen's guild in the 16th century.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2010/04/100414a.html",
+       "quote": "Die spannende Zeitreise bringt die Besucherinnen und Besucher aber auch auf die Stüssihofstatt zum einzigen mehrfarbigen Brunnen und an das Limmatquai zum Fischmarkt-/Samsonbrunnen, der im 16. Jahrhundert das Wahrzeichen der Fischerzunft darstellte.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain is an important stop on the city's historical fountain tour.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2015/04/150430a.html",
+       "quote": "Abschluss: 19.30 Uhr Fischmarktbrunnen am Limmatquai 42",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3708824,
+      "lon": 8.5429932,
+      "query": "Limmatquai 46–48, 8001 Zürich, Switzerland",
+      "qid": "Q1658559",
+      "osm": "Limmatquai, Rathaus, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / Sv"
+     }
+    },
+    {
+     "rank": 9,
+     "name": "Winzerbrunnen",
+     "address": "Weinplatz, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The fountain is part of Zurich's historic fountain heritage and is included in the city's historical fountain tour.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2012/04/120427a.html",
+       "quote": "Die spannende Zeitreise geht dann zum Fischmarkt-/Samsonbrunnen, der im 16. Jahrhundert das Wahrzeichen der Fischerzunft darstellte.",
+       "check": "verified"
+      },
+      {
+       "reason": "The Winzerbrunnen is specifically identified as a stop on the historical fountain route.",
+       "url": "https://www.stadt-zuerich.ch/misc/de/mitteilungsarchiv/medienmitteilungen/2012/04/120427a.html",
+       "quote": "Auf der anderen Limmatseite führt die Tour am Winzerbrunnen vorbei zum ersten öffentlichen Laufbrunnen.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3714495,
+      "lon": 8.5416947,
+      "query": "Weinplatz, 8001 Zürich, Switzerland",
+      "qid": "Q14545051",
+      "osm": "Weinplatz, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera / S"
+     }
+    },
+    {
+     "rank": 10,
+     "name": "Junobrunnen",
+     "address": "Züghusplatz, 8001 Zürich, Switzerland",
+     "reasons": [
+      {
+       "reason": "The fountain dates from 1872 and depicts Juno, the Roman goddess of marriage and family.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Juno, Gattin des Jupiters und Göttin der Ehe und der Familie, wurde von den Römern jeweils am 14. Februar geehrt.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain has a documented nineteenth-century origin and underwent artistic restoration in 1995.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "Der Junobrunnen stammt aus dem Jahr 1872.",
+       "check": "verified"
+      },
+      {
+       "reason": "The fountain's sculptural figure and column were renewed by Zurich artists.",
+       "url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-1.pdf",
+       "quote": "1995 erneuerte der Zürcher Bildhauer Romano Fenaroli die Figur und der Bildhauer Horst Bohnet die Brunnensäule.",
+       "check": "verified"
+      }
+     ],
+     "origin": "model",
+     "geo": {
+      "lat": 47.3701686,
+      "lon": 8.5396045,
+      "query": "Züghusplatz, 8001 Zürich, Switzerland",
+      "qid": "Q27321135",
+      "osm": "Züghusplatz, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz / Suisse / Svizzera /"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5808 @@
+{
+ "rows": {
+  "R001": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q1542522",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R002": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1584657",
+   "place_id": "Q684773",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R003": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R004": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R005": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q27229975",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R006": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R007": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "geo:47.3700869,8.5435835",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R008": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R009": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q2415934",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R010": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q188494",
+   "place_id": "geo:47.3966765,8.5486347",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R011": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R012": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R013": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "327472",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R014": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R015": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q39374",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R016": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R017": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q22909689",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R018": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R019": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1542522",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R020": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q123075",
+   "place_id": "Q670406",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R021": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R022": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:47.3749686,8.532081",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R023": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R024": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R025": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "geo:47.3700869,8.5435835",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R026": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q577131",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R027": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R028": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "geo:47.3812843,8.540001",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R029": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q673575",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R030": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "geo:47.378841,8.4982581",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R031": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "168166",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R032": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R033": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q577131",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R034": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q7167",
+   "place_id": "Q2536345",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R035": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "Q110194277",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R036": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R037": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115569",
+   "place_id": "Q816289",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R038": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q9315546",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R039": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q2415934",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R040": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q15108152",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R041": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "192283",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R042": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q1014319",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R043": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R044": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R045": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27325685",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R046": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1279400",
+   "place_id": "Q29574360",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R047": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q122370",
+   "place_id": "280788",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R048": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q15108152",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R049": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R050": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1279400",
+   "place_id": "Q39374",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R051": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "geo:47.3698565,8.5431624",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R052": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1260003",
+   "place_id": "Q1711342",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R053": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "Q689762",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R054": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R055": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R056": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q124949",
+   "place_id": "geo:47.3746371,8.5490938",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R057": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R058": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R059": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R060": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1383821",
+   "place_id": "Q27321035",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R061": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q27325590",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R062": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R063": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "geo:47.3812843,8.540001",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R064": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R065": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q124408",
+   "place_id": "3703",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R066": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R067": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "168166",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R068": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27329808",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R069": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "Q689762",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R070": {
+   "lists": [
+    "C1_nami",
+    "hybrid_gpt_run1",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "327472",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R071": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R072": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1260003",
+   "place_id": "Q27330279",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R073": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q115569",
+   "place_id": "Q27330560",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R074": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q937",
+   "place_id": "geo:47.3755274,8.5556312",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R075": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R076": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q24906109",
+   "place_id": "bt_173",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R077": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R078": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "geo:47.3627544,8.5611087",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R079": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1411919",
+   "place_id": "Q690944",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R080": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1279400",
+   "place_id": "Q39374",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R081": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q2648827",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R082": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R083": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q1584657",
+   "place_id": "osm_node_13471089579",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R084": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q7167",
+   "place_id": "1510",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R085": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q18716357",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R086": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "Q110194277",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R087": {
+   "lists": [
+    "C1_nami",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q7167",
+   "place_id": "Q30600276",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R088": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "geo:47.378841,8.4982581",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R089": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1383821",
+   "place_id": "Q684773",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R090": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R091": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q124949",
+   "place_id": "Q27490264",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R092": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q188494",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R093": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R094": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R095": {
+   "lists": [
+    "C1_nami",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q70708571",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R096": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q1457424",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R097": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R098": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q115569",
+   "place_id": "Q124424352",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R099": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R100": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27329808",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R101": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1378316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R102": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q208701",
+   "place_id": "Q689762",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R103": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q27229975",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R104": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q102291634",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R105": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q666565",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R106": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27325685",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R107": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R108": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R109": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R110": {
+   "lists": [
+    "hybrid_gpt_run1",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q43205018",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "wikidata_referenced",
+    "web"
+   ],
+   "expect": null
+  },
+  "R111": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q27328972",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R112": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q39934978",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R113": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R114": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R115": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R116": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q1010900",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R117": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R118": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q670406",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "web",
+    "web",
+    "web"
+   ],
+   "expect": null
+  },
+  "R119": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q58033",
+   "place_id": "Q27327244",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R120": {
+   "lists": [
+    "hybrid_gpt_run1",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "190195",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R121": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R122": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q2415934",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R123": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q684948",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R124": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q24906109",
+   "place_id": "bt_173",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R125": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q666565",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R126": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R127": {
+   "lists": [
+    "hybrid_gpt_run1",
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q43205018",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R128": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R129": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R130": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1260003",
+   "place_id": "Q27330279",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R131": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R132": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q27321035",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R133": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q2415934",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R134": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R135": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R136": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R137": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "geo:47.3746371,8.5490938",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R138": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R139": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q124949",
+   "place_id": "Q167179",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R140": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R141": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q937",
+   "place_id": "Q39934978",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R142": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R143": {
+   "lists": [
+    "hybrid_gpt_run1",
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1542522",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R144": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "1609",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R145": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q39934978",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R146": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R147": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23642627",
+   "place_id": "geo:47.3431217,8.5361265",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R148": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q27327278",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R149": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R150": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "1609",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R151": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R152": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R153": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R154": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q668213",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R155": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R156": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "geo:47.3814916,8.5300518",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R157": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R158": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q14565994",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R159": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R160": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q24906109",
+   "place_id": "Q684948",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R161": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R162": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R163": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R164": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R165": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R166": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R167": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q684948",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R168": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q811691",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R169": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q27321117",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R170": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R171": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R172": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q206702",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R173": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R174": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R175": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R176": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R177": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q15059954",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R178": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q27229991",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R179": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "geo:47.3698565,8.5431624",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R180": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q670406",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R181": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "geo:47.3661509,8.5380193",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R182": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q668300",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R183": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q23642627",
+   "place_id": "Q491344",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R184": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R185": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q188494",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R186": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q14565994",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R187": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R188": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q18716357",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R189": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R190": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R191": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1411919",
+   "place_id": "Q690944",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R192": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115569",
+   "place_id": "Q816289",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R193": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q190260",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R194": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q123839",
+   "place_id": "geo:47.3700869,8.5435835",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R195": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R196": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R197": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q23642627",
+   "place_id": "Q111409733",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R198": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q577131",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R199": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q41532",
+   "place_id": "280833",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R200": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R201": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R202": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R203": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "geo:47.3698494,8.5430379",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R204": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R205": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q690687",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R206": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q670406",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "web",
+    "web",
+    "web"
+   ],
+   "expect": null
+  },
+  "R207": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q39595754",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R208": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23642627",
+   "place_id": "geo:47.3431217,8.5361265",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R209": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R210": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1584657",
+   "place_id": "geo:47.3682941,8.5487438",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R211": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q206702",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R212": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R213": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R214": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R215": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q1411919",
+   "place_id": "Q27324381",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R216": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q1457424",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R217": {
+   "lists": [
+    "llm_gpt_run1",
+    "hybrid_gpt_run1",
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R218": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q670406",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R219": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q27229975",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R220": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q115569",
+   "place_id": "Q27330560",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R221": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "geo:47.3725278,8.5439495",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R222": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q188494",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R223": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "geo:47.3725278,8.5439495",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R224": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q18716357",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R225": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "geo:47.3725278,8.5439495",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R226": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "geo:47.3106265,8.5827786",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R227": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q801700",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R228": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q188494",
+   "place_id": "Q27490235",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R229": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q670406",
+   "reason_kind": "path",
+   "auto": "fails",
+   "source_types": [
+    "web",
+    "web",
+    "web"
+   ],
+   "expect": null
+  },
+  "R230": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q1542522",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R231": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q666565",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R232": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q65038109",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R233": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q671236",
+   "place_id": "Q684948",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R234": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q668300",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R235": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R236": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R237": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q18716357",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R238": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R239": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q24906109",
+   "place_id": "Q768482",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R240": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R241": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q123075",
+   "place_id": "Q27322297",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R242": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115569",
+   "place_id": "geo:47.357737,8.5333512",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R243": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q208701",
+   "place_id": "Q689762",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R244": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R245": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1383821",
+   "place_id": "Q684773",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R246": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1411919",
+   "place_id": "Q690944",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R247": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R248": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R249": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q5518446",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R250": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q27332027",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R251": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1511",
+   "place_id": "Q670406",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R252": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q27229991",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R253": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R254": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R255": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R256": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q483453",
+   "place_id": "Q15059954",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R257": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q43205018",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R258": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q675022",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R259": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R260": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q846047",
+   "place_id": "1011983",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R261": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q188494",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R262": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q27325596",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R263": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q24906109",
+   "place_id": "Q684948",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R264": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "280833",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R265": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q7167",
+   "place_id": "Q2536345",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R266": {
+   "lists": [
+    "llm_gemini_run1",
+    "llm_gemini_run1",
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "geo:47.3677942,8.5451446",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R267": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q2415934",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R268": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R269": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1279400",
+   "place_id": "Q39374",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R270": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q1658559",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R271": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R272": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "Q801700",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R273": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q27328972",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R274": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q11942",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R275": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R276": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q5518446",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R277": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1378316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "city"
+   ],
+   "expect": null
+  },
+  "R278": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q24037808",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R279": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1378316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R280": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R281": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R282": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R283": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q1260003",
+   "place_id": "2495",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R284": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q27324062",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R285": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q1584657",
+   "place_id": "osm_node_10287856888",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R286": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R287": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q937",
+   "place_id": "Q1457378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R288": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115569",
+   "place_id": "geo:47.357737,8.5333512",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R289": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q105015598",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R290": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q208701",
+   "place_id": "geo:47.3749686,8.532081",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R291": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q27490316",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R292": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R293": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q123839",
+   "place_id": "bt_381",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "city"
+   ],
+   "expect": null
+  },
+  "R294": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R295": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R296": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R297": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1542522",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R298": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q37030",
+   "place_id": "Q21517046",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R299": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R300": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23642627",
+   "place_id": "geo:47.3431217,8.5361265",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R301": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q937",
+   "place_id": "Q684773",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R302": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q27326712",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R303": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q937",
+   "place_id": "Q206702",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R304": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q1383821",
+   "place_id": "geo:None,None",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R305": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115569",
+   "place_id": "geo:47.357737,8.5333512",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R306": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q390130",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R307": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R308": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R309": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q104185334",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R310": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q1584657",
+   "place_id": "Q55167899",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R311": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q1383821",
+   "place_id": "Q27490264",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R312": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q27331692",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R313": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1394",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R314": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q20731378",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R315": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q124408",
+   "place_id": "Q18716357",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R316": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R317": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q1542522",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R318": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q14564649",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R319": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q577131",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R320": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q27329972",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R321": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q17897",
+   "place_id": "190195",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R322": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27329808",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R323": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q40313234",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R324": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q675022",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R325": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6882",
+   "place_id": "Q230416",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R326": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q23498",
+   "place_id": "Q27329808",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R327": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q1383821",
+   "place_id": "Q27490264",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R328": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1411919",
+   "place_id": "Q690944",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R329": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q1260003",
+   "place_id": "Q27330279",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R330": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q37030",
+   "place_id": "osm_node_1888030761",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "osm"
+   ],
+   "expect": null
+  },
+  "R331": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q846047",
+   "place_id": "Q43205018",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R332": {
+   "lists": [
+    "dropped"
+   ],
+   "profile": "Q188494",
+   "place_id": "Q27490235",
+   "reason_kind": "web",
+   "auto": "fails",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R333": {
+   "lists": [
+    "C1_nami"
+   ],
+   "profile": "Q122370",
+   "place_id": "Q27229991",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R334": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q661745",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R335": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "Q27322916",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "city"
+   ],
+   "expect": null
+  },
+  "R336": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q675022",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R337": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q6034",
+   "place_id": "Q20731378",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "tourism"
+   ],
+   "expect": null
+  },
+  "R338": {
+   "lists": [
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q123075",
+   "place_id": "Q670406",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_unreferenced"
+   ],
+   "expect": null
+  },
+  "R339": {
+   "lists": [
+    "llm_gemini_run1"
+   ],
+   "profile": "Q41532",
+   "place_id": "Q577131",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R340": {
+   "lists": [
+    "C1_nami",
+    "hybrid_gpt_run1"
+   ],
+   "profile": "Q123839",
+   "place_id": "Q15108152",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_referenced"
+   ],
+   "expect": null
+  },
+  "R341": {
+   "lists": [
+    "llm_gpt_run1"
+   ],
+   "profile": "Q115483",
+   "place_id": "geo:47.378841,8.4982581",
+   "reason_kind": "web",
+   "auto": "holds",
+   "source_types": [
+    "web"
+   ],
+   "expect": null
+  },
+  "R342": {
+   "lists": [
+    "hybrid_gemini_run1"
+   ],
+   "profile": "Q154014",
+   "place_id": "Q675022",
+   "reason_kind": "path",
+   "auto": "holds",
+   "source_types": [
+    "wikidata_unreferenced",
+    "wikidata_referenced"
+   ],
+   "expect": null
+  }
+ },
+ "places": {
+  "C1_nami": [
+   {
+    "profile": "Q23498",
+    "place_id": "Q1010900",
+    "reasons": [
+     "R116"
+    ]
+   },
+   {
+    "profile": "Q115569",
+    "place_id": "Q816289",
+    "reasons": [
+     "R192",
+     "R037"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "327472",
+    "reasons": [
+     "R070"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "280833",
+    "reasons": [
+     "R199"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "Q15108152",
+    "reasons": [
+     "R340"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "Q666565",
+    "reasons": [
+     "R105",
+     "R125",
+     "R231"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "Q14565994",
+    "reasons": [
+     "R186",
+     "R158"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "osm_node_1888030761",
+    "reasons": [
+     "R330"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "Q39934978",
+    "reasons": [
+     "R145"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "Q11942",
+    "reasons": [
+     "R149",
+     "R129",
+     "R175",
+     "R254",
+     "R016",
+     "R012",
+     "R036",
+     "R274",
+     "R099",
+     "R136",
+     "R212",
+     "R176"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q104185334",
+    "reasons": [
+     "R309"
+    ]
+   },
+   {
+    "profile": "Q1584657",
+    "place_id": "Q55167899",
+    "reasons": [
+     "R310"
+    ]
+   },
+   {
+    "profile": "Q24906109",
+    "place_id": "Q684948",
+    "reasons": [
+     "R160",
+     "R263"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "Q27326712",
+    "reasons": [
+     "R302"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "Q39595754",
+    "reasons": [
+     "R207"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "bt_381",
+    "reasons": [
+     "R293"
+    ]
+   },
+   {
+    "profile": "Q122370",
+    "place_id": "Q27229991",
+    "reasons": [
+     "R333",
+     "R252",
+     "R178"
+    ]
+   },
+   {
+    "profile": "Q1260003",
+    "place_id": "2495",
+    "reasons": [
+     "R283"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "Q70708571",
+    "reasons": [
+     "R095"
+    ]
+   },
+   {
+    "profile": "Q23642627",
+    "place_id": "Q491344",
+    "reasons": [
+     "R183"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q5518446",
+    "reasons": [
+     "R276",
+     "R249"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q102291634",
+    "reasons": [
+     "R104"
+    ]
+   },
+   {
+    "profile": "Q24906109",
+    "place_id": "bt_173",
+    "reasons": [
+     "R076",
+     "R124"
+    ]
+   },
+   {
+    "profile": "Q671236",
+    "place_id": "Q668213",
+    "reasons": [
+     "R154"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q1378316",
+    "reasons": [
+     "R279",
+     "R101",
+     "R277"
+    ]
+   },
+   {
+    "profile": "Q124408",
+    "place_id": "3703",
+    "reasons": [
+     "R065"
+    ]
+   },
+   {
+    "profile": "Q7167",
+    "place_id": "1510",
+    "reasons": [
+     "R084"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q40313234",
+    "reasons": [
+     "R308",
+     "R323",
+     "R236",
+     "R113",
+     "R164",
+     "R062",
+     "R008",
+     "R128",
+     "R094",
+     "R134"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "Q206702",
+    "reasons": [
+     "R114",
+     "R071",
+     "R082",
+     "R023",
+     "R138",
+     "R303",
+     "R090",
+     "R171",
+     "R043",
+     "R187"
+    ]
+   },
+   {
+    "profile": "Q7167",
+    "place_id": "Q30600276",
+    "reasons": [
+     "R087"
+    ]
+   }
+  ],
+  "llm_gpt_run1": [
+   {
+    "profile": "Q124408",
+    "place_id": "Q39374",
+    "reasons": [
+     "R015"
+    ]
+   },
+   {
+    "profile": "Q208701",
+    "place_id": "geo:47.3749686,8.532081",
+    "reasons": [
+     "R290",
+     "R022"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "Q577131",
+    "reasons": [
+     "R026",
+     "R198",
+     "R319"
+    ]
+   },
+   {
+    "profile": "Q188494",
+    "place_id": "geo:None,None",
+    "reasons": [
+     "R185",
+     "R092"
+    ]
+   },
+   {
+    "profile": "Q1260003",
+    "place_id": "Q27330279",
+    "reasons": [
+     "R329",
+     "R130",
+     "R072"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q661745",
+    "reasons": [
+     "R238",
+     "R153",
+     "R271",
+     "R109"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q20731378",
+    "reasons": [
+     "R195",
+     "R217"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "geo:47.3746371,8.5490938",
+    "reasons": [
+     "R137"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "geo:47.3725278,8.5439495",
+    "reasons": [
+     "R225",
+     "R221",
+     "R223"
+    ]
+   },
+   {
+    "profile": "Q23642627",
+    "place_id": "geo:47.3431217,8.5361265",
+    "reasons": [
+     "R300",
+     "R147",
+     "R208"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q24037808",
+    "reasons": [
+     "R278"
+    ]
+   },
+   {
+    "profile": "Q124408",
+    "place_id": "Q18716357",
+    "reasons": [
+     "R315",
+     "R224",
+     "R188",
+     "R085",
+     "R237"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "geo:47.378841,8.4982581",
+    "reasons": [
+     "R341",
+     "R088",
+     "R030"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q27329808",
+    "reasons": [
+     "R326",
+     "R322",
+     "R100"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q27325685",
+    "reasons": [
+     "R106",
+     "R045"
+    ]
+   },
+   {
+    "profile": "Q1383821",
+    "place_id": "Q684773",
+    "reasons": [
+     "R089"
+    ]
+   },
+   {
+    "profile": "Q1411919",
+    "place_id": "Q690944",
+    "reasons": [
+     "R246",
+     "R079",
+     "R191",
+     "R328"
+    ]
+   },
+   {
+    "profile": "Q115569",
+    "place_id": "geo:47.357737,8.5333512",
+    "reasons": [
+     "R288",
+     "R305",
+     "R242"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "geo:47.3814916,8.5300518",
+    "reasons": [
+     "R156"
+    ]
+   },
+   {
+    "profile": "Q1279400",
+    "place_id": "Q39374",
+    "reasons": [
+     "R080"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "Q27328972",
+    "reasons": [
+     "R273",
+     "R111"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "geo:47.3627544,8.5611087",
+    "reasons": [
+     "R078"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q27329972",
+    "reasons": [
+     "R320"
+    ]
+   },
+   {
+    "profile": "Q188494",
+    "place_id": "geo:None,None",
+    "reasons": [
+     "R222",
+     "R261"
+    ]
+   },
+   {
+    "profile": "Q208701",
+    "place_id": "geo:None,None",
+    "reasons": [
+     "R108",
+     "R057",
+     "R202"
+    ]
+   },
+   {
+    "profile": "Q1279400",
+    "place_id": "Q39374",
+    "reasons": [
+     "R050",
+     "R269"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "geo:47.3755274,8.5556312",
+    "reasons": [
+     "R074"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "geo:47.3700869,8.5435835",
+    "reasons": [
+     "R007",
+     "R025"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "geo:47.3812843,8.540001",
+    "reasons": [
+     "R063",
+     "R028"
+    ]
+   },
+   {
+    "profile": "Q1511",
+    "place_id": "Q668300",
+    "reasons": [
+     "R182",
+     "R234"
+    ]
+   }
+  ],
+  "llm_gemini_run1": [
+   {
+    "profile": "Q1383821",
+    "place_id": "Q27321035",
+    "reasons": [
+     "R060"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "Q577131",
+    "reasons": [
+     "R033",
+     "R339"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "geo:47.3661509,8.5380193",
+    "reasons": [
+     "R181"
+    ]
+   },
+   {
+    "profile": "Q1394",
+    "place_id": "geo:47.3677942,8.5451446",
+    "reasons": [
+     "R266"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "geo:47.3677942,8.5451446",
+    "reasons": [
+     "R266"
+    ]
+   },
+   {
+    "profile": "Q124949",
+    "place_id": "geo:47.3746371,8.5490938",
+    "reasons": [
+     "R056"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "geo:47.3700869,8.5435835",
+    "reasons": [
+     "R194"
+    ]
+   },
+   {
+    "profile": "Q1511",
+    "place_id": "Q811691",
+    "reasons": [
+     "R168"
+    ]
+   },
+   {
+    "profile": "Q1383821",
+    "place_id": "Q684773",
+    "reasons": [
+     "R245"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "Q675022",
+    "reasons": [
+     "R258"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "Q684773",
+    "reasons": [
+     "R301"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "Q27321117",
+    "reasons": [
+     "R169"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "Q15108152",
+    "reasons": [
+     "R040"
+    ]
+   },
+   {
+    "profile": "Q124949",
+    "place_id": "Q27490264",
+    "reasons": [
+     "R091"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "geo:47.3106265,8.5827786",
+    "reasons": [
+     "R226"
+    ]
+   },
+   {
+    "profile": "Q188494",
+    "place_id": "geo:47.3966765,8.5486347",
+    "reasons": [
+     "R010"
+    ]
+   },
+   {
+    "profile": "Q1584657",
+    "place_id": "Q684773",
+    "reasons": [
+     "R002"
+    ]
+   },
+   {
+    "profile": "Q1584657",
+    "place_id": "geo:47.3682941,8.5487438",
+    "reasons": [
+     "R210"
+    ]
+   },
+   {
+    "profile": "Q1279400",
+    "place_id": "Q29574360",
+    "reasons": [
+     "R046"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q27329808",
+    "reasons": [
+     "R068"
+    ]
+   },
+   {
+    "profile": "Q1383821",
+    "place_id": "Q27490264",
+    "reasons": [
+     "R311"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "Q27332027",
+    "reasons": [
+     "R250"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q690687",
+    "reasons": [
+     "R205"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "geo:47.3677942,8.5451446",
+    "reasons": [
+     "R266"
+    ]
+   },
+   {
+    "profile": "Q208701",
+    "place_id": "Q801700",
+    "reasons": [
+     "R272"
+    ]
+   },
+   {
+    "profile": "Q124949",
+    "place_id": "Q167179",
+    "reasons": [
+     "R139"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "geo:47.3698494,8.5430379",
+    "reasons": [
+     "R203"
+    ]
+   },
+   {
+    "profile": "Q1260003",
+    "place_id": "Q1711342",
+    "reasons": [
+     "R052"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "Q27321035",
+    "reasons": [
+     "R132"
+    ]
+   },
+   {
+    "profile": "Q122370",
+    "place_id": "Q9315546",
+    "reasons": [
+     "R038"
+    ]
+   }
+  ],
+  "hybrid_gpt_run1": [
+   {
+    "profile": "Q1394",
+    "place_id": "Q20731378",
+    "reasons": [
+     "R059",
+     "R294",
+     "R157",
+     "R255",
+     "R097",
+     "R313",
+     "R190"
+    ]
+   },
+   {
+    "profile": "Q124408",
+    "place_id": "Q1658559",
+    "reasons": [
+     "R270"
+    ]
+   },
+   {
+    "profile": "Q1511",
+    "place_id": "Q670406",
+    "reasons": [
+     "R206",
+     "R118",
+     "R229",
+     "R251"
+    ]
+   },
+   {
+    "profile": "Q7167",
+    "place_id": "Q2536345",
+    "reasons": [
+     "R034",
+     "R265"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "1609",
+    "reasons": [
+     "R144",
+     "R150"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "Q15059954",
+    "reasons": [
+     "R256",
+     "R177"
+    ]
+   },
+   {
+    "profile": "Q123075",
+    "place_id": "Q670406",
+    "reasons": [
+     "R338"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q20731378",
+    "reasons": [
+     "R155",
+     "R135",
+     "R003",
+     "R296",
+     "R115",
+     "R316",
+     "R054",
+     "R024",
+     "R201",
+     "R165",
+     "R337",
+     "R006",
+     "R217",
+     "R217"
+    ]
+   },
+   {
+    "profile": "Q154014",
+    "place_id": "Q20731378",
+    "reasons": [
+     "R170",
+     "R209",
+     "R162",
+     "R314"
+    ]
+   },
+   {
+    "profile": "Q208701",
+    "place_id": "geo:None,None",
+    "reasons": [
+     "R173"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "Q230416",
+    "reasons": [
+     "R200",
+     "R295",
+     "R204",
+     "R152",
+     "R282",
+     "R325",
+     "R161"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "Q15108152",
+    "reasons": [
+     "R340"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "geo:47.3698565,8.5431624",
+    "reasons": [
+     "R051",
+     "R179"
+    ]
+   },
+   {
+    "profile": "Q1511",
+    "place_id": "Q27229975",
+    "reasons": [
+     "R219",
+     "R005",
+     "R103"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "Q43205018",
+    "reasons": [
+     "R110",
+     "R127"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "168166",
+    "reasons": [
+     "R031",
+     "R067"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q1542522",
+    "reasons": [
+     "R317",
+     "R019",
+     "R297",
+     "R143"
+    ]
+   },
+   {
+    "profile": "Q6034",
+    "place_id": "Q661745",
+    "reasons": [
+     "R146",
+     "R159",
+     "R240",
+     "R174",
+     "R248",
+     "R004",
+     "R064",
+     "R049",
+     "R044",
+     "R077",
+     "R253",
+     "R307",
+     "R131",
+     "R018",
+     "R334",
+     "R275",
+     "R107",
+     "R027",
+     "R247",
+     "R235"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "190195",
+    "reasons": [
+     "R120",
+     "R321"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "geo:None,None",
+    "reasons": [
+     "R058",
+     "R299"
+    ]
+   },
+   {
+    "profile": "Q671236",
+    "place_id": "Q684948",
+    "reasons": [
+     "R123",
+     "R233",
+     "R167"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "Q110194277",
+    "reasons": [
+     "R086",
+     "R035"
+    ]
+   },
+   {
+    "profile": "Q115569",
+    "place_id": "Q27330560",
+    "reasons": [
+     "R220"
+    ]
+   },
+   {
+    "profile": "Q1383821",
+    "place_id": "Q27490264",
+    "reasons": [
+     "R327"
+    ]
+   },
+   {
+    "profile": "Q6882",
+    "place_id": "Q1542522",
+    "reasons": [
+     "R230",
+     "R001",
+     "R143"
+    ]
+   },
+   {
+    "profile": "Q208701",
+    "place_id": "Q689762",
+    "reasons": [
+     "R069",
+     "R053"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q206702",
+    "reasons": [
+     "R189",
+     "R211"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "Q390130",
+    "reasons": [
+     "R214",
+     "R281",
+     "R213",
+     "R286",
+     "R075",
+     "R121",
+     "R306"
+    ]
+   },
+   {
+    "profile": "Q154014",
+    "place_id": "Q2415934",
+    "reasons": [
+     "R267",
+     "R039",
+     "R122",
+     "R009",
+     "R133"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "327472",
+    "reasons": [
+     "R070",
+     "R013"
+    ]
+   }
+  ],
+  "hybrid_gemini_run1": [
+   {
+    "profile": "Q846047",
+    "place_id": "Q70708571",
+    "reasons": [
+     "R095"
+    ]
+   },
+   {
+    "profile": "Q671236",
+    "place_id": "Q22909689",
+    "reasons": [
+     "R017"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q27322916",
+    "reasons": [
+     "R335"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "280833",
+    "reasons": [
+     "R264"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "Q43205018",
+    "reasons": [
+     "R110",
+     "R127"
+    ]
+   },
+   {
+    "profile": "Q7167",
+    "place_id": "Q30600276",
+    "reasons": [
+     "R087"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "Q27490316",
+    "reasons": [
+     "R163",
+     "R032",
+     "R244",
+     "R117",
+     "R166",
+     "R291"
+    ]
+   },
+   {
+    "profile": "Q41532",
+    "place_id": "Q105015598",
+    "reasons": [
+     "R289"
+    ]
+   },
+   {
+    "profile": "Q123075",
+    "place_id": "Q27322297",
+    "reasons": [
+     "R241"
+    ]
+   },
+   {
+    "profile": "Q115569",
+    "place_id": "Q124424352",
+    "reasons": [
+     "R098"
+    ]
+   },
+   {
+    "profile": "Q671236",
+    "place_id": "Q65038109",
+    "reasons": [
+     "R232"
+    ]
+   },
+   {
+    "profile": "Q1584657",
+    "place_id": "osm_node_10287856888",
+    "reasons": [
+     "R285"
+    ]
+   },
+   {
+    "profile": "Q122370",
+    "place_id": "280788",
+    "reasons": [
+     "R047"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "Q673575",
+    "reasons": [
+     "R029"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "192283",
+    "reasons": [
+     "R041"
+    ]
+   },
+   {
+    "profile": "Q122370",
+    "place_id": "Q1457424",
+    "reasons": [
+     "R216"
+    ]
+   },
+   {
+    "profile": "Q123839",
+    "place_id": "Q190260",
+    "reasons": [
+     "R193"
+    ]
+   },
+   {
+    "profile": "Q24906109",
+    "place_id": "Q768482",
+    "reasons": [
+     "R239"
+    ]
+   },
+   {
+    "profile": "Q58033",
+    "place_id": "Q27327244",
+    "reasons": [
+     "R119"
+    ]
+   },
+   {
+    "profile": "Q483453",
+    "place_id": "Q801700",
+    "reasons": [
+     "R227"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q39934978",
+    "reasons": [
+     "R112"
+    ]
+   },
+   {
+    "profile": "Q23498",
+    "place_id": "Q1014319",
+    "reasons": [
+     "R042"
+    ]
+   },
+   {
+    "profile": "Q37030",
+    "place_id": "Q21517046",
+    "reasons": [
+     "R014",
+     "R142",
+     "R021",
+     "R298",
+     "R268",
+     "R140",
+     "R184",
+     "R259",
+     "R093",
+     "R292",
+     "R280",
+     "R011",
+     "R055",
+     "R066"
+    ]
+   },
+   {
+    "profile": "Q154014",
+    "place_id": "Q675022",
+    "reasons": [
+     "R336",
+     "R342"
+    ]
+   },
+   {
+    "profile": "Q846047",
+    "place_id": "1011983",
+    "reasons": [
+     "R260"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "327472",
+    "reasons": [
+     "R070"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "Q39934978",
+    "reasons": [
+     "R141"
+    ]
+   },
+   {
+    "profile": "Q937",
+    "place_id": "Q1457378",
+    "reasons": [
+     "R287"
+    ]
+   },
+   {
+    "profile": "Q17897",
+    "place_id": "190195",
+    "reasons": [
+     "R120"
+    ]
+   },
+   {
+    "profile": "Q115483",
+    "place_id": "Q11942",
+    "reasons": [
+     "R151"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+# Verified rdfs:subClassOf excerpt of the Schema.org class hierarchy, limited
+# to every distinct `@type` value actually observed in the crawled POI data
+# (39 types) plus their ancestor chains up to schema:Thing.
+#
+# Schema.org itself publishes classes/properties WITHOUT redeclaring their
+# own hierarchy as reasoner-usable axioms in a small, task-scoped file -- and
+# a full import of its ~3000-class vocabulary would need materializing many
+# thousands of irrelevant subClassOf/domain/range axioms during OWL-RL
+# forward chaining. This file is the alternative: each chain below was
+# looked up individually against the live https://schema.org/<Type> page
+# (breadcrumb hierarchy + subtype listing) rather than assumed, exactly
+# because a guessed hierarchy would silently produce wrong `is-a`
+# entailments (see e.g. schema:Campground's genuine dual inheritance below,
+# which is easy to get wrong by assuming a single parent).
+#
+# Effect once loaded into src/reason.py's OWL-RL closure (rdfs_closure=True
+# already covers RDFS9: C1 subClassOf C2, x type C1 |- x type C2): every POI
+# typed e.g. schema:Hotel is additionally entailed schema:LodgingBusiness,
+# schema:LocalBusiness, schema:Organization, schema:Place, schema:Thing.
+
+# --- Backbone --------------------------------------------------------------
+schema:Organization      rdfs:subClassOf schema:Thing .
+schema:Place              rdfs:subClassOf schema:Thing .
+schema:Intangible         rdfs:subClassOf schema:Thing .
+schema:CreativeWork       rdfs:subClassOf schema:Thing .
+schema:StructuredValue    rdfs:subClassOf schema:Intangible .
+schema:ContactPoint       rdfs:subClassOf schema:StructuredValue .
+schema:MediaObject        rdfs:subClassOf schema:CreativeWork .
+
+# LocalBusiness has genuine multiple inheritance: both an Organization and a Place.
+schema:LocalBusiness      rdfs:subClassOf schema:Organization , schema:Place .
+
+# --- Structural node types (address / geo / images / hours) ----------------
+schema:GeoCoordinates            rdfs:subClassOf schema:StructuredValue .
+schema:PostalAddress             rdfs:subClassOf schema:ContactPoint .
+schema:ImageObject               rdfs:subClassOf schema:MediaObject .
+schema:OpeningHoursSpecification rdfs:subClassOf schema:StructuredValue .
+
+# --- LocalBusiness subtree --------------------------------------------------
+schema:FoodEstablishment      rdfs:subClassOf schema:LocalBusiness .
+schema:LodgingBusiness        rdfs:subClassOf schema:LocalBusiness .
+schema:EntertainmentBusiness  rdfs:subClassOf schema:LocalBusiness .
+schema:SportsActivityLocation rdfs:subClassOf schema:LocalBusiness .
+schema:Store                  rdfs:subClassOf schema:LocalBusiness .
+schema:HealthAndBeautyBusiness rdfs:subClassOf schema:LocalBusiness .
+schema:TouristInformationCenter rdfs:subClassOf schema:LocalBusiness .
+schema:ShoppingCenter         rdfs:subClassOf schema:LocalBusiness .
+
+schema:Restaurant          rdfs:subClassOf schema:FoodEstablishment .
+schema:BarOrPub            rdfs:subClassOf schema:FoodEstablishment .
+schema:CafeOrCoffeeShop    rdfs:subClassOf schema:FoodEstablishment .
+schema:Winery              rdfs:subClassOf schema:FoodEstablishment .
+schema:FastFoodRestaurant  rdfs:subClassOf schema:FoodEstablishment .
+
+schema:Hotel            rdfs:subClassOf schema:LodgingBusiness .
+schema:Hostel           rdfs:subClassOf schema:LodgingBusiness .
+schema:BedAndBreakfast  rdfs:subClassOf schema:LodgingBusiness .
+
+schema:NightClub  rdfs:subClassOf schema:EntertainmentBusiness .
+schema:Casino     rdfs:subClassOf schema:EntertainmentBusiness .
+schema:ArtGallery rdfs:subClassOf schema:EntertainmentBusiness .
+
+schema:PublicSwimmingPool rdfs:subClassOf schema:SportsActivityLocation .
+schema:ExerciseGym        rdfs:subClassOf schema:SportsActivityLocation .
+
+schema:DepartmentStore rdfs:subClassOf schema:Store .
+schema:ClothingStore   rdfs:subClassOf schema:Store .
+schema:FurnitureStore  rdfs:subClassOf schema:Store .
+
+schema:DaySpa rdfs:subClassOf schema:HealthAndBeautyBusiness .
+
+# --- CivicStructure subtree (Place-only, no Organization parent) -----------
+schema:CivicStructure rdfs:subClassOf schema:Place .
+
+schema:Museum              rdfs:subClassOf schema:CivicStructure .
+schema:Park                rdfs:subClassOf schema:CivicStructure .
+schema:Zoo                 rdfs:subClassOf schema:CivicStructure .
+schema:MusicVenue          rdfs:subClassOf schema:CivicStructure .
+schema:EventVenue          rdfs:subClassOf schema:CivicStructure .
+schema:PerformingArtsTheater rdfs:subClassOf schema:CivicStructure .
+schema:PlaceOfWorship       rdfs:subClassOf schema:CivicStructure .
+
+schema:Church rdfs:subClassOf schema:PlaceOfWorship .
+
+# schema:Campground is genuinely multiply-inherited in schema.org: both a
+# CivicStructure AND a LodgingBusiness (recreational structure *and* a place
+# to stay). Verified directly on schema.org/Campground -- both chains are
+# listed there, it is not a single-parent type.
+schema:Campground rdfs:subClassOf schema:CivicStructure , schema:LodgingBusiness .
+
+# --- Direct Place subtypes (neither LocalBusiness nor CivicStructure) ------
+schema:TouristAttraction rdfs:subClassOf schema:Place .
+schema:Landform           rdfs:subClassOf schema:Place .

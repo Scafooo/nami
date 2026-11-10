@@ -1,0 +1,11 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Interests:
+- I21: Harald Naegeli (Sprayer von Zürich)
+- I22: Exile writers in Zurich
+- I23: Witch persecution
+- I24: Labour movement and Landesstreik 1917-18
+- I25: Women's history
+
+Answer only with JSON, one object per interest:
+[{"interest_id": "I01", "places": [{"rank": 1, "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}]}]

@@ -1,0 +1,164 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest you get the places a system retrieved, each with the reasons that link it to the interest and their sources. You may keep, drop or add places, and add reasons. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason you add, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Answer only with JSON, one object per interest; refer to a retrieved place by its id:
+[{"interest_id": "I01", "places": [
+  {"rank": 1, "origin": "graph", "id": "S1", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]},
+  {"rank": 2, "origin": "new", "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}
+]}]
+
+Interests:
+
+## I01: Albert Einstein
+- S1: ETH Zurich
+    because: Albert Einstein --educated at (as Bachelor of Science)--> ETH Zurich (source: Wikidata, citing https://www.library.ethz.ch/en/Resources/Digital-library/Einstein-Online/Einstein-s-Studies-at-the-Polytechnic-Institute-in-Zurich-1896-1900 (page no longer available))
+    because: Albert Einstein --employer (as professor)--> ETH Zurich (source: Wikidata, statement without reference)
+    because: Michele Besso --significant person (as friend)--> Albert Einstein (source: Wikidata, statement without reference); Michele Besso --educated at--> ETH Zurich (source: Wikidata, citing arXiv)
+    because: Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner (source: Wikidata, citing Mathematics Genealogy Project); Alfred Kleiner --employer--> ETH Zurich (source: Wikidata, statement without reference)
+    because: Albert Einstein --doctoral advisor--> Heinrich Friedrich Weber (source: Wikidata, statement without reference); Heinrich Friedrich Weber --employer--> ETH Zurich (source: Wikidata, citing MacTutor History of Mathematics archive)
+    because: Albert Einstein --spouse--> Mileva Marić (source: Wikidata, citing Katalog der Deutschen Nationalbibliothek); Mileva Marić --educated at--> ETH Zurich (source: Wikidata, citing https://www.repubblica.it/scienze/2019/07/13/news/una_laurea_per_la_moglie_di_einstein_la_scienziata_dimenticata-231110354/?ref=RHPPLF-BH-I0-C4-P6-S1.4-T1)
+    because: Aurel Stodola --student--> Albert Einstein (source: Wikidata, statement without reference); Aurel Stodola --employer--> ETH Zurich (source: Wikidata, statement without reference)
+    because: Hermann Minkowski --student--> Albert Einstein (source: Wikidata, statement without reference); Hermann Minkowski --employer--> ETH Zurich (source: Wikidata, statement without reference)
+    ... and 4 more reasons of lower value
+- S2: University of Zurich
+    because: Albert Einstein --educated at (as doctorate)--> University of Zurich (source: Wikidata, citing A New Determination of Molecular Dimensions)
+    because: Albert Einstein --employer (as professor)--> University of Zurich (source: Wikidata, citing https://www.ige.ch/de/ueber-uns/einstein/einstein-beim-amt.html (page no longer available))
+    because: Michele Besso --significant person (as friend)--> Albert Einstein (source: Wikidata, statement without reference); Michele Besso --educated at--> University of Zurich (source: Wikidata, citing Mathematics Genealogy Project)
+    because: UZH (2024) --depicts--> Albert Einstein (source: Wikidata, statement without reference); UZH (2024) --depicts--> University of Zurich (source: Wikidata, statement without reference)
+    because: Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner (source: Wikidata, citing Mathematics Genealogy Project); Alfred Kleiner --employer--> University of Zurich (source: Wikidata, statement without reference)
+    because: Albert Einstein --doctoral advisor (as second doctoral advisor)--> Heinrich Burkhardt (source: Wikidata, citing Mathematics Genealogy Project); Heinrich Burkhardt --employer--> University of Zurich (source: Wikidata, citing MacTutor History of Mathematics archive)
+    because: Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner (source: Wikidata, citing Mathematics Genealogy Project); Alfred Kleiner --educated at--> University of Zurich (source: Wikidata, statement without reference)
+    because: Eduard Einstein --father--> Albert Einstein (source: Wikidata, citing Digitized residence applications of the Prague Police Directorate  (conscription) 1850–1914); Eduard Einstein --educated at--> University of Zurich (source: Wikidata, statement without reference)
+    ... and 2 more reasons of lower value
+- S3: ETH Zurich University Archives
+    because: Albert Einstein --archives at--> ETH Zurich University Archives (source: Wikidata, citing https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/b9b4178f95254672b981174aaee8f06b)
+- S4: Grand Café Odeon
+    because: Albert Einstein --frequented--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+- S5: Pfauenkomplex
+    because: The Physicists --depicts--> Albert Einstein (source: Wikidata, statement without reference); The Physicists --location of first performance--> Schauspielhaus Zürich (source: Wikidata, statement without reference)
+    because: The Physicists --depicts--> Albert Einstein (source: Wikidata, statement without reference); The Physicists --derivative work--> Die Physiker (source: Wikidata, statement without reference)
+- S6: Albert-Einstein-Strasse
+    because: Albert-Einstein-Strasse --named after--> Albert Einstein (source: Wikidata, statement without reference)
+- S7: Psychiatrische Universitätsklinik Zürich
+    because: Eduard Einstein --father--> Albert Einstein (source: Wikidata, citing Digitized residence applications of the Prague Police Directorate  (conscription) 1850–1914); Eduard Einstein --place of death--> Psychiatrische Universitätsklinik Zürich (source: Wikidata, citing http://www.mentalhealthsupport.co.uk/peoplewhoinspireus.html (page no longer available))
+    because: Albert Einstein --child--> Eduard Einstein (source: Wikidata, citing Katalog der Deutschen Nationalbibliothek); Eduard Einstein --place of death--> Psychiatrische Universitätsklinik Zürich (source: Wikidata, citing http://www.mentalhealthsupport.co.uk/peoplewhoinspireus.html (page no longer available))
+- S8: Zürich Hauptbahnhof
+    because: Top Angebot! (Honys Torres) --depicts--> Albert Einstein (source: Wikidata, statement without reference); Top Angebot! (Honys Torres) --part of the series--> Heidi POP (art series) (source: Wikidata, statement without reference)
+    because: Heidi’s Dinner (2025) --depicts--> Albert Einstein (source: Wikidata, statement without reference); Heidi’s Dinner (2025) --part of the series--> Heidi POP (art series) (source: Wikidata, statement without reference)
+    because: Top Angebot! (Honys Torres) --depicts--> Albert Einstein (source: Wikidata, statement without reference); Heidi POP (art series) --has part(s)--> Top Angebot! (Honys Torres) (source: Wikidata, statement without reference)
+    because: Heidi’s Dinner (2025) --depicts--> Albert Einstein (source: Wikidata, statement without reference); Heidi POP (art series) --has part(s)--> Heidi’s Dinner (2025) (source: Wikidata, statement without reference)
+- S9: Cemetery Nordheim
+    because: Albert Einstein --spouse--> Mileva Marić (source: Wikidata, citing Katalog der Deutschen Nationalbibliothek); Mileva Marić --place of burial--> Cemetery Nordheim (source: Wikidata, statement without reference)
+- S10: Schauspielhaus Zürich
+    because: The Physicists --depicts--> Albert Einstein (source: Wikidata, statement without reference); The Physicists --location of first performance--> Schauspielhaus Zürich (source: Wikidata, statement without reference); Schauspielhaus Zürich --occupant--> Schauspielhaus Zürich (source: Wikidata, citing Kunstenpunt)
+
+## I02: James Joyce
+- S1: Ljmmat Sjhl: Hommage à James Joyce
+    because: Ljmmat Sjhl: Hommage à James Joyce --commemorates--> James Joyce (source: Wikidata, statement without reference)
+    because: James Joyce --commemoratedAt--> Ljmmat Sjhl: Hommage à James Joyce (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#240) -- "Ljmmat Sjhl: Hommage à James Joyce"
+    because: James Joyce --mentionedAt--> Ljmmat Sjhl: Hommage à James Joyce (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#240) -- "Ljmmat Sjhl: Hommage à James Joyce"
+- S2: Grabdenkmal James Joyce
+    because: Grabdenkmal James Joyce --commemorates--> James Joyce (source: Wikidata, statement without reference)
+    because: James Joyce --buriedAt--> Grabdenkmal James Joyce (source: https://www.openstreetmap.org/node/4580295790) -- "Grabdenkmal James Joyce"
+    because: James Joyce --commemoratedAt--> Grabdenkmal James Joyce (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#282) -- "Grabdenkmal James Joyce"
+    because: James Joyce --mentionedAt--> Grabdenkmal James Joyce (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#282) -- "Grabdenkmal James Joyce"
+    because: James Joyce --mentionedAt--> Grabdenkmal James Joyce (source: https://www.openstreetmap.org/node/4580295790) -- "Grabdenkmal James Joyce"
+- S3: Fluntern Cemetery
+    because: James Joyce --place of burial--> Fluntern Cemetery (source: Wikidata, citing Find a Grave)
+    because: James Joyce --unmarried partner--> Nora Barnacle (source: Wikidata, citing https://www.themorgan.org/exhibitions/online/ulysses/nora-barnacle (page no longer available)); Nora Barnacle --place of burial--> Fluntern Cemetery (source: Wikidata, statement without reference)
+    because: James Joyce --spouse--> Nora Barnacle (source: Wikidata, citing https://www.rte.ie/news/special-reports/2014/0730/634089-james-joyce-wedding/); Nora Barnacle --place of burial--> Fluntern Cemetery (source: Wikidata, statement without reference)
+- S4: Zürich James Joyce Foundation
+    because: James Joyce --foundedAt--> Zürich James Joyce Foundation (source: https://www.zuerich.com/en/node/1012186) -- "A unique place for all friends of literature: The James Joyce Foundation was established with a view to keeping alive the heritage of the famous Irish writer."
+    because: Zürich James Joyce Foundation --named after--> James Joyce (source: Wikidata, statement without reference)
+    because: James Joyce --archives at--> Zürich James Joyce Foundation (source: Wikidata, statement without reference)
+    because: James Joyce --mentionedAt--> Zürich James Joyce Foundation (source: https://www.zuerich.com/en/node/1012186) -- "A unique place for all friends of literature: The James Joyce Foundation was established with a view to keeping alive the heritage of the famous Irish writer."
+- S5: Grand Café Odeon
+    because: James Joyce --frequented--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+    because: James Joyce --mentionedAt--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+- S6: James-Joyce-Strasse
+    because: James-Joyce-Strasse --named after--> James Joyce (source: Wikidata, statement without reference)
+- S7: Literaturhaus
+    because: James Joyce --frequented--> Literaturhaus (source: https://www.zuerich.com/en/node/291104) -- "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+- S8: Boutique Hotel NI-MO
+    because: James Joyce --mentionedAt--> Boutique Hotel NI-MO (source: https://www.zuerich.com/en/node/1252) -- "The charming and homely hotel is located close to the Botanical Garden, the Zurich James Joyce Foundation, and the banking and financial center."
+
+## I03: Vladimir Lenin
+- S1: Spiegelgasse
+    because: Vladimir Lenin --livedAt--> HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜ (source: https://www.openstreetmap.org/node/419543402) -- "HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜHRER DER RUSSISCHEN REVOLUTION"
+    because: Vladimir Lenin --livedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution."
+    because: Vladimir Lenin --mentionedAt--> HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜ (source: https://www.openstreetmap.org/node/419543402) -- "APRIL 1917 LENIN DER FÜHRER DER RUSSISCHEN REVOLUTION"
+    because: Vladimir Lenin --mentionedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution."
+- S2: Grand Café Odeon
+    because: Vladimir Lenin --frequented--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+    because: Vladimir Lenin --mentionedAt--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+- S3: Literaturhaus
+    because: Vladimir Lenin --frequented--> Literaturhaus (source: https://www.zuerich.com/en/node/291104) -- "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+    because: Vladimir Lenin --mentionedAt--> Literaturhaus (source: https://www.zuerich.com/en/node/291104) -- "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+
+## I04: Dada
+- S1: Spiegelgasse
+    because: Dada --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --mentionedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --significant person--> Emmy Hennings (source: Wikidata, statement without reference); Emmy Hennings --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --significant person--> Tristan Tzara (source: Wikidata, statement without reference); Tristan Tzara --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --significant person--> Jean Arp (source: Wikidata, statement without reference); Jean Arp --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --significant person--> Richard Huelsenbeck (source: Wikidata, statement without reference); Richard Huelsenbeck --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Dada --significant person--> Hugo Ball (source: Wikidata, statement without reference); Hugo Ball --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    because: Jean Arp --movement--> Dada (source: Wikidata, citing RKDartists); Jean Arp --foundedAt--> Spiegelgasse (source: https://www.zuerich.com/en/node/1969) -- "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+    ... and 4 more reasons of lower value
+- S2: Cabaret Voltaire
+    because: Dada --foundedAt--> Cabaret Voltaire (source: https://www.zuerich.com/en/node/1840) -- "It was here that Dada was born."
+    because: Dada --significant person--> Emmy Hennings (source: Wikidata, statement without reference); Emmy Hennings --participant in--> Cabaret Voltaire (source: Wikidata, statement without reference)
+    because: Dada --significant person--> Emmy Hennings (source: Wikidata, statement without reference); Emmy Hennings --significant event--> Cabaret Voltaire (source: Wikidata, statement without reference)
+    because: Dada --significant person--> Tristan Tzara (source: Wikidata, statement without reference); Tristan Tzara --participant in--> Cabaret Voltaire (source: Wikidata, statement without reference)
+    because: Dada --significant person--> Hugo Ball (source: Wikidata, statement without reference); Hugo Ball --participant in--> Cabaret Voltaire (source: Wikidata, statement without reference)
+    because: Dada --significant person--> Hugo Ball (source: Wikidata, statement without reference); Cabaret Voltaire --founder--> Hugo Ball (source: Wikidata, statement without reference)
+    because: Dada --mentionedAt--> Cabaret Voltaire (source: https://www.zuerich.com/en/node/16030) -- "An absolute must for culture fans: it is here that Hugo Ball and Emmy Hennings started the Dada movement."
+    because: Dada --significant person--> Emmy Hennings (source: Wikidata, statement without reference); Emmy Hennings --foundedAt--> Cabaret Voltaire (source: https://www.zuerich.com/en/node/1840) -- "Hugo Ball and Emmy Hennings founded the Cabaret Voltaire in the middle of Zurich’s Old Town in 1916."
+    ... and 8 more reasons of lower value
+- S3: Swiss National Museum Zurich (building)
+    because: Dada Universal --genre--> Dada (source: Wikidata, statement without reference)
+    because: Dada Universal --genre--> Dada (source: Wikidata, statement without reference); Dada Universal --location--> National Museum Zurich (source: Wikidata, statement without reference)
+- S4: Gesellschaftshaus zur Kaufleuten
+    because: Dada --performedAt--> Gesellschaftshaus zur Kaufleuten (source: https://www.zuerich.com/en/node/2416) -- "The eighth and final official Dada Soirée in Zurich took place on April 9, 1919."
+    because: Dada --mentionedAt--> Gesellschaftshaus zur Kaufleuten (source: https://www.zuerich.com/en/node/2416) -- "The eighth and final official Dada Soirée in Zurich took place on April 9, 1919."
+- S5: Hotel Limmatblick
+    because: Dada --themedAfter--> Hotel Limmatblick (source: https://www.zuerich.com/en/node/1241) -- "For cocktails, an extended apéro, or simply coffee and cake, guests can head for the Dada Bar, with its boulevard terrace, where they can experience the lively hustle and bustle on the Limmatquai at f"
+    because: Dada --mentionedAt--> Hotel Limmatblick (source: https://www.zuerich.com/en/node/1241) -- "For cocktails, an extended apéro, or simply coffee and cake, guests can head for the Dada Bar, with its boulevard terrace, where they can experience the lively hustle and bustle on the Limmatquai at f"
+- S6: Grand Café Odeon
+    because: Dada --frequented--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+    because: Dada --mentionedAt--> Grand Café Odeon (source: https://www.zuerich.com/en/node/1570) -- "Just a few years after it opened, the founders of the Dada movement, for example, were among the regular guests, as were also Einstein and Lenin."
+- S7: Galerie Gmurzynska
+    because: Dada --performedAt--> Galerie Gmurzynska (source: https://www.zuerich.com/en/node/311631) -- "Incidentally, the gallery’s location on Paradeplatz is particularly interesting: it is housed in the same block in which the Dada movement presented its first exhibition at the Galerie Dada in 1917."
+    because: Dada --mentionedAt--> Galerie Gmurzynska (source: https://www.zuerich.com/en/node/311631) -- "Incidentally, the gallery’s location on Paradeplatz is particularly interesting: it is housed in the same block in which the Dada movement presented its first exhibition at the Galerie Dada in 1917."
+- S8: The Home Hotel
+    because: Dada --mentionedAt--> The Home Hotel (source: https://www.zuerich.com/en/node/1011732) -- "The hotel – a former paper factory that has been newly renovated – is inspired by the spirit of the Dada art movement and offers a creative oasis in the picturesque Wollishofen quarter."
+- S9: Heureka
+    because: Jean Tinguely --movement--> Dada (source: Wikidata, statement without reference); Jean Tinguely --notable work--> Heureka (source: Wikidata, statement without reference)
+    because: Jean Tinguely --movement--> Dada (source: Wikidata, statement without reference); Jean Tinguely --performedAt--> Heureka (source: https://www.zuerich.com/en/node/1859) -- "The Work Jean Tinguely created the huge kinetic sculpture entitled “Heureka” out of iron bars, wheels, and metal pans and pipes for the National Exhibition in Lausanne in 1964."
+    because: Jean Tinguely --movement--> Dada (source: Wikidata, statement without reference); Jean Tinguely --createdAt--> Heureka (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#101) -- "Heureka: Jean Tinguely"
+- S10: Kunsthalle Zürich
+    because: Dada --foundedAt--> Cabaret Voltaire (source: https://www.zuerich.com/en/node/1840) -- "It was here that Dada was born."; Manifesta 11 --location--> Cabaret Voltaire (source: Wikidata, statement without reference)
+
+## I05: Reformation in Zurich (Huldrych Zwingli)
+- S1: Wasserkirche
+    because: Reformation in Zürich --mentionedAt--> Wasserkirche (source: https://www.zuerich.com/en/node/1794) -- "This is why, during the Reformation, it was referred to as a "temple of idol worshippers"."
+- S2: Ulrich Zwingli memorial
+    because: Reformation in Zürich --mentionedAt--> Ulrich Zwingli memorial (source: https://www.zuerich.com/en/node/1693) -- "This brilliant orator persuaded Zurich’s council and population to accept his ideas and published the first Reformation writings in 1522, inciting the wrath of the bishop and the Pope."
+- S3: Grossmünster
+    because: Reformation in Zürich --mentionedAt--> Grossmünster (source: https://www.zuerich.com/en/node/1578) -- "The stained glass windows by Sigmar Polke , the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of t"
+    because: Reformation in Zürich --part of--> Reformation in Switzerland (source: Wikidata, statement without reference); Reformation in Switzerland --significant event--> Affair of the Sausages (source: Wikidata, statement without reference)
+- S4: Fraumünster
+    because: Reformation in Zürich --mentionedAt--> Fraumünster (source: https://www.zuerich.com/en/node/1763) -- "Ownership of the church and convent passed to the city of Zurich after the Reformation."
+- S5: Christian Catholic Augustinian Church
+    because: Reformation in Zürich --mentionedAt--> Christian Catholic Augustinian Church (source: https://www.zuerich.com/en/node/1751) -- "During the Reformation, the church was transformed into a coin workshop."
+- S6: Heinrich Bullinger Sculpture
+    because: Reformation in Zürich --mentionedAt--> Heinrich Bullinger Sculpture (source: https://www.zuerich.com/en/node/1684) -- "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond."
+- S7: preachers church
+    because: Reformation in Zürich --mentionedAt--> preachers church (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_413) -- "Predigerkirche Vor der Reformation Kirche des Dominikaner- oder Predigerklosters. 1269 wurde die Kirche vollendet."
+- S8: Zum weissen Bären
+    because: Reformation in Zürich --mentionedAt--> Zum weissen Bären (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_173) -- "Jhs. bis zur Reformation Pfrundhaus (Amtswohnung) des Kaplans am Altar der heiligen drei Könige in der Wasserkirche."
+    because: Reformation in Zürich --mentionedAt--> Zum schwarzen Bären (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_174) -- "Jhs. bis zur Reformation Pfrundhaus (Amtswohnung) des Kaplans am Altar des heiligen Kreuzes im Grossmünster."
+- S9: Zur Glocke
+    because: Reformation in Zürich --mentionedAt--> Zur Glocke (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_449) -- "Kurz vor der Reformation (um 1510) wurde im 2."
+- S10: Münsterhof 13
+    because: Reformation in Zürich --mentionedAt--> Münsterhof 13 (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_698) -- "Der erste Besitzer nach der Reformation von 1528 ist ein Hutmacher, dem weitere Handwerker folgen."

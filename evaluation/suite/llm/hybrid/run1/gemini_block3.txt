@@ -1,0 +1,633 @@
+[
+{
+"interest_id": "I11",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Carl Jung --member of--> C. G. Jung Institute Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Aniela Jaffé --employer--> Carl Jung (source: Wikidata, citing encyclopedia.com); Aniela Jaffé --employer--> C. G. Jung Institute Zürich (source: Wikidata, citing encyclopedia.com)"
+},
+{
+"reason": "Vzpomínky, sny, myšlenky C.G. Junga --author--> Carl Jung (source: Wikidata, citing Czech National Bibliography); Vzpomínky, sny, myšlenky C.G. Junga --editor--> Aniela Jaffé (source: Wikidata, citing Czech National Bibliography); Aniela Jaffé --employer--> C. G. Jung Institute Zürich (source: Wikidata, citing encyclopedia.com)"
+},
+{
+"reason": "Člověk a jeho symboly --author--> Carl Jung (source: Wikidata, citing Czech National Bibliography); Člověk a jeho symboly --author--> Aniela Jaffé (source: Wikidata, citing Czech National Bibliography); Aniela Jaffé --employer--> C. G. Jung Institute Zürich (source: Wikidata, citing encyclopedia.com)"
+},
+{
+"reason": "Memories, Dreams, Reflections --author--> Carl Jung (source: Wikidata, statement without reference); Memories, Dreams, Reflections --author--> Aniela Jaffé (source: Wikidata, statement without reference); Aniela Jaffé --employer--> C. G. Jung Institute Zürich (source: Wikidata, citing encyclopedia.com)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Sabina Spielrein --influenced by--> Carl Jung (source: Wikidata, statement without reference); Sabina Spielrein --employer--> Psychiatrische Universitätsklinik Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "A Dangerous Method --characters--> Carl Jung (source: Wikidata, statement without reference); A Dangerous Method --characters--> Sabina Spielrein (source: Wikidata, statement without reference); Sabina Spielrein --employer--> Psychiatrische Universitätsklinik Zürich (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Carl Jung --employer--> University of Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Carl Jung --doctoral advisor--> Eugen Bleuler (source: Wikidata, statement without reference); Eugen Bleuler --educated at--> University of Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Sabina Spielrein --influenced by--> Carl Jung (source: Wikidata, statement without reference); Sabina Spielrein --educated at--> University of Zurich",
+"url": "https://doi.org/10.1007/978-1-4614-6086-2_9340"
+},
+{
+"reason": "Člověk a jeho symboly --author--> Carl Jung (source: Wikidata, citing Czech National Bibliography); Člověk a jeho symboly --author--> Marie-Louise von Franz (source: Wikidata, citing Czech National Bibliography); Marie-Louise von Franz --educated at--> University of Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Carl Jung --doctoral advisor--> Eugen Bleuler (source: Wikidata, statement without reference); Eugen Bleuler --employer--> University of Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Jakob Klaesi --doctoral advisor--> Carl Jung",
+"url": "https://doi.org/10.1007/s00115-002-1464-3"
+},
+{
+"reason": "A Dangerous Method --characters--> Carl Jung (source: Wikidata, statement without reference); A Dangerous Method --characters--> Sabina Spielrein (source: Wikidata, statement without reference); Sabina Spielrein --educated at--> University of Zurich",
+"url": "https://doi.org/10.1007/978-1-4614-6086-2_9340"
+},
+{
+"reason": "A Dangerous Method --characters--> Carl Jung (source: Wikidata, statement without reference); A Dangerous Method --characters--> Eugen Bleuler (source: Wikidata, statement without reference); Eugen Bleuler --educated at--> University of Zurich (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Carl Jung --employer--> ETH Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "ETH Lectures --author--> Carl Jung (source: Wikidata, statement without reference)"
+},
+{
+"reason": "ETH Lectures --author--> Carl Jung (source: Wikidata, statement without reference); ETH Lectures --location--> ETH Zurich (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Carl Jung --archives at--> ETH Zurich University Archives",
+"url": "https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/38a822e6592b485b8d6f099040c916a2"
+},
+{
+"reason": "Aniela Jaffé --employer--> Carl Jung (source: Wikidata, citing encyclopedia.com); Aniela Jaffé --archives at--> ETH Zurich University Archives",
+"url": "https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/27a414ab60af452fb9ddb74a6be95687"
+},
+{
+"reason": "Carl Jung --significant person (as pen pal)--> Sigmund Freud (source: Wikidata, statement without reference); Sigmund Freud --archives at--> ETH Zurich University Archives",
+"url": "https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/c89cc038f5ed4e6ea531b0bb9a51defa"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Carl Jung --place of burial--> Küsnacht Cemetery (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Toni Wolff --influenced by--> Carl Jung (source: Wikidata, statement without reference); Toni Wolff --place of burial--> Enzenbühl cemetery (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Carl Jung --mentionedAt--> Diederik Winery",
+"url": "https://www.zuerich.com/fr/node/280833",
+"quote": "Küsnacht est la ville d’adoption de Carl Gustav Jung, Thomas Mann et Tina Turner."
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Carl Jung --place of death--> Küsnacht (source: Wikidata, citing Historical Dictionary of Switzerland); Zehntentrotte --owned by--> Küsnacht (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Carl Jung --place of death--> Küsnacht (source: Wikidata, citing Historical Dictionary of Switzerland); Kunsteisbahn KEK --location--> Küsnacht (source: Wikidata, statement without reference)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I12",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Gottfried Keller --livedAt--> Rindermarkt",
+"url": "https://www.zuerich.com/en/node/2046",
+"quote": "The house where Gottfried Keller lived as a boy, the \"Öpfelchammer\" and a very picturesque Zurich are located at Rindermarkt (Cattle Market)."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Gottfried Keller --frequented--> Oepfelchammer",
+"url": "https://www.zuerich.com/en/node/2021",
+"quote": "Iconic venue in Zurich: the Oepfelchammer in the Niederdorf quarter was a favorite haunt of the Swiss writer, Gottfried Keller."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Gottfried Keller --commemoratedAt--> Gottfried Keller Gedenkstätte",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#167",
+"quote": "Gottfried-Keller-Denkmal"
+},
+{
+"reason": "Gottfried Keller --commemoratedAt--> Gottfried-Keller-Denkmal, Mythenquai",
+"url": "https://www.openstreetmap.org/node/489786067",
+"quote": "Gottfried-Keller-Denkmal"
+},
+{
+"reason": "Gottfried Keller Gedenkstätte --commemorates--> Gottfried Keller (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Gottfried Keller --notable work--> Heroic Landscape (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Heroic Landscape --creator--> Gottfried Keller (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Gottfried Keller --archives at--> Zentralbibliothek Zürich",
+"url": "https://zbcollections.ch/home/#/content/e036c3d45dce4ec4a033131203dee53c"
+},
+{
+"reason": "Gottfried Keller --has works in the collection--> Zentralbibliothek Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Gottfried Keller --notable work--> Heroic Landscape (source: Wikidata, statement without reference); Heroic Landscape --collection--> Zentralbibliothek Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Gottfried Keller --notable work--> Heroic Landscape (source: Wikidata, statement without reference); Heroic Landscape --location--> Zentralbibliothek Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Heroic Landscape --creator--> Gottfried Keller (source: Wikidata, statement without reference); Heroic Landscape --collection--> Zentralbibliothek Zürich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Heroic Landscape --creator--> Gottfried Keller (source: Wikidata, statement without reference); Heroic Landscape --location--> Zentralbibliothek Zürich (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Portrait of Gottfried Keller --depicts--> Gottfried Keller (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Portrait of Gottfried Keller --main subject--> Gottfried Keller (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Portrait of Gottfried Keller --depicts--> Gottfried Keller (source: Wikidata, statement without reference); Portrait of Gottfried Keller --collection--> Kunsthaus Zürich",
+"url": "https://collection.kunsthaus.ch/en/collection/item/431/"
+},
+{
+"reason": "Portrait of Gottfried Keller --depicts--> Gottfried Keller (source: Wikidata, statement without reference); Portrait of Gottfried Keller --location--> Kunsthaus Zürich",
+"url": "https://collection.kunsthaus.ch/en/collection/item/431/"
+},
+{
+"reason": "Portrait of Gottfried Keller --main subject--> Gottfried Keller (source: Wikidata, statement without reference); Portrait of Gottfried Keller --collection--> Kunsthaus Zürich",
+"url": "https://collection.kunsthaus.ch/en/collection/item/431/"
+},
+{
+"reason": "Portrait of Gottfried Keller --main subject--> Gottfried Keller (source: Wikidata, statement without reference); Portrait of Gottfried Keller --location--> Kunsthaus Zürich",
+"url": "https://collection.kunsthaus.ch/en/collection/item/431/"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Gottfried Keller --livedAt--> Landolt Winery",
+"url": "https://www.zuerich.com/en/node/280788",
+"quote": "This also includes the vineyards next to the main building of FIFA and the vineyard in the Enge quarter, where the well-known Zurich author, Gottfried Keller, once lived and also wrote his book, “Gree"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Gottfried Keller --place of burial--> Cemetery Sihlfeld (source: Wikidata, citing Wo Zürich zur Ruhe kommt - Die Friedhöfe der Stadt Zürich)"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Haus zum Goldenen Winkel --characteristic of--> Gottfried Keller (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Gottfried-Keller-Strasse --named after--> Gottfried Keller (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Gottfried Keller --place of burial--> Cemetery Sihlfeld (source: Wikidata, citing Wo Zürich zur Ruhe kommt - Die Friedhöfe der Stadt Zürich); Bronzeplastik --location--> Cemetery Sihlfeld (source: Wikidata, statement without reference)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I13",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Alfred Escher --commemoratedAt--> Alfred Escher memorial fountain",
+"url": "https://www.openstreetmap.org/node/4988194797",
+"quote": "Alfred-Escher-Brunnen"
+},
+{
+"reason": "Alfred Escher memorial fountain --commemorates--> Alfred Escher (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Statue of Alfred Escher --depicts--> Alfred Escher (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Statue of Alfred Escher --depicts--> Alfred Escher (source: Wikidata, statement without reference); Statue of Alfred Escher --location--> Bahnhofplatz (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Alfred Escher --residence--> Villa Belvoir (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Lydia Welti-Escher --father--> Alfred Escher (source: Wikidata, citing Historical Dictionary of Switzerland); Lydia Welti-Escher --residence--> Villa Belvoir (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Alfred Escher --educated at--> University of Zurich (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Schweizerische Nordostbahn --director / manager--> Alfred Escher (source: Wikidata, statement without reference); Christian Beyel --employer--> Schweizerische Nordostbahn (source: Wikidata, citing MacTutor History of Mathematics archive); Christian Beyel --educated at (as Doctor)--> University of Zurich (source: Wikidata, citing MacTutor History of Mathematics archive)"
+},
+{
+"reason": "Schweizerische Nordostbahn --founder--> Alfred Escher (source: Wikidata, statement without reference); Christian Beyel --employer--> Schweizerische Nordostbahn (source: Wikidata, citing MacTutor History of Mathematics archive); Christian Beyel --educated at (as Doctor)--> University of Zurich (source: Wikidata, citing MacTutor History of Mathematics archive)"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Alfred-Escher-Strasse --named after--> Alfred Escher (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Credit Suisse --founder--> Alfred Escher (source: Wikidata, statement without reference); Sunrise Tower --occupant--> Credit Suisse (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Alfred Escher --place of burial--> Cemetery Manegg (source: Wikidata, citing Wo Zürich zur Ruhe kommt - Die Friedhöfe der Stadt Zürich)"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Alfred Escher --place of death--> Enge (source: Wikidata, citing Historical Dictionary of Switzerland); Bleicherweg 74 --location--> Enge (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Alfred Escher --place of death--> Enge (source: Wikidata, citing Historical Dictionary of Switzerland); Freudenberg School house --location--> Enge (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Alfred Escher --place of death--> Enge (source: Wikidata, citing Historical Dictionary of Switzerland); Muraltengut --location--> Enge (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Alfred Escher --place of death--> Enge (source: Wikidata, citing Historical Dictionary of Switzerland); Château Sihlberg --location--> Enge (source: Wikidata, statement without reference)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I14",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg",
+"url": "https://www.zuerich.com/en/node/1762",
+"quote": "For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”."
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; Museum Rietberg --location--> Rieterpark (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; Villa Rieter (Schönberg) with outbuildings --occupant--> Museum Rietberg (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; Villa Wesendonck --occupant--> Museum Rietberg (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; Japan de luxe. The Art of the Surimono Prints --organizer--> Museum Rietberg (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; In Dialogue with Benin --organizer--> Museum Rietberg (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Richard Wagner --livedAt--> Museum Rietberg (source: https://www.zuerich.com/en/node/1762) -- \"For example, the famous composer, Richard Wagner, stayed at the Villa Schönberg for a number of months, during which he completed the handwritten libretto of “Tristan and Isolde”.\"; The Way of the Master – The Great Artists of India, 1100–1900 --organizer--> Museum Rietberg (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Q57513482 --librettist--> Richard Wagner (source: http://data.kunsten.be/productions/430618); Q57513482 --costume designer--> Buki Shiff (source: http://data.kunsten.be/productions/430618); Dornröschen --costume designer--> Buki Shiff (source: https://www.opernhaus.ch/xmlexport/kzexport.xml)"
+},
+{
+"reason": "Q57513482 --composer--> Richard Wagner (source: http://data.kunsten.be/productions/430618); Q57513482 --costume designer--> Buki Shiff (source: http://data.kunsten.be/productions/430618); Dornröschen --costume designer--> Buki Shiff (source: https://www.opernhaus.ch/xmlexport/kzexport.xml)"
+},
+{
+"reason": "Q57698409 --composer--> Richard Wagner (source: http://data.kunsten.be/productions/467812); Q57698409 --costume designer--> Gideon Davey (source: http://data.kunsten.be/productions/467812); Arabella --costume designer--> Gideon Davey (source: https://www.opernhaus.ch/xmlexport/kzexport.xml)"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Richard Wagner --commemoratedAt--> Büste von Richard Wagner",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#63",
+"quote": "Büste von Richard Wagner"
+},
+{
+"reason": "Büste von Richard Wagner --commemorates--> Richard Wagner (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Richard Wagner --commemoratedAt--> Richard-Wagner-Stele",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#133",
+"quote": "Richard-Wagner-Stele"
+},
+{
+"reason": "Richard-Wagner-Stele --commemorates--> Richard Wagner (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Richard-Wagner-Strasse --named after--> Richard Wagner",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#288",
+"quote": "Richard Wagner (1813-1883) Deutscher Komponist 1849 bis 1855 und 1856 bis 1858 in Zürich"
+}
+]
+}
+]
+},
+{
+"interest_id": "I15",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Georg Büchner --commemoratedAt--> Georg Büchner, Spiegelgasse 12",
+"url": "https://www.openstreetmap.org/node/419543403",
+"quote": "Georg Büchner"
+},
+{
+"reason": "Georg Büchner --mentionedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "The German author and revolutionary Georg Büchner wrote \"Leonce und Lena\" here in 1836, as well as his most well-known, fragmentarily handed-down \"Woyzeck\" works."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Georg Büchner --commemoratedAt--> Georg Büchner memorial",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#403",
+"quote": "Grabmal Georg Büchner"
+},
+{
+"reason": "Georg Büchner memorial --commemorates--> Georg Büchner (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Georg Büchner --commemoratedAt--> Georg Büchner memorial (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#403) -- \"Grabmal Georg Büchner\"; Georg Büchner memorial --location--> Theater Rigiblick (source: Wikidata, statement without reference)",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#403",
+"quote": "Grabmal Georg Büchner"
+},
+{
+"reason": "Georg Büchner memorial --commemorates--> Georg Büchner (source: Wikidata, statement without reference); Georg Büchner memorial --location--> Theater Rigiblick (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Georg Büchner --commemoratedAt--> Georg Büchner, Germaniastrasse",
+"url": "https://www.openstreetmap.org/node/672727941",
+"quote": "Georg Büchner"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Büchnerstrasse --named after--> Georg Büchner (source: Wikidata, citing Strassennamenverzeichnis Zürich)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Alexander Büchner --relative--> Georg Büchner (source: Wikidata, citing Hessische Biografie); Alexander Büchner --employer--> University of Zurich (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Georg Büchner --notable work--> Woyzeck (source: Wikidata, statement without reference); Wozzeck --based on--> Woyzeck (source: Wikidata, citing Repertoire des Schauspielhauses Zürich, 1938-1968)"
+},
+{
+"reason": "Woyzeck --author--> Georg Büchner (source: Wikidata, statement without reference); Wozzeck --based on--> Woyzeck (source: Wikidata, citing Repertoire des Schauspielhauses Zürich, 1938-1968)"
+}
+]
+}
+]
+}
+]

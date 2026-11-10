@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 768" width="1408" height="768">
+  <rect width="1408" height="768" fill="#ffffff"/>
+  <!-- left: the graph of interests (dark blue) -->
+  <g fill="none" stroke="#2f4766" stroke-width="3" stroke-linecap="round">
+    <path d="M172 385 L232 352 L288 248 L318 193 M232 352 L210 293 L243 210 L288 248 L310 305 L232 352 L268 385 M232 352 L234 432 L370 512 L432 372 L504 182 L607 191 M234 432 L452 472"/>
+    <path d="M432 372 C470 320 540 300 610 330 M447 277 C520 240 580 250 640 300 M447 277 L504 182 M370 512 C430 560 520 545 560 520 M432 372 C460 430 520 470 600 470 M607 191 C590 230 600 270 640 300"/>
+  </g>
+  <g fill="#2f4766">
+    <circle cx="172" cy="385" r="7"/><circle cx="243" cy="210" r="7"/><circle cx="318" cy="193" r="7"/>
+    <circle cx="210" cy="293" r="7"/><circle cx="268" cy="385" r="7"/><circle cx="370" cy="512" r="7"/>
+    <circle cx="432" cy="372" r="7"/><circle cx="447" cy="277" r="7"/><circle cx="504" cy="182" r="7"/>
+    <circle cx="607" cy="191" r="7"/><circle cx="560" cy="520" r="7"/><circle cx="452" cy="472" r="7"/>
+  </g>
+  <!-- right: the places, a map with pins (gold) -->
+  <g fill="none" stroke="#c9a85a" stroke-width="3" stroke-linecap="round">
+    <path d="M800 300 C860 250 940 220 1010 222 C1060 224 1090 250 1176 335 M800 300 C840 380 900 420 975 370 C1010 345 1040 330 1176 335 M975 370 C1000 430 1040 480 1046 519 L1146 556 M975 370 L1090 455 L1188 474 L1176 335 M852 517 C900 520 960 520 1046 519 M852 517 C820 470 800 420 800 300 M852 517 L893 590 L820 623 M893 590 C930 560 960 520 975 370 M1142 378 L1176 410 L1238 380"/>
+  </g>
+  <g fill="none" stroke="#c9a85a" stroke-width="2" stroke-dasharray="6 9" opacity=".7">
+    <path d="M760 640 C900 600 1050 650 1250 600"/><path d="M780 170 C930 130 1080 190 1240 150"/>
+  </g>
+  <g fill="#c9a85a">
+    <circle cx="1010" cy="222" r="7"/><circle cx="1176" cy="335" r="7"/><circle cx="1046" cy="519" r="7"/>
+    <circle cx="1146" cy="556" r="7"/><circle cx="1188" cy="474" r="7"/><circle cx="820" cy="623" r="7"/>
+    <circle cx="1142" cy="378" r="7"/><circle cx="1238" cy="380" r="7"/>
+  </g>
+  <!-- map pins on three places -->
+  <g fill="#b35900">
+    <path d="M975 370 c-18 -22 -26 -36 -26 -48 a26 26 0 0 1 52 0 c0 12 -8 26 -26 48z"/>
+    <path d="M1046 519 c-15 -18 -22 -30 -22 -40 a22 22 0 0 1 44 0 c0 10 -7 22 -22 40z"/>
+    <path d="M1176 335 c-15 -18 -22 -30 -22 -40 a22 22 0 0 1 44 0 c0 10 -7 22 -22 40z"/>
+  </g>
+  <g fill="#ffffff"><circle cx="975" cy="322" r="9"/><circle cx="1046" cy="479" r="7.5"/><circle cx="1176" cy="295" r="7.5"/></g>
+  <!-- centre: the Log Pose on its strap -->
+  <g transform="rotate(-10 704 420)">
+    <rect x="534" y="452" width="340" height="62" rx="31" fill="#8a5a35" stroke="#5e3c22" stroke-width="3"/>
+    <g fill="#5e3c22"><circle cx="570" cy="483" r="5"/><circle cx="598" cy="483" r="5"/><circle cx="810" cy="483" r="5"/><circle cx="838" cy="483" r="5"/></g>
+    <path d="M644 452 L764 452 L748 418 L660 418 Z" fill="#d9c9a3" stroke="#5e3c22" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="704" cy="330" r="96" fill="#eaf3f8" stroke="#5e3c22" stroke-width="4"/>
+    <path d="M636 278 A82 82 0 0 1 690 250" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M704 256 L716 330 L692 330 Z" fill="#7d1f2e"/>
+    <path d="M704 404 L716 330 L692 330 Z" fill="#2f4766"/>
+    <circle cx="704" cy="330" r="7" fill="#5e3c22"/>
+  </g>
+  <!-- a tangerine with its leaf -->
+  <g transform="translate(848 214)">
+    <circle cx="0" cy="0" r="32" fill="#f08a24" stroke="#b35900" stroke-width="3"/>
+    <circle cx="-10" cy="-10" r="7" fill="#f7b267" opacity=".8"/>
+    <path d="M0 -32 C10 -50 30 -54 44 -48 C34 -34 18 -30 0 -32 Z" fill="#5a8f3c" stroke="#3d6a28" stroke-width="2"/>
+  </g>
+</svg>

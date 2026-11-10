@@ -1,0 +1,38 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest you get the places a system retrieved, each with the reasons that link it to the interest and their sources. You may keep, drop or add places, and add reasons. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason you add, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Answer only with JSON, one object per interest; refer to a retrieved place by its id:
+[{"interest_id": "I01", "places": [
+  {"rank": 1, "origin": "graph", "id": "S1", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]},
+  {"rank": 2, "origin": "new", "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}
+]}]
+
+Interests:
+
+## I21: Harald Naegeli (Sprayer von Zürich)
+- S1: Hinter Glas, Hochstrasse
+    because: Harald Naegeli --createdAt--> Hinter Glas, Hochstrasse (source: https://www.openstreetmap.org/node/10234617742) -- "Hinter Glas"
+- S2: Figur, Huttenstrasse
+    because: Harald Naegeli --createdAt--> Figur, Huttenstrasse (source: https://www.openstreetmap.org/node/10287856888) -- "Figur"
+- S3: Totentanz, Plattenstrasse
+    because: Harald Naegeli --createdAt--> Totentanz, Plattenstrasse (source: https://www.openstreetmap.org/node/10616259615) -- "Totentanz"
+- S4: graffiti by Harald Naegeli, Schiffbaustrasse
+    because: Harald Naegeli --createdAt--> graffiti by Harald Naegeli, Schiffbaustrasse (source: https://www.openstreetmap.org/node/13471089579) -- "memorial"
+- S5: Rechberg
+    because: Harald Naegeli --mentionedAt--> Rechberg (source: https://www.zuerich.com/en/node/338698) -- "Nowadays, the work by the controversial graffiti artist, Harald Nägeli – who illegally sprayed numerous buildings in the 1970s and can be regarded as the Swiss precursor of Banksy – is under a preserv"
+
+## I22: Exile writers in Zurich
+No retrieved stops.
+
+## I23: Witch persecution
+- S1: Eierbrechtstrasse
+    because: Maria (last name unknown) --significant event--> witch trial (source: Wikidata, statement without reference); Maria (last name unknown) --residence--> Eierbrechtstrasse (source: Wikidata, statement without reference)
+- S2: Graphische Sammlung der ETH
+    because: Witch riding backwards on a goat --depicts--> witch (source: Wikidata, statement without reference); Witch riding backwards on a goat --collection--> Graphische Sammlung der ETH (source: https://doi.org/10.16903/ethz-grs-D_007705)
+
+## I24: Labour movement and Landesstreik 1917-18
+- S1: Volkshaus
+    because: labor movement --mentionedAt--> Volkshaus (source: https://www.zuerich.com/en/node/1011143) -- "The Volkshaus once served as the center of the Swiss labor movement, offering inexpensive meals for workers."
+
+## I25: Women's history
+- S1: University of Zurich
+    because: Ninja Bumann --field of work--> women's history (source: https://dshcs.univie.ac.at/ueber-uns/forschungsschwerpunkte/osteuropa-und-eurasien-forschung/doktorandinnen/ninja-bumann/ (archived copy)); Ninja Bumann --educated at (as Bachelor of Arts)--> University of Zurich (source: https://iog.univie.ac.at/fileadmin/user_upload/i_iog/ueber_uns/personen_dokumente/Lebenslauf_EN_Bumann.pdf (archived copy))

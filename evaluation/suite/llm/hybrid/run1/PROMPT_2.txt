@@ -1,0 +1,98 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest you get the places a system retrieved, each with the reasons that link it to the interest and their sources. You may keep, drop or add places, and add reasons. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason you add, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Answer only with JSON, one object per interest; refer to a retrieved place by its id:
+[{"interest_id": "I01", "places": [
+  {"rank": 1, "origin": "graph", "id": "S1", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]},
+  {"rank": 2, "origin": "new", "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}
+]}]
+
+Interests:
+
+## I06: Heinrich Bullinger
+- S1: Grossmünster
+    because: Bullinger memorial --commemorates--> Heinrich Bullinger (source: Wikidata, statement without reference)
+    because: Bullinger memorial --commemorates--> Heinrich Bullinger (source: Wikidata, statement without reference); Bullinger memorial --location--> Grossmünster (source: Wikidata, statement without reference)
+    because: Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Affair of the Sausages --participant--> Huldrych Zwingli (source: Wikidata, statement without reference)
+    because: Reformation in Switzerland --significant person--> Heinrich Bullinger (source: Wikidata, statement without reference); Reformation in Switzerland --significant event--> Affair of the Sausages (source: Wikidata, statement without reference)
+    because: Reformation in Switzerland --significant person--> Heinrich Bullinger (source: Wikidata, statement without reference); Affair of the Sausages --part of--> Reformation in Switzerland (source: Wikidata, statement without reference)
+- S2: Zentralbibliothek Zürich
+    because: Heinrich Bullinger --archives at--> Zentralbibliothek Zürich (source: Wikidata, citing https://kalliope-verbund.info/DE-611-BF-16685)
+- S3: ETH Zurich University Archives
+    because: Heinrich Bullinger --archives at--> ETH Zurich University Archives (source: Wikidata, citing https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/4e1010ce974342a5b8e34cb11454d5c3)
+- S4: Bullingerplatz
+    because: Bullingerplatz --named after--> Heinrich Bullinger (source: Wikidata, citing Strassennamenverzeichnis Zürich)
+- S5: Bullingerstrasse
+    because: Bullingerstrasse --named after--> Heinrich Bullinger (source: Wikidata, citing https://www.stadt-zuerich.ch/prd/de/index/stadtarchiv/strassennamen.html# (page no longer available))
+- S6: Bullingerhof
+    because: Bullingerhof --named after--> Heinrich Bullinger (source: Wikidata, citing Strassennamenverzeichnis Zürich)
+- S7: Heinrich Bullinger Sculpture
+    because: Heinrich Bullinger --mentionedAt--> Heinrich Bullinger Sculpture (source: https://www.zuerich.com/en/node/1684) -- "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond."
+- S8: Ulrich Zwingli memorial
+    because: Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --commemoratedAt--> Ulrich Zwingli memorial (source: https://www.openstreetmap.org/node/4100030173) -- "Huldrych Zwingli"
+    because: Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Ulrich Zwingli memorial --depicts--> Huldrych Zwingli (source: Wikidata, statement without reference)
+- S9: Zur Sul
+    because: Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --livedAt--> Zur Sul (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_381) -- "1521 – 1524 Amtssitz und Wohnhaus von Reformator Huldrych Zwingli (1484-1531)."
+- S10: Swiss National Museum Zurich (building)
+    because: Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --depicted by--> portrait of Huldrych Zwingli (source: Wikidata, statement without reference)
+
+## I07: Katharina von Zimmern
+- S1: Katharinenweg
+    because: Katharinenweg --named after--> Katharina von Zimmern (source: Wikidata, citing Strassennamenverzeichnis Zürich)
+
+## I08: Hans Waldmann
+- S1: Münsterbrücke
+    because: Hans Waldmann --commemoratedAt--> Monument to Hans Waldmann (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#196) -- "Hans-Waldmann-Denkmal"
+    because: Monument to Hans Waldmann --depicts--> Hans Waldmann (source: Wikidata, statement without reference)
+    because: Monument to Hans Waldmann --commemorates--> Hans Waldmann (source: Wikidata, statement without reference)
+    because: Hans Waldmann --commemoratedAt--> Monument to Hans Waldmann (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#196) -- "Hans-Waldmann-Denkmal"; Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)
+    because: Monument to Hans Waldmann --depicts--> Hans Waldmann (source: Wikidata, statement without reference); Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)
+    because: Monument to Hans Waldmann --commemorates--> Hans Waldmann (source: Wikidata, statement without reference); Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)
+- S2: Zur grossen Mücke
+    because: Hans Waldmann --livedAt--> Zur grossen Mücke (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_526) -- "In den Jahren 1468/69 wohnte hier Hans Waldmann."
+- S3: Waldmannstrasse
+    because: Waldmannstrasse --named after--> Hans Waldmann (source: Wikidata, citing Strassennamenverzeichnis Zürich)
+- S4: Flower and Vegetable Market Stadthausquai
+    because: Hans Waldmann --mentionedAt--> Flower and Vegetable Market Stadthausquai (source: https://www.zuerich.com/fr/node/3703) -- "Pendant quelques années, le marché aux légumes très apprécié n'aura pas lieu à la « Gmüesbrugg », mais au Stadthausquai, à hauteur du monument Hans Waldmann."
+
+## I09: Jos Murer
+- S1: Zum schwarzen Schlüssel
+    because: Jos Murer --mentionedAt--> Zum schwarzen Schlüssel (source: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_117) -- "Das mittelalterliche Wohnhaus ist schon 1576 auf dem Stadtprospekt von Jos Murer fünfgeschossig dargestellt."
+
+## I10: Thomas Mann
+- S1: Kilchberg cemetery
+    because: Thomas Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Thomas Mann --child--> Elisabeth Mann Borgese (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Elisabeth Mann Borgese --father--> Thomas Mann (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Erika Mann --father--> Thomas Mann (source: Wikidata, citing Kindred Britain); Erika Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Thomas Mann --spouse--> Katia Mann (source: Wikidata, citing Kindred Britain); Katia Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Thomas Mann --child--> Michael Mann (source: Wikidata, citing Kindred Britain); Michael Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Thomas Mann --child--> Golo Mann (source: Wikidata, citing Kindred Britain); Golo Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    because: Thomas Mann --child--> Erika Mann (source: Wikidata, citing Store norske leksikon); Erika Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))
+    ... and 6 more reasons of lower value
+- S2: Thomas Mann Familiengrab, Nidelbadstrasse
+    because: Thomas Mann --buriedAt--> Thomas Mann Familiengrab, Nidelbadstrasse (source: https://www.openstreetmap.org/node/1888030761) -- "Thomas Mann Familiengrab"
+- S3: Thomas Mann Archives
+    because: Thomas Mann --commemoratedAt--> Thomas Mann Archives (source: https://www.zuerich.com/en/node/1919) -- "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name."
+    because: Thomas Mann --archives at--> Thomas Mann Archives (source: Wikidata, citing https://vls.tma.ethz.ch/)
+    because: The Source --owned by--> Thomas Mann (source: Wikidata, citing https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8)
+    because: Thomas Mann Archives --named after--> Thomas Mann (source: Wikidata, statement without reference)
+    because: The Source --owned by--> Thomas Mann (source: Wikidata, citing https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8); The Source --collection--> Thomas Mann Archives (source: Wikidata, statement without reference)
+    because: The Source --owned by--> Thomas Mann (source: Wikidata, citing https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8); The Source --location--> Thomas Mann Archives (source: Wikidata, statement without reference)
+- S4: ETH Zurich University Archives
+    because: Thomas Mann --archives at--> ETH Zurich University Archives (source: Wikidata, citing https://kalliope-verbund.info/DE-611-BF-1073)
+- S5: ETH Zurich main building
+    because: Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --main subject--> Thomas Mann (source: Wikidata, statement without reference)
+    because: Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --main subject--> Thomas Mann (source: Wikidata, statement without reference); Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --location--> ETH Zurich main building (source: Wikidata, statement without reference)
+- S6: Diederik Winery
+    because: Thomas Mann --mentionedAt--> Diederik Winery (source: https://www.zuerich.com/en/node/280833) -- "Jung, Thomas Mann, and Tina Turner –, which they are now instilling with new life with a great deal of expertise and passion."
+- S7: Freies Gymnasium Zürich
+    because: Thomas Mann --child--> Elisabeth Mann Borgese (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --educated at (as matura)--> Freies Gymnasium Zürich (source: Wikidata, citing https://www.fgz.ch/elisabeth_mann.html?&L=en (page no longer available))
+    because: Elisabeth Mann Borgese --father--> Thomas Mann (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --educated at (as matura)--> Freies Gymnasium Zürich (source: Wikidata, citing https://www.fgz.ch/elisabeth_mann.html?&L=en (page no longer available))
+- S8: zum oberen Berg house
+    because: Thomas Mann --commemoratedAt--> Thomas Mann Archives (source: https://www.zuerich.com/en/node/1919) -- "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name."; zum oberen Berg house --occupant--> Thomas Mann Archives (source: Wikidata, statement without reference)
+    because: Thomas Mann --archives at--> Thomas Mann Archives (source: Wikidata, citing https://vls.tma.ethz.ch/); zum oberen Berg house --occupant--> Thomas Mann Archives (source: Wikidata, statement without reference)
+- S9: Golo Mann, Nidelbadstrasse
+    because: Thomas Mann --child--> Golo Mann (source: Wikidata, citing Kindred Britain); Golo Mann --commemoratedAt--> Golo Mann, Nidelbadstrasse (source: https://www.openstreetmap.org/node/12124789669) -- "Golo Mann"
+    because: Golo Mann --father--> Thomas Mann (source: Wikidata, citing Kindred Britain); Golo Mann --commemoratedAt--> Golo Mann, Nidelbadstrasse (source: https://www.openstreetmap.org/node/12124789669) -- "Golo Mann"
+- S10: Association of Zurich Museums
+    because: Thomas Mann --commemoratedAt--> Thomas Mann Archives (source: https://www.zuerich.com/en/node/1919) -- "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name."; Thomas Mann Archives --member of--> Association of Zurich Museums (source: Wikidata, citing https://www.museen-zuerich.ch/museen/?category%5Ball%5D=on)

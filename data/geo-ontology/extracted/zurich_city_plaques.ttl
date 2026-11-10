@@ -1,0 +1,1187 @@
+# Facts of G_P read from the City of Zurich's blue information plaques at heritage buildings
+# (open data: https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten), by src/pipeline/enrich/extract_plaque_mentions.py.
+# Relations: mappings/text_relations.ttl; evidence: the sentence of the plaque.
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/nami/data/plaque/bt_391> rdfs:label "Zum blauen Himmel" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544768 47.371665)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_391> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_391> ;
+    nami:evidence "Obergeschoss) ist mit Wandmalereien der Spätrenaissance ausgestattet." ;
+    nami:confidence 0.7 |} .
+wd:Q1819314 nami:mentionedAt wd:Q29933569 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_657> ;
+    nami:evidence "Gesellschaftshaus der Schilder zum Schneggen 1864-66 von Georg Lasius und Leonhard Zeugheer erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q1505132 nami:mentionedAt wd:Q29933569 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_657> ;
+    nami:evidence "Gesellschaftshaus der Schilder zum Schneggen 1864-66 von Georg Lasius und Leonhard Zeugheer erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q121407 nami:mentionedAt wd:Q29933676 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_658> ;
+    nami:evidence "1868-1870 wurde die Villa von Architekt Ferdinand Stadler (1813-1870) für Hans Conrad Escher als einer der ersten Bauten an der Bahnhofstrasse errichtet. 1910-1911 wurde das Gebäude durch die Baufirma Locher & Cie. an der Bahnhofstrasse abgetragen und für Mina Schwarzenbach-Zeuner, Witwe des Seidenindustriellen Robert Schwarzenbach, an der Bellerivestrasse wieder aufgebaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_661> rdfs:label "Röntgenhofsiedlung III" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.526259 47.385188)"^^geo:wktLiteral ] .
+wd:Q138412066 nami:mentionedAt <https://example.org/nami/data/plaque/bt_661> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_661> ;
+    nami:evidence "1927 von Architekt Peter Giumini (1886-1995) mit einem Wohn- und Kindergartengebäude im Hof für die Gemeinnützige Baugenossenschaft Röntgenhof realisiert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_669> rdfs:label "Konkordiastrasse 25" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.560673 47.367143)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_669> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_669> ;
+    nami:evidence "Das prächtige Gebäude ist im Stil des Historismus konzipiert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_670> rdfs:label "Krönleinstrasse 44" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.560571 47.383025)"^^geo:wktLiteral ] .
+wd:Q21407266 nami:mentionedAt <https://example.org/nami/data/plaque/bt_670> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_670> ;
+    nami:evidence "1926-27 wurde die Villa vom Architekten Gustav von Tobel (1880-1965) für den Kaufmann Otto Frank erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q7336 nami:mentionedAt <https://example.org/nami/data/plaque/bt_670> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_670> ;
+    nami:evidence "1926-27 wurde die Villa vom Architekten Gustav von Tobel (1880-1965) für den Kaufmann Otto Frank erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_671> rdfs:label "Limmatquai 16" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543794 47.368992)"^^geo:wktLiteral ] .
+wd:Q23061353 nami:mentionedAt <https://example.org/nami/data/plaque/bt_671> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_671> ;
+    nami:evidence "1839-1840 baute Daniel Pfister (1808-1847) das «Hotel du Lac». 1935 kauften die Malerin und Bildhauerin Anna Indermauer (1894-1980) und der Architekt Willy Boesiger (1904-1990) das Hotel." ;
+    nami:confidence 0.7 |} .
+wd:Q219423 nami:mentionedAt wd:Q27331649 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_673> ;
+    nami:evidence "Beim Umbau zum Bürogebäude 2017-2019 wurden die Decken wieder geöffnet und Wandmalereien freigelegt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_678> rdfs:label "Hartmann-Haus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544994 47.416507)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_678> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_678> ;
+    nami:evidence "Die klaren Achsen und Symmetrien sind typisch für den Historismus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_682> rdfs:label "Zentralstrasse 72" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.518137 47.373032)"^^geo:wktLiteral ] .
+wd:Q52156589 nami:mentionedAt <https://example.org/nami/data/plaque/bt_682> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_682> ;
+    nami:evidence "1911 bauen die Wiediker Architekten Karl Otto Hügin (1887-1963) und Gottfried Windler das Mehrfamilienhaus für Bauunternehmer Johann Burtscher." ;
+    nami:confidence 0.5 |} .
+<https://example.org/nami/data/plaque/bt_685> rdfs:label "Platanenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.554813 47.37428)"^^geo:wktLiteral ] .
+wd:Q28949134 nami:mentionedAt <https://example.org/nami/data/plaque/bt_685> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_685> ;
+    nami:evidence "Bereits 1793 findet an einem Frühlingsfest im Rebhäuschen die Uraufführung des bekannten Liedes «Freut Euch des Lebens» durch Martin Usteri statt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_686> rdfs:label "Dreikönigskirche" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530102 47.361117)"^^geo:wktLiteral ] .
+wd:Q14595671 nami:mentionedAt <https://example.org/nami/data/plaque/bt_686> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_686> ;
+    nami:evidence "1949-1951 wurden Kirche und Pfarrhaus für die Dreikönigsstiftung von den Architekten Ferdinand Pfammatter (1916-2003) und Walter Rieger (1915-1990) erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_687> rdfs:label "Bahnhofplatz 1 und Bahnhofquai 9, 11, 15" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.541202 47.376846)"^^geo:wktLiteral ] .
+wd:Q76826276 nami:mentionedAt <https://example.org/nami/data/plaque/bt_687> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_687> ;
+    nami:evidence "1894–1899 werden durch Baumeister Johannes Baur (1831–1900) nach Plänen des Architekten Adolf Asper (1860–1921) die Wohn- und Geschäftshäuser errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_691> rdfs:label "Röntgenhofsiedlung I und II" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.52693 47.385158)"^^geo:wktLiteral ] .
+wd:Q138412066 nami:mentionedAt <https://example.org/nami/data/plaque/bt_691> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_691> ;
+    nami:evidence "1925–1927 wird nach Plänen von Architekt Peter Giumini (1886–1954) für die Gemeinnützige Baugenossenschaft Röntgenhof in zwei Etappen deren erste Siedlung als eine Zeile mit elf Häusern realisiert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_702> rdfs:label "Rotbuchstrasse 68 und 72" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530379 47.393339)"^^geo:wktLiteral ] .
+wd:Q5565543 nami:mentionedAt <https://example.org/nami/data/plaque/bt_702> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_702> ;
+    nami:evidence "1899 errichtet Joseph Weidmann (1851–1905) die Wohn- und Geschäftshäuser als ersten Teil einer grossstädtischen Blockrandbebauung im Stil der Neurenaissance." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_704> rdfs:label "Tiefe Schmitte" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543713 47.3747)"^^geo:wktLiteral ] .
+wd:Q1598179 nami:mentionedAt <https://example.org/nami/data/plaque/bt_704> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_704> ;
+    nami:evidence "Jahrhundert zurück. 1824 wird das Gebäude zusammen mit den Nachbarliegenschaften Niederdorfstrasse 29 und 31 von Heinrich Leuthold, Wirt im «Hirschen», gekauft." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_710> rdfs:label "Utoquai 55" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.548012 47.361565)"^^geo:wktLiteral ] .
+wd:Q118717 nami:mentionedAt <https://example.org/nami/data/plaque/bt_710> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_710> ;
+    nami:evidence "1961–1965 wurde der Bau nach Entwürfen des Architekten Armin Meili (1892–1981) für die Übersee-Handel AG errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q1294605 nami:mentionedAt wd:Q55167879 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_711> ;
+    nami:evidence "Im Übergang von Jugendstil und Heimatstil hin zur Moderne prägt das Haus den Raum zwischen Limmat, Beatenplatz und Waisenhausstrasse." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_712> rdfs:label "Winzerstrasse 5" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.493049 47.400084)"^^geo:wktLiteral ] .
+wd:Q16216002 nami:mentionedAt <https://example.org/nami/data/plaque/bt_712> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_712> ;
+    nami:evidence "1866 lässt der Textilunternehmer Johannes Strickler über einem Kellergewölbe von 1837 eine Villa erbauen. 1912 wird an deren Stelle für den Prokuristen Carl Zeitler ein Wohnhaus im Heimatstil errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_714> rdfs:label "Brannhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538149 47.374918)"^^geo:wktLiteral ] .
+wd:Q119369 nami:mentionedAt <https://example.org/nami/data/plaque/bt_714> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_714> ;
+    nami:evidence "Buntglasfenster von Otto Morach (1887–1973) verleihen dem Konsumtempel seine sakrale Wirkung." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_716> rdfs:label "Geschäftshaus Schader" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536269 47.364394)"^^geo:wktLiteral ] .
+wd:Q1678093 nami:mentionedAt <https://example.org/nami/data/plaque/bt_716> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_716> ;
+    nami:evidence "1969–1973 liess die IBM ihren Hauptsitz durch den Architekten Jacques Schader (1917–2007) anstelle des «Palais Henneberg» von 1898 errichten." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_717> rdfs:label "Villa Reiff" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.534189 47.365344)"^^geo:wktLiteral ] .
+wd:Q1712769 nami:workedAt <https://example.org/nami/data/plaque/bt_717> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_717> ;
+    nami:evidence "1905 liess Fabrikant Hermann Reiff (1856–1938) das Haus von Architekt Julius Kunkler (1845–1923) bauen, mit je zwei Etagen für Produktion und Wohnen sowie Fechtsaal und Atelier im Dachgeschoss." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_719> rdfs:label "Zürcherhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544899 47.367983)"^^geo:wktLiteral ] .
+wd:Q1294605 nami:mentionedAt <https://example.org/nami/data/plaque/bt_719> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_719> ;
+    nami:evidence "Der siebengeschossige Bau mit schwach geneigtem Walmdach und mittiger Dachzinne wurde 1907 nach Plänen von Franz Huwyler (1874–1930) zum Geschäftshaus mit Bauschmuck im Jugendstil umgebaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_723> rdfs:label "Ottostrasse 17" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.525349 47.386309)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_723> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_723> ;
+    nami:evidence "Die Gebäude wurden im Stil des Späthistorismus errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_724> rdfs:label "Ottostrasse 7" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.525831 47.386959)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_724> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_724> ;
+    nami:evidence "1899 liess Eugen Beerli (1859–1929) zwölf Häuser im Stil des Späthistorismus nach Plänen von Jakob Mutter hinter dem ehemaligen Bahndamm nach Wipkingen, heute Röntgenstrasse, erstellen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_728> rdfs:label "Spitalgasse 2" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544013 47.373384)"^^geo:wktLiteral ] .
+wd:Q694964 nami:mentionedAt <https://example.org/nami/data/plaque/bt_728> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_728> ;
+    nami:evidence "Ab 1877 entstand unter Leitung von Stadtingenieur Arnold Bürkli (1833–1894) das neue Spitalquartier. 1879 erstellte Architekt Robert Jakob Weber-Meyer (1849–1931) Wohn- und Geschäftshäuser anstelle ehemaliger Spitalbauten." ;
+    nami:confidence 0.7 |} .
+wd:Q125016 nami:mentionedAt wd:Q27330391 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_729> ;
+    nami:evidence "1943 und 1945 wurde die erste Siedlung der Baugenossenschaft «Sunnige Hof» nach Plänen von Architekt Karl Kündig (1883–1969) und Landschaftsarchitekt Gustav Ammann (1885–1955) in zwei Etappen errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q2638099 nami:mentionedAt wd:Q27330391 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_729> ;
+    nami:evidence "Die Idee der durchgrünten Wohnsiedlung wurde von Stadtbaumeister Albert Heinrich Steiner (1905–1996) aufgenommen und 1948 im Überbauungsplan für Schwamendingen festgelegt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_730> rdfs:label "Zentrum Witikon" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.585986 47.359427)"^^geo:wktLiteral ] .
+wd:Q2501659 nami:workedAt <https://example.org/nami/data/plaque/bt_730> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_730> ;
+    nami:evidence "Das vierpassförmige Signet wurde vom Atelier Ernst und Ursula Hiestand (1960-1980) entworfen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_731> rdfs:label "Bahnhofplatz 2" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5408 47.376858)"^^geo:wktLiteral ] .
+wd:Q76826276 nami:mentionedAt <https://example.org/nami/data/plaque/bt_731> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_731> ;
+    nami:evidence "Das Wohn- und Geschäftshaus wurde 1893–1896 als Teil eines Ensembles nach Plänen des Architekten Adolf Asper (1860–1921) durch Baumeister Johannes Baur (1831–1900) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_733> rdfs:label "Ehemalige Telefonzentrale" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537294 47.373177)"^^geo:wktLiteral ] .
+wd:Q173782 nami:mentionedAt <https://example.org/nami/data/plaque/bt_733> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_733> ;
+    nami:evidence "Lineare Formen und Zackenmotive sind zu einem sachlich ornamentalen Stil verarbeitet, der formal an das Art Déco erinnert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_734> rdfs:label "Gutstrasse 150" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.503984 47.37389)"^^geo:wktLiteral ] .
+wd:Q1277468 nami:mentionedAt <https://example.org/nami/data/plaque/bt_734> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_734> ;
+    nami:evidence "1952–1955 erstellte die Baugenossenschaft «Im Gut» ein sternförmiges Wohnhochhaus mit Dachterrasse nach Plänen der Architekten Karl Egender (1897–1969) und Wilhelm Müller (1898–1966)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_737> rdfs:label "Im Hegi" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.511666 47.355165)"^^geo:wktLiteral ] .
+wd:Q14378 nami:mentionedAt <https://example.org/nami/data/plaque/bt_737> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_737> ;
+    nami:evidence "«Im Hegi» ist Zeuge einer auf rationeller Bauweise gründenden Arbeitersiedlung, die Stilelemente des Klassizismus und der Moderne verbindet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_738> rdfs:label "Maschinen-Laboratorium ETH" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547838 47.378026)"^^geo:wktLiteral ] .
+wd:Q117646 nami:mentionedAt <https://example.org/nami/data/plaque/bt_738> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_738> ;
+    nami:evidence "1930–1935 von ETH-Professor Otto Rudolf Salvisberg (1882–1940) errichteter Komplex mit Fernheizkraftwerk, Lehr- und Laborgebäuden sowie Werkstätten." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_740> rdfs:label "Oberer Schönenberg/Bodmerhaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.549008 47.373962)"^^geo:wktLiteral ] .
+wd:Q115588 nami:mentionedAt <https://example.org/nami/data/plaque/bt_740> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_740> ;
+    nami:evidence "1643–1645 wurde von Zunftmeister Hans Heinrich Heidegger anstelle eines Vorgängerbaus ein barocker Landsitz errichtet. 1756 kaufte Literat Johann Jakob Bodmer die Anlage. Über dem Mauersockel im EG erhebt sich ein Fachwerkbau, der bis 1800 verputzt oder versteinert wurde." ;
+    nami:confidence 0.7 |} .
+wd:Q324629 nami:workedAt wd:Q27329400 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_741> ;
+    nami:evidence "Die Räume dienten Kunstmaler Ludwig Vogel (1788–1879) als Atelier." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_743> rdfs:label "Schanzenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538559 47.368269)"^^geo:wktLiteral ] .
+wd:Q57588 nami:mentionedAt <https://example.org/nami/data/plaque/bt_743> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_743> ;
+    nami:evidence "Die Einbauten für den Laden links des Haupteingangs gestalteten 1932/33 Marcel Breuer und Robert Winkler." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_20> rdfs:label "Ankerstrasse 6" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523966 47.37258)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_20> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_20> ;
+    nami:evidence "Die Putzfelder unter dem Dach weisen auf Seite Zweierstrasse Malereien aus der Bauzeit, auf Seite Ankerstrasse in Zürich seltene Wandmalereien mit Pflanzenmotiven aus den 1930er Jahren auf." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_23> rdfs:label "Apollostrasse 19 und 21" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556576 47.365327)"^^geo:wktLiteral ] .
+wd:Q18132159 nami:mentionedAt <https://example.org/nami/data/plaque/bt_23> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_23> ;
+    nami:evidence "1911 vom hauptsächlich in Gotha tätigen Architekten Richard Klepzig als Teil der Mehrfamilienhauszeile mit Vorgärten an der Apollostrasse 15 – 21/Hegarstrasse 9 errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q946822 nami:mentionedAt wd:Q29574349 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_67> ;
+    nami:evidence "Melchior Römer errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_34> rdfs:label "Turmhaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539423 47.372197)"^^geo:wktLiteral ] .
+wd:Q52156589 nami:mentionedAt <https://example.org/nami/data/plaque/bt_34> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_34> ;
+    nami:evidence "Die Erker von Turmhaus und Wassermühle wurden 1925 von Kunstmaler Karl Hügin (1887-1963) bei der farbigen Gestaltung der ganzen Augustinergasse neu gefasst." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_38> rdfs:label "Turtentäubli" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539208 47.372261)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_38> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_38> ;
+    nami:evidence "In einem Zimmer des dritten Stocks eine um 1600 datierte Wandmalerei in Grisailletechnik, mit Darstellung eines Trinkgelages in einer Waldlandschaft." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_81> rdfs:label "Bellariastrasse 26" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530639 47.353746)"^^geo:wktLiteral ] .
+wd:Q2149993 nami:mentionedAt <https://example.org/nami/data/plaque/bt_81> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_81> ;
+    nami:evidence "1900-1903 errichteten die Architekten Richard Kuder (1852-1912) und Joseph Müller (Geb. 1863) im Auftrag der Baugenossenschaft Bellaria die zwei Doppelhäuser, welche als romantisches Landhaus und Stadtwohnung in einem dienen sollten." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_43> rdfs:label "Augustinergasse 52" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538681 47.372617)"^^geo:wktLiteral ] .
+wd:Q16887888 nami:mentionedAt <https://example.org/nami/data/plaque/bt_43> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_43> ;
+    nami:evidence "1927 von den Architekten Hans Vogelsanger (1883-1964) für O." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_49> rdfs:label "Ausstellungsstrasse 100" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.533398 47.384462)"^^geo:wktLiteral ] .
+wd:Q1294605 nami:commemoratedAt <https://example.org/nami/data/plaque/bt_49> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_49> ;
+    nami:evidence "Die Fassade steht stilistisch zwischen Jugendstil und neuer Sachlichkeit, ihr plastischer Schmuck erinnert an den Importhandel mit Bananen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_51> rdfs:label "Badenerstrasse 69-71" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.526914 47.37352)"^^geo:wktLiteral ] .
+wd:Q18397174 nami:mentionedAt <https://example.org/nami/data/plaque/bt_51> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_51> ;
+    nami:evidence "1895 als Wohn- und Geschäftshäuser von Architekt Robert Zollinger (1858-1939) für die christliche Vereinsbuchhandlung CVB erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_52> rdfs:label "Wohnsiedlung Zurlinden" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.513406 47.376814)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_52> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_52> ;
+    nami:evidence "1918-1919 von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q1356014 nami:mentionedAt wd:Q14906735 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_53> ;
+    nami:evidence "1951 von den Basler Architekten Hans Rudolf Suter (1908-2001) und seinem Bruder Peter Suter (1914-1998) als Autowerkstatt und Garage Schlotterbeck erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_82> rdfs:label "Bellariastrasse 32" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530383 47.353271)"^^geo:wktLiteral ] .
+wd:Q2149993 nami:mentionedAt <https://example.org/nami/data/plaque/bt_82> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_82> ;
+    nami:evidence "1900-1903 errichtete Architekt Richard Kuder (1852-1912) im Auftrag der Baugenossenschaft Bellaria zwei Doppelvillen, die als Landhaus und Stadtwohnung in einem dienen sollten." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_55> rdfs:label "Bahnhofplatz 1" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5413 47.376835)"^^geo:wktLiteral ] .
+wd:Q76826276 nami:mentionedAt <https://example.org/nami/data/plaque/bt_55> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_55> ;
+    nami:evidence "1894 nach den Plänen des Architekten Adolf Asper (1860-1921) durch den Baumeister Johannes Baur als repräsentatives Wohnhaus errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_59> rdfs:label "Orell Füssli Hof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538656 47.370888)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_59> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_59> ;
+    nami:evidence "1924-1925 als Geschäftshaus von Architekt Hermann Weideli (1877-1964) für die Baugenossenschaft Orell Füssli Hof errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q1678940 nami:mentionedAt <https://example.org/nami/data/plaque/bt_59> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_59> ;
+    nami:evidence "Repräsentatives Eingangsportal von Bildhauer Jakob Brüllmann (1872-1938)." ;
+    nami:confidence 0.5 |} .
+wd:Q52156442 nami:mentionedAt <https://example.org/nami/data/plaque/bt_59> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_59> ;
+    nami:evidence "Von Kunstmaler Rudolf Mülli (1882-1962) stammen die Bildfelder im Attikageschoss mit Motiven von Wissenschaft, Handel und Gewerbe in Sgraffito-Technik." ;
+    nami:confidence 0.7 |} .
+wd:Q1678940 nami:mentionedAt wd:Q137590628 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_60> ;
+    nami:evidence "Die fünf Büsten des Bildhauers Jakob Brüllmann (1872-1938) über den Rundbogen versinnbildlichen mit Industrie, Landwirtschaft, Handel, Wissenschaft und Militärwesen Geschäftsbereiche der Bank." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_62> rdfs:label "Schweizerische Volksbank" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538129 47.372617)"^^geo:wktLiteral ] .
+wd:Q76397 nami:mentionedAt <https://example.org/nami/data/plaque/bt_62> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_62> ;
+    nami:evidence "Bildhauer Eduard Zimmermann (1872-1949) schuf die Bronzefiguren und Medaillons am Eingang, Bildhauer Otto Münch (1885-1965) die Terrakotta-Verkleidung der Schalterhalle." ;
+    nami:confidence 0.7 |} .
+wd:Q7109740 nami:mentionedAt <https://example.org/nami/data/plaque/bt_62> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_62> ;
+    nami:evidence "Bildhauer Eduard Zimmermann (1872-1949) schuf die Bronzefiguren und Medaillons am Eingang, Bildhauer Otto Münch (1885-1965) die Terrakotta-Verkleidung der Schalterhalle." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_64> rdfs:label "Bahnhofstrasse 65" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538019 47.373544)"^^geo:wktLiteral ] .
+wd:Q2162996 nami:mentionedAt <https://example.org/nami/data/plaque/bt_64> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_64> ;
+    nami:evidence "Seit 1905 im Besitz der Familien Landolt, die hier 1927 die Papeterie Landolt-Arbenz AG einrichteten. 1918 Jugendstil-Ladenfassade mit grossen Schaufenstern und zentraler Eingangsnische durch Architekt Franz Huwyler-Boller (1874-1930). 1952 Neugestaltung der Glas-Metall-Ladenfassade durch Architekt Roland Rohn (1905-1971)." ;
+    nami:confidence 0.7 |} .
+wd:Q1912469 nami:mentionedAt wd:Q108046795 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_65> ;
+    nami:evidence "1966-1968 von den HMS Architekten Max Ernst Haefeli (1901-1976), Werner M." ;
+    nami:confidence 0.5 |} .
+wd:Q154842 nami:mentionedAt wd:Q108046795 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_65> ;
+    nami:evidence "1966-1968 von den HMS Architekten Max Ernst Haefeli (1901-1976), Werner M." ;
+    nami:confidence 0.7 |} .
+wd:Q77353548 nami:mentionedAt wd:Q108046795 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_65> ;
+    nami:evidence "Die Aussenreklame in Form von fünf Kugeln für den Schriftzug BALLY schuf der Zürcher Grafiker Gérard Miedinger (1912-1995)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_68> rdfs:label "Modissa" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538991 47.374682)"^^geo:wktLiteral ] .
+wd:Q15854045 nami:mentionedAt <https://example.org/nami/data/plaque/bt_68> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_68> ;
+    nami:evidence "1973-1975 von Architekt Werner Gantenbein (1924-2004) als Geschäftshaus für die Modissa AG erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_69> rdfs:label "Zum Freieneck" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539166 47.375199)"^^geo:wktLiteral ] .
+wd:Q5565543 nami:mentionedAt <https://example.org/nami/data/plaque/bt_69> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_69> ;
+    nami:evidence "Erbaut in den Jahren 1891/92 durch den Architekten Johann Joseph Weidmann für den Kaufmann und Gemeinderat Theodor Frei-Nägeli." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_71> rdfs:label "Bahnhofstrasse 104" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539824 47.376471)"^^geo:wktLiteral ] .
+wd:Q60070 nami:mentionedAt <https://example.org/nami/data/plaque/bt_71> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_71> ;
+    nami:evidence "1880-82 erbaut vom Architekten Friedrich Schelling (1843-1917)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_547> rdfs:label "Zum grossen Leoparden" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540924 47.372044)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_547> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_547> ;
+    nami:evidence "Jh. errichtet. 1924 schuf Wilhelm Hartung das Wandgemälde." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_73> rdfs:label "Hochhaus zur Bastei" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.53653 47.36927)"^^geo:wktLiteral ] .
+wd:Q2562733 nami:commemoratedAt <https://example.org/nami/data/plaque/bt_73> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_73> ;
+    nami:evidence "Bastei bedeutet Bollwerk und erinnert an die barocke Stadtbefestigung entlang des Schanzengrabens. 1953-1955 von Architekt Werner Stücheli (1916-1983) für die Baufirma Heinrich Hatt-Haller als Bürohochhaus mit Verbindungsbau erstellt. 1990 Neugestaltung des Vordachs über dem Haupteingang." ;
+    nami:confidence 0.7 |} .
+wd:Q59767773 nami:mentionedAt wd:Q60458746 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_78> ;
+    nami:evidence "Der Zürcher Bildhauer Wilhelm Schwerzmann (1877-1966) schuf die reiche Fassaden-Ornamentik des Jugendstilgebäudes. 1911 eröffnete der Bauherr, Lithograph Johann Edwin Wolfensberger, hier den Kunstsalon Wolfensberg." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_80> rdfs:label "Bellariastrasse 23" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530909 47.353281)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_80> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_80> ;
+    nami:evidence "Das gutbürgerliche Wohnhaus ist mit seinen der Burgenarchitektur entliehenen Elementen ein Beispiel des romantischen Historismus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_92> rdfs:label "Bertastrasse 3, 5, 11" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.516161 47.375194)"^^geo:wktLiteral ] .
+wd:Q208208 nami:mentionedAt <https://example.org/nami/data/plaque/bt_92> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_92> ;
+    nami:evidence "Bertastrasse 5 ist im damals „modernen“ Stil der Wiener Sezession in grauen Granit mit Jugendstil-Balkongeländern gestaltet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_100> rdfs:label "Bleicherweg 41" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.532779 47.366116)"^^geo:wktLiteral ] .
+wd:Q37944060 nami:mentionedAt <https://example.org/nami/data/plaque/bt_100> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_100> ;
+    nami:evidence "1899 erbaut von Alfred Chiodera (1850-1916) und Theophil Tschudy (1849-1911)." ;
+    nami:confidence 0.7 |} .
+wd:Q37944060 nami:mentionedAt wd:Q29933654 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_102> ;
+    nami:evidence "Erbaut in den Jahren 1905/1906 nach den Plänen der Architekten Alfred Chiodera (1850-1916) und Theophil Tschudy (1849-1911)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_109> rdfs:label "Telefonzentrale Selnau" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.533725 47.369328)"^^geo:wktLiteral ] .
+wd:Q27229262 nami:mentionedAt <https://example.org/nami/data/plaque/bt_109> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_109> ;
+    nami:evidence "Bildhauer Hans Markwalder (1882-1951) schmückte die Fassaden mit Figuren aus der griechischen Mythologie wie Athene, Zeus oder dem gefesselten Prometheus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_110> rdfs:label "Telefonzentrale Selnau" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.532796 47.369105)"^^geo:wktLiteral ] .
+wd:Q110560715 nami:mentionedAt <https://example.org/nami/data/plaque/bt_110> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_110> ;
+    nami:evidence "1948-1958 von den Architekten Anton Pestalozzi (1885-1953), Max Schucan (1885-1969) und Jacob Padrutt (1908-1960) erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q63341972 nami:mentionedAt <https://example.org/nami/data/plaque/bt_110> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_110> ;
+    nami:evidence "Die Bronzefigur „Schwebende“, 1952 von Bildhauer Luigi Zanini (1896-1968) geschaffen, symbolisiert mit der Brieftaube das Thema Kommunikation." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_112> rdfs:label "Alte Spinnerei Manegg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.520674 47.338735)"^^geo:wktLiteral ] .
+wd:Q76624 nami:mentionedAt <https://example.org/nami/data/plaque/bt_112> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_112> ;
+    nami:evidence "1857 als Weizenhaus erbaut. 1861 für Johannes Scheller zur „Schellerschen Tonmühle“ erweitert und als Keramikfabrik betrieben. 1875 richtet Karl Ziegler die Spinnerei Wollishofen ein. 1904 Übernahme des Gebäudes durch die „Sihl Papier“." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_114> rdfs:label "Brunnenhofweg 30" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.534939 47.401231)"^^geo:wktLiteral ] .
+wd:Q123454 nami:mentionedAt <https://example.org/nami/data/plaque/bt_114> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_114> ;
+    nami:evidence "1963 bis 1973 von dem Architekten und Gestalter Max Bill (1908-1994) und dem Architekten Willy Roost (Gest. 1968) als Erweiterungsbau des Radiostudios Zürich projektiert und errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q219423 nami:mentionedAt wd:Q29574439 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_116> ;
+    nami:evidence "Im ersten Obergeschoss dieses Anbaus richtete um 1330 die jüdische Familie Ben Menachem einen mit gotischen Wandmalereien ausgestatteten Festsaal ein. 1349 wurden die Bewohner, wie die meisten Juden der Stadt, umgebracht und enteignet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_117> rdfs:label "Zum schwarzen Schlüssel" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544641 47.373327)"^^geo:wktLiteral ] .
+wd:Q1704063 nami:mentionedAt <https://example.org/nami/data/plaque/bt_117> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_117> ;
+    nami:evidence "Das mittelalterliche Wohnhaus ist schon 1576 auf dem Stadtprospekt von Jos Murer fünfgeschossig dargestellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_118> rdfs:label "Büchnerstrasse 17 und 19" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.551057 47.383522)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_118> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_118> ;
+    nami:evidence "Das Doppelmehrfamilienhaus ist mit seinen zurückhaltenden Fassaden ein Vertreter des Reformstils, der sich damals vom als überladen empfundenen Historismus absetzte." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_126> rdfs:label "Bürglistrasse 30" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.529008 47.360746)"^^geo:wktLiteral ] .
+wd:Q1597664 nami:mentionedAt <https://example.org/nami/data/plaque/bt_126> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_126> ;
+    nami:evidence "1893 als Mehrfamilienhaus vom Baugeschäft Frey & Lauffer für Lehrer Heinrich Huber erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_130> rdfs:label "Burgweg 50" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.562276 47.35762)"^^geo:wktLiteral ] .
+wd:Q104638275 nami:mentionedAt <https://example.org/nami/data/plaque/bt_130> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_130> ;
+    nami:evidence "1976-1977 von den Architekten Hans Hubacher (1916-2009), Annemarie Hubacher-Constam (1921-2012) und Peter Issler (1922-2006) als Wohnhaus mit Gärtnerwohnungen erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_131> rdfs:label "Kuppelschauhäuser" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.561856 47.357632)"^^geo:wktLiteral ] .
+wd:Q104638275 nami:mentionedAt <https://example.org/nami/data/plaque/bt_131> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_131> ;
+    nami:evidence "1976-1977 von den Architekten Hans Hubacher (1916-2009), Annemarie Hubacher-Constam (1921-2012) und Peter Issler (1922-2006) als Gewächshäuser erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q23060215 nami:mentionedAt <https://example.org/nami/data/plaque/bt_131> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_131> ;
+    nami:evidence "Die „überdimensionierten Tautropfen“ sind zusammen mit dem Anzucht-Gewächshaus und dem Betriebsgebäude Burgweg 50a Teil des neuen Botanischen Gartens der Universität Zürich, der 1972 – 1977 von den Gartenarchitekten Fred Eicher (1927-2010) und Ernst Meili (1920-1979) gestaltet wurde." ;
+    nami:confidence 0.7 |} .
+wd:Q123673 nami:mentionedAt wd:Q1021608 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_132> ;
+    nami:evidence "Erstellt im Jahre 1908 von Robert Maillart (1872-1940), Ingenieur und Bauunternehmer, Schweizer Pionier des Eisenbetonbaues." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_134> rdfs:label "Carmenstrasse 45" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.563763 47.367528)"^^geo:wktLiteral ] .
+wd:Q1403405 nami:mentionedAt <https://example.org/nami/data/plaque/bt_134> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_134> ;
+    nami:evidence "1909 für Schreinermeister Johann Jakob Thoma als Mehrfamilienhaus mit Etagenwohnungen zusammen mit Carmenstrasse 43 erbaut. 1933 erstellt Baumeister Karl Bänninger für Jean Ryffel zwei Garagen mit aufsitzendem dreigeschossigem Vorbau und zweigeschossigem Loggienanbau." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_139> rdfs:label "Telefonzentrale Selnau" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.533902 47.369202)"^^geo:wktLiteral ] .
+wd:Q110560715 nami:mentionedAt <https://example.org/nami/data/plaque/bt_139> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_139> ;
+    nami:evidence "1936-1937 von den Architekten Anton Pestalozzi (1885-1953) und Max Schucan (1885-1969) als Erweiterungsbau für die Direktion der Eidgenössischen Bauten erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_140> rdfs:label "Dietzingerstrasse 3" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.521999 47.369568)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_140> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_140> ;
+    nami:evidence "1923 als Geschäftshaus für die Orell Füssli graphische Betriebe AG von dem Zürcher Architekten Hermann Weideli (1877-1964) erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_142> rdfs:label "Du Théâtre" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547418 47.36398)"^^geo:wktLiteral ] .
+wd:Q5565543 nami:mentionedAt <https://example.org/nami/data/plaque/bt_142> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_142> ;
+    nami:evidence "1890 von Architekt Johann Joseph Weidmann (1851-1905) für Anna Lina Knecht-Grossweiler (1851-1921) erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_148> rdfs:label "Engelstrasse 63" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523832 47.376891)"^^geo:wktLiteral ] .
+wd:Q1040990 nami:mentionedAt <https://example.org/nami/data/plaque/bt_148> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_148> ;
+    nami:evidence "1896 vom Zürcher Architekten Carl Weigle zusammen mit den Häusern Stauffacherstrasse 127 und 129 und Schreinerstrasse 64 als einheitlicher Wohnhauskomplex erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_148> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_148> ;
+    nami:evidence "Die mit plastischen Ornamenten und mit Malereien reich verzierte Fassade ist ein typisches Beispiel für den herrschaftlichen Anspruch des Historismus der Gründerzeit." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_149> rdfs:label "Falkenstrasse 11" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547537 47.365083)"^^geo:wktLiteral ] .
+wd:Q120459 nami:mentionedAt <https://example.org/nami/data/plaque/bt_149> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_149> ;
+    nami:evidence "Das Giebelrelief über der Südecke stammt von Bildhauer Richard Kissling (1848-1919)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_150> rdfs:label "Falkenstrasse 21" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.548347 47.365733)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_150> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_150> ;
+    nami:evidence "1864 von Architekt Theodor Geiger (1832-1882) als Wohnhaus erbaut. 1889 erhielt die Fassade ihr heutiges Aussehen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_152> rdfs:label "Autohaus AMAG" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.548383 47.362002)"^^geo:wktLiteral ] .
+wd:Q60618174 nami:mentionedAt <https://example.org/nami/data/plaque/bt_152> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_152> ;
+    nami:evidence "1928/29 von Anton Fritz Scotoni (1880-1932) und Karl Rudolf Völlmy (1883-1964) als Garage mit Gymnastikräumen und zwei Tennishallen erbaut. 1932 Umbau der Gymnastikräume im 1." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_153> rdfs:label "Feldeggstrasse 46" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.551939 47.360236)"^^geo:wktLiteral ] .
+wd:Q4692 nami:mentionedAt <https://example.org/nami/data/plaque/bt_153> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_153> ;
+    nami:evidence "Der im Stil deutscher Renaissance reich gegliederte Bau bildet mit den Nachbarhäusern das grösste bauliche Ensemble aus der Gründerzeit in Riesbach." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_168> rdfs:label "Forchstrasse 303/305" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.574055 47.355854)"^^geo:wktLiteral ] .
+wd:Q1598179 nami:mentionedAt <https://example.org/nami/data/plaque/bt_168> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_168> ;
+    nami:evidence "1685 von dem Handwerkermeister Heinrich Treichler als Wohnhaus mit Stallscheune erstellt. 1724 zum Doppelwohnhaus für die Brüder Jacob und Rudolf Forster umgebaut. 1809 übernimmt Caspar Leuthold die Liegenschaft, welche zusammen mit Forchstrasse 301 bis heute im Besitz der Familie Umiker/Leuthold ist. 1934 Sitz der Gebr." ;
+    nami:confidence 0.5 |} .
+wd:Q87200 nami:mentionedAt <https://example.org/nami/data/plaque/bt_168> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_168> ;
+    nami:evidence "1685 von dem Handwerkermeister Heinrich Treichler als Wohnhaus mit Stallscheune erstellt. 1724 zum Doppelwohnhaus für die Brüder Jacob und Rudolf Forster umgebaut. 1809 übernimmt Caspar Leuthold die Liegenschaft, welche zusammen mit Forchstrasse 301 bis heute im Besitz der Familie Umiker/Leuthold ist. 1934 Sitz der Gebr." ;
+    nami:confidence 0.7 |} .
+wd:Q118948 nami:mentionedAt wd:Q668300 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_188> ;
+    nami:evidence "1886-88 erbaut vom Architekten Friedrich Bluntschli." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_172> rdfs:label "Villa Fleiner" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.559995 47.381921)"^^geo:wktLiteral ] .
+wd:Q121475 nami:mentionedAt <https://example.org/nami/data/plaque/bt_172> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_172> ;
+    nami:evidence "1930-1932 von Architekt Werner Max Moser (1896-1970) für seinen Patenonkel, den Rechtshistoriker Fritz Fleiner (1867-1937), errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q27323148 nami:mentionedAt <https://example.org/nami/data/plaque/bt_172> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_172> ;
+    nami:evidence "1930-1932 von Architekt Werner Max Moser (1896-1970) für seinen Patenonkel, den Rechtshistoriker Fritz Fleiner (1867-1937), errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_182> rdfs:label "Villa Maria" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.532057 47.367262)"^^geo:wktLiteral ] .
+wd:Q37944060 nami:mentionedAt <https://example.org/nami/data/plaque/bt_182> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_182> ;
+    nami:evidence "1897 von den Architekten Alfred Chiodera (1850-1916) und Theophil Tschudy (1847-1911) für die Indstriellenwitwe Maria Koch-Jagenberg erbaut. 1945 Umbau in Mehrfamilienhaus mit Büros und teilweise Aufstockung des Dachgeschosses." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_187> rdfs:label "Zur Froschau" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545239 47.373112)"^^geo:wktLiteral ] .
+wd:Q117918 nami:mentionedAt <https://example.org/nami/data/plaque/bt_187> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_187> ;
+    nami:evidence "Verena anstelle älterer Klosterbauten. 1551 von Christoph Froschauer dem Älteren (um 1490-1564) erworben, der hier eine Buchdruckerei einrichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q63265 nami:livedAt wd:Q668300 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_189> ;
+    nami:evidence "1853-57 erbaut vom Architekten Leonhard Zeugheer für Otto und Mathilde Wesendonck, die 1858-1872 hier wohnten und Freunde und Förderer Richard Wagners waren. 1872-1944 Besitz der Familie Rieter." ;
+    nami:confidence 0.7 |} .
+wd:Q1819314 nami:livedAt wd:Q668300 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_189> ;
+    nami:evidence "1853-57 erbaut vom Architekten Leonhard Zeugheer für Otto und Mathilde Wesendonck, die 1858-1872 hier wohnten und Freunde und Förderer Richard Wagners waren. 1872-1944 Besitz der Familie Rieter." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_194> rdfs:label "Gemeindestrasse 27" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.552572 47.368908)"^^geo:wktLiteral ] .
+wd:Q1505132 nami:workedAt <https://example.org/nami/data/plaque/bt_194> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_194> ;
+    nami:evidence "1897/98 vom Architekten und ETH-Professor Georg Lasius (1835-1928) für den Arzt Hermann Schulthess als Wohnhaus und Praxis erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_197> rdfs:label "Zum Mythenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.534191 47.364806)"^^geo:wktLiteral ] .
+wd:Q94779389 nami:mentionedAt <https://example.org/nami/data/plaque/bt_197> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_197> ;
+    nami:evidence "Erbaut im Jahr 1895 durch den Baumeister Rudolf Ludwig als dominierendes Mittelstück der Fassaden des Baublockes an der Genferstrasse." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_198> rdfs:label "Neu-Seidenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5369 47.374928)"^^geo:wktLiteral ] .
+wd:Q64467 nami:mentionedAt <https://example.org/nami/data/plaque/bt_198> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_198> ;
+    nami:evidence "1904 nach Plänen der Architekten Otto Pflegehard (1869-1958), Max Häfeli (1869-1941) und Theodor Oberländer (1865-1926) erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_199> rdfs:label "Gessner-Schloss" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536538 47.376208)"^^geo:wktLiteral ] .
+wd:Q1679033 nami:mentionedAt <https://example.org/nami/data/plaque/bt_199> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_199> ;
+    nami:evidence "Erbaut in den Jahren 1890-94 durch den Architekten Jakob Friedrich Wanner (1830-1903), dem Schöpfer des Hauptbahnhofes und der Kreditanstalt am Paradeplatz." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_201> rdfs:label "Zur Glocke" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540249 47.371952)"^^geo:wktLiteral ] .
+wd:Q173782 nami:mentionedAt <https://example.org/nami/data/plaque/bt_201> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_201> ;
+    nami:evidence "Die Hauptfassade wird in Neurenaissance-Formen gestaltet. 1925 Keramikverkleidung des Erdgeschosses in Art Déco für das Café Usenbenz." ;
+    nami:confidence 0.7 |} .
+wd:Q7109740 nami:mentionedAt wd:Q21035580 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_203> ;
+    nami:evidence "Anstelle des Osteingangs wird 1944 das Hochrelief in Kalkstein von Otto Münch (1885-1965) eingesetzt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_204> rdfs:label "Goethestrasse 18" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547974 47.365966)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_204> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_204> ;
+    nami:evidence "1864 vom Architekten Theodor Geiger (1832-1882) als Wohnhaus erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_212> rdfs:label "Maschinenfabrik Sulzer-Escher Wyss / Hochkamin" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.519437 47.389327)"^^geo:wktLiteral ] .
+wd:Q89165 nami:mentionedAt <https://example.org/nami/data/plaque/bt_212> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_212> ;
+    nami:evidence "Das in 25 Metern Höhe angebrachte Wasserreservoir für 50 Kubikmeter Inhalt ist nach dem Intze-Prinzip konstruiert. 1885 hatte der deutsche Bauingenieur Otto Intze (1843-1904) erstmals ringförmig um einen Kamin angeordnete Wasserbehälter als Stahlkonstruktion errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_225> rdfs:label "Heinrichstrasse 48" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.53159 47.383531)"^^geo:wktLiteral ] .
+wd:Q1647505 nami:foundedAt <https://example.org/nami/data/plaque/bt_225> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_225> ;
+    nami:evidence "Der Baumwollkaufmann und Politiker Johann Heinrich Fierz (1813-1877) gründete 1872 zusammen mit grossen Zürcher Firmen, wie Escher Wyss und NOB, den Aktienbauverein, um die Industriearbeiter mit günstigem Wohnraum und kleinem Garten für Gemüseanbau zu Sesshaftigkeit und Selbstversorgung anzuhalten." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_226> rdfs:label "Haus Glück auf" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.566584 47.369149)"^^geo:wktLiteral ] .
+wd:Q133399324 nami:mentionedAt <https://example.org/nami/data/plaque/bt_226> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_226> ;
+    nami:evidence "1912 erbaut von den Architekten Otto Pfleghard (1869-1958) und Max Haefeli (1869-1941) für die Verlegerfamilie von Otto und Berta Coninx-Girardet. 1913 Anbau des Gartenpavillons." ;
+    nami:confidence 0.7 |} .
+wd:Q131808 nami:mentionedAt <https://example.org/nami/data/plaque/bt_226> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_226> ;
+    nami:evidence "Die wuchtigen Fenstergewände aus gefugtem Naturstein zeigen als historistisches Element Formen des Manierismus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_227> rdfs:label "Hinterbergstrasse 65" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556917 47.382388)"^^geo:wktLiteral ] .
+wd:Q27900246 nami:workedAt <https://example.org/nami/data/plaque/bt_227> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_227> ;
+    nami:evidence "1842 von Zimmermann Conrad Fehr als Werkstattgebäude erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q122960 nami:mentionedAt wd:Q29933626 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_237> ;
+    nami:evidence "Sie wird durch stilistisch noch im Rokoko wurzelnde Elemente wie Fenstergitter und Portal aufgelockert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_250> rdfs:label "Hottingerstrasse 28" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.552718 47.369636)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_250> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_250> ;
+    nami:evidence "1879 erbaut von Architekt Theodor Geiger (1832-1882)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_251> rdfs:label "Idaplatz 10" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.515218 47.374272)"^^geo:wktLiteral ] .
+wd:Q4692 nami:mentionedAt <https://example.org/nami/data/plaque/bt_251> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_251> ;
+    nami:evidence "Teil der U-förmigen Blockrandbebauung im Stil deutscher Renaissance an Berta-, Zentral- und Zurlindenstrasse." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_257> rdfs:label "Zum Drachen" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540497 47.370599)"^^geo:wktLiteral ] .
+wd:Q37853 nami:mentionedAt <https://example.org/nami/data/plaque/bt_257> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_257> ;
+    nami:evidence "Obergeschoss spätmittelalterliche Saal, der im Barock erhöht und mit Rollwerkmalerei ausgestaltet wurde." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_263> rdfs:label "Kantstrasse 14" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.557493 47.376291)"^^geo:wktLiteral ] .
+wd:Q121475 nami:mentionedAt <https://example.org/nami/data/plaque/bt_263> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_263> ;
+    nami:evidence "Das Wohnhaus bildet mit Nr. 12, dem Pfarrhaus Kantstrasse 21 sowie den nach dem Bebauungsplan von Karl Moser durch Max Gustav Sütterlin (1897-1976) erstellten Doppeleinfamilienhäusern Kantstrasse 7-19 die noch intakte Villenkolonie, wie sie von Moser als Umgebung für seine 1920 vollendete neue Kirche Fluntern entworfen wurde." ;
+    nami:confidence 0.5 |} .
+<https://example.org/nami/data/plaque/bt_264> rdfs:label "Kapfstrasse 16" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.571434 47.361769)"^^geo:wktLiteral ] .
+wd:Q125016 nami:mentionedAt <https://example.org/nami/data/plaque/bt_264> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_264> ;
+    nami:evidence "Die Umgebungsgestaltung stammte vom Gartenarchitekten Gustav Ammann (1885-1955)." ;
+    nami:confidence 0.7 |} .
+wd:Q98497196 nami:mentionedAt wd:Q27321117 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_265> ;
+    nami:evidence "1876 erbaut von Baumeister Emil Naef (1840-1908), der als Bauunternehmer führend an der neuen, grossstädtischen Überbauung des Kratzquartiers beteiligt war." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_268> rdfs:label "Kasernenstrasse 21" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.532163 47.374364)"^^geo:wktLiteral ] .
+wd:Q1040990 nami:mentionedAt <https://example.org/nami/data/plaque/bt_268> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_268> ;
+    nami:evidence "1894 von Architekt Carl Weigle (1858-1924) erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_272> rdfs:label "Kirchenweg 2, 4, 8" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.555591 47.360979)"^^geo:wktLiteral ] .
+wd:Q1912469 nami:mentionedAt <https://example.org/nami/data/plaque/bt_272> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_272> ;
+    nami:evidence "1963-1967 von den Architekten Max Ernst Haefeli (1901-1976), Werner Max Moser (1896-1970) und Rudolf Steiger (1900-1982) für den Arbeitgeberverband Schweizerischer Maschinen- und Metallindustrieller (ASM) sowie den Verein Schweizerischer Maschinenindustrieller (VSM) erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q121475 nami:mentionedAt <https://example.org/nami/data/plaque/bt_272> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_272> ;
+    nami:evidence "1963-1967 von den Architekten Max Ernst Haefeli (1901-1976), Werner Max Moser (1896-1970) und Rudolf Steiger (1900-1982) für den Arbeitgeberverband Schweizerischer Maschinen- und Metallindustrieller (ASM) sowie den Verein Schweizerischer Maschinenindustrieller (VSM) erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q65551280 nami:mentionedAt wd:Q29933599 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_274> ;
+    nami:evidence "Durch den eingreifenden Umbau von 1601-1604 für Junker Hans Jakob Schmid erhielt das Haus sein heutiges Aussehen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_275> rdfs:label "Konstanzerhaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545453 47.370261)"^^geo:wktLiteral ] .
+wd:Q1409598 nami:mentionedAt <https://example.org/nami/data/plaque/bt_275> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_275> ;
+    nami:evidence "Jahrhundert standen drei Steinhäuser auf der Parzelle. 1711-1714 Vereinigung der drei Häuser unter einem Dach durch einen umfassenden Umbau unter Amtmann Johann Konrad Hess (Jahreszahl über der Eingangstür)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_277> rdfs:label "Zum Paradies" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545671 47.370374)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_277> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_277> ;
+    nami:evidence "Die Wandmalereien im Erdgeschoss (Wildmännergelage und Monatsbilderzyklus) sind um 1450 für den damaligen Besitzer, den Ratsherrn und Reichsvogt Rudolf Netstaler, gemalt worden." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_287> rdfs:label "Rosenbühl" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.551529 47.365561)"^^geo:wktLiteral ] .
+wd:Q1819314 nami:mentionedAt <https://example.org/nami/data/plaque/bt_287> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_287> ;
+    nami:evidence "1837-1839 vom bedeutenden Zürcher Architekten Leonhard Zeugheer (1812-1866) als herrschaftliches Wohnhaus für den Baumwollhändler Kaspar Ott-Trümpler (1801-1880) erbaut. 1893 liess sein Sohn, Kunstmaler Gustav Ott-Däniker (1828-1912), durch Johann Friedrich Zuppinger (1848-1922) den Terrassenanbau an der Südostfassade erstellen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_296> rdfs:label "Limmatquai 1" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544678 47.367751)"^^geo:wktLiteral ] .
+wd:Q1819314 nami:mentionedAt <https://example.org/nami/data/plaque/bt_296> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_296> ;
+    nami:evidence "1858-1863 von Architekt Leonhard Zeugheer (1812-1886) als Pension Bellevue für den Gastwirt Hans Caspar Guyer (1803-1886) errichtet. 1889 Ausbau zum Grand Hotel Bellevue, einem Neurenaissance-Palast mit Ecktürmen und Kolonnaden durch den Architekten Adolf Brunner (1837-1909). 1890 schuf Bildhauer Baptist Hörst (1850-1927) die Atlanten und Karyatiden beidseits des Haupteingangs." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_298> rdfs:label "Münsterhäuser" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543597 47.369715)"^^geo:wktLiteral ] .
+wd:Q25003524 nami:mentionedAt <https://example.org/nami/data/plaque/bt_298> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_298> ;
+    nami:evidence "1857-1859 erbaute der Zürcher Architekt Wilhelm Waser (1811-1866) den aus vier Wohn- und Geschäftshäusern bestehenden Gebäudekomplex anstelle des mittelalterlichen Hottingerturms und des städtischen Salzhauses." ;
+    nami:confidence 0.7 |} .
+wd:Q14378 nami:mentionedAt wd:Q136490852 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_300> ;
+    nami:evidence "Der heutige Bau (1791-94 nach Plänen von Hans Conrad Bluntschli d.Ä. errichtet) verkörpert mit seiner knappen, klassichen Gliederung einen spätbarocken Klassizismus." ;
+    nami:confidence 0.7 |} .
+wd:Q118948 nami:mentionedAt wd:Q229912 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_302> ;
+    nami:evidence "Die Formen des hölzernen Vorgängerbaues wurden übernommen und in Stein ausgeführt. 1783-85 Erweiterungsbau nach Norden mit Anpassung der Fassaden von Hans Conrad Bluntschli (1737-1812)." ;
+    nami:confidence 0.5 |} .
+wd:Q121407 nami:mentionedAt wd:Q29933579 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_307> ;
+    nami:evidence "1868 nach Plänen von Ferdinand Stadler (1813-1870) erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_310> rdfs:label "Zum grossen Schiff" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.542962 47.373501)"^^geo:wktLiteral ] .
+wd:Q25003524 nami:mentionedAt <https://example.org/nami/data/plaque/bt_310> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_310> ;
+    nami:evidence "1859 wurde der limmatseitige Kopfbau von Architekt Wilhelm Waser (1811-1866) anstelle eines mittelalterlichen Vorgängerbaus (Hirschengasse 1) errichtet. 1904 Erweiterung des Wohn- und Geschäftshauses um die Gebäude Hirschengasse 3 und 5, Anfügen des zweigeschossigen Jugendstil-Polygonalerkers." ;
+    nami:confidence 0.7 |} .
+wd:Q1277468 nami:mentionedAt wd:Q1825505 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_316> ;
+    nami:evidence "1931 von den Architekten Adolf Steger (1888-1939) und Karl Egender (1897-1969) errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q364288 nami:mentionedAt wd:Q1825505 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_316> ;
+    nami:evidence "1931 von den Architekten Adolf Steger (1888-1939) und Karl Egender (1897-1969) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_325> rdfs:label "Untere Schmitte" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.497371 47.402023)"^^geo:wktLiteral ] .
+wd:Q1598402 nami:mentionedAt <https://example.org/nami/data/plaque/bt_325> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_325> ;
+    nami:evidence "Ab 1858 in Besitz von Schlosser Heinrich Notz und seinen Nachkommen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_330> rdfs:label "Lindenstrasse 28" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.55228 47.357667)"^^geo:wktLiteral ] .
+wd:Q63196639 nami:mentionedAt <https://example.org/nami/data/plaque/bt_330> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_330> ;
+    nami:evidence "1906 von Architekt Emil Usteri für den Dekorationsmaler M." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_332> rdfs:label "Löwenstrasse 45-49" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537043 47.375939)"^^geo:wktLiteral ] .
+wd:Q1679033 nami:mentionedAt <https://example.org/nami/data/plaque/bt_332> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_332> ;
+    nami:evidence "Im Jahre 1879 erbaut vom Architekten Jakob Friedrich Wanner (1830-1903), dem Schöpfer des Hauptbahnhofes." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_333> rdfs:label "Luegete 29" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.582669 47.360245)"^^geo:wktLiteral ] .
+wd:Q117977 nami:mentionedAt <https://example.org/nami/data/plaque/bt_333> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_333> ;
+    nami:evidence "1933 durch das Architektenteam Rudolf Steiger (1900-1982), Carl Hubacher (1897-1972) und Flora Steiger-Crawford (1899-1991) für den Schriftseller Traugott Vogel (1894-1975) erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q2450316 nami:mentionedAt <https://example.org/nami/data/plaque/bt_333> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_333> ;
+    nami:evidence "1933 durch das Architektenteam Rudolf Steiger (1900-1982), Carl Hubacher (1897-1972) und Flora Steiger-Crawford (1899-1991) für den Schriftseller Traugott Vogel (1894-1975) erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_335> rdfs:label "Musterhäuser" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538489 47.384115)"^^geo:wktLiteral ] .
+wd:Q1912469 nami:mentionedAt <https://example.org/nami/data/plaque/bt_335> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_335> ;
+    nami:evidence "1928 von Max Ernst Haefeli (1901-1976) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_337> rdfs:label "Malzstrasse 19" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.520274 47.365523)"^^geo:wktLiteral ] .
+wd:Q1040990 nami:workedAt <https://example.org/nami/data/plaque/bt_337> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_337> ;
+    nami:evidence "Der verputzte, zweigeschossige Bau und das 1898 von Carl Weigle (1858-1924) erbaute, dreigeschossige Werkstattgebäude in Backstein wurden 1948 durch den Zwischenbau verbunden." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_353> rdfs:label "Zum Schwanen" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544284 47.371062)"^^geo:wktLiteral ] .
+wd:Q123765 nami:livedAt <https://example.org/nami/data/plaque/bt_353> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_353> ;
+    nami:evidence "1736-1788 vom Dichter Salomon Gessner (1730-1788) bewohnt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_343> rdfs:label "Zum goldenen Horn" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543873 47.372222)"^^geo:wktLiteral ] .
+wd:Q27229283 nami:mentionedAt <https://example.org/nami/data/plaque/bt_343> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_343> ;
+    nami:evidence "Die Flachdecke des Saals wurde 1881 durch den Architekten Chiodera und Tschudi um 1.5 Meter angehoben. 1963 Neugestaltung des Äusseren durch Ausbruch einer Arkade und Fassadenmalerei von Eugen Häfelfinger." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_344> rdfs:label "Zur Treu" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543783 47.37221)"^^geo:wktLiteral ] .
+wd:Q117918 nami:mentionedAt <https://example.org/nami/data/plaque/bt_344> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_344> ;
+    nami:evidence "Im Jahr 1551 Umbauten und Neugestaltung der Gassenfassade durch den Buchdrucker Christoph Froschauer." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_345> rdfs:label "Villa Roesli" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.551784 47.35746)"^^geo:wktLiteral ] .
+wd:Q1694881 nami:mentionedAt <https://example.org/nami/data/plaque/bt_345> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_345> ;
+    nami:evidence "1890-1892 von Architekt Johann Jakob Honegger (1861-1928) als Neurenaissance-Villa errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_349> rdfs:label "Mühlbach" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556373 47.359357)"^^geo:wktLiteral ] .
+wd:Q23710579 nami:mentionedAt <https://example.org/nami/data/plaque/bt_349> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_349> ;
+    nami:evidence "1835 wohl von den Architekten Daniel Pfister (1808-1847) oder Carl Ferdinand von Ehrenberg (1806-1841) erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_350> rdfs:label "Villa Mexiko" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556741 47.358951)"^^geo:wktLiteral ] .
+wd:Q1598179 nami:mentionedAt <https://example.org/nami/data/plaque/bt_350> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_350> ;
+    nami:evidence "1838 wohl von dem Architekten Daniel Pfister (1808-1847) für den Riesbacher Gemeindeammann und Landwirt Heinrich Leuthold erbaut. 1929 fügte Architekt Otto Wilhelm Pfleghard (1869-1958) auf der Strassenseite den halbrunden Vorbau an und rückseitig einen Erweiterungsbau in der Formensprache der klassischen Moderne." ;
+    nami:confidence 0.7 |} .
+wd:Q14378 nami:mentionedAt <https://example.org/nami/data/plaque/bt_350> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_350> ;
+    nami:evidence "Der in vornehm schlichtem Klassizismus gestaltete Bau und sein Garten sind ein frühes Beispiel einer grossbürgerlichen Villa am damaligen Stadtrand." ;
+    nami:confidence 0.7 |} .
+wd:Q78836 nami:mentionedAt wd:Q18716357 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_352> ;
+    nami:evidence "1836-1838 nach den Plänen des Südtiroler Ingeneurs Alois Negrelli (Initiator der Spanischbrötlibahn und Mitarbeiter am Suezkanal) erbaut durch die Zürcher Baumeister Johann Jakob Locher-Oeri, Conrad Stadler, und den Steinmetzmeister Heinrich Staub." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_357> rdfs:label "Zum roten Gatter" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543829 47.371604)"^^geo:wktLiteral ] .
+wd:Q15859265 nami:mentionedAt <https://example.org/nami/data/plaque/bt_357> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_357> ;
+    nami:evidence "1659 Vereinigung von zwei mittelalterlichen Häusern durch den Handelsherrn Johannes Hess und anschliessend Neubau des nördlichen Hausteiles." ;
+    nami:confidence 0.7 |} .
+wd:Q105428 nami:mentionedAt <https://example.org/nami/data/plaque/bt_357> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_357> ;
+    nami:evidence "Heinrich Pestalozzi gestaltet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_359> rdfs:label "Schäniserhaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.54037 47.370036)"^^geo:wktLiteral ] .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_359> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_359> ;
+    nami:evidence "Um 1370 wurde im ersten Obergeschoss eine Wandmalerei mit der Darstellung eines Liebesgartens angebracht." ;
+    nami:confidence 0.7 |} .
+wd:Q7109740 nami:mentionedAt wd:Q9392139 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_361> ;
+    nami:evidence "1636/37 wurde das heutige breite Zunfthaus anstelle des mittelalterlichen Zunfthauses und des Nachbarhauses „Zum geilen Münch“ errichtet." ;
+    nami:confidence 0.5 |} .
+wd:Q121407 nami:mentionedAt wd:Q768482 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_367> ;
+    nami:evidence "Ab 1274 Erstellung der Klosterkirche. 1524 Profanierung der Kirche mit Nutzung als Trotte, Magazin und Münzstätte. 1843-1844 Umbau des Langhauses zu einer katholischen Kirche im neugotischen Stil durch Architekt Ferdinand Stadler (1813-1870)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_368> rdfs:label "Brückenhäuschen Walche" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540568 47.378374)"^^geo:wktLiteral ] .
+wd:Q27229262 nami:mentionedAt <https://example.org/nami/data/plaque/bt_368> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_368> ;
+    nami:evidence "Den Fassadenschmuck des Heimatstilbaus (Pfeiler, Schlussstein) schuf Bildhauer Hans Markwalder (1882-1951). 1931 erhielt der Kiosk einen Anbau gegen Norden mit Materialräumen für Tram- und Strassenunterhalt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_377> rdfs:label "Villa Hagnauer" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556847 47.362116)"^^geo:wktLiteral ] .
+wd:Q4692 nami:mentionedAt <https://example.org/nami/data/plaque/bt_377> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_377> ;
+    nami:evidence "Das in Formen deutscher Renaissance gestaltete Herrenhaus ist Teil der Villenbebauung im Neumünsterquartier, die auf dem 1892 parzellierten Landgut „Zur Vogelhütte“ von Oberst Peter Emil Huber-Werdmüller entstand." ;
+    nami:confidence 0.7 |} .
+wd:Q1819314 nami:mentionedAt wd:Q113091093 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_378> ;
+    nami:evidence "1936-1939 von Leonhard Zeugheer (1812-1866) als klassizistische Kirche in der Tradition griechischer Tempel errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q118948 nami:mentionedAt wd:Q113091093 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_378> ;
+    nami:evidence "Das blockhafte Langhaus wird durch den von Säulenhallen flankierten, eingebundenen Frontturm dominiert. 1912 späthistorische Umgestaltung des Innern durch Alfred Friedrich Bluntschli (1842-1930)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_381> rdfs:label "Zur Sul" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544922 47.369942)"^^geo:wktLiteral ] .
+wd:Q123034 nami:livedAt <https://example.org/nami/data/plaque/bt_381> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_381> ;
+    nami:evidence "1521 – 1524 Amtssitz und Wohnhaus von Reformator Huldrych Zwingli (1484-1531)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_384> rdfs:label "Alte Landkutsche" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543692 47.372898)"^^geo:wktLiteral ] .
+wd:Q37944060 nami:mentionedAt <https://example.org/nami/data/plaque/bt_384> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_384> ;
+    nami:evidence "Drei mittelalterliche Häuser wurden 1893 von den Architekten Alfred Chiodera (1850-1916) und Theophil Tschudy (1847-1911) zusammengefasst und mit der heutigen Gaststube ausgestattet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_388> rdfs:label "Zur sempacher Helbard" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544013 47.37632)"^^geo:wktLiteral ] .
+wd:Q107018 nami:mentionedAt <https://example.org/nami/data/plaque/bt_388> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_388> ;
+    nami:evidence "Jh. mit dem südlich anstossenden Nachbargebäude unter einem Giebeldach vereinigt. 1928 schuf der Kunstmaler Christian Schmidt (1862-1937) die Fassadenmalerei mit der Darstellung des Städtchens Sempach." ;
+    nami:confidence 0.7 |} .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_388> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_388> ;
+    nami:evidence "Jh. mit dem südlich anstossenden Nachbargebäude unter einem Giebeldach vereinigt. 1928 schuf der Kunstmaler Christian Schmidt (1862-1937) die Fassadenmalerei mit der Darstellung des Städtchens Sempach." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_389> rdfs:label "Zum Neuhaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545662 47.368488)"^^geo:wktLiteral ] .
+wd:Q807627 nami:livedAt <https://example.org/nami/data/plaque/bt_389> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_389> ;
+    nami:evidence "Ab 1811 Wohnhaus von Anna Barbara Schulthess, der Freundin Goethes und Lavaters." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_390> rdfs:label "Weisser Wind" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545485 47.368795)"^^geo:wktLiteral ] .
+wd:Q123734 nami:mentionedAt <https://example.org/nami/data/plaque/bt_390> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_390> ;
+    nami:evidence "Bis 1649 Pfarrhaus, danach Wohnhaus für Mitglieder der obern Gesellschaftsschicht. 1850 richtet Johann Rudolf Koller in den Hintergebäuden eine Brauerei ein." ;
+    nami:confidence 0.7 |} .
+wd:Q18397174 nami:mentionedAt wd:Q111409768 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_396> ;
+    nami:evidence "1900 wohl nach Plänen des Architekten Robert Zollinger (1856-1939) durch das Baugeschäft Baur & Cie. erstellt. 1911 Saalanbau durch Johann Rudolf Streiff (1873-1920) und Gottfried Schindler (1870-1950)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_402> rdfs:label "Castello Rosso" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544785 47.385788)"^^geo:wktLiteral ] .
+wd:Q4692 nami:mentionedAt <https://example.org/nami/data/plaque/bt_402> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_402> ;
+    nami:evidence "Das Mehrfamilienhaus ist mit rotem Sandstein in Formen der deutschen Renaissance gestaltet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_403> rdfs:label "Paradeplatz 5" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538584 47.369302)"^^geo:wktLiteral ] .
+wd:Q1400114 nami:mentionedAt <https://example.org/nami/data/plaque/bt_403> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_403> ;
+    nami:evidence "1856/57 erbaut von den Architekten Gustav Albert Wegmann (1812-1858) und August Konrad Stadler (1816-1901) als Teil der geschlossenen Häuserzeile Paradeplatz 1-5." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_404> rdfs:label "Paradeplatz 6" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.538306 47.36953)"^^geo:wktLiteral ] .
+wd:Q2162996 nami:mentionedAt <https://example.org/nami/data/plaque/bt_404> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_404> ;
+    nami:evidence "1949 bis 1960 in drei Etappen nach Plänen von Roland Rohn (1905-1971) als Bankgebäude erbaut, 1965 und 1974 gegen die Bärengasse erweitert." ;
+    nami:confidence 0.7 |} .
+wd:Q117646 nami:mentionedAt <https://example.org/nami/data/plaque/bt_404> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_404> ;
+    nami:evidence "Das Projekt basierte auf dem Entwurf von Otto Rudolf Salvisberg (1882-1940), der damit 1931 den Planungswettbewerb für den Zürcher Sitz des damaligen Schweizerischen Bankvereins gewonnen hatte." ;
+    nami:confidence 0.7 |} .
+wd:Q16065153 nami:mentionedAt wd:Q60635988 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_406> ;
+    nami:evidence "1909-1915 entwarfen die Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) das Schul- und Vereinshaus für den Kaufmännischen Verein Zürich (damals KVZ) und errichteten den östlichen Gebäudeteil. 1927-1929 ergänzten Gottlieb Leuenberger (1885-1950) und Jakob Flückiger (1886-1952) den westlichen Teil." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_407> rdfs:label "Pelikanstrasse 19, Nüschelerstrasse 9 und 11" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.53689 47.371521)"^^geo:wktLiteral ] .
+wd:Q16101746 nami:mentionedAt <https://example.org/nami/data/plaque/bt_407> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_407> ;
+    nami:evidence "1949 von dem Architekten Werner Frey (1912-1989) für die Schweizerische Bankgesellschaft (heute UBS) errichtet anstelle des barocken Patrizierhauses Neuegg aus dem Jahr 1724." ;
+    nami:confidence 0.7 |} .
+wd:Q2164537 nami:commemoratedAt <https://example.org/nami/data/plaque/bt_407> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_407> ;
+    nami:evidence "Im Erdgeschoss das seit 1992 unter Denkmalschutz stehende Kino Studio 4 mit Innenausstattung von Bauhaus-Künstler Roman Clemens (1910-1991)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_422> rdfs:label "Denzlerhäuser" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545861 47.36812)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_422> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_422> ;
+    nami:evidence "1910-1912 von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) für den Bauherrn David Denzler als Wohn- und Geschäftshäuser errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_438> rdfs:label "Villa Usenbenz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.552801 47.386287)"^^geo:wktLiteral ] .
+wd:Q15439713 nami:mentionedAt <https://example.org/nami/data/plaque/bt_438> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_438> ;
+    nami:evidence "1917 von den Architekten Otto Gschwind (1883-1948) und Anton Higi (1885-1951) für Eugen Usenbenz als Einfamilienhaus erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q16887888 nami:mentionedAt wd:Q110518193 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_445> ;
+    nami:evidence "1930-1932 von den Architekten Hans Vogelsanger (1883-1964) und Albert Maurer (1889-1935) für die reformierte Kirchgemeinde Wipkingen als repräsentatives Zentrum in Formen des Neuen Bauens errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q16887881 nami:mentionedAt wd:Q110518193 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_445> ;
+    nami:evidence "1930-1932 von den Architekten Hans Vogelsanger (1883-1964) und Albert Maurer (1889-1935) für die reformierte Kirchgemeinde Wipkingen als repräsentatives Zentrum in Formen des Neuen Bauens errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_446> rdfs:label "Zur kleinen Rose" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543127 47.373207)"^^geo:wktLiteral ] .
+wd:Q25003524 nami:mentionedAt <https://example.org/nami/data/plaque/bt_446> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_446> ;
+    nami:evidence "Jahrhundert in schriftlichen Quellen belegt. 1818 Erneuerung der gassenseitigen Fassade mit regelmässiger Fensteranordnung. 1861 von Architekt Wilhelm Waser (1811-1866) aufgestockt und mit Zinne versehen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_447> rdfs:label "Zur Rose" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543271 47.373245)"^^geo:wktLiteral ] .
+wd:Q20676093 nami:livedAt <https://example.org/nami/data/plaque/bt_447> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_447> ;
+    nami:evidence "Ab 1469 in Besitz von Gerbermeister Ruedi Meier, der die beiden Häuser vereinigte. 1510-1539 Wirtshaus zur Rose, anschliessend wieder meist von Gerbern bewohnt. 1821 Aufstockung des vierten Obergeschosses und Bau des heute bestehenden Daches. 1837/1838 Einrichtung der Taverne Zur Rose mit Umbau der bestehenden Wohnungen zu 19 Gastzimmern mit 41 Betten. 1946-1948 Einbau einer zweigeschossigen Bar durch Innenarchitekt Ernst Böhny für Hotelier Arthur Bucher." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_452> rdfs:label "Rotbuchstrasse 24" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.534936 47.391537)"^^geo:wktLiteral ] .
+wd:Q23041740 nami:mentionedAt <https://example.org/nami/data/plaque/bt_452> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_452> ;
+    nami:evidence "1901 von Baumeister Ferdinand Kuhn erstellt als eines der ersten Häuser an der 1898 angelegten Rotbuchstrasse." ;
+    nami:confidence 0.7 |} .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_452> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_452> ;
+    nami:evidence "Die Fassaden des Mehrfamilienhauses zeigen Formen des Späthistorismus und des Jugendstils." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_456> rdfs:label "Sackzelg 34, 36 / Fellenbergstrasse 218" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.497521 47.374654)"^^geo:wktLiteral ] .
+wd:Q122705 nami:mentionedAt <https://example.org/nami/data/plaque/bt_456> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_456> ;
+    nami:evidence "1970-1973 von den Architekten Walter Gautschi (1930 – 2006) und Otto Rotach (geb. 1927) als zehngeschossiges Wohnhochhaus für die Gemeinnützige Baugenossenschaft Limmattal GBL erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q4724 nami:mentionedAt <https://example.org/nami/data/plaque/bt_456> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_456> ;
+    nami:evidence "Die streng gegliederten Fassaden zeigen mit ihrer Beton- und Elementbauweise Formen des Béton Brut, ähnlich der Unité d‘Habitation des Schweizer Architekten Le Corbusier." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_457> rdfs:label "Wohnsiedlung Manegg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.525812 47.347249)"^^geo:wktLiteral ] .
+wd:Q124171 nami:mentionedAt <https://example.org/nami/data/plaque/bt_457> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_457> ;
+    nami:evidence "Der Name bezieht sich auf die mittelalterliche Burg Manegg oberhalb Leimbach, Sitz der Zürcher Ritter Manesse. 1955 von den Architekten Bruno Giacometti (Geb. 1907) und Robert Winkler (1898-1973) erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_459> rdfs:label "Schaffhauserstrasse 349 / Welchogasse 2" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.54608 47.409493)"^^geo:wktLiteral ] .
+wd:Q1294605 nami:mentionedAt <https://example.org/nami/data/plaque/bt_459> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_459> ;
+    nami:evidence "Die repräsentative Fassadengestaltung im Jugendstil betont den städtischen Charakter des Zentrums von Oerlikon." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_462> rdfs:label "Hintere Falkenburg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.549974 47.366847)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_462> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_462> ;
+    nami:evidence "1850 Kernbau: Zigarrenfabrik in Fachwerkkonstruktion von Wilhelmn Waser (1811-1866). 1867 Umbau zum Wohnhaus im Schweizer Holzbaustil durch Theodor Geiger (1832-1866) für den Textilfabrikanten Rudolf Schoeller aus Breslau. 1870 Ausbau in Sand- und Backstein durch Th." ;
+    nami:confidence 0.7 |} .
+wd:Q116276 nami:mentionedAt <https://example.org/nami/data/plaque/bt_462> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_462> ;
+    nami:evidence "1850 Kernbau: Zigarrenfabrik in Fachwerkkonstruktion von Wilhelmn Waser (1811-1866). 1867 Umbau zum Wohnhaus im Schweizer Holzbaustil durch Theodor Geiger (1832-1866) für den Textilfabrikanten Rudolf Schoeller aus Breslau. 1870 Ausbau in Sand- und Backstein durch Th." ;
+    nami:confidence 0.7 |} .
+wd:Q96410 nami:mentionedAt wd:Q29933673 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_463> ;
+    nami:evidence "1866 errichtet vom Architekten Theodor Geiger (1832-1882) für den Bauherrn Friedrich Eduard Schoch-Rahn." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_491> rdfs:label "Seefeldstrasse 86" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.551979 47.360479)"^^geo:wktLiteral ] .
+wd:Q1678908 nami:mentionedAt <https://example.org/nami/data/plaque/bt_491> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_491> ;
+    nami:evidence "1909 von Architekt Jakob Baur zusammen mit den Nachbarhäusern als ein einheitlicher Baukomplex errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_467> rdfs:label "Schipfe 3" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.54161 47.371837)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_467> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_467> ;
+    nami:evidence "1872 durch Theodor Geiger für Wirt Horat \"Im Schwert\" (heute Samen Mauser) erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_478> rdfs:label "Tiefe Schmitte" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543713 47.3747)"^^geo:wktLiteral ] .
+wd:Q1598179 nami:mentionedAt <https://example.org/nami/data/plaque/bt_478> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_478> ;
+    nami:evidence "Jahrhundert stammen, wurde 1824 vom Hirschenwirt Heinrich Leuthold zusammen mit Niederdorfstrasse 29, \"Mohrentanz\", und Nr. 31, \"Blumengeschirr\", gekauft." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_482> rdfs:label "Schulhausstrasse 14 / Bluntschlisteig 5" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.530214 47.362025)"^^geo:wktLiteral ] .
+wd:Q96410 nami:mentionedAt <https://example.org/nami/data/plaque/bt_482> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_482> ;
+    nami:evidence "1877 von Architekt Theodor Geiger (1832-1882) für Theodor Baur (1828 - 1904), dem Hotelier des Baur au Lac, als Wohnhaus errichtet. 1906 Aufstockung von Haus und Turm um ein Geschoss." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_487> rdfs:label "Sechseläutenplatz 10" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547281 47.365442)"^^geo:wktLiteral ] .
+wd:Q18397174 nami:workedAt <https://example.org/nami/data/plaque/bt_487> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_487> ;
+    nami:evidence "1893 von den Architekten Alfred Weber (1846-1899) und Caspar Conrad Ulrich (1846-1899) als Geschäftshaus für die Redaktion und Druckerei der Neuen Zürcher Zeitung erstellt. 1900 wurde, basierend auf den Plänen von Weber & Ulrich, der Eckbau mit dreigeschossigem Erker gegen die Schillerstrasse von Architekt Robert Zollinger (1858-1939) angefügt. 1947 Dachstockausbau, gleichzeitig mit dem Neubau Falkenstrasse 13." ;
+    nami:confidence 0.7 |} .
+wd:Q76514 nami:workedAt <https://example.org/nami/data/plaque/bt_487> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_487> ;
+    nami:evidence "1893 von den Architekten Alfred Weber (1846-1899) und Caspar Conrad Ulrich (1846-1899) als Geschäftshaus für die Redaktion und Druckerei der Neuen Zürcher Zeitung erstellt. 1900 wurde, basierend auf den Plänen von Weber & Ulrich, der Eckbau mit dreigeschossigem Erker gegen die Schillerstrasse von Architekt Robert Zollinger (1858-1939) angefügt. 1947 Dachstockausbau, gleichzeitig mit dem Neubau Falkenstrasse 13." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_488> rdfs:label "Seebacherstrasse 107" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539616 47.422126)"^^geo:wktLiteral ] .
+wd:Q81217354 nami:mentionedAt <https://example.org/nami/data/plaque/bt_488> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_488> ;
+    nami:evidence "1825 liess der Maurer Jakob Bader den eingeschossigen Satteldachbau anstelle eines brandgeschädigten, grossen Bauernhauses aus dem 17." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_492> rdfs:label "Seefeldstrasse 88" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.552191 47.360233)"^^geo:wktLiteral ] .
+wd:Q4692 nami:mentionedAt <https://example.org/nami/data/plaque/bt_492> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_492> ;
+    nami:evidence "Der im Stil deutscher Renaissance reich gegliederte Bau bildet mit den Nachbarhäusern das grösste bauliche Ensemble aus der Gründerzeit in Riesbach." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_495> rdfs:label "Rosenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.554127 47.358261)"^^geo:wktLiteral ] .
+wd:Q5565543 nami:mentionedAt <https://example.org/nami/data/plaque/bt_495> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_495> ;
+    nami:evidence "1894 vom Zürcher Architekten Joseph Weidmann (1851-1905) zusammen mit dem Haus Seefeldstrasse 113 als Doppelwohnhaus erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q219423 nami:mentionedAt <https://example.org/nami/data/plaque/bt_495> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_495> ;
+    nami:evidence "Obergeschoss mit ornamentalen Wandmalereien verziert." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_500> rdfs:label "Seestrasse 127/129" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.532379 47.357871)"^^geo:wktLiteral ] .
+wd:Q63196639 nami:mentionedAt <https://example.org/nami/data/plaque/bt_500> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_500> ;
+    nami:evidence "1895 von den Architekten Hermann Stadler (1861-1918) und Emil Usteri (1858-1918) als Doppelvilla erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q125016 nami:mentionedAt wd:Q2525458 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_502> ;
+    nami:evidence "Mooser-Nef, das nach Plänen der Firma Locher & Cie. vorgefertigte Boots- und Badehaus aufstellen. 1939 Neugestaltung des Gartens durch Landschaftsarchtekt Gustav Ammann (1885-1955)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_503> rdfs:label "Villa Werdmüller" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537068 47.341457)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_503> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_503> ;
+    nami:evidence "1908 von Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) für den Apotheker A." ;
+    nami:confidence 0.7 |} .
+wd:Q1526430 nami:mentionedAt wd:Q30312568 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_509> ;
+    nami:evidence "1951 von Architekt, Hotelier und Theaterdirektor Giovanni Zamboni (Geb. 1910) als Hotel mit dem \"Theater am Central\" im Erdgeschoss erstellt. 1958 Umgestaltung des Theaters zum \"Kino Alba\". 1955 schuf Arnold d`Altri (1904-1980) die Steinskulptur auf der Aussentreppe und um 1965 die Fassadenskulpturen aus Metall. 1999 neuer Glasvorbau für Réception und Frühstücksraum." ;
+    nami:confidence 0.7 |} .
+wd:Q16065153 nami:mentionedAt wd:Q111409740 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_515> ;
+    nami:evidence "Der Hausname bezieht sich auf die Giesserei der Familie Füssli, die hier 1496 - 1843 Glocken und Geschütze herstellte. 1911 von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) als Vereinshaus und Hotel für den Christlichen Verein Junger Männer CVJM zusammen mit Schulhaus und Kapelle an der St." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_517> rdfs:label "Sonneggstrasse 86" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543915 47.383194)"^^geo:wktLiteral ] .
+wd:Q71545323 nami:mentionedAt <https://example.org/nami/data/plaque/bt_517> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_517> ;
+    nami:evidence "1896/97 von Architekt Richard Schuster (Geb. 1856) in Neurenaissanceformen erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_518> rdfs:label "Sonneggstrasse 88" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.543734 47.383345)"^^geo:wktLiteral ] .
+wd:Q71545323 nami:mentionedAt <https://example.org/nami/data/plaque/bt_518> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_518> ;
+    nami:evidence "1896/97 von Architekt Richard Schuster (Geb. 1856) zusammen mit Sonneggstrasse 86 erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_519> rdfs:label "Sonneggstrasse 48-66 / Nelkenstrasse 4 und 6" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545481 47.381577)"^^geo:wktLiteral ] .
+wd:Q1309955 nami:mentionedAt <https://example.org/nami/data/plaque/bt_519> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_519> ;
+    nami:evidence "1893-1897 erstellt von Heinrich Ziegler (1852-1921) und Jakob Rehfuss (1859-1930) als aufgelockerte Blockrandbebauung mit Vorgärten und grossem begrüntem Innenhof." ;
+    nami:confidence 0.7 |} .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_519> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_519> ;
+    nami:evidence "Seltenes Beisiel einer intakten Mietshaussiedlung des Späthistorismus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_520> rdfs:label "Zum Waldries" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544504 47.371809)"^^geo:wktLiteral ] .
+wd:Q5879 nami:frequented <https://example.org/nami/data/plaque/bt_520> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_520> ;
+    nami:evidence "Kaspar Lavater bewohnt, der hier 1775 von Goethe besucht wurde." ;
+    nami:confidence 0.5 |} .
+<https://example.org/nami/data/plaque/bt_523> rdfs:label "St. Annagasse 9" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537023 47.372617)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_523> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_523> ;
+    nami:evidence "1910 als Schulhaus für das Freie Gymnasium Zürich erbaut von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964)." ;
+    nami:confidence 0.7 |} .
+wd:Q16065153 nami:mentionedAt wd:Q120752672 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_524> ;
+    nami:evidence "Annahof abgebrochen wurde. 1910 für die Evangelische Gesellschaft anstelle der Kapelle von Mathilde Escher erbaut von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964)." ;
+    nami:confidence 0.7 |} .
+wd:Q55843751 nami:mentionedAt wd:Q120752672 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_524> ;
+    nami:evidence "Annahof abgebrochen wurde. 1910 für die Evangelische Gesellschaft anstelle der Kapelle von Mathilde Escher erbaut von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_526> rdfs:label "Zur grossen Mücke" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540862 47.371757)"^^geo:wktLiteral ] .
+wd:Q124408 nami:livedAt <https://example.org/nami/data/plaque/bt_526> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_526> ;
+    nami:evidence "In den Jahren 1468/69 wohnte hier Hans Waldmann." ;
+    nami:confidence 0.7 |} .
+wd:Q55677874 nami:mentionedAt wd:Q29574360 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_527> ;
+    nami:evidence "Um 1643 wurde das spätgotische Steinhaus mit sparsamen barocken Dekorelementen für den Bürgermeister Salomon Hirzel erbaut. 1712 von Generalmajor Hans Felix Werdmüller erworben." ;
+    nami:confidence 0.7 |} .
+wd:Q25003524 nami:mentionedAt wd:Q29574360 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_527> ;
+    nami:evidence "Jhs. durch die klassizistischen Veränderungen des Architekten Wilhelm Waser (1811-1866)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_529> rdfs:label "Fraumünsterkreuzgang" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.541339 47.369533)"^^geo:wktLiteral ] .
+wd:Q1555881 nami:mentionedAt <https://example.org/nami/data/plaque/bt_529> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_529> ;
+    nami:evidence "Durch Gustav Gull im Jahr 1900 errichtet unter teilweiser Verwendung von Bauteilen des 1898 abgetragenen alten Kreuzganges." ;
+    nami:confidence 0.7 |} .
+wd:Q115588 nami:mentionedAt <https://example.org/nami/data/plaque/bt_529> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_529> ;
+    nami:evidence "Wandmahlereien mit Darstellungen der Zürcher Legenden von Paul Bodmer aus den Jahren 1922-1941." ;
+    nami:confidence 0.5 |} .
+<https://example.org/nami/data/plaque/bt_530> rdfs:label "Alte Post" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540262 47.383969)"^^geo:wktLiteral ] .
+wd:Q219423 nami:commemoratedAt <https://example.org/nami/data/plaque/bt_530> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_530> ;
+    nami:evidence "Die Wandmalerei mit Postkutsche im Giebelfeld erinnert an die Poststelle, die bis 1951 im Erdgeschoss mit den vergitterten Rundbogenfenstern und der vorgelagerten Freitreppe eingerichtet war." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_535> rdfs:label "Stauffacherquai 42-44" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5295 47.370323)"^^geo:wktLiteral ] .
+wd:Q1294605 nami:mentionedAt <https://example.org/nami/data/plaque/bt_535> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_535> ;
+    nami:evidence "Die in Jugendstil gestalteten Treppenhausrisalite verklammern die Fassade zu einer wirkungsvollen Einheit." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_536> rdfs:label "Rosenau" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.529302 47.373133)"^^geo:wktLiteral ] .
+wd:Q1294605 nami:mentionedAt <https://example.org/nami/data/plaque/bt_536> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_536> ;
+    nami:evidence "Die reiche Fassadenornamentik in Jugendstil besteht aus gelblich eingefärbtem Kunststein." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_537> rdfs:label "Stauffacherstrasse 127" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523621 47.377024)"^^geo:wktLiteral ] .
+wd:Q1040990 nami:mentionedAt <https://example.org/nami/data/plaque/bt_537> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_537> ;
+    nami:evidence "1896 vom Zürcher Architekten Carl Weigle zusammen mit den Häusern Engelstrasse 63, Stauffacherstrasse 129 und Schreinerstrasse 64 als einheitlicher Wohnhauskomplex erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_537> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_537> ;
+    nami:evidence "Die mit plastischen Ornamenten und mit Malereien reich verzierte Fassade ist ein typisches Beispiel für den herrschaftlichen Anspruch des Historismus der Gründerzeit." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_543> rdfs:label "Grosser König" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.541312 47.370686)"^^geo:wktLiteral ] .
+wd:Q1253000 nami:mentionedAt <https://example.org/nami/data/plaque/bt_543> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_543> ;
+    nami:evidence "Obergeschoss mit neuer Holzkonstruktion. 1576 umfassende Erneuerung durch Zunftmeister der Weggen Hans Heinrich Grob (1542-1606). 1892 Ausbau des Dachgeschosses mit Zinne durch Schuhmacher Albert Höfling, der im Erdgeschoss einen Schuhladen betrieb." ;
+    nami:confidence 0.7 |} .
+wd:Q55875786 nami:mentionedAt wd:Q30600276 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_548> ;
+    nami:evidence "Umbau und Aufstockung auf vier Geschosse, Ausbau des Nordteils in Mauerwerk mit Giebeldach. 1692 Prunkzimmer mit Stuckdecke von Samuel Höscheller (1630-1713) im ersten Obergeschoss. 1883/89 Schumacher Josef Badenstein baut den Laden mit Schaufenster ein." ;
+    nami:confidence 0.7 |} .
+wd:Q110213964 nami:mentionedAt wd:Q55169123 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_552> ;
+    nami:evidence "Um 1750 gab Stadtleutnant Martin von Muralt (1708-1784) dem Haus durch den dreigeschossigen Turmbau seine heutige Gestalt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_553> rdfs:label "Zum Brunnenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.563743 47.353682)"^^geo:wktLiteral ] .
+wd:Q1253000 nami:mentionedAt <https://example.org/nami/data/plaque/bt_553> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_553> ;
+    nami:evidence "Das ursprüngliche Bauernhaus wurde 1644 vom Zürcher Junker Hans Heinrich Lochmann zum barocken Landsitz mit repräsentativem Portal und Ehrenhof inmitten von Rebhängen umgestaltet." ;
+    nami:confidence 0.7 |} .
+wd:Q1485991 nami:mentionedAt wd:Q137669084 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_555> ;
+    nami:evidence "1879-1882 vom Riesbacher Architekten Adolf Nabholz (1847-1891), wohl nach Plänen des englischen Architekten William Wilkinson, für den deutschrussischen Grosskaufmann Emanuel Henry Brandt (1831-1908) als Alterssitz erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_560> rdfs:label "Bärenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537464 47.370444)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_560> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_560> ;
+    nami:evidence "1944-1948 als Geschäftshaus von Architekt Hermann Weideli (1877-1964) und seinem Sohn Hans Weideli (1910-1992) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_561> rdfs:label "Grünenhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536671 47.371008)"^^geo:wktLiteral ] .
+wd:Q16101746 nami:mentionedAt <https://example.org/nami/data/plaque/bt_561> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_561> ;
+    nami:evidence "Der Hausnamen bezieht sich auf ein Zürcher Patrizierhaus, das seit 1725 hier stand. 1946 vom Architekten Werner Frey (1912-1989) anstelle des barocken Vorgängerbaus für die Baugenossenschaft Buchegg AG als Geschäftshaus errichtet." ;
+    nami:confidence 0.7 |} .
+wd:Q63196639 nami:mentionedAt wd:Q29933661 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_564> ;
+    nami:evidence "Vereinshaus und Variététheater. 1899-1900 von Hermann Stadler und Jakob Emil Usteri als früher Beton-Skelettbau mit üppiger Neubarocker Fassade erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_570> rdfs:label "Tödistrasse 52" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.533535 47.367939)"^^geo:wktLiteral ] .
+wd:Q18397174 nami:mentionedAt <https://example.org/nami/data/plaque/bt_570> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_570> ;
+    nami:evidence "1897 von Architekt Robert Zollinger (1856-1939) und den Baumeistern Lauffer und Franceschetti erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_574> rdfs:label "Treichlerstrasse 7" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.557898 47.370659)"^^geo:wktLiteral ] .
+wd:Q35616768 nami:mentionedAt <https://example.org/nami/data/plaque/bt_574> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_574> ;
+    nami:evidence "1906 von Architekt Franz Wilhlem Seifert (1857-1907) als Mehrfamilienhaus für Julius Kopp errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_575> rdfs:label "Lerche" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545285 47.369383)"^^geo:wktLiteral ] .
+wd:Q123900 nami:livedAt <https://example.org/nami/data/plaque/bt_575> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_575> ;
+    nami:evidence "1700-1733 Wohnhaus von Johann Jakob Scheuchzer (1672-1733), Stadtarzt von Zürich, bedeutender Naturforscher und Historiker." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_577> rdfs:label "Zum Friesenberg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545498 47.369372)"^^geo:wktLiteral ] .
+wd:Q120603 nami:mentionedAt <https://example.org/nami/data/plaque/bt_577> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_577> ;
+    nami:evidence "Jahrhunderts in Besitz von Magister Johannes Fries, Lateinlehrer am Carolinum." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_581> rdfs:label "Goldener Winkel" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.546531 47.36966)"^^geo:wktLiteral ] .
+wd:Q120603 nami:workedAt <https://example.org/nami/data/plaque/bt_581> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_581> ;
+    nami:evidence "Um 1780 wird das vordere Hofgebäude Nr. 36 als Werkstatt von Tischmacher Johannes Fries erstellt. 1868 Einbau von repräsentativen Wohnräumen im 1.Obergeschoss. 1861 Neubau des hinteren Hofgebäudes Nr. 38 anstelle eines Vorgängerbaus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_586> rdfs:label "Zum hohen Steg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545587 47.371719)"^^geo:wktLiteral ] .
+wd:Q1400114 nami:mentionedAt <https://example.org/nami/data/plaque/bt_586> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_586> ;
+    nami:evidence "Nach 1500 auf den Grundmauern dreier kleinerer, mittelalterlicher Häuser errichtet. 1851 Neugestaltung der Fassade mit Rundbogen durch den Architekten Gustav Albert Wegmann (1812-1858)." ;
+    nami:confidence 0.7 |} .
+wd:Q1359943 nami:mentionedAt <https://example.org/nami/data/plaque/bt_586> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_586> ;
+    nami:evidence "Jh., der von Professor Ernst Fiechter (1875-1948) in anthroposophischer Architekturauffassung erweitert wurde." ;
+    nami:confidence 0.7 |} .
+wd:Q1555881 nami:mentionedAt wd:Q2500042 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_587> ;
+    nami:evidence "1905-1907 von Gustav Gull (1858-1942) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_589> rdfs:label "Uraniastrasse 14" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536625 47.374515)"^^geo:wktLiteral ] .
+wd:Q64467 nami:mentionedAt <https://example.org/nami/data/plaque/bt_589> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_589> ;
+    nami:evidence "1902 nach Plänen der Architekten Theodor Oberländer (1865-1926), Max Häfeli (1869-1941) und Otto Pfleghard (1869-1958) errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_591> rdfs:label "Uraniastrasse 16" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536468 47.374396)"^^geo:wktLiteral ] .
+wd:Q1598179 nami:mentionedAt <https://example.org/nami/data/plaque/bt_591> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_591> ;
+    nami:evidence "1904 nach den Plänen der Architekten Theo Oberländer (†1926), Otto Pfleghard (1869-1958) und Max Haefeli (1869-1941) durch das Baugeschäft Fietz und Leuthold als Geschäftshaus erbaut." ;
+    nami:confidence 0.5 |} .
+<https://example.org/nami/data/plaque/bt_592> rdfs:label "Usteristrasse 14" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536443 47.375949)"^^geo:wktLiteral ] .
+wd:Q1679033 nami:mentionedAt <https://example.org/nami/data/plaque/bt_592> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_592> ;
+    nami:evidence "Erbaut 1880 durch den Architekten Jakob Friedrich Wanner (1830-1903), dem Schöpfer des Hauptbahnhofes und der Kreditanstalt am Paradeplatz." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_593> rdfs:label "Usteristrasse 19" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.536384 47.375808)"^^geo:wktLiteral ] .
+wd:Q120498697 nami:mentionedAt <https://example.org/nami/data/plaque/bt_593> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_593> ;
+    nami:evidence "1889 von Architekt Albert Mayer-Hofer für den Advokaten Robert Notz als Wohn- und Geschäftshaus erstellt." ;
+    nami:confidence 0.7 |} .
+wd:Q1294605 nami:mentionedAt wd:Q29933666 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_594> ;
+    nami:evidence "Die neubarocken Fassaden weisen auch bauplastische Elemente im Jugendstil auf wie die Darstellung des \"Winters\" und des \"Sommers\" über den Balkonen der Eckrisaliten." ;
+    nami:confidence 0.7 |} .
+wd:Q60618174 nami:mentionedAt wd:Q29933608 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_596> ;
+    nami:evidence "1928/29 von Anton Fritz Scotoni (1880-1932) und Karl Rudolf Völlmy (1883-1964) als Hotel mit Restaurant und Ausstelungsräumen für Autos im Erdgeschoss erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_597> rdfs:label "Apartement-House Utoquai 49" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547768 47.361949)"^^geo:wktLiteral ] .
+wd:Q60618174 nami:mentionedAt <https://example.org/nami/data/plaque/bt_597> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_597> ;
+    nami:evidence "1928/29 von Anton Fritz Scotoni (1880-1932) und Karl Rudolf Völlmy (1883-1964) als Zürichs erstes Apartmenthaus errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_600> rdfs:label "Restaurant Orsini" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.54017 47.370137)"^^geo:wktLiteral ] .
+wd:Q76826276 nami:mentionedAt <https://example.org/nami/data/plaque/bt_600> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_600> ;
+    nami:evidence "Ehemaliges Pfarrhaus Fraumünster. 1837 erwirbt Hotelier Johannes Baur das Haus und errichtet eine Bierwirtschaft." ;
+    nami:confidence 0.7 |} .
+wd:Q7721 nami:mentionedAt <https://example.org/nami/data/plaque/bt_600> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_600> ;
+    nami:evidence "Der Name stammt von Orsini, einem erfolglosen Attentäter gegen Napoleon III." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_611> rdfs:label "Werdstrasse 110 und 112" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.525102 47.370976)"^^geo:wktLiteral ] .
+wd:Q27229258 nami:mentionedAt <https://example.org/nami/data/plaque/bt_611> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_611> ;
+    nami:evidence "Die fünfgeschossigen Mehrfamilienhäuser sind Teil der einheitlichen Überbauung mit Wohn- und Geschäftshäusern, die nach dem Bau des Bahnhofs Wiedikon gemäss dem städtebaulichen Entwurf von Stadtbaumeister Hermann Herter (1877-1945) im Bereich der Schimmelstrasse entstand." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_616> rdfs:label "Bethel Kapelle" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.554304 47.370368)"^^geo:wktLiteral ] .
+wd:Q18397174 nami:mentionedAt <https://example.org/nami/data/plaque/bt_616> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_616> ;
+    nami:evidence "1898-1899 von Architekt Robert Zollinger (1858-1939) für die Bethel-Gemeinde als Emporenkirche mit 1600 Sitzplätzen erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q1400114 nami:mentionedAt wd:Q23073407 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_618> ;
+    nami:evidence "1855 von Gustav Albert Wegmann (1812-1858) erbaut als herrschaftliches Wohnhaus in klassizistischem Stil für den Bankier Emil Tobler-Finsler (1810-1898). 1898-1901 nach den Plänen von Conrad von Muralt (1859-1928) eingreifend umgestaltet und mit Turm versehen." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_625> rdfs:label "Meyerhof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.593689 47.359519)"^^geo:wktLiteral ] .
+wd:Q2172614 nami:mentionedAt <https://example.org/nami/data/plaque/bt_625> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_625> ;
+    nami:evidence "Der Hausname stammt vom Lithographen Karl Meyer (1876-1957), der 1904-1957 Eigentümer war. 1733 wurde der westliche Teil des Hauses Schulerweg 1 von Johannes Fahrner (1679-1748) erbaut, 1755 der östliche Teil von seinem Neffen Rudolf Fahrner (1705-1760)." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_626> rdfs:label "Wolfbachstrasse 9" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.550567 47.370724)"^^geo:wktLiteral ] .
+wd:Q1459795 nami:mentionedAt <https://example.org/nami/data/plaque/bt_626> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_626> ;
+    nami:evidence "1881 als Mehrfamilienhaus von Baumeister Friedrich Hopp in spätklassizistischen Bauformen erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_627> rdfs:label "Gesellenhaus Wolfbach" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.550984 47.370695)"^^geo:wktLiteral ] .
+wd:Q37944060 nami:mentionedAt <https://example.org/nami/data/plaque/bt_627> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_627> ;
+    nami:evidence "1888/89 von Alfred Chiodera (1850-1916) und Theophil Tschudy (1847-1911) erbaut für den katholischen Gesellenverein." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_628> rdfs:label "Pestalozzihaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544564 47.374772)"^^geo:wktLiteral ] .
+wd:Q27229258 nami:mentionedAt <https://example.org/nami/data/plaque/bt_628> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_628> ;
+    nami:evidence "1931/32 von Architekt und Stadtbaumeister Hermann Herter (1877-1945) als Hauptsitz der Pestalozzigesellschaft in Zürich erstellt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_629> rdfs:label "Martahaus" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544724 47.375945)"^^geo:wktLiteral ] .
+wd:Q2562733 nami:mentionedAt <https://example.org/nami/data/plaque/bt_629> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_629> ;
+    nami:evidence "1958 von Architekt Werner Stücheli (1916-1983) anstelle eines Vorgängerbaus von 1882 errichtet." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_630> rdfs:label "Villa Gutland" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.535908 47.340803)"^^geo:wktLiteral ] .
+wd:Q16065153 nami:mentionedAt <https://example.org/nami/data/plaque/bt_630> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_630> ;
+    nami:evidence "1909 von den Architekten Robert Bischoff (1876-1920) und Hermann Weideli (1877-1964) für Banquier und Generalskonsul Ernst Vogel erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q27229229 nami:workedAt wd:Q29933581 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_636> ;
+    nami:evidence "1877 vom Zürcher Architekten Albert Meyer-Hofer (1845-1903) für den Bildhauer Louis Wethli (1842-1914) als Wohnhaus und Atelier erbaut." ;
+    nami:confidence 0.7 |} .
+wd:Q4692 nami:mentionedAt wd:Q29574422 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_643> ;
+    nami:evidence "Das asymmetrische Gebäude zeigt aussen die Formen der italienischen Renaissance, innen, wie in der Zeit des Historismus üblich, eine Vielfalt verschiedener Stile: pompejanisch, französische Renaissance, deutscher Manierismus, Rokoko." ;
+    nami:confidence 0.7 |} .
+wd:Q131808 nami:mentionedAt wd:Q29574422 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_643> ;
+    nami:evidence "Das asymmetrische Gebäude zeigt aussen die Formen der italienischen Renaissance, innen, wie in der Zeit des Historismus üblich, eine Vielfalt verschiedener Stile: pompejanisch, französische Renaissance, deutscher Manierismus, Rokoko." ;
+    nami:confidence 0.7 |} .
+wd:Q277466 nami:mentionedAt wd:Q29574422 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_643> ;
+    nami:evidence "Das asymmetrische Gebäude zeigt aussen die Formen der italienischen Renaissance, innen, wie in der Zeit des Historismus üblich, eine Vielfalt verschiedener Stile: pompejanisch, französische Renaissance, deutscher Manierismus, Rokoko." ;
+    nami:confidence 0.7 |} .
+wd:Q122960 nami:mentionedAt wd:Q29574422 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_643> ;
+    nami:evidence "Das asymmetrische Gebäude zeigt aussen die Formen der italienischen Renaissance, innen, wie in der Zeit des Historismus üblich, eine Vielfalt verschiedener Stile: pompejanisch, französische Renaissance, deutscher Manierismus, Rokoko." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_645> rdfs:label "Zu den Tannen" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.556263 47.361718)"^^geo:wktLiteral ] .
+wd:Q123463724 nami:mentionedAt <https://example.org/nami/data/plaque/bt_645> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_645> ;
+    nami:evidence "1897 von Marie und Heinrich Müller-Jelmoli, Generaldirektor der \"Zürich\" Versicherungsgesellschaft, als Wohnhaus erbaut." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_646> rdfs:label "Zollikerstrasse 105 und 107" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.560038 47.358875)"^^geo:wktLiteral ] .
+wd:Q104638275 nami:mentionedAt <https://example.org/nami/data/plaque/bt_646> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_646> ;
+    nami:evidence "1972-1975 von den Architekten Hans Hubacher (1916-2009), Annemarie Hubacher-Constam (1921-2012) und Peter Issler (1922-2006) als Hörsaal und Labortrakt für die Institute für Systematische Botanik und für Pflanzenbiologie der Universität Zürich erbaut anstelle der Villa Schönau aus dem Jahr 1866." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_654> rdfs:label "Zum Loch" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544186 47.370593)"^^geo:wktLiteral ] .
+wd:Q3044 nami:mentionedAt <https://example.org/nami/data/plaque/bt_654> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_654> ;
+    nami:evidence "Karl der Grosse nahm hier der Sage nach Quartier." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_749> rdfs:label "Ehemalige Ford-Garage" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537645 47.390993)"^^geo:wktLiteral ] .
+wd:Q1526430 nami:mentionedAt <https://example.org/nami/data/plaque/bt_749> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_749> ;
+    nami:evidence "1950-1951 errichtete Architekt Giovanni Zamboni (1910-2004) in einem dreieckigen Innenhof eine Garage mit Wohnungen im Attikageschoss. 2025 wurde die Garage zu Kleinwohnungen umgenutzt." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_752> rdfs:label "Zentralstrasse 141, Thomasweg 5" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.51491 47.37537)"^^geo:wktLiteral ] .
+wd:Q277466 nami:mentionedAt <https://example.org/nami/data/plaque/bt_752> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_752> ;
+    nami:evidence "Das Ensemble im Stil des Späthistorismus mit Wohnungen, Weinladen und Hofgebäude zeichnet sich durch eine lange Nutzungskontinuität aus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_756> rdfs:label "Zur Kartause" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.562897 47.356145)"^^geo:wktLiteral ] .
+wd:Q55903732 nami:mentionedAt <https://example.org/nami/data/plaque/bt_756> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_756> ;
+    nami:evidence "1695 baute Bäcker Johann Rudolf Weber ausserhalb der Stadt ein Sommerhaus." ;
+    nami:confidence 0.7 |} .
+<https://example.org/nami/data/plaque/bt_761> rdfs:label "Wuhrstrasse 8/10" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.521901 47.366739)"^^geo:wktLiteral ] .
+wd:Q1358298 nami:mentionedAt <https://example.org/nami/data/plaque/bt_761> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_761> ;
+    nami:evidence "Die Baugenossenschaft Maler und Bildhauer Zürich liess 1952–53 das Ensemble durch den Architekten Ernst Gisel (1922–2021) errichten." ;
+    nami:confidence 0.7 |} .
+wd:Q119369 nami:mentionedAt <https://example.org/nami/data/plaque/bt_761> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_761> ;
+    nami:evidence "Ein Mosaik von Otto Morach (1887–1973) und das Relief von Otto Müller (1905–1993) schmücken die schlichte Fassade." ;
+    nami:confidence 0.7 |} .

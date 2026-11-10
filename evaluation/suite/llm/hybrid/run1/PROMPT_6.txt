@@ -1,0 +1,81 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest you get the places a system retrieved, each with the reasons that link it to the interest and their sources. You may keep, drop or add places, and add reasons. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason you add, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Answer only with JSON, one object per interest; refer to a retrieved place by its id:
+[{"interest_id": "I01", "places": [
+  {"rank": 1, "origin": "graph", "id": "S1", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]},
+  {"rank": 2, "origin": "new", "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}
+]}]
+
+Interests:
+
+## I26: LGBTQ history
+- S1: Miller's
+    because: LGBTQ --mentionedAt--> Miller's (source: https://www.zuerich.com/en/node/6636) -- "With its beautiful bar and warm atmosphere, Millers Theater is a vibrant home for cabaret, comedy, variety shows, LGBTQ+ arts, improv, and mixed-genre performances."
+- S2: Regenbogenhaus Zürich
+    because: LGBTQ --mentionedAt--> Regenbogenhaus Zürich (source: https://www.zuerich.com/en/node/1010616) -- "The meeting place, cultural venue, and contact point for the LGBTQ+ community, as well as for all those who want to engage and exchange ideas."
+- S3: Cranberry Bar
+    because: LGBTQ --mentionedAt--> Cranberry Bar (source: https://www.zuerich.com/en/node/1609) -- "Of course, not only gays are welcome here, but also all friends and acquaintances of the LGBTQ+ community."
+- S4: Heaven Club
+    because: LGBTQ --mentionedAt--> Heaven Club (source: https://www.zuerich.com/en/node/190195) -- "Renowned as a LGBTQIA+ club, it is a very popular venue among heterosexuals, too."
+- S5: Klaus
+    because: LGBTQ --mentionedAt--> Klaus (source: https://www.zuerich.com/en/node/327472) -- "The friends of friends of “Klaus” are a colorful gang, covering the whole spectrum from LGBTQ to hetero, who celebrate all through the night until daybreak."
+
+## I27: Colonialism
+- S1: Ethnographic Museum of the University of Zurich
+    because: colonialism --mentionedAt--> Ethnographic Museum of the University of Zurich (source: https://www.zuerich.com/en/node/1869) -- "The provenance of the objects and the circumstances of their acquisition, as well as the colonial past of collections, are also addressed."
+- S2: Kindli
+    because: colonialism --mentionedAt--> Kindli (source: https://www.zuerich.com/en/node/2413) -- "Nowadays, the Kindli is an elegant hotel housing a restaurant serving European cuisine with colonial influences."
+- S3: H. Schwarzenbach AG
+    because: colonialism --mentionedAt--> H. Schwarzenbach AG (source: https://www.zuerich.com/en/node/1510) -- "When you enter the beautiful Schwarzenbach colonial grocery store in the heart of Zurich’s Niederdorf quarter, you are immediately enveloped by the aroma of freshly ground coffee."
+- S4: Co Chin Chin
+    because: colonialism --mentionedAt--> Co Chin Chin (source: https://www.zuerich.com/de/node/186298) -- "Co Chin Chin war während der französischen Kolonialherrschaft über Vietnam die Bezeichnung für Südvietnam."
+- S5: Swiss National Museum
+    because: kolonial – Globale Verflechtungen der Schweiz --main subject--> colonialism (source: Wikidata, statement without reference); kolonial – Globale Verflechtungen der Schweiz --publisher--> Swiss National Museum (source: Wikidata, statement without reference)
+
+## I29: Silk industry
+- S1: Sorell Hotel Seidenhof
+    because: silk --mentionedAt--> Sorell Hotel Seidenhof (source: https://www.zuerich.com/de/node/1291) -- "Die liebevoll gestalteten Details erinnern an die einstige Bedeutung der Seide für die Stadt."
+- S2: ORSINI
+    because: silk --mentionedAt--> ORSINI (source: https://www.zuerich.com/en/node/1011520) -- "Antonio Guida, who has already been awarded two Michelin stars for the Seta at the Mandarin Oriental in Milan, presents a range of Italian delicacies at ORSINI that combine traditional elements with a"
+- S3: EnSoie – Fashion Label with a Family Tradition
+    because: silk --mentionedAt--> EnSoie – Fashion Label with a Family Tradition (source: https://www.zuerich.com/it/node/294909) -- "Il marchio è sinonimo di tessuti di seta stampati, abbigliamento, indumenti, gioielli e ceramiche con quel qualcosa in più."
+- S4: Ziegel oh Lac
+    because: silk --mentionedAt--> Ziegel oh Lac (source: https://www.zuerich.com/en/node/3600) -- "Located in the industrial halls of the former silk weaving factory, the Ziegel oh Lac has served as a cultural center for the alternative art and music scene for almost four decades."
+- S5: Hotel Europe
+    because: silk --mentionedAt--> Hotel Europe (source: https://www.zuerich.com/en/node/1125) -- "Eat & Drink – At SILK Restaurant & Bar, guests start the day with a relaxed breakfast, enjoy a varied selection at lunchtime and discover creative, seasonal dishes in the evening."
+- S6: Rote Fabrik
+    because: silk --mentionedAt--> Rote Fabrik (source: https://www.zuerich.com/fr/node/2302) -- "Historique : La « Rote Fabrik » fut jusqu’en 1940 spécialisée dans les techniques de tissage de la soie."
+- S7: Casa Ferlin
+    because: silk --mentionedAt--> Casa Ferlin (source: https://www.zuerich.com/it/node/16805) -- "Già entrando, si nota che ci si trova in un locale pregno di tradizione: cornici dorate su tappezzerie di seta, tende rosso scuro con fermatenda dorati, luci soffuse e sedute floreali diffondono una c"
+
+## I30: Drug history and addiction policy
+- S1: Platzspitz park
+    because: drug --mentionedAt--> Platzspitz park (source: https://www.zuerich.com/it/node/2662) -- "Ciononostante, lo stesso problema di droga si ripropose alla vecchia stazione di Letten (oggi Oberer Letten ), dove perdurò fino al 1995."
+- S2: Olé Olé Bar
+    because: drug --mentionedAt--> Olé Olé Bar (source: https://www.zuerich.com/de/node/19860) -- "Die «Olé Olé», wie sie die Zürcher:innen nennen, ist seit 50 Jahren ein fester Bestandteil der Langstrasse und hat hier eine bewegte Geschichte miterlebt: Drogen, Prostitution und Rockerbands prägten "
+- S3: Flussbad Oberer Letten
+    because: drug --mentionedAt--> Flussbad Oberer Letten (source: https://www.zuerich.com/it/node/2495) -- "Una volta chiusa, è stata teatro di traffici di droga, espletati dal Platzspitz."
+
+## I31: Music history of Zurich
+- S1: Tanzhaus Zürich
+    because: Q57502437 --genre--> music (source: Wikidata, citing http://data.kunsten.be/productions/449098 (page no longer available)); Q57502437 --location of first performance--> Tanzhaus Zürich (source: http://data.kunsten.be/productions/449098)
+    because: Q57502437 --genre--> music (source: Wikidata, citing http://data.kunsten.be/productions/449098 (page no longer available)); Q57502437 --production company (as co-producer)--> Tanzhaus Zürich (source: Wikidata, statement without reference)
+- S2: Zürich Opera House
+    because: Q57501357 --genre--> music (source: http://data.kunsten.be/productions/443346); Q57501357 --location of first performance--> Zürich Opera House (source: http://data.kunsten.be/productions/443346)
+    because: music --mentionedAt--> Zürich Opera House (source: https://www.zuerich.com/de/node/1860) -- "Das Opernhaus ist eines der Wahrzeichen Zürichs und ermöglicht dem interessierten Publikum einen Zugang zu den Anfängen der Operngeschichte bis hin zur Musik des 21."
+- S3: Allgemeine Musik-Gesellschaft Zürich
+    because: Allgemeine Musik-Gesellschaft Zürich --field of work--> music (source: Wikidata, statement without reference)
+- S4: Tonhalle Orchester Zürich
+    because: music --mentionedAt--> Tonhalle Orchester Zürich (source: https://www.zuerich.com/de/node/1820) -- "Seit 1868 begeistert das Tonhalle-Orchester in Zürich die Fans von klassischer Musik."
+- S5: Bellevue (Zürich tram stop)
+    because: music --mentionedAt--> Bellevue (Zürich tram stop) (source: https://www.zuerich.com/de/node/166024) -- "An den Wochenenden wummert die elektronische Musik bis in die Morgenstunden, während das Lokal an den übrigen Wochentagen Ort für Konzerte, kulturelle Veranstaltungen oder Privat- und Spezialanlässe i"
+- S6: Cha Cha Cha Bar
+    because: music --mentionedAt--> Cha Cha Cha Bar (source: https://www.zuerich.com/de/node/1011983) -- "Die Cha Cha Cha Bar bringt frischen Wind ins Niederdorf: Bunte Drinks, lockeres Ambiente und Musik für jede Stimmung."
+- S7: Bro's Beans & Beats
+    because: music --mentionedAt--> Bro's Beans & Beats (source: https://www.zuerich.com/de/node/1012137) -- "Aromatischer Kaffee, frische Speisen und gute Musik – Das Café für Genuss mit Soundtrack."
+- S8: Stereo Bar
+    because: music --mentionedAt--> Stereo Bar (source: https://www.zuerich.com/de/node/1012501) -- "Der kultige Treffpunkt im Herzen des Zürcher Kreis 4 punktet mit fein kuratierter Musik und guten Cocktails."
+- S9: Aelpli Bar
+    because: music --mentionedAt--> Aelpli Bar (source: https://www.zuerich.com/de/node/168166) -- "An 365 Tagen im Jahr finden hier Generationen bei uriger Musik zueinander."
+- S10: Kon-Tiki Coffeeshop & Bar
+    because: music --mentionedAt--> Kon-Tiki Coffeeshop & Bar (source: https://www.zuerich.com/de/node/192283) -- "Seit 1955 begeistert die Kon-Tiki Bar im «Niederdörfli» ein gemischtes Publikum mit Musik und ausgelassener Stimmung"

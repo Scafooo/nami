@@ -1,0 +1,243 @@
+[
+{
+"interest_id": "I26",
+"places": [
+{
+"rank": 1,
+"name": "Barfüsser",
+"address": "Spitalgasse 14, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Historic meeting place and iconic center of Zurich's gay and queer nightlife since the mid-20th century.",
+"url": "https://www.hellozurich.ch/en/news/nachtleben-kolumne-queer.html",
+"quote": "The Barfüsser, which opened in 1956, had a key role to play."
+}
+]
+},
+{
+"rank": 2,
+"name": "Theater Neumarkt",
+"address": "Neumarkt 5, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Venue where the groundbreaking gay magazine and organization Der Kreis held its famous balls from 1948 until the city imposed a dancing ban.",
+"url": "https://milchjugend.ch/milchball/",
+"quote": "Der Milchball ist eine Hommage an die ikonischen Feste der Schwulenzeitschrift DER KREIS, die zwischen 1948 und 1960 im heutigen Theater Neumarkt stattfanden, bis die Stadt Zürich ein Tanzverbot verhängte."
+}
+]
+},
+{
+"rank": 3,
+"name": "Platzspitz Park",
+"address": "Platzspitz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Site of Switzerland's first Christopher Street Day demonstration in June 1978, which included a sit-in demanding the abolition of police gay registers.",
+"url": "https://de.wikipedia.org/wiki/CSD_in_der_Schweiz",
+"quote": "Der erste CSD in Europa fand in der Schweiz am 24. Juni 1978 in Zürich unter dem Namen Christopher Street Day statt."
+}
+]
+},
+{
+"rank": 4,
+"name": "Helvetiaplatz",
+"address": "Helvetiaplatz, 8004 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Central gathering site and starting point for speeches and marches during Zurich Pride and historical LGBTQ demonstrations.",
+"url": "https://de.wikipedia.org/wiki/CSD_in_der_Schweiz",
+"quote": "Nach den Reden auf dem Helvetiaplatz führt ein Zug von mehreren Tausend Personen"
+}
+]
+}
+]
+},
+{
+"interest_id": "I27",
+"places": [
+{
+"rank": 1,
+"name": "Villa Patumbah",
+"address": "Zollikerstrasse 128, 8008 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Stately historic residence commissioned by Carl Fürchtegott Grob with immense wealth acquired through colonial tobacco plantations in Sumatra.",
+"url": "https://www.heimatschutzzentrum.ch/en/offer/villa-and-park",
+"quote": "Grob lived from 1869 to 1879 in Sumatra, which at that time belonged to the Dutch Indies, and gained tremendous wealth through the operation of tobacco plantations."
+}
+]
+},
+{
+"rank": 2,
+"name": "Landesmuseum Zürich",
+"address": "Museumstrasse 2, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "National museum presenting major exhibitions on Switzerland's global colonial entanglements and history.",
+"url": "https://zasb.unibas.ch/en/event/details/exhibition-colonial-switzerlands-global-entanglements/",
+"quote": "The exhibition at the National Museum Zurich presents a comprehensive overview of Switzerland's history of colonial entanglement."
+}
+]
+},
+{
+"rank": 3,
+"name": "Völkerkundemuseum der Universität Zürich",
+"address": "Pelikanstrasse 40, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Ethnographic museum documenting local connections to colonial history and non-European cultures.",
+"url": "https://www.heimatschutzzentrum.ch/en/current-detail/colonial-zurich",
+"quote": "Walking from Villa Patumbah to the Ethnographic Museum, we discover places with colonial ties and see buildings from a new perspective."
+}
+]
+},
+{
+"rank": 4,
+"name": "Kunsthaus Zürich",
+"address": "Heimplatz 1, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Major museum addressing contemporary art perspectives and postcolonial discourses in its exhibitions.",
+"url": "https://www.kunsthaus.ch/en/sammlung/zeitgenoessische-kunst/",
+"quote": "The Kunsthaus Zürich presents a multi-faceted spectrum of contemporary art, with new narratives from the postcolonial discourse to the gender debate taking"
+}
+]
+}
+]
+},
+{
+"interest_id": "I29",
+"places": [
+{
+"rank": 1,
+"name": "Museum Rietberg (Villa Wesendonck)",
+"address": "Gablerstrasse 15, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Built for Otto Wesendonck, a prominent international silk merchant whose wealth shaped 19th-century Zurich culture.",
+"url": "https://rietberg.ch/en/about",
+"quote": "Otto Wesendonck, a shareholder in a silk trading company, had come to Zurich from New York in 1851, to set up home with his 24-year-old"
+}
+]
+},
+{
+"rank": 2,
+"name": "Hotel Seidenhof",
+"address": "Sihlstrasse 9, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Site established in 1592 that helped launch the silk trade, kickstarting Zurich's economic rise into a major financial hub.",
+"url": "https://www.emerson.arch.ethz.ch/design-studio/whats-in-store",
+"quote": "Seidenhof was established in 1592, kick starting the silk industry whose prosperity would lead to banking that defines contemporary Zurich, at least in the eyes"
+}
+]
+},
+{
+"rank": 3,
+"name": "Haus zur Meisen",
+"address": "Münsterhof 20, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Historic guild hall that served as the meeting seat for Zurich's silk merchants.",
+"url": "https://singaporebrides.com/articles/2023/07/zurich-switzerland-honeymoon/",
+"quote": "The Haus zur Meisen, once the home of the silk merchants' guild, is now a"
+}
+]
+},
+{
+"rank": 4,
+"name": "Schipfe",
+"address": "Schipfe, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Historic riverfront quarter where merchant boats docked to unload silk and valuable trade goods during the Middle Ages.",
+"url": "https://www.zuerich.com/en/visit/attractions/schipfe-zurichs-oldest-district",
+"quote": "Boats docked at \"Schipfe\" in the Middle Ages, which delivered silk, gold and food to Zurich."
+}
+]
+}
+]
+},
+{
+"interest_id": "I30",
+"places": [
+{
+"rank": 1,
+"name": "Platzspitz Park",
+"address": "Platzspitz, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Famous site of the open-air drug scene known as 'Needle Park' in the late 1980s and early 1990s, which sparked Switzerland's modern four-pillar drug policy.",
+"url": "https://www.zuerich.com/en/visit/nature/platzspitz-park",
+"quote": "Fortunately, the Platzspitz was able to rehabilitate itself and nowadays is once again a much-loved oasis of peace and quiet."
+}
+]
+},
+{
+"rank": 2,
+"name": "Letten Railway Station (Lettenareal)",
+"address": "Wasserwerkstrasse 21, 8006 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Former station where the open drug scene relocated after the closure of Platzspitz in 1992 before being finally cleared in 1995.",
+"url": "https://en.wikipedia.org/wiki/Platzspitz_park",
+"quote": "The drug scene was then moved to the adjacent area of Letten railway station, which closed services in 1989."
+}
+]
+},
+{
+"rank": 3,
+"name": "Arud Center for Addiction Medicine",
+"address": "Sihlfeldstrasse 18, 8003 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Pioneering medical institution established to implement harm reduction, needle exchange, and heroin-assisted treatment policies.",
+"url": "https://arud.ch/assets/docs/Arud_in_den_Medien/20160212_Online_GlobalPost_The_US_can_learn_a_lot_from_Zurich_about_how_to_fight_its_heroin_crisis_TBe.pdf",
+"quote": "In a public vote in 1997, the usually conservative Swiss public rejected the adoption of stricter drug policies, legitimizing the new, less punitive approach."
+}
+]
+}
+]
+},
+{
+"interest_id": "I31",
+"places": [
+{
+"rank": 1,
+"name": "Tonhalle Zürich",
+"address": "Claridenstrasse 7, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Renowned concert hall inaugurated in 1895 by Johannes Brahms, who conducted the opening performance.",
+"url": "https://en.wikipedia.org/wiki/Tonhalle,_Zurich",
+"quote": "The Grosser Saal, located at Claridenstrasse 7, was inaugurated on 19 October 1895 by Johannes Brahms, who conducted the opening concert."
+}
+]
+},
+{
+"rank": 2,
+"name": "Museum Rietberg (Villa Wesendonck)",
+"address": "Gablerstrasse 15, 8002 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Site where composer Richard Wagner resided in the estate's 'Asyl' garden house and composed parts of his opera Tristan und Isolde.",
+"url": "https://www.tonhalle-orchester.ch/en/home-tz/konzerthaus/tonhalle-zuerich/",
+"quote": "The first Tonhalle originally stood on"
+}
+]
+},
+{
+"rank": 3,
+"name": "Schauspielhaus Zürich",
+"address": "Rämistrasse 34, 8001 Zürich, Switzerland",
+"reasons": [
+{
+"reason": "Major cultural house and performance space integral to Zurich's classical theater and musical performance history.",
+"url": "https://www.schauspielhaus.ch/en/spielplan/38402/kunst-als-exil",
+"quote": "Both celebrated and merely tolerated: exiles such as Therese Giehse and Bertolt Brecht made the Schauspielhaus Zürich world-famous in the 1930s and 1940s."
+}
+]
+}
+]
+}
+]

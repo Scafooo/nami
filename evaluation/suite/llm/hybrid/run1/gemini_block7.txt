@@ -1,0 +1,192 @@
+[
+{
+"interest_id": "I32",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "old town, celtic / roman settlement / medieval town, palatinate --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von nationaler Bedeutung 2017)"
+},
+{
+"reason": "lower lake Zurich basin, neolithic and bronze Age lakeside settlements --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von nationaler Bedeutung 2017)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "new",
+"name": "Thermengasse (Roman Thermal Baths Ruins)",
+"address": "Thermengasse, 8001 Zürich",
+"reasons": [
+{
+"reason": "Thermengasse displays the archaeological remains of ancient Roman thermal baths built during the Roman settlement of Turicum.",
+"url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+"quote": "Remains of Roman thermal baths."
+}
+]
+},
+{
+"rank": 3,
+"origin": "new",
+"name": "Haus zum Rech",
+"address": "Neumarkt 4, 8001 Zürich",
+"reasons": [
+{
+"reason": "Haus zum Rech is an 800-year-old historic building in Zurich Old Town that houses architectural history archives and a detailed scale model of medieval Zurich.",
+"url": "https://www.zuerich.com/de/besuchen/kultur/haus-zum-rech-baugeschichtliches-archiv-und-stadtarchiv",
+"quote": "Das Haus zum Rech ist schon seit 800 Jahren Teil der Zürcher Altstadt."
+}
+]
+},
+{
+"rank": 4,
+"origin": "new",
+"name": "Ehgraben Archaeological Window",
+"address": "Schöffengasse / Münstergasse, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Ehgraben archaeological site provides a window into medieval urban structure and sanitation systems in Zurich.",
+"url": "https://www.zuerich.com/en/tours-excursions/archeology-in-zurich-tour",
+"quote": "On this tour, we delve into the mysteries of the Ehgraben medieval sewage sewer, which reveals how a medieval town dealt with its waste and sewage problems."
+}
+]
+},
+{
+"rank": 5,
+"origin": "new",
+"name": "Wasserkirche Crypt",
+"address": "Limmatquai 31, 8001 Zürich",
+"reasons": [
+{
+"reason": "Wasserkirche stands on the medieval archaeological site linked to the execution and cult of Zurich's patron saints Felix and Regula.",
+"url": "https://www.zuerich.com/en/visit/attractions/wasserkirche",
+"quote": "Legend has it that the site of the Wasserkirche church is where Zurich's patron saints, Felix and Regula, were executed."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Zürich (Samian Ware Discovery Site) --instance of--> archaeological site (source: Wikidata, citing Samian Research)"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Burg Uetliburg --instance of--> archaeological site (source: Wikidata)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I33",
+"places": [
+{
+"rank": 1,
+"origin": "new",
+"name": "Münsterhof Fountain",
+"address": "Münsterhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Münsterhof Fountain is a massive 6-meter wide historic landmark fountain standing on Münsterhof square beside Fraumünster Church.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "The fountain with a diameter of around 6 meters (20 ft) stands on the historic Münsterhof, directly next to the Fraumünster Church."
+}
+]
+},
+{
+"rank": 2,
+"origin": "new",
+"name": "Zentralhof Fountain",
+"address": "Zentralhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Zentralhof Fountain is an ornate 1877 cast-iron landmark decorated with winged lions located in a quiet Old Town courtyard.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "In 1877, this was replaced by an imposing cast-iron fountain guarded by three winged lions."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Hirschenplatz --instance of--> fountain (source: Wikidata)"
+},
+{
+"reason": "fountain --mentionedAt--> Boutique Hotel Wellenberg (source: https://www.zuerich.com/fr/node/1317) -- \"Un centre d'affaires et une terrasse d'été avec fontaine sont à votre dispositio\""
+}
+]
+},
+{
+"rank": 4,
+"origin": "new",
+"name": "Alfred Escher Statue and Fountain",
+"address": "Bahnhofplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "The monument in front of Zurich Main Station includes a prominent historic fountain ensemble sculpted in 1889 by Richard Kissling.",
+"url": "https://www.zuerich.com/en/visit/attractions/alfred-escher-statue",
+"quote": "Swiss sculptor Richard Kissling created this bronze statue in 1889 in honor of Alfred Escher, a renowned Zurich politician and entrepreneur."
+}
+]
+},
+{
+"rank": 5,
+"origin": "new",
+"name": "Sechseläutenplatz Fountain",
+"address": "Sechseläutenplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "Sechseläutenplatz features a grand modern fountain ensemble of dynamic water jets in front of the Zurich Opera House.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "With its 53 water jets, the fountain ensemble is a spectacular sight."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Brunnen Delphinstrasse 12 u. 14 Zürich --instance of--> fountain (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Sardona Brunnen Zürich --instance of--> fountain (source: Wikidata)"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Sirius fountain --instance of--> fountain (source: Wikidata)"
+}
+]
+}
+]
+}
+]

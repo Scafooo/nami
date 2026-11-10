@@ -1,0 +1,120 @@
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix nami:    <https://example.org/nami/ontology#> .
+
+#################################################################
+# Ontology header
+#################################################################
+
+<https://example.org/nami/ontology>
+    a owl:Ontology ;
+    rdfs:label "Zurich Tourism Open Data extension for the NAMI knowledge graph"@en ;
+    rdfs:comment
+        "A small extension over Schema.org, DCTERMS, and SKOS for the fields exposed by the Zurich Tourism Open Data API (v2.0) that have no standard equivalent. Everything that already fits Schema.org, DCTERMS, or SKOS is reused directly by IRI and not redeclared here."@en ;
+    dct:source <https://www.zuerich.com/en/open-data-version-20> ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> .
+
+#################################################################
+# Custom properties -- no standard vocabulary covers these
+#################################################################
+
+nami:customType
+    a owl:DatatypeProperty ;
+    rdfs:label "custom type"@en ;
+    rdfs:comment "The source API's own free-text @customType tag (e.g. \"Viewpoint\"), finer-grained than its Schema.org @type but not itself a controlled vocabulary term."@en ;
+    rdfs:range xsd:string .
+
+nami:osmId
+    a owl:DatatypeProperty ;
+    rdfs:label "OpenStreetMap identifier"@en ;
+    rdfs:comment "The corresponding OpenStreetMap node/way id, as supplied by the source API. No widely-adopted RDF vocabulary exists for bare OSM ids."@en ;
+    rdfs:range xsd:string .
+
+nami:titleTeaser
+    a owl:DatatypeProperty ;
+    rdfs:label "title teaser"@en ;
+    rdfs:comment "Short, language-tagged display heading used by the Zurich Tourism website's own teaser cards; editorial text specific to that site, not a general-purpose Schema.org property."@en .
+
+nami:textTeaser
+    a owl:DatatypeProperty ;
+    rdfs:label "text teaser"@en ;
+    rdfs:comment "Short, language-tagged teaser body text, paired with nami:titleTeaser."@en .
+
+nami:detailedInformation
+    a owl:DatatypeProperty ;
+    rdfs:label "detailed information"@en ;
+    rdfs:comment "Multi-valued, language-tagged highlight bullets (e.g. \"187 steps to the best view over Zurich\") as supplied by the source; editorial, not structured data with a Schema.org equivalent."@en .
+
+nami:tomasBookingId
+    a owl:DatatypeProperty ;
+    rdfs:label "TOMAS booking id"@en ;
+    rdfs:comment "Cross-reference into the Swiss tourism federation's TOMAS booking system, as supplied verbatim by the source API."@en ;
+    rdfs:range xsd:string .
+
+nami:zurichCard
+    a owl:DatatypeProperty ;
+    rdfs:label "Zurich Card discount"@en ;
+    rdfs:comment "Whether this point of interest offers a discount to Zurich Card holders -- a scheme specific to Zurich Tourism, not a general concept."@en ;
+    rdfs:range xsd:boolean .
+
+nami:zurichCardDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "Zurich Card discount description"@en ;
+    rdfs:comment "Language-tagged free text describing the nami:zurichCard discount."@en .
+
+nami:specialOpeningHoursNote
+    a owl:DatatypeProperty ;
+    rdfs:label "special opening hours note"@en ;
+    rdfs:comment "Free-text, language-tagged HTML from the source API describing seasonal or exceptional opening hours (closures, season-dependent schedules, ...). Kept verbatim: the structure varies too much across records (date ranges, conditional notes, holiday closures, external links) to extract into individual dated statements reliably. Where the source instead supplies openingHoursSpecification with explicit validFrom/validThrough, that structured, standard form is used instead of this free text."@en .
+
+#################################################################
+# Indoor/outdoor -- no standard vocabulary found for this distinction
+#################################################################
+
+nami:PlaceType
+    a owl:Class ;
+    rdfs:label "place type (indoor/outdoor)"@en ;
+    rdfs:comment "A closed two-valued enumeration, the same pattern Schema.org itself uses for DayOfWeek or ItemAvailability: this class's only instances are its two fixed individuals below, not an open taxonomy -- neither nami:Indoors nor nami:Outdoors has, or could meaningfully have, its own subtypes. No existing standard vocabulary was found for this distinction."@en .
+
+nami:Indoors a nami:PlaceType ; rdfs:label "indoors"@en .
+nami:Outdoors a nami:PlaceType ; rdfs:label "outdoors"@en .
+
+nami:placeType
+    a owl:ObjectProperty ;
+    rdfs:label "place type"@en ;
+    rdfs:domain schema:Place ;
+    rdfs:range nami:PlaceType .
+
+#################################################################
+# RDF-star annotations on owl:sameAs links to Wikidata
+#################################################################
+# src/enrich/link_wikidata.py and link_wikidata_direct.py both produce
+# owl:sameAs statements between a POI and a Wikidata QID, found by an
+# automated process (no human curation, unlike e.g. a Wikidata editor
+# asserting a claim by hand) -- these three properties annotate each such
+# statement (via RDF-star, `<<s p o>> prop val`), not the POI or the QID
+# themselves: they describe how confident this SPECIFIC link is, which
+# varies statement by statement, not a property of either endpoint.
+
+nami:linkMethod
+    a owl:AnnotationProperty ;
+    rdfs:label "link method"@en ;
+    rdfs:comment "How this owl:sameAs statement was established: \"osm-wikidata-tag\" (OpenStreetMap's own community-curated wikidata= tag on the matching node/way/relation) or \"wikidata-geo-name-search\" (direct proximity+name search against Wikidata, used only where the OSM bridge found nothing)."@en ;
+    rdfs:range xsd:string .
+
+nami:linkDistanceMeters
+    a owl:AnnotationProperty ;
+    rdfs:label "link distance (metres)"@en ;
+    rdfs:comment "Great-circle distance between the POI's own coordinates and the matched Wikidata/OSM element's coordinates, in metres -- one of the two signals used to accept this link."@en ;
+    rdfs:range xsd:decimal .
+
+nami:linkNameSimilarity
+    a owl:AnnotationProperty ;
+    rdfs:label "link name similarity"@en ;
+    rdfs:comment "difflib.SequenceMatcher ratio (0-1) between the POI's name and the matched element's name, best over all language variants of each -- the second signal used to accept this link."@en ;
+    rdfs:range xsd:decimal .

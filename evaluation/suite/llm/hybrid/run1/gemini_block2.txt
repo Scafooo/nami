@@ -1,0 +1,511 @@
+[
+{
+"interest_id": "I06",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Bullinger memorial --commemorates--> Heinrich Bullinger (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Bullinger memorial --commemorates--> Heinrich Bullinger (source: Wikidata, statement without reference); Bullinger memorial --location--> Grossmünster (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Affair of the Sausages --participant--> Huldrych Zwingli (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Reformation in Switzerland --significant person--> Heinrich Bullinger (source: Wikidata, statement without reference); Reformation in Switzerland --significant event--> Affair of the Sausages (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Reformation in Switzerland --significant person--> Heinrich Bullinger (source: Wikidata, statement without reference); Affair of the Sausages --part of--> Reformation in Switzerland (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --mentionedAt--> Heinrich Bullinger Sculpture",
+"url": "https://www.zuerich.com/en/node/1684",
+"quote": "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --livedAt--> Zur Sul",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_381",
+"quote": "1521 – 1524 Amtssitz und Wohnhaus von Reformator Huldrych Zwingli (1484-1531)."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --commemoratedAt--> Ulrich Zwingli memorial",
+"url": "https://www.openstreetmap.org/node/4100030173",
+"quote": "Huldrych Zwingli"
+},
+{
+"reason": "Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Ulrich Zwingli memorial --depicts--> Huldrych Zwingli (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --archives at--> Zentralbibliothek Zürich",
+"url": "https://kalliope-verbund.info/DE-611-BF-16685"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --archives at--> ETH Zurich University Archives",
+"url": "https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/4e1010ce974342a5b8e34cb11454d5c3"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Heinrich Bullinger --significant person (as correspondent)--> Huldrych Zwingli (source: Wikidata, statement without reference); Huldrych Zwingli --depicted by--> portrait of Huldrych Zwingli (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Bullingerplatz --named after--> Heinrich Bullinger (source: Wikidata, citing Strassennamenverzeichnis Zürich)"
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Bullingerstrasse --named after--> Heinrich Bullinger (source: Wikidata, citing https://www.stadt-zuerich.ch/prd/de/index/stadtarchiv/strassennamen.html# (page no longer available))"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Bullingerhof --named after--> Heinrich Bullinger (source: Wikidata, citing Strassennamenverzeichnis Zürich)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I07",
+"places": [
+{
+"rank": 1,
+"origin": "new",
+"name": "Fraumünster Abbey",
+"address": "Münsterhof 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Katharina von Zimmern served as the last imperial abbess of Fraumünster Abbey in Zurich.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "Katharina von Zimmern, also known as the imperial abbess of Zürich and Katharina von Reischach, was the last abbess of the Fraumünster Abbey in Zürich."
+}
+]
+},
+{
+"rank": 2,
+"origin": "new",
+"name": "Katharina von Zimmern Memorial",
+"address": "Münsterhof 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "A monument dedicated to Katharina von Zimmern was inaugurated at the former cloister of Fraumünster Abbey at Münsterhof.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "On 14 March 2004, the Katharina von Zimmern memorial was inaugurated at the former cloister of the Fraumünster Abbey."
+}
+]
+},
+{
+"rank": 3,
+"origin": "new",
+"name": "Rathaus Zürich",
+"address": "Limmatquai 55, 8001 Zürich",
+"reasons": [
+{
+"reason": "Katharina von Zimmern officially surrendered the keys and rights of the Fraumünster abbey to the Zurich city council at the Rathaus in 1524.",
+"url": "https://www.zhkath.ch/kirche-aktuell/kirche-im-kanton/katharina-von-zimmern-uebergibt-das-fraumuensterkloster",
+"quote": "Vor 500 Jahren hat die letzte Äbtissin des Fraumünsterklosters, Katharina von Zimmern, die Schlüssel an die Stadt Zürich übergeben."
+}
+]
+},
+{
+"rank": 4,
+"origin": "new",
+"name": "Haus zum Schild",
+"address": "Neumarkt 13, 8001 Zürich",
+"reasons": [
+{
+"reason": "Katharina von Zimmern spent her final years living at Neumarkt in Zurich, where she passed away in 1547.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "Katharina von Zimmern died in the Neumarkt, Zürich on the 17th of August, 1547."
+}
+]
+},
+{
+"rank": 5,
+"origin": "new",
+"name": "Swiss National Museum",
+"address": "Museumstrasse 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Swiss National Museum preserves and displays two richly decorated rooms (Äbtissinnenstube) from Katharina von Zimmern's abbess residence.",
+"url": "https://katharinavonzimmern.ch/katharina-von-zimmern",
+"quote": "Zwei seiner reich geschmückten Stuben sind heute im Landesmuseum zu sehen."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Katharinenweg --named after--> Katharina von Zimmern (source: Wikidata, citing Strassennamenverzeichnis Zürich)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I08",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Hans Waldmann --commemoratedAt--> Monument to Hans Waldmann",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#196",
+"quote": "Hans-Waldmann-Denkmal"
+},
+{
+"reason": "Monument to Hans Waldmann --depicts--> Hans Waldmann (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Monument to Hans Waldmann --commemorates--> Hans Waldmann (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Hans Waldmann --commemoratedAt--> Monument to Hans Waldmann (source: https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#196) -- \"Hans-Waldmann-Denkmal\"; Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Monument to Hans Waldmann --depicts--> Hans Waldmann (source: Wikidata, statement without reference); Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Monument to Hans Waldmann --commemorates--> Hans Waldmann (source: Wikidata, statement without reference); Monument to Hans Waldmann --location--> Münsterbrücke (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Hans Waldmann --mentionedAt--> Flower and Vegetable Market Stadthausquai",
+"url": "https://www.zuerich.com/fr/node/3703",
+"quote": "Pendant quelques années, le marché aux légumes très apprécié n'aura pas lieu à la « Gmüesbrugg », mais au Stadthausquai, à hauteur du monument Hans Waldmann."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Hans Waldmann --livedAt--> Zur grossen Mücke",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_526",
+"quote": "In den Jahren 1468/69 wohnte hier Hans Waldmann."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Waldmannstrasse --named after--> Hans Waldmann (source: Wikidata, citing Strassennamenverzeichnis Zürich)"
+}
+]
+}
+]
+},
+{
+"interest_id": "I09",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Jos Murer --mentionedAt--> Zum schwarzen Schlüssel",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_117",
+"quote": "Das mittelalterliche Wohnhaus ist schon 1576 auf dem Stadtprospekt von Jos Murer fünfgeschossig dargestellt."
+}
+]
+},
+{
+"rank": 2,
+"origin": "new",
+"name": "Haus zum Nägeli",
+"address": "Rüdenplatz 7, 8001 Zürich",
+"reasons": [
+{
+"reason": "Haus zum Nägeli was the historical residence of cartographer and artist Jos Murer in Zurich.",
+"url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/karten-und-plaene/a.3.4.-aus-dem-leben-jos-murers-lp-publikation.pdf",
+"quote": "Das Wohnhaus Jos Murers, das Haus «zum Nägeli» (Rüdenplatz Nr. 7), an dem noch heute eine grüssende, schwerttragende Figur über den beiden Wappen Murer und Schön (Jos Murers Gattin), nebst der Jahreszahl 1556 zu sehen ist."
+}
+]
+},
+{
+"rank": 3,
+"origin": "new",
+"name": "Grossmünster",
+"address": "Zwingliplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "Jos Murer was born in Zurich and baptized at the Grossmünster cathedral in September 1530.",
+"url": "https://www.stadt-zuerich.ch/content/dam/web/de/bildung/volksschule/unterricht/gang-dur-zueri/karten-und-plaene/a.3.4.-aus-dem-leben-jos-murers-lp-publikation.pdf",
+"quote": "Jos Murer wurde Ende August oder Anfang September 1530 in Zürich geboren und am 5. September 1530 im Grossmünster getauft."
+}
+]
+},
+{
+"rank": 4,
+"origin": "new",
+"name": "Haus zum Rech (Stadtarchiv Zürich)",
+"address": "Neumarkt 4, 8001 Zürich",
+"reasons": [
+{
+"reason": "Haus zum Rech houses Zurich's city archives and displays an exhibition on Jos Murer along with the historic city model based on his 1576 map.",
+"url": "https://geomatik.ch/jos-murer-und-der-murerplan/",
+"quote": "Die Ausstellung zu Jos Murer und seinem Werk ist ebenfalls ab 29. September zu sehen im Haus zum Rech (Stadtarchiv), Neumarkt 4, Zürich, im Parterre beim Stadtmodell."
+}
+]
+},
+{
+"rank": 5,
+"origin": "new",
+"name": "St. Peter Church Tower",
+"address": "St. Peter-Hofstatt 1, 8001 Zürich",
+"reasons": [
+{
+"reason": "Jos Murer used the vantage point of St. Peter's church tower to survey and map Zurich accurately for the 1576 Murerplan.",
+"url": "https://geomatik.ch/jos-murer-und-der-murerplan/",
+"quote": "Die Antwort: Von der Turmstube von St. Peter aus."
+}
+]
+}
+]
+},
+{
+"interest_id": "I10",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Thomas Mann --commemoratedAt--> Thomas Mann Archives",
+"url": "https://www.zuerich.com/en/node/1919",
+"quote": "The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name."
+},
+{
+"reason": "Thomas Mann --archives at--> Thomas Mann Archives",
+"url": "https://vls.tma.ethz.ch/"
+},
+{
+"reason": "The Source --owned by--> Thomas Mann",
+"url": "https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8"
+},
+{
+"reason": "Thomas Mann Archives --named after--> Thomas Mann (source: Wikidata, statement without reference)"
+},
+{
+"reason": "The Source --owned by--> Thomas Mann (source: Wikidata, citing https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8); The Source --collection--> Thomas Mann Archives (source: Wikidata, statement without reference)"
+},
+{
+"reason": "The Source --owned by--> Thomas Mann (source: Wikidata, citing https://tma.e-pics.ethz.ch/#main-search-text=hofmann&main-search-mode=and&detail-asset=60a8f52a-a326-4d71-8cba-c0e22a5fd9c8); The Source --location--> Thomas Mann Archives (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --main subject--> Thomas Mann (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --main subject--> Thomas Mann (source: Wikidata, statement without reference); Im Schreiben eingerichtet. Thomas Mann und sein Arbeitszimmer --location--> ETH Zurich main building (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Thomas Mann --archives at--> ETH Zurich University Archives",
+"url": "https://kalliope-verbund.info/DE-611-BF-1073"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Thomas Mann --commemoratedAt--> Thomas Mann Archives (source: https://www.zuerich.com/en/node/1919) -- \"The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name.\"; zum oberen Berg house --occupant--> Thomas Mann Archives (source: Wikidata, statement without reference)"
+},
+{
+"reason": "Thomas Mann --archives at--> Thomas Mann Archives (source: Wikidata, citing https://vls.tma.ethz.ch/); zum oberen Berg house --occupant--> Thomas Mann Archives (source: Wikidata, statement without reference)"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Thomas Mann --child--> Elisabeth Mann Borgese (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --educated at (as matura)--> Freies Gymnasium Zürich (source: Wikidata, citing https://www.fgz.ch/elisabeth_mann.html?&L=en (page no longer available))"
+},
+{
+"reason": "Elisabeth Mann Borgese --father--> Thomas Mann (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --educated at (as matura)--> Freies Gymnasium Zürich (source: Wikidata, citing https://www.fgz.ch/elisabeth_mann.html?&L=en (page no longer available))"
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Thomas Mann --commemoratedAt--> Thomas Mann Archives (source: https://www.zuerich.com/en/node/1919) -- \"The Thomas Mann Archive is dedicated to archiving, researching, and communicating the life and work of the German author of the same name.\"; Thomas Mann Archives --member of--> Association of Zurich Museums (source: Wikidata, citing https://www.museen-zuerich.ch/museen/?category%5Ball%5D=on)"
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Thomas Mann --mentionedAt--> Diederik Winery",
+"url": "https://www.zuerich.com/en/node/280833",
+"quote": "Jung, Thomas Mann, and Tina Turner –, which they are now instilling with new life with a great deal of expertise and passion."
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Thomas Mann --buriedAt--> Thomas Mann Familiengrab, Nidelbadstrasse",
+"url": "https://www.openstreetmap.org/node/1888030761",
+"quote": "Thomas Mann Familiengrab"
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Thomas Mann --child--> Golo Mann (source: Wikidata, citing Kindred Britain); Golo Mann --commemoratedAt--> Golo Mann, Nidelbadstrasse",
+"url": "https://www.openstreetmap.org/node/12124789669",
+"quote": "Golo Mann"
+},
+{
+"reason": "Golo Mann --father--> Thomas Mann (source: Wikidata, citing Kindred Britain); Golo Mann --commemoratedAt--> Golo Mann, Nidelbadstrasse",
+"url": "https://www.openstreetmap.org/node/12124789669",
+"quote": "Golo Mann"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Thomas Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Thomas Mann --child--> Elisabeth Mann Borgese (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Elisabeth Mann Borgese --father--> Thomas Mann (source: Wikidata, citing Jüngste Tochter von Thomas Mann gestorben); Elisabeth Mann Borgese --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Erika Mann --father--> Thomas Mann (source: Wikidata, citing Kindred Britain); Erika Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Thomas Mann --spouse--> Katia Mann (source: Wikidata, citing Kindred Britain); Katia Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Thomas Mann --child--> Michael Mann (source: Wikidata, citing Kindred Britain); Michael Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Thomas Mann --child--> Golo Mann (source: Wikidata, citing Kindred Britain); Golo Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+},
+{
+"reason": "Thomas Mann --child--> Erika Mann (source: Wikidata, citing Store norske leksikon); Erika Mann --place of burial--> Kilchberg cemetery (source: Wikidata, citing http://www.kilchberg.ch/xml_1/internet/de/application/d20/d24/d302/f243.cfm (page no longer available))"
+}
+]
+}
+]
+}
+]

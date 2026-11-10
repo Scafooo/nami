@@ -1,0 +1,639 @@
+# owl:sameAs links found by searching Wikidata directly (geography +
+# name), for POIs the OSM-tag bridge (link_wikidata.py) couldn't
+# resolve -- see src/pipeline/enrich/link_wikidata_direct.py. RDF-star
+# annotated (nami:linkMethod/linkDistanceMeters/linkNameSimilarity)
+# with the evidence that justified accepting each link.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix nami: <https://example.org/nami/ontology#> .
+
+<https://example.org/nami/data/poi/322111> owl:sameAs wd:Q27325645 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 58.5 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/149767> owl:sameAs wd:Q27325645 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 27.1 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/109246> owl:sameAs wd:Q18027214 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 31.7 ;
+    nami:linkNameSimilarity 0.833
+|} .
+<https://example.org/nami/data/poi/2005> owl:sameAs wd:Q27322093 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 76.1 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1570> owl:sameAs wd:Q1542522 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 11.0 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1624> owl:sameAs wd:Q1791619 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1010822> owl:sameAs wd:Q2358665 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 35.9 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2413> owl:sameAs wd:Q30600276 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 10.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2255> owl:sameAs wd:Q681587 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 11.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2021> owl:sameAs wd:Q65672357 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/556327> owl:sameAs wd:Q110518200 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 31.9 ;
+    nami:linkNameSimilarity 0.791
+|} .
+<https://example.org/nami/data/poi/333589> owl:sameAs wd:Q128796770 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 5.3 ;
+    nami:linkNameSimilarity 0.839
+|} .
+<https://example.org/nami/data/poi/225721> owl:sameAs wd:Q90313371 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 1.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/204640> owl:sameAs wd:Q40314163 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 76.6 ;
+    nami:linkNameSimilarity 0.818
+|} .
+<https://example.org/nami/data/poi/175792> owl:sameAs wd:Q128796770 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 5.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/165847> owl:sameAs wd:Q111409753 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 25.0 ;
+    nami:linkNameSimilarity 0.862
+|} .
+<https://example.org/nami/data/poi/152341> owl:sameAs wd:Q2415934 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.6 ;
+    nami:linkNameSimilarity 0.757
+|} .
+<https://example.org/nami/data/poi/84289> owl:sameAs wd:Q2334546 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 55.5 ;
+    nami:linkNameSimilarity 0.759
+|} .
+<https://example.org/nami/data/poi/2277> owl:sameAs wd:Q111409767 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 17.5 ;
+    nami:linkNameSimilarity 0.767
+|} .
+<https://example.org/nami/data/poi/6636> owl:sameAs wd:Q110194277 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 74.4 ;
+    nami:linkNameSimilarity 0.933
+|} .
+<https://example.org/nami/data/poi/1011680> owl:sameAs wd:Q207623 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 77.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2058> owl:sameAs wd:Q112013519 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 66.4 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/3965> owl:sameAs wd:Q136490823 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 53.9 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1678> owl:sameAs wd:Q124968135 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/222754> owl:sameAs wd:Q224494 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 92.0 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/222739> owl:sameAs wd:Q27329568 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 50.7 ;
+    nami:linkNameSimilarity 0.78
+|} .
+<https://example.org/nami/data/poi/215338> owl:sameAs wd:Q136490721 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 34.9 ;
+    nami:linkNameSimilarity 0.776
+|} .
+<https://example.org/nami/data/poi/19915> owl:sameAs wd:Q47450091 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 60.0 ;
+    nami:linkNameSimilarity 0.78
+|} .
+<https://example.org/nami/data/poi/14216> owl:sameAs wd:Q23681769 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 29.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1820> owl:sameAs wd:Q673575 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 32.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1012186> owl:sameAs wd:Q230416 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1011367> owl:sameAs wd:Q130247276 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 14.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1853> owl:sameAs wd:Q7878010 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 11.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1718> owl:sameAs wd:Q27490260 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 36.7 ;
+    nami:linkNameSimilarity 0.829
+|} .
+<https://example.org/nami/data/poi/1697> owl:sameAs wd:Q24718649 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 14.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2054> owl:sameAs wd:Q2231045 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 69.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1011922> owl:sameAs wd:Q104633877 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 75.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/332215> owl:sameAs wd:Q105114556 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 126.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2518> owl:sameAs wd:Q24041079 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 43.9 ;
+    nami:linkNameSimilarity 0.759
+|} .
+<https://example.org/nami/data/poi/2499> owl:sameAs wd:Q105106318 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 40.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1012021> owl:sameAs wd:Q27328988 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 20.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1012015> owl:sameAs wd:Q86078274 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 104.2 ;
+    nami:linkNameSimilarity 0.765
+|} .
+<https://example.org/nami/data/poi/1011994> owl:sameAs wd:Q27329102 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/16870> owl:sameAs wd:Q118436098 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 16.2 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/2662> owl:sameAs wd:Q2098914 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 76.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/9783> owl:sameAs wd:Q1529938 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 101.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1001301> owl:sameAs wd:Q112013516 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.3 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1001007> owl:sameAs wd:Q112013590 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 49.0 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1000992> owl:sameAs wd:Q111874770 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 22.9 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/555546> owl:sameAs wd:Q112013573 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 32.0 ;
+    nami:linkNameSimilarity 0.833
+|} .
+<https://example.org/nami/data/poi/536260> owl:sameAs wd:Q111874803 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 10.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/391469> owl:sameAs wd:Q111874728 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.7 ;
+    nami:linkNameSimilarity 0.976
+|} .
+<https://example.org/nami/data/poi/349359> owl:sameAs wd:Q111409788 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 88.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/335972> owl:sameAs wd:Q112013550 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 18.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/327817> owl:sameAs wd:Q112013549 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 9.0 ;
+    nami:linkNameSimilarity 0.938
+|} .
+<https://example.org/nami/data/poi/164344> owl:sameAs wd:Q111409736 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 38.9 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/158905> owl:sameAs wd:Q112013547 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 18.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/158743> owl:sameAs wd:Q111409753 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 25.0 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/120775> owl:sameAs wd:Q111874796 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 28.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/38047> owl:sameAs wd:Q111409782 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 56.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/30178> owl:sameAs wd:Q112013545 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 41.9 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/21141> owl:sameAs wd:Q111409760 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 7.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/4361> owl:sameAs wd:Q111409749 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 38.4 ;
+    nami:linkNameSimilarity 0.833
+|} .
+<https://example.org/nami/data/poi/4357> owl:sameAs wd:Q111409759 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 31.4 ;
+    nami:linkNameSimilarity 0.952
+|} .
+<https://example.org/nami/data/poi/4340> owl:sameAs wd:Q111409783 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 48.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1324> owl:sameAs wd:Q111409768 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 13.3 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1323> owl:sameAs wd:Q111409756 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 15.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1322> owl:sameAs wd:Q111409746 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 10.2 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1318> owl:sameAs wd:Q1247784 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 9.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1317> owl:sameAs wd:Q112013499 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 14.7 ;
+    nami:linkNameSimilarity 0.78
+|} .
+<https://example.org/nami/data/poi/1312> owl:sameAs wd:Q111409747 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 7.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1310> owl:sameAs wd:Q692578 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 15.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1306> owl:sameAs wd:Q112013495 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1303> owl:sameAs wd:Q111409748 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 7.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1293> owl:sameAs wd:Q111409731 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 0.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1291> owl:sameAs wd:Q111409742 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 14.1 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1284> owl:sameAs wd:Q50361751 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 2.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1282> owl:sameAs wd:Q111874802 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.2 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1276> owl:sameAs wd:Q111409738 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 5.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1273> owl:sameAs wd:Q111409765 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.7 ;
+    nami:linkNameSimilarity 0.865
+|} .
+<https://example.org/nami/data/poi/1271> owl:sameAs wd:Q18027214 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 31.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1263> owl:sameAs wd:Q111874800 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 30.4 ;
+    nami:linkNameSimilarity 0.774
+|} .
+<https://example.org/nami/data/poi/1262> owl:sameAs wd:Q112013508 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 29.2 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1259> owl:sameAs wd:Q111874850 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 14.5 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1258> owl:sameAs wd:Q111409732 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 25.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1254> owl:sameAs wd:Q111409780 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 22.8 ;
+    nami:linkNameSimilarity 0.903
+|} .
+<https://example.org/nami/data/poi/1249> owl:sameAs wd:Q111409785 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 30.0 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1244> owl:sameAs wd:Q111409750 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 9.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1232> owl:sameAs wd:Q111409767 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 10.9 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1229> owl:sameAs wd:Q111874794 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 17.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1223> owl:sameAs wd:Q111409774 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 24.5 ;
+    nami:linkNameSimilarity 0.857
+|} .
+<https://example.org/nami/data/poi/1221> owl:sameAs wd:Q111409718 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 7.6 ;
+    nami:linkNameSimilarity 0.826
+|} .
+<https://example.org/nami/data/poi/1219> owl:sameAs wd:Q693454 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 73.6 ;
+    nami:linkNameSimilarity 0.75
+|} .
+<https://example.org/nami/data/poi/1217> owl:sameAs wd:Q111409770 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 10.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1213> owl:sameAs wd:Q111409771 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 27.3 ;
+    nami:linkNameSimilarity 0.821
+|} .
+<https://example.org/nami/data/poi/1212> owl:sameAs wd:Q111409786 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.6 ;
+    nami:linkNameSimilarity 0.919
+|} .
+<https://example.org/nami/data/poi/1208> owl:sameAs wd:Q111874791 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 19.5 ;
+    nami:linkNameSimilarity 0.885
+|} .
+<https://example.org/nami/data/poi/1207> owl:sameAs wd:Q112013489 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.7 ;
+    nami:linkNameSimilarity 0.8
+|} .
+<https://example.org/nami/data/poi/1202> owl:sameAs wd:Q111874798 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 17.5 ;
+    nami:linkNameSimilarity 0.8
+|} .
+<https://example.org/nami/data/poi/1201> owl:sameAs wd:Q111409735 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 13.6 ;
+    nami:linkNameSimilarity 0.778
+|} .
+<https://example.org/nami/data/poi/1169> owl:sameAs wd:Q111409733 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 11.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1168> owl:sameAs wd:Q111874773 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 18.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1166> owl:sameAs wd:Q112013485 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 7.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1162> owl:sameAs wd:Q111409741 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 17.5 ;
+    nami:linkNameSimilarity 0.818
+|} .
+<https://example.org/nami/data/poi/1161> owl:sameAs wd:Q111409772 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 12.5 ;
+    nami:linkNameSimilarity 0.849
+|} .
+<https://example.org/nami/data/poi/1155> owl:sameAs wd:Q112013498 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.7 ;
+    nami:linkNameSimilarity 0.919
+|} .
+<https://example.org/nami/data/poi/1150> owl:sameAs wd:Q111120297 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 5.1 ;
+    nami:linkNameSimilarity 0.788
+|} .
+<https://example.org/nami/data/poi/1147> owl:sameAs wd:Q111409740 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.2 ;
+    nami:linkNameSimilarity 0.85
+|} .
+<https://example.org/nami/data/poi/1144> owl:sameAs wd:Q112013484 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 42.4 ;
+    nami:linkNameSimilarity 0.868
+|} .
+<https://example.org/nami/data/poi/1135> owl:sameAs wd:Q811691 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 26.7 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1127> owl:sameAs wd:Q111874776 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 3.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1124> owl:sameAs wd:Q111874788 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 5.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1122> owl:sameAs wd:Q112013504 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 4.8 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1120> owl:sameAs wd:Q112013503 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 8.4 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1119> owl:sameAs wd:Q111874779 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 6.9 ;
+    nami:linkNameSimilarity 0.8
+|} .
+<https://example.org/nami/data/poi/1117> owl:sameAs wd:Q111409743 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 18.6 ;
+    nami:linkNameSimilarity 0.944
+|} .
+<https://example.org/nami/data/poi/1116> owl:sameAs wd:Q111409758 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 56.3 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1001235> owl:sameAs wd:Q100012 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 20.6 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/552721> owl:sameAs wd:Q1742531 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 63.1 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/313748> owl:sameAs wd:Q39934978 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 25.6 ;
+    nami:linkNameSimilarity 0.756
+|} .
+<https://example.org/nami/data/poi/313439> owl:sameAs wd:Q134983528 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 42.2 ;
+    nami:linkNameSimilarity 0.929
+|} .
+<https://example.org/nami/data/poi/231310> owl:sameAs wd:Q98352593 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 51.8 ;
+    nami:linkNameSimilarity 0.758
+|} .
+<https://example.org/nami/data/poi/231277> owl:sameAs wd:Q856547 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 21.1 ;
+    nami:linkNameSimilarity 0.866
+|} .
+<https://example.org/nami/data/poi/231097> owl:sameAs wd:Q106510906 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 34.2 ;
+    nami:linkNameSimilarity 1.0
+|} .
+<https://example.org/nami/data/poi/1899> owl:sameAs wd:Q24648846 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 32.9 ;
+    nami:linkNameSimilarity 0.756
+|} .
+<https://example.org/nami/data/poi/1672> owl:sameAs wd:Q27229991 {|
+    nami:linkMethod "wikidata-geo-name-search" ;
+    nami:linkDistanceMeters 84.8 ;
+    nami:linkNameSimilarity 0.958
+|} .

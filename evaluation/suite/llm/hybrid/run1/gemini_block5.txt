@@ -1,0 +1,252 @@
+[
+{
+"interest_id": "I21",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Harald Naegeli --createdAt--> Hinter Glas, Hochstrasse",
+"url": "https://www.openstreetmap.org/node/10234617742",
+"quote": "Hinter Glas"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Harald Naegeli --createdAt--> Figur, Huttenstrasse",
+"url": "https://www.openstreetmap.org/node/10287856888",
+"quote": "Figur"
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Harald Naegeli --createdAt--> Totentanz, Plattenstrasse",
+"url": "https://www.openstreetmap.org/node/10616259615",
+"quote": "Totentanz"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Harald Naegeli --createdAt--> graffiti by Harald Naegeli, Schiffbaustrasse",
+"url": "https://www.openstreetmap.org/node/13471089579",
+"quote": "memorial"
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Harald Naegeli --mentionedAt--> Rechberg",
+"url": "https://www.zuerich.com/en/node/338698",
+"quote": "Nowadays, the work by the controversial graffiti artist, Harald Nägeli – who illegally sprayed numerous buildings in the 1970s and can be regarded as the Swiss precursor of Banksy – is under a preserv"
+}
+]
+},
+{
+"rank": 6,
+"origin": "new",
+"name": "Grossmünster",
+"address": "Grossmünsterplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "Harald Naegeli created the Totentanz (Dance of Death) graffiti series inside the Grossmünster towers.",
+"url": "https://www.zuerich.com/en/art-culture/art-in-public-places/street-art/harald-naegeli",
+"quote": "The commissioned work, “Totentanz” (Dance of Death), in the Grossmünster remains unfinished due to a long-standing dispute."
+}
+]
+},
+{
+"rank": 7,
+"origin": "new",
+"name": "Deutsches Seminar, University of Zurich",
+"address": "Schönberggasse 9, 8001 Zürich",
+"reasons": [
+{
+"reason": "Features Harald Naegeli's restored 1978 water goddess graffito Undine.",
+"url": "https://en.wikipedia.org/wiki/Harald_Naegeli",
+"quote": "Undine was created in 1978 on a building of the University of Zürich, located at Schönberggasse 9"
+}
+]
+}
+]
+},
+{
+"interest_id": "I22",
+"places": [
+{
+"rank": 1,
+"origin": "new",
+"name": "Cabaret Voltaire",
+"address": "Spiegelgasse 1, 8001 Zürich",
+"reasons": [
+{
+"reason": "Birthplace of the Dada movement founded in 1916 by young writers and artists living in wartime exile.",
+"url": "https://zurichguru.com/places/cabaret-voltaire-zurich/",
+"quote": "On 5 February 1916, in the back room of a beer and wine tavern at Spiegelgasse 1 in the Niederdorf, a group of young artists in wartime exile opened a nightclub that turned art upside down."
+}
+]
+},
+{
+"rank": 2,
+"origin": "new",
+"name": "Georg Büchner House",
+"address": "Spiegelgasse 12, 8001 Zürich",
+"reasons": [
+{
+"reason": "Residence where German exiled writer, dramatist, and revolutionary Georg Büchner spent the final months of his life.",
+"url": "https://en.wikipedia.org/wiki/Niederdorf_district",
+"quote": "Also at Spiegelgasse, at No. 12, the German writer, dramatist and revolutionary Georg Büchner spent the last months of his life, before dying there of typhus in 1837 at the age of only 23."
+}
+]
+},
+{
+"rank": 3,
+"origin": "new",
+"name": "Zürich James Joyce Foundation",
+"address": "Augustinergasse 9, 8001 Zürich",
+"reasons": [
+{
+"reason": "Located in the historic Strauhof building, it preserves the literary legacy and memory of Irish exile writer James Joyce.",
+"url": "https://joycefoundation.ch/the-foundation/visitors/",
+"quote": "Augustinergasse 9, 8003 Zurich · You can find us on the top floor of the historic Strauhof building."
+}
+]
+},
+{
+"rank": 4,
+"origin": "new",
+"name": "Café Odeon",
+"address": "Limmatquai 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Historic Art Nouveau café that was a famous gathering spot for exiled writers and intellectuals.",
+"url": "https://feelespresso.com/blogs/actualites/cafe-odeon-zurich",
+"quote": "After 1933 the café became a meeting place for German-speaking writers who had fled the Nazis."
+}
+]
+},
+{
+"rank": 5,
+"origin": "new",
+"name": "Thomas Mann Archives",
+"address": "Rämistrasse 101, 8092 Zürich",
+"reasons": [
+{
+"reason": "Preserves the literary estate, manuscripts, and study of Nobel laureate Thomas Mann from his exile.",
+"url": "https://tma.ethz.ch/en/exhibition.html",
+"quote": "The newly designed permanent exhibition revolves around Thomas Mann's famous desk, which accompanied him into exile."
+}
+]
+},
+{
+"rank": 6,
+"origin": "new",
+"name": "Schauspielhaus Zürich (Pfauen)",
+"address": "Rämistrasse 34, 8001 Zürich",
+"reasons": [
+{
+"reason": "Famous theater that served as a haven of artistic freedom and stage for works by émigré writers and refugees.",
+"url": "https://www.zb.uzh.ch/en/fokus/beitrag/zurich-literatur",
+"quote": "as the only free stage in the German-speaking countries, the Pfauenbühne was a haven of political and artistic freedom for many refugees."
+}
+]
+}
+]
+},
+{
+"interest_id": "I23",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Maria (last name unknown) --significant event--> witch trial; Maria (last name unknown) --residence--> Eierbrechtstrasse",
+"url": "Wikidata, statement without reference",
+"quote": "Maria (last name unknown) --residence--> Eierbrechtstrasse"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Witch riding backwards on a goat --depicts--> witch; Witch riding backwards on a goat --collection--> Graphische Sammlung der ETH",
+"url": "https://doi.org/10.16903/ethz-grs-D_007705",
+"quote": "Witch riding backwards on a goat"
+}
+]
+},
+{
+"rank": 3,
+"origin": "new",
+"name": "Site of Wellenberg Tower (Schifflände)",
+"address": "Schifflände, 8001 Zürich",
+"reasons": [
+{
+"reason": "Historic site of the medieval Wellenberg dungeon tower where suspects of witch trials were imprisoned and tortured.",
+"url": "https://en.wikipedia.org/wiki/Wellenberg_Tower",
+"quote": "For some of these cases, Sigg cites interrogation protocols from Wellenberg, which were often obtained through the use of torture by stretching."
+}
+]
+}
+]
+},
+{
+"interest_id": "I24",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "labor movement --mentionedAt--> Volkshaus",
+"url": "https://www.zuerich.com/en/node/1011143",
+"quote": "The Volkshaus once served as the center of the Swiss labor movement, offering inexpensive meals for workers."
+}
+]
+}
+]
+},
+{
+"interest_id": "I25",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Ninja Bumann --field of work--> women's history; Ninja Bumann --educated at (as Bachelor of Arts)--> University of Zurich",
+"url": "https://iog.univie.ac.at/fileadmin/user_upload/i_iog/ueber_uns/personen_dokumente/Lebenslauf_EN_Bumann.pdf",
+"quote": "University of Zurich"
+}
+]
+}
+]
+}
+]

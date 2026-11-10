@@ -1,0 +1,1431 @@
+# Facts of G_P from City of Zurich open data: public art (Kunst im Stadtraum) and street
+# dedications (Widmungstafeln), by src/pipeline/enrich/extract_city_datasets.py.
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+wd:Q1688672 nami:createdAt wd:Q27229972 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#122> ;
+    nami:evidence "Denkmal der Arbeit: Karl Geiser" ;
+    nami:confidence 0.9 |} .
+wd:Q76397 nami:createdAt wd:Q27229926 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#126> ;
+    nami:evidence "\"Dianabrunnen\": Eduard Zimmermann" ;
+    nami:confidence 0.9 |} .
+wd:Q27229257 nami:createdAt wd:Q27230037 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#127> ;
+    nami:evidence "\"Amazonenbrunnen\": Hermann Baldin" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27230037 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#127> ;
+    nami:evidence "\"Amazonenbrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_128> rdfs:label "Brunnenplastik (St. Peterhofstatt, bei St. Peterhofstatt 6)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.540587 47.371697)"^^geo:wktLiteral ] .
+wd:Q18019045 nami:createdAt <https://example.org/nami/data/plaque/art_128> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#128> ;
+    nami:evidence "Brunnenplastik: Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27229854 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#129> ;
+    nami:evidence "Zahlenzug: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+wd:Q27229283 nami:createdAt wd:Q27229794 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#130> ;
+    nami:evidence "Pergola mit Windspiel: Eugen Häfelfinger" ;
+    nami:confidence 0.9 |} .
+wd:Q1511 nami:commemoratedAt wd:Q27229975 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#133> ;
+    nami:evidence "Richard-Wagner-Stele" ;
+    nami:confidence 0.9 |} .
+wd:Q27229253 nami:createdAt wd:Q27229676 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#134> ;
+    nami:evidence "\"Liegender\": Julius Schwyzer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229258 nami:createdAt wd:Q27229676 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#134> ;
+    nami:evidence "\"Liegender\": Hermann Herter" ;
+    nami:confidence 0.9 |} .
+wd:Q118948 nami:createdAt wd:Q27230190 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#136> ;
+    nami:evidence "\"Bürgli-Brunnen\": Alfred Friedrich Bluntschli" ;
+    nami:confidence 0.9 |} .
+wd:Q27229290 nami:createdAt wd:Q27229982 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#137> ;
+    nami:evidence "\"Akrobat mit Hund\": Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q27229284 nami:createdAt wd:Q27230197 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#139> ;
+    nami:evidence "Brunnen mit geflügeltem Fisch: Otto Teucher" ;
+    nami:confidence 0.9 |} .
+wd:Q123734 nami:commemoratedAt wd:Q27230167 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#140> ;
+    nami:evidence "Rudolf-Koller-Gedenkstein" ;
+    nami:confidence 0.9 |} .
+wd:Q17194413 nami:createdAt wd:Q27230116 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#141> ;
+    nami:evidence "\"Bär\": Arnold Huggler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229290 nami:createdAt wd:Q27229977 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#143> ;
+    nami:evidence "\"Brauerbrunnen\": Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27229660 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#144> ;
+    nami:evidence "\"Stüssibrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q1678093 nami:createdAt wd:Q27229877 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#146> ;
+    nami:evidence "Brunnenbecken: Jacques Schader" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230180 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#147> ;
+    nami:evidence "Brunnen mit \"wasserspeiendem Schwan\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q2041109 nami:createdAt wd:Q27230209 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#148> ;
+    nami:evidence "Brunnen: Otto Zollinger" ;
+    nami:confidence 0.9 |} .
+wd:Q870322 nami:createdAt wd:Q27133040 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#149> ;
+    nami:evidence "Sitzende: Hermann Hubacher" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229960 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#150> ;
+    nami:evidence "Brunnen mit drei Knaben (auf Fischen sitzend): Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27229904 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#1> ;
+    nami:evidence "\"Büeblibrunnen\": Franz Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230165 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#3> ;
+    nami:evidence "Brunnen \"Knabe mit Ball\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229304 nami:createdAt wd:Q27229824 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#4> ;
+    nami:evidence "Ohne Titel: Armin Wanger" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_5> rdfs:label "Brunnen mit Fischrelief (Platzanlage Stampfenbachstrasse/Beckenhofstrasse, bei Beckenhofstrasse 63)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.539808 47.387185)"^^geo:wktLiteral ] .
+wd:Q27229274 nami:createdAt <https://example.org/nami/data/plaque/art_5> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#5> ;
+    nami:evidence "Brunnen mit Fischrelief: Alfons Magg" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27230122 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#6> ;
+    nami:evidence "\"Froschkönig\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q52154838 nami:createdAt wd:Q27229799 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#8> ;
+    nami:evidence "Heinrich-Zollinger-Denkmal: Ludwig Keiser" ;
+    nami:confidence 0.9 |} .
+wd:Q124330 nami:commemoratedAt wd:Q27229799 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#8> ;
+    nami:evidence "Heinrich-Zollinger-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q14954590 nami:createdAt wd:Q27229668 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#9> ;
+    nami:evidence "\"Basiliskenbrunnen\": Wilhelm Bubeck" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27230057 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#10> ;
+    nami:evidence "Zwei Brunnen mit Sitzbänken und je einer Figur \"Mädchen\" und \"Jüngling\": Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q685730 nami:createdAt wd:Q27229999 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#14> ;
+    nami:evidence "Artisten: Kurt Laurenz Metzler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229286 nami:createdAt wd:Q27230124 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#16> ;
+    nami:evidence "Tränkbrunnen: Hans Jakob Meyer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229243 nami:createdAt wd:Q27229661 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#18> ;
+    nami:evidence "\"Junobrunnen\": Joseph Regl" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_19> rdfs:label "\"Springer\" (Sportanlage Sihlhölzli, bei Manessestrasse 1)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523828 47.36734)"^^geo:wktLiteral ] .
+wd:Q27229290 nami:createdAt <https://example.org/nami/data/plaque/art_19> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#19> ;
+    nami:evidence "\"Springer\": Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27230149 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#22> ;
+    nami:evidence "Fünf Brunnen (V): Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q15807329 nami:createdAt wd:Q27229929 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#23> ;
+    nami:evidence "Brunnentrog mit Relief \"Fischfang\": Eduard Bick" ;
+    nami:confidence 0.9 |} .
+wd:Q27229258 nami:createdAt wd:Q27229929 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#23> ;
+    nami:evidence "Brunnentrog mit Relief \"Fischfang\": Hermann Herter" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27229849 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#28> ;
+    nami:evidence "Fünf Brunnen (IV): Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q27229284 nami:createdAt wd:Q27229978 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#33> ;
+    nami:evidence "\"Das Mädchen\": Otto Teucher" ;
+    nami:confidence 0.9 |} .
+wd:Q15807329 nami:createdAt wd:Q27230221 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#34> ;
+    nami:evidence "Weiblicher Torso: Eduard Bick" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_38> rdfs:label "Befreiung (Werdplatz, bei Strassburgstrasse 5/9)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.529003 47.3724)"^^geo:wktLiteral ] .
+wd:Q16766155 nami:createdAt <https://example.org/nami/data/plaque/art_38> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#38> ;
+    nami:evidence "Befreiung: Werner Friedrich Kunz" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229685 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#40> ;
+    nami:evidence "Brunnen mit \"Känguru\": Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q27229297 nami:createdAt wd:Q27229822 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#41> ;
+    nami:evidence "Adam und Eva: Hildi Hess" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230145 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#43> ;
+    nami:evidence "Brunnentrog mit Relief \"Möve\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230145 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#43> ;
+    nami:evidence "Brunnentrog mit Relief \"Möve\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229512 nami:createdAt wd:Q27230015 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#45> ;
+    nami:evidence "Drei Obelisken: Peter Storrer" ;
+    nami:confidence 0.9 |} .
+wd:Q118948 nami:createdAt wd:Q27229889 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#46> ;
+    nami:evidence "\"Bluntschlibrunnen\": Alfred Friedrich Bluntschli" ;
+    nami:confidence 0.9 |} .
+wd:Q27229243 nami:createdAt wd:Q27229889 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#46> ;
+    nami:evidence "\"Bluntschlibrunnen\": Joseph Regl" ;
+    nami:confidence 0.9 |} .
+wd:Q218951 nami:createdAt wd:Q27230123 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#48> ;
+    nami:evidence "Mauer Nr. 3: Zoltán  Kemény" ;
+    nami:confidence 0.9 |} .
+wd:Q214161 nami:createdAt wd:Q27229973 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#49> ;
+    nami:evidence "Relief: Hans Josephsohn" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230181 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#50> ;
+    nami:evidence "Brunnen mit \"wasserspeiendem Schwan\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229243 nami:createdAt wd:Q27229888 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#51> ;
+    nami:evidence "\"Winzerbrunnen\": Joseph Regl" ;
+    nami:confidence 0.9 |} .
+wd:Q1546163 nami:createdAt wd:Q27229700 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#52> ;
+    nami:evidence "Erwachende: Louis Conne" ;
+    nami:confidence 0.9 |} .
+wd:Q115873 nami:createdAt wd:Q27229868 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#53> ;
+    nami:evidence "Division: Gottfried Honegger" ;
+    nami:confidence 0.9 |} .
+wd:Q27229284 nami:createdAt wd:Q27230216 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#55> ;
+    nami:evidence "Brunnen mit Kinderfigur: Otto Teucher" ;
+    nami:confidence 0.9 |} .
+wd:Q27229253 nami:createdAt wd:Q27229900 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#56> ;
+    nami:evidence "\"Liegende\": Julius Schwyzer" ;
+    nami:confidence 0.9 |} .
+wd:Q116550 nami:createdAt wd:Q27229987 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#57> ;
+    nami:evidence "Figur I (Sonnenstein): Hans Aeschbacher" ;
+    nami:confidence 0.9 |} .
+wd:Q27229518 nami:createdAt wd:Q27230017 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#58> ;
+    nami:evidence "Axiomat: Florin Granwehr" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27229823 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#59> ;
+    nami:evidence "Stationen: Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q1593343 nami:createdAt wd:Q27229965 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#60> ;
+    nami:evidence "Brunnen \"Kniendes Mädchen\": Hedwig Haller-Braus" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230187 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#61> ;
+    nami:evidence "Stele Sonnenstern: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q1511 nami:commemoratedAt wd:Q27229807 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#63> ;
+    nami:evidence "Büste von Richard Wagner" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27229690 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#64> ;
+    nami:evidence "\"Manessebrunnen\": Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q27229518 nami:createdAt wd:Q27230067 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#66> ;
+    nami:evidence "Raumwandler: Florin Granwehr" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230113 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#67> ;
+    nami:evidence "Granit-Brunnentrog mit Relief \"Fische\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q1598265 nami:createdAt wd:Q27230140 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#68> ;
+    nami:evidence "Weibliche Figur: Heinrich Martens" ;
+    nami:confidence 0.9 |} .
+wd:Q1694917 nami:createdAt wd:Q27229652 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#69> ;
+    nami:evidence "Hans-Georg-Nägeli-Denkmal: Johann Jakob Oechslin" ;
+    nami:confidence 0.9 |} .
+wd:Q672548 nami:commemoratedAt wd:Q27229652 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#69> ;
+    nami:evidence "Hans-Georg-Nägeli-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q27229255 nami:createdAt wd:Q27229832 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#70> ;
+    nami:evidence "Brunnen mit \"Eichhörnchen\": Ida Schaer-Krause" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229832 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#70> ;
+    nami:evidence "Brunnen mit \"Eichhörnchen\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229907 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#72> ;
+    nami:evidence "Brunnen mit Flachrelief \"Liegender\": Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q118948 nami:createdAt wd:Q27230191 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#73> ;
+    nami:evidence "\"Monumentalbrunnen\": Alfred Friedrich Bluntschli" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229885 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#74> ;
+    nami:evidence "Wandbrunnen mit Vogelrelief: Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229885 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#74> ;
+    nami:evidence "Wandbrunnen mit Vogelrelief: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229255 nami:createdAt wd:Q27229831 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#75> ;
+    nami:evidence "Brunnen mit \"Wasserschöpferin\": Ida Schaer-Krause" ;
+    nami:confidence 0.9 |} .
+wd:Q117021 nami:commemoratedAt wd:Q27230061 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#78> ;
+    nami:evidence "Oswald-Heer-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27229789 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#79> ;
+    nami:evidence "Olivia-Brunnen: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_80> rdfs:label "Gestaltung Hardplatz \"Wandplastik\" (Hardplatz Unterführung, Hohlstrasse)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.515543 47.382574)"^^geo:wktLiteral ] .
+wd:Q43138060 nami:createdAt <https://example.org/nami/data/plaque/art_80> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#80> ;
+    nami:evidence "Gestaltung Hardplatz \"Wandplastik\": Josef Staub" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27229893 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#84> ;
+    nami:evidence "Schweizerpsalm-Denkmal: Franz Wanger" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_86> rdfs:label "Stahlplastik (Bankgebäude UBS Zürich-Wiedikon, Vorplatz , bei Birmensdorferstrasse 123)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.521357 47.370188)"^^geo:wktLiteral ] .
+wd:Q601576 nami:createdAt <https://example.org/nami/data/plaque/art_86> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#86> ;
+    nami:evidence "Stahlplastik: Silvio Mattioli" ;
+    nami:confidence 0.9 |} .
+wd:Q27229274 nami:createdAt wd:Q27229952 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#89> ;
+    nami:evidence "Stehende weibliche Figur: Alfons Magg" ;
+    nami:confidence 0.9 |} .
+wd:Q119756 nami:createdAt wd:Q27229995 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#91> ;
+    nami:evidence "Muschel: Annemie Fontana" ;
+    nami:confidence 0.9 |} .
+wd:Q680192 nami:createdAt wd:Q27230022 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#93> ;
+    nami:evidence "Kugellager oder runde Steine (I): Lawrence Weiner" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230105 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#94> ;
+    nami:evidence "\"Die fleissige Biene\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230186 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#95> ;
+    nami:evidence "Brunnentrog mit Wappen: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27229848 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#98> ;
+    nami:evidence "Fünf Brunnen (III): Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230119 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#99> ;
+    nami:evidence "Brunnen mit Eulen (auf Stele): Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q120459 nami:createdAt wd:Q27229673 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#100> ;
+    nami:evidence "\"Alfred-Escher-Brunnen\": Richard Kissling" ;
+    nami:confidence 0.9 |} .
+wd:Q115569 nami:commemoratedAt wd:Q27229673 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#100> ;
+    nami:evidence "\"Alfred-Escher-Brunnen\"" ;
+    nami:confidence 0.9 |} .
+wd:Q163938 nami:createdAt wd:Q1378316 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#101> ;
+    nami:evidence "Heureka: Jean Tinguely" ;
+    nami:confidence 0.9 |} .
+wd:Q15429125 nami:createdAt wd:Q27229837 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#102> ;
+    nami:evidence "\"Sitzende\": Otto Charles Bänninger" ;
+    nami:confidence 0.9 |} .
+wd:Q1716904 nami:createdAt wd:Q27229876 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#104> ;
+    nami:evidence "Wandgestaltung Unterführung Langstrasse: Jürg Grau" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229924 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#105> ;
+    nami:evidence "Brunnen mit \"Taube\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230206 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#108> ;
+    nami:evidence "Steinvase auf Sockel: Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q680192 nami:createdAt wd:Q27230024 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#112> ;
+    nami:evidence "Kugellager oder runde Steine (II): Lawrence Weiner" ;
+    nami:confidence 0.9 |} .
+wd:Q550199 nami:createdAt wd:Q27230003 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#113> ;
+    nami:evidence "\"Feldmann-Brunnen\": Markus Feldmann" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_116> rdfs:label "Brunnen \"Mädchen mit Vogel\" (bei Bushaltestelle Waidspital, bei der Tièchestr. 91a)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.521522 47.399168)"^^geo:wktLiteral ] .
+wd:Q63341972 nami:createdAt <https://example.org/nami/data/plaque/art_116> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#116> ;
+    nami:evidence "Brunnen \"Mädchen mit Vogel\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229670 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#117> ;
+    nami:evidence "Flora: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q761037 nami:createdAt wd:Q27229840 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#120> ;
+    nami:evidence "Wandbrunnen \"Kauernde\" und versch. Steinreliefs: August Bösch" ;
+    nami:confidence 0.9 |} .
+wd:Q123057 nami:commemoratedAt wd:Q27229801 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#368> ;
+    nami:evidence "Augustin-Pyrame-de-Candolle-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230207 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#369> ;
+    nami:evidence "Brunnentrog mit Fischrelief: Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229959 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#370> ;
+    nami:evidence "\"Seelöwenbrunnen\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q1725930 nami:createdAt wd:Q27229859 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#373> ;
+    nami:evidence "Brunnenfigur: Paul Stotz" ;
+    nami:confidence 0.9 |} .
+wd:Q117227 nami:commemoratedAt wd:Q27230170 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#374> ;
+    nami:evidence "Jakob-Bosshart-Gedenkstein" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230138 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#375> ;
+    nami:evidence "Frosch: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q27229286 nami:createdAt wd:Q27229842 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#376> ;
+    nami:evidence "Brunnen \"Frau mit Zicklein\": Hans Jakob Meyer" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_380> rdfs:label "Kugellager oder runde Steine (III) (Bellevue, bei Bellevueplatz 2)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.544965 47.366995)"^^geo:wktLiteral ] .
+wd:Q680192 nami:createdAt <https://example.org/nami/data/plaque/art_380> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#380> ;
+    nami:evidence "Kugellager oder runde Steine (III): Lawrence Weiner" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230193 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#385> ;
+    nami:evidence "Wappen von Affoltern: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230121 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#388> ;
+    nami:evidence "Brunnen mit \"Fuchs\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q17194413 nami:createdAt wd:Q27230121 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#388> ;
+    nami:evidence "Brunnen mit \"Fuchs\": Arnold Huggler" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27229793 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#389> ;
+    nami:evidence "Fuchs: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q1657449 nami:commemoratedAt wd:Q27229667 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#390> ;
+    nami:evidence "Ignaz-Heim-Denkmal" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_394> rdfs:label "Ruhende (Schörli-Saatlen, Saatlenstrasse bei 240)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.56327 47.410022)"^^geo:wktLiteral ] .
+wd:Q1598265 nami:createdAt <https://example.org/nami/data/plaque/art_394> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#394> ;
+    nami:evidence "Ruhende: Heinrich Martens" ;
+    nami:confidence 0.9 |} .
+wd:Q27229243 nami:createdAt wd:Q27230047 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#153> ;
+    nami:evidence "\"Froschauerbrunnen\": Joseph Regl" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27230047 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#153> ;
+    nami:evidence "\"Froschauerbrunnen\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q116550 nami:createdAt wd:Q27229983 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#154> ;
+    nami:evidence "Figur I (Stele): Hans Aeschbacher" ;
+    nami:confidence 0.9 |} .
+wd:Q3972695 nami:createdAt wd:Q27229679 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#155> ;
+    nami:evidence "Der Kalbträger: Alice Boner" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27229697 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#156> ;
+    nami:evidence "\"Pantherbrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229697 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#156> ;
+    nami:evidence "\"Pantherbrunnen\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230198 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#159> ;
+    nami:evidence "Brunnen mit Relief \"Wassertrinkender Corpsstudent\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229286 nami:createdAt wd:Q27229858 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#161> ;
+    nami:evidence "Brunnen mit Steinrelief \"Hund und Gans\": Hans Jakob Meyer" ;
+    nami:confidence 0.9 |} .
+wd:Q67547 nami:createdAt wd:Q27230064 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#162> ;
+    nami:evidence "Übertragung: Harun Farocki" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27229847 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#163> ;
+    nami:evidence "Fünf Brunnen (II): Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q115483 nami:createdAt wd:Q27229775 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#164> ;
+    nami:evidence "Rosenhofbrunnen: Max Frisch" ;
+    nami:confidence 0.9 |} .
+wd:Q119756 nami:createdAt wd:Q1760194 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#165> ;
+    nami:evidence "Sirius: Annemie Fontana" ;
+    nami:confidence 0.9 |} .
+wd:Q15429125 nami:createdAt wd:Q27229991 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#167> ;
+    nami:evidence "Gottfried-Keller-Denkmal: Otto Charles Bänninger" ;
+    nami:confidence 0.9 |} .
+wd:Q122370 nami:commemoratedAt wd:Q27229991 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#167> ;
+    nami:evidence "Gottfried-Keller-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q1960652 nami:createdAt wd:Q27229886 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#169> ;
+    nami:evidence "\"Blondatbrunnen\": Max Blondat" ;
+    nami:confidence 0.9 |} .
+wd:Q17194413 nami:createdAt wd:Q27229787 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#170> ;
+    nami:evidence "\"Bambibrunnen\": Arnold Huggler" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229956 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#171> ;
+    nami:evidence "Brunnen \"Mädchen mit Hund\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229255 nami:createdAt wd:Q27230188 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#174> ;
+    nami:evidence "Brunnen mit Rundbogen: Ida Schaer-Krause" ;
+    nami:confidence 0.9 |} .
+wd:Q1555881 nami:createdAt wd:Q27229841 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#180> ;
+    nami:evidence "\"Toblerbrunnen\": Gustav Gull" ;
+    nami:confidence 0.9 |} .
+wd:Q1678940 nami:createdAt wd:Q27229898 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#181> ;
+    nami:evidence "\"Geiserbrunnen\": Jakob Brüllmann" ;
+    nami:confidence 0.9 |} .
+wd:Q1598265 nami:createdAt wd:Q27230029 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#186> ;
+    nami:evidence "Mädchentorso: Heinrich Martens" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230052 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#189> ;
+    nami:evidence "Rotkäppchen: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q601576 nami:createdAt wd:Q27230002 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#191> ;
+    nami:evidence "Der grosse Aufschwung: Silvio Mattioli" ;
+    nami:confidence 0.9 |} .
+wd:Q15907322 nami:createdAt wd:Q27230153 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#192> ;
+    nami:evidence "Castione-Granitbrunnen mit Relief: Leo Berger" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230153 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#192> ;
+    nami:evidence "Castione-Granitbrunnen mit Relief: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230203 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#193> ;
+    nami:evidence "Brunnen \"Dogge mit Zürcher Wappen\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230203 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#193> ;
+    nami:evidence "Brunnen \"Dogge mit Zürcher Wappen\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_194> rdfs:label "\"Quellnymphe\" (Rieterplatz, bei Rieterstrasse 9/15)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.526082 47.356444)"^^geo:wktLiteral ] .
+wd:Q120459 nami:createdAt <https://example.org/nami/data/plaque/art_194> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#194> ;
+    nami:evidence "\"Quellnymphe\": Richard Kissling" ;
+    nami:confidence 0.9 |} .
+wd:Q695289 nami:createdAt wd:Q27229912 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#195> ;
+    nami:evidence "\"Sitzende Figur\": Fritz Wotruba" ;
+    nami:confidence 0.9 |} .
+wd:Q124408 nami:commemoratedAt wd:Q27229955 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#196> ;
+    nami:evidence "Hans-Waldmann-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27132067 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#197> ;
+    nami:evidence "\"Herkulesbrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229255 nami:createdAt wd:Q27229838 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#201> ;
+    nami:evidence "Mutter mit Kind: Ida Schaer-Krause" ;
+    nami:confidence 0.9 |} .
+wd:Q2647161 nami:createdAt wd:Q27229677 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#205> ;
+    nami:evidence "Frau 1928: Alis Guggenheim" ;
+    nami:confidence 0.9 |} .
+wd:Q2643158 nami:createdAt wd:Q27229649 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#206> ;
+    nami:evidence "Salomon-Gessner-Denkmal: Alexander Trippel" ;
+    nami:confidence 0.9 |} .
+wd:Q1707569 nami:createdAt wd:Q27229649 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#206> ;
+    nami:evidence "Salomon-Gessner-Denkmal: Joseph Anton Maria Christen" ;
+    nami:confidence 0.9 |} .
+wd:Q123765 nami:commemoratedAt wd:Q27229649 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#206> ;
+    nami:evidence "Salomon-Gessner-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27230014 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#208> ;
+    nami:evidence "Iris-Brunnen: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+wd:Q27229257 nami:createdAt wd:Q27230038 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#209> ;
+    nami:evidence "\"Augustinerbrunnen\": Hermann Baldin" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27230038 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#209> ;
+    nami:evidence "\"Augustinerbrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230182 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#211> ;
+    nami:evidence "Brunnen mit \"wasserspeiendem Schwan\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q20753018 nami:createdAt wd:Q27230091 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#212> ;
+    nami:evidence "Stahlbau VHP: James Licini" ;
+    nami:confidence 0.9 |} .
+wd:Q1347020 nami:createdAt wd:Q27230112 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#213> ;
+    nami:evidence "Platzgestaltung, Trinkbrunnen und Wasserspiel der Tramendstation Frankental: Hans Hunold" ;
+    nami:confidence 0.9 |} .
+wd:Q17194413 nami:createdAt wd:Q27229813 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#214> ;
+    nami:evidence "\"Weibliche Figur 'Assia'\": Arnold Huggler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229292 nami:createdAt wd:Q27230177 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#215> ;
+    nami:evidence "Abdankungshalle mit zwei Reliefs: Josef Nauer" ;
+    nami:confidence 0.9 |} .
+wd:Q2804763 nami:createdAt wd:Q27229883 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#217> ;
+    nami:evidence "Vier Löwen auf Pfeilern: Urs Eggenschwyler" ;
+    nami:confidence 0.9 |} .
+wd:Q16766155 nami:createdAt wd:Q27229942 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#218> ;
+    nami:evidence "Mann mit Falke: Werner Friedrich Kunz" ;
+    nami:confidence 0.9 |} .
+wd:Q27229512 nami:createdAt wd:Q27229850 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#220> ;
+    nami:evidence "Bronzeplastik: Peter Storrer" ;
+    nami:confidence 0.9 |} .
+wd:Q661927 nami:commemoratedAt wd:Q27229997 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#221> ;
+    nami:evidence "Othmar-Schoeck-Brunnen" ;
+    nami:confidence 0.9 |} .
+wd:Q15907322 nami:createdAt wd:Q27230155 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#224> ;
+    nami:evidence "Brunnen mit Granitkopf: Leo Berger" ;
+    nami:confidence 0.9 |} .
+wd:Q1598265 nami:createdAt wd:Q27229917 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#225> ;
+    nami:evidence "\"Schneider-Brunnen\": Heinrich Martens" ;
+    nami:confidence 0.9 |} .
+wd:Q60116 nami:commemoratedAt wd:Q27229657 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#228> ;
+    nami:evidence "Conrad-Gessner-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27230031 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#230> ;
+    nami:evidence "Salvador Allende: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+wd:Q440 nami:commemoratedAt wd:Q27230031 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#230> ;
+    nami:evidence "Salvador Allende" ;
+    nami:confidence 0.9 |} .
+wd:Q23719016 nami:createdAt wd:Q27230143 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#232> ;
+    nami:evidence "Windrechen: Jürg Altherr" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229935 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#234> ;
+    nami:evidence "\"Leuenbrunnen\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q16766155 nami:createdAt wd:Q27230114 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#235> ;
+    nami:evidence "Brunnen \"Quellennymphe mit Krug\": Werner Friedrich Kunz" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229687 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#237> ;
+    nami:evidence "\"Der Erzähler\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27230027 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#238> ;
+    nami:evidence "Grosse Steinamphore: Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q15907322 nami:createdAt wd:Q27229834 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#239> ;
+    nami:evidence "\"Die Lebensalter\": Leo Berger" ;
+    nami:confidence 0.9 |} .
+wd:Q6882 nami:commemoratedAt wd:Q27229693 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#240> ;
+    nami:evidence "Ljmmat Sjhl: Hommage à James Joyce" ;
+    nami:confidence 0.9 |} .
+wd:Q27229287 nami:createdAt wd:Q27229974 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#244> ;
+    nami:evidence "Männlicher Akt: Ernst Suter" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27229905 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#246> ;
+    nami:evidence "Hirsch: Franz Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27229892 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#249> ;
+    nami:evidence "Monumentalbrunnen mit Steinrelief und Sitzbänken: Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q19840716 nami:createdAt wd:Q27229781 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#250> ;
+    nami:evidence "Badende: Hans Brandenberger" ;
+    nami:confidence 0.9 |} .
+wd:Q18019045 nami:createdAt wd:Q27230131 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#254> ;
+    nami:evidence "Fünf Brunnen (I): Charlotte Germann-Jahn" ;
+    nami:confidence 0.9 |} .
+wd:Q123454 nami:createdAt wd:Q24648846 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#257> ;
+    nami:evidence "Pavillon-Skulptur: Max Bill" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27230176 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#258> ;
+    nami:evidence "Meilenstein Berlin/Zürich: Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229958 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#260> ;
+    nami:evidence "Brunnen mit Möve: Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q119756 nami:createdAt wd:Q27230110 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#263> ;
+    nami:evidence "Sunrise: Annemie Fontana" ;
+    nami:confidence 0.9 |} .
+wd:Q3430321 nami:createdAt wd:Q27132017 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#264> ;
+    nami:evidence "\"Aphrodite\": Einar Utzon-Frank" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27229816 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#267> ;
+    nami:evidence "Metamorphose: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+wd:Q27229506 nami:createdAt wd:Q27230010 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#270> ;
+    nami:evidence "Gestaltung Werdplatz (Brunnen, Geländer): Trudi Demut" ;
+    nami:confidence 0.9 |} .
+wd:Q1500808 nami:createdAt wd:Q27229971 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#271> ;
+    nami:evidence "Wirbel: Robert Lienhard" ;
+    nami:confidence 0.9 |} .
+wd:Q2804763 nami:createdAt wd:Q27229672 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#272> ;
+    nami:evidence "\"Zürileu\": Urs Eggenschwyler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229881 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#273> ;
+    nami:evidence "Brunnen \"Kleiner Bär auf Sockel\": Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229954 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#275> ;
+    nami:evidence "\"Mädchen im Wind\": Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27230202 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#277> ;
+    nami:evidence "Wandbrunnen mit wasserspeiendem Löwenkopf: Franz Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27230201 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#278> ;
+    nami:evidence "Wandbrunnen: Franz Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229909 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#280> ;
+    nami:evidence "Brunnen: Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q6882 nami:commemoratedAt wd:Q27229843 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#282> ;
+    nami:evidence "Grabdenkmal James Joyce" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27230134 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#283> ;
+    nami:evidence "Rationierungsbrunnen: Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q26203747 nami:createdAt wd:Q27229701 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#284> ;
+    nami:evidence "Kosmische-Granit-Pyramide: Paul Sieber" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230183 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#285> ;
+    nami:evidence "Brunnen mit \"wasserspeiendem Schwan\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_289> rdfs:label "Brunnen mit Plastik \"Falke\" (Grünanlage Ringstrasse/Allenmoos, bei Hofwiesenstrasse 250)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537863 47.405895)"^^geo:wktLiteral ] .
+wd:Q27132144 nami:createdAt <https://example.org/nami/data/plaque/art_289> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#289> ;
+    nami:evidence "Brunnen mit Plastik \"Falke\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt <https://example.org/nami/data/plaque/art_289> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#289> ;
+    nami:evidence "Brunnen mit Plastik \"Falke\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q23719016 nami:createdAt wd:Q27229867 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#291> ;
+    nami:evidence "Elisabeth: Jürg Altherr" ;
+    nami:confidence 0.9 |} .
+wd:Q27229304 nami:createdAt wd:Q27229869 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#293> ;
+    nami:evidence "Kulturamboss 80: Armin Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229863 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#295> ;
+    nami:evidence "Brunnen mit Wassermuschel: Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q27229290 nami:createdAt wd:Q27229829 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#297> ;
+    nami:evidence "\"Auferstehung\": Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q19840764 nami:createdAt wd:Q27229674 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#298> ;
+    nami:evidence "Wilhelm-Baumgartner-Denkmal: Jakob August Heer" ;
+    nami:confidence 0.9 |} .
+wd:Q874136 nami:createdAt wd:Q27230214 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#299> ;
+    nami:evidence "Mauerbrunnen: Paul Osswald" ;
+    nami:confidence 0.9 |} .
+wd:Q15807329 nami:createdAt wd:Q27229825 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#301> ;
+    nami:evidence "Stehender Jüngling (Selbstporträt): Eduard Bick" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27230028 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#302> ;
+    nami:evidence "Brunnen mit Tänzerin: Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230028 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#302> ;
+    nami:evidence "Brunnen mit Tänzerin: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27229901 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#303> ;
+    nami:evidence "\"Napfbrunnen\": Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27230098 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#304> ;
+    nami:evidence "Brunnenplastik \"Mädchen mit Fisch, Knabe mit Hund\": Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q27229317 nami:createdAt wd:Q27230224 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#306> ;
+    nami:evidence "Unendlichkeit: Katharina Sallenbach" ;
+    nami:confidence 0.9 |} .
+wd:Q27229304 nami:createdAt wd:Q27229839 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#308> ;
+    nami:evidence "Trinkbrunnen Tramendstation Wollishofen: Armin Wanger" ;
+    nami:confidence 0.9 |} .
+wd:Q27229297 nami:createdAt wd:Q27229984 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#310> ;
+    nami:evidence "\"Rhythmus\": Hildi Hess" ;
+    nami:confidence 0.9 |} .
+wd:Q123454 nami:commemoratedAt wd:Q1416783 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#312> ;
+    nami:evidence "Max-Bill-Platz" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230185 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#313> ;
+    nami:evidence "Brunnen mit \"wasserspeiendem Schwan\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q6780886 nami:createdAt wd:Q27229986 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#314> ;
+    nami:evidence "Monovolume: Croix élevee: Mary Vieira" ;
+    nami:confidence 0.9 |} .
+wd:Q27229254 nami:createdAt wd:Q27229891 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#315> ;
+    nami:evidence "\"Klausbrunnen\": Arnold Hünerwadel" ;
+    nami:confidence 0.9 |} .
+wd:Q2285554 nami:createdAt wd:Q27229918 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#316> ;
+    nami:evidence "David: Ivar Johnsson" ;
+    nami:confidence 0.9 |} .
+wd:Q27229276 nami:createdAt wd:Q27229961 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#317> ;
+    nami:evidence "\"Zebragruppe\": Michael Rudolf  Wening" ;
+    nami:confidence 0.9 |} .
+wd:Q17194413 nami:createdAt wd:Q27230050 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#318> ;
+    nami:evidence "\"Zwei Löwen\": Arnold Huggler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229229 nami:createdAt wd:Q27229880 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#321> ;
+    nami:evidence "\"Amberger Engel\": Louis Wethli" ;
+    nami:confidence 0.9 |} .
+wd:Q151097 nami:createdAt wd:Q19759382 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#322> ;
+    nami:evidence "Sheep Piece: Henry Moore" ;
+    nami:confidence 0.9 |} .
+wd:Q56701780 nami:createdAt wd:Q27229666 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#323> ;
+    nami:evidence "\"Rebekka-Brunnen\": Heinrich  Gerhardt" ;
+    nami:confidence 0.9 |} .
+wd:Q27229262 nami:createdAt wd:Q27229899 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#324> ;
+    nami:evidence "Brunnen mit wasserspeiender Dogge: Hans Markwalder" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27229899 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#324> ;
+    nami:evidence "Brunnen mit wasserspeiender Dogge: Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q870322 nami:createdAt wd:Q27229968 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#326> ;
+    nami:evidence "Ganymed: Hermann Hubacher" ;
+    nami:confidence 0.9 |} .
+wd:Q27132144 nami:createdAt wd:Q27230164 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#330> ;
+    nami:evidence "\"Kratzbrunnen\": Hans Gisler" ;
+    nami:confidence 0.9 |} .
+wd:Q27229258 nami:createdAt wd:Q27229689 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#332> ;
+    nami:evidence "\"Pilgerbrunnen\": Hermann Herter" ;
+    nami:confidence 0.9 |} .
+wd:Q16766155 nami:createdAt wd:Q27229950 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#333> ;
+    nami:evidence "\"Fohlenbrunnen\": Werner Friedrich Kunz" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229950 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#333> ;
+    nami:evidence "\"Fohlenbrunnen\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q63341972 nami:createdAt wd:Q27230205 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#336> ;
+    nami:evidence "Brunnen mit Relief \"Löwe mit Zürcher Wappen\": Luigi Zanini" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27229951 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#338> ;
+    nami:evidence "Brunnen mit Relief \"Hund und Katze\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230073 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#339> ;
+    nami:evidence "Sitzende Frau mit Taube: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q7109740 nami:createdAt wd:Q27229861 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#342> ;
+    nami:evidence "Brunnen: Otto Münch" ;
+    nami:confidence 0.9 |} .
+wd:Q15807329 nami:createdAt wd:Q27229778 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#345> ;
+    nami:evidence "Brunnen mit Seepferdchen: Eduard Bick" ;
+    nami:confidence 0.9 |} .
+wd:Q27229290 nami:createdAt wd:Q27230107 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#349> ;
+    nami:evidence "\"Pietà\": Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q27229290 nami:createdAt wd:Q27230194 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#350> ;
+    nami:evidence "Wasserspeiender Frauenkopf: Emilio Stanzani" ;
+    nami:confidence 0.9 |} .
+wd:Q694964 nami:commemoratedAt wd:Q27229790 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#354> ;
+    nami:evidence "Arnold-Bürkli-Gedenkstein" ;
+    nami:confidence 0.9 |} .
+wd:Q27229255 nami:createdAt wd:Q27229933 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#356> ;
+    nami:evidence "Brunnenfigur \"Rufender Knabe\": Ida Schaer-Krause" ;
+    nami:confidence 0.9 |} .
+wd:Q15429125 nami:createdAt wd:Q27229962 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#357> ;
+    nami:evidence "\"Die Schreitende\": Otto Charles Bänninger" ;
+    nami:confidence 0.9 |} .
+wd:Q76397 nami:createdAt wd:Q27229948 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#359> ;
+    nami:evidence "\"Waldmannbrunnen\": Eduard Zimmermann" ;
+    nami:confidence 0.9 |} .
+wd:Q23000725 nami:createdAt wd:Q27230215 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#361> ;
+    nami:evidence "Brunnentrog: Uli Schoop" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q27230160 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#363> ;
+    nami:evidence "Brunnentrog mit Relief \"Hottingerwappen, Kleeblatt\": Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q685730 nami:createdAt wd:Q27229998 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#365> ;
+    nami:evidence "Doppelfigur: Kurt Laurenz Metzler" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/art_401> rdfs:label "ALWAYS A WAY ALWAYS AWAY (Europaplatz auf Gebäudedach, Europaallee 4)" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.535733 47.378354)"^^geo:wktLiteral ] .
+wd:Q916421 nami:createdAt <https://example.org/nami/data/plaque/art_401> {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#401> ;
+    nami:evidence "ALWAYS A WAY ALWAYS AWAY: Brigitte Kowanz" ;
+    nami:confidence 0.9 |} .
+wd:Q27229229 nami:createdAt wd:Q137640545 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#403> ;
+    nami:evidence "Grabmal Georg Büchner: Louis Wethli" ;
+    nami:confidence 0.9 |} .
+wd:Q154014 nami:commemoratedAt wd:Q137640545 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#403> ;
+    nami:evidence "Grabmal Georg Büchner" ;
+    nami:confidence 0.9 |} .
+wd:Q2804763 nami:createdAt wd:Q27229883 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#404> ;
+    nami:evidence "Vier Löwen auf Pfeilern: Urs Eggenschwyler" ;
+    nami:confidence 0.9 |} .
+wd:Q2804763 nami:createdAt wd:Q27229883 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#405> ;
+    nami:evidence "Vier Löwen auf Pfeilern: Urs Eggenschwyler" ;
+    nami:confidence 0.9 |} .
+wd:Q2804763 nami:createdAt wd:Q27229883 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#406> ;
+    nami:evidence "Vier Löwen auf Pfeilern: Urs Eggenschwyler" ;
+    nami:confidence 0.9 |} .
+wd:Q75806 nami:createdAt wd:Q55166145 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#414> ;
+    nami:evidence "Brunnen mit Wiediker «Öpfel»: Emil Schäfer" ;
+    nami:confidence 0.9 |} .
+wd:Q110989790 wdt:P138 wd:Q1337334 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#2> ;
+    nami:evidence "Emilie Lieberherr (1924-2011) Erste Zürcher Stadträtin und Vorsteherin des Sozialamts der Stadt Zürich von 1970-1994 Kämpferin für die politischen Rechte der Frau, Konsumentenschützerin und Vorreiterin der nationalen Dogenpolitik" ;
+    nami:confidence 0.9 |} .
+wd:Q27329804 wdt:P138 wd:Q325349 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#6> ;
+    nami:evidence "Eduard Spelterini (1852-1931) Schweizer Ballonpionier" ;
+    nami:confidence 0.9 |} .
+wd:Q27329496 wdt:P138 wd:Q77107 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#7> ;
+    nami:evidence "Ulrich von Hutten (1488-1523) Deutscher Humanist und Dichter 1523 in Zürich und auf der Ufernau" ;
+    nami:confidence 0.9 |} .
+wd:Q27330444 wdt:P138 wd:Q75889 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#9> ;
+    nami:evidence "Friedrich Hölderlin (1770-1843) Deutscher Dichter" ;
+    nami:confidence 0.9 |} .
+wd:Q27329033 wdt:P138 wd:Q666875 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#11> ;
+    nami:evidence "Aurel Stodola (1859-1942) Professor für Maschinenbau der ETH 1892 bis 1929" ;
+    nami:confidence 0.9 |} .
+wd:Q27329836 wdt:P138 wd:Q7312 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#14> ;
+    nami:evidence "Franz Schubert (1797-1828) Wiener Komponist" ;
+    nami:confidence 0.9 |} .
+wd:Q27331895 wdt:P138 wd:Q27517007 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#18> ;
+    nami:evidence "Gustav Adolf Tobler (1850-1923) Professor für Elektrotechnik an der ETH Förderer kultureller und gemeinnütziger Institute" ;
+    nami:confidence 0.9 |} .
+wd:Q15108152 wdt:P138 wd:Q123839 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#21> ;
+    nami:evidence "Heinrich Bullinger (1504-1575) Zürcher Reformator und Vordenker des reformierten Protestantismus" ;
+    nami:confidence 0.9 |} .
+wd:Q27331527 wdt:P138 wd:Q118013 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#24> ;
+    nami:evidence "Friedrich Erismann (1842-1915) Stadtrat 1901 bis 1915 Förderer des sozialen Wohnungsbaus" ;
+    nami:confidence 0.9 |} .
+wd:Q27330300 wdt:P138 wd:Q116111 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#27> ;
+    nami:evidence "Gottlieb Duttweiler (1888-1962) National- und Ständerat Gründer der Migros" ;
+    nami:confidence 0.9 |} .
+wd:Q27322173 wdt:P138 wd:Q1793590 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#29> ;
+    nami:evidence "Kurt Guggenheim (1896-1983) Zürcher Schriftsteller, Hauptwerk \"Alles in Allem\" 1955 Literaturpreisträger der Stadt Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27322297 wdt:P138 wd:Q123075 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#30> ;
+    nami:evidence "Robert Walser (1878-1956) Schriftsteller (\"Der Gehülfe\")" ;
+    nami:confidence 0.9 |} .
+wd:Q27326692 wdt:P138 wd:Q120289 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#32> ;
+    nami:evidence "Sigi Feigel (1921-2004) langjähriger Präsident der Isrealitischen Cultusgemeinde Zürich und Kämpfer gegen Rassismus und Antisemitismus." ;
+    nami:confidence 0.9 |} .
+wd:Q27324942 wdt:P138 wd:Q2039366 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#34> ;
+    nami:evidence "Otto Jaag (1900-1978) Professor für Hydrologie, Abwasserreinigung und Gewässerschutz an der ETH Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27329110 wdt:P138 wd:Q101328 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#35> ;
+    nami:evidence "Gustav Volkmar (1809-1893) Professor für Theologie an der Universität Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27329151 wdt:P138 wd:Q9312 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#38> ;
+    nami:evidence "Immanuel Kant (1724-1804) Deutscher Philosoph" ;
+    nami:confidence 0.9 |} .
+wd:Q27329141 wdt:P138 wd:Q15410824 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#39> ;
+    nami:evidence "Jakob Bächtold (1848-1897) Professor für deutsche Literatur an der Universität Biograph Gottfried Kellers" ;
+    nami:confidence 0.9 |} .
+wd:Q27331201 wdt:P138 wd:Q123330 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#43> ;
+    nami:evidence "Leopold Szondi (1893-1986) Psychiater, Begründer der Schicksalsanalyse und des Instituts für Schicksalspsychologie Peter Szondi (1929-1971) Literaturwissenschaftler" ;
+    nami:confidence 0.9 |} .
+wd:Q27331177 wdt:P138 wd:Q1897438 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#44> ;
+    nami:evidence "Marie Meierhofer (1909-1998) Psychiaterin Stadtärztin 1948 bis 1952 Gründerin des Marie-Meierhofer-Instituts für das Kind 1957" ;
+    nami:confidence 0.9 |} .
+wd:Q27331899 wdt:P138 wd:Q27323148 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#46> ;
+    nami:evidence "Fritz Fleiner (1867-1937) Professor für öffentliches Recht an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27331950 wdt:P138 wd:Q123528 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#47> ;
+    nami:evidence "Rudolf Albert Kölliker (1817-1905) Professor für Anatomie an den Universitäten Zürich und Würzburg" ;
+    nami:confidence 0.9 |} .
+wd:Q27329019 wdt:P138 wd:Q680 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#48> ;
+    nami:evidence "Alessandro Volta (1745-1827) Graf Italienischer Physiker" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_49> rdfs:label "Pestalozzistrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.553075 47.375321)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_49> wdt:P138 wd:Q105428 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#49> ;
+    nami:evidence "Johann Heinrich Pestalozzi (1746-1827) Schriftsteller, Erzieher Reformator des Schulunterrichts" ;
+    nami:confidence 0.9 |} .
+wd:Q27323075 wdt:P138 wd:Q22530 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#52> ;
+    nami:evidence "August Forel (1848-1931) Leiter der Heilanstalt Burghölzli Professor an der Universität Vorkämpfer der Abstinenzbewegung" ;
+    nami:confidence 0.9 |} .
+wd:Q27324231 wdt:P138 wd:Q1333744 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#53> ;
+    nami:evidence "Else Züblin-Spiller (1881-1948) Richtete im ersten Weltkrieg Soldatenstuben ein, daher bekannt als \"Soldatenmutter\"" ;
+    nami:confidence 0.9 |} .
+wd:Q27329191 wdt:P138 wd:Q61058 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#55> ;
+    nami:evidence "Ludwig Uhland (1786-1862) Deutscher Dichter und Literarhistoriker" ;
+    nami:confidence 0.9 |} .
+wd:Q27325335 wdt:P138 wd:Q2138725 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#56> ;
+    nami:evidence "Regula Engel-Egli (1761-1853) Schweizerische Amazone, nahm an den Napoleonischen Kriegszügen teil" ;
+    nami:confidence 0.9 |} .
+wd:Q27321527 wdt:P138 wd:Q2515240 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#57> ;
+    nami:evidence "Verena Conzett (1861-1947) Förderin sozialer Bestrebungen" ;
+    nami:confidence 0.9 |} .
+wd:Q27329456 wdt:P138 wd:Q123765 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#58> ;
+    nami:evidence "Salomon Gessner (1730-1788) Zürcher Maler und Dichter, Verleger und Oberaufseher des städtischen Sihlwaldes ('Sihlherr')" ;
+    nami:confidence 0.9 |} .
+wd:Q27322326 wdt:P138 wd:Q117520 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#59> ;
+    nami:evidence "Friedrich Glauser (1896-1938) Schriftsteller (\"Wachtmeister Studer\")" ;
+    nami:confidence 0.9 |} .
+wd:Q27331893 wdt:P138 wd:Q123053 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#61> ;
+    nami:evidence "Johanna Spyri (1827-1901) Jugendschriftstellerin Verfasserin der \"Heidi\" Erzählungen" ;
+    nami:confidence 0.9 |} .
+wd:Q27323084 wdt:P138 wd:Q89013 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#65> ;
+    nami:evidence "Johann Gottfried Ebel (1764-1830) Politiker, Geologe, Reiseschriftsteller" ;
+    nami:confidence 0.9 |} .
+wd:Q27329073 wdt:P138 wd:Q4710873 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#68> ;
+    nami:evidence "Albert Mousson (1805-1890) Professor für Physik und Geographie an der ETH und an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27330374 wdt:P138 wd:Q6527 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#72> ;
+    nami:evidence "Jean-Jacques Rousseau (1712-1778) Genfer Kulturphilosoph" ;
+    nami:confidence 0.9 |} .
+wd:Q27330453 wdt:P138 wd:Q59945 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#76> ;
+    nami:evidence "Jacob Burckhardt (1818-1897) Basler Kunst- und Kulturhistoriker; Professor der Kunstgeschichte an der ETH" ;
+    nami:confidence 0.9 |} .
+wd:Q27330211 wdt:P138 wd:Q15839783 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#77> ;
+    nami:evidence "Paul Trautvetter (1889-1983) Pfarrer von Höngg 1918 bis 1954" ;
+    nami:confidence 0.9 |} .
+wd:Q27331751 wdt:P138 wd:Q121793 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#79> ;
+    nami:evidence "Meinrad Lienert (1865-1933) Dichter, 1899 bis 1933 in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27329856 wdt:P138 wd:Q27323036 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#83> ;
+    nami:evidence "Susanna Gossweiler (1740-1793) Erste Lehrerin an der von Leonhard Usteri initiierten Züricher Töchterschule 1774 bis 1793" ;
+    nami:confidence 0.9 |} .
+wd:Q27331874 wdt:P138 wd:Q121289 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#84> ;
+    nami:evidence "Jean Rudolf von Salis (1901-1996) Historiker, Schriftsteller und Publizist. Professor für Geschichte an der ETH von 1935 bis 1968" ;
+    nami:confidence 0.9 |} .
+wd:Q27329094 wdt:P138 wd:Q119262 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#86> ;
+    nami:evidence "Caroline Farner (1842-1913) Zweite Schweizer Ärztin, erste Allgemein- praktikerin und Kämpferin für Frauenrechte" ;
+    nami:confidence 0.9 |} .
+wd:Q27325590 wdt:P138 wd:Q124408 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#87> ;
+    nami:evidence "Hans Waldmann (gestorben 1489) Zürcher Bürgermeister, Feldherr und Staatsmann" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_88> rdfs:label "Duttweilerbrücke" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.511821 47.389549)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_88> wdt:P138 wd:Q116111 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#88> ;
+    nami:evidence "Gottlieb Duttweiler (1888-1962) National- und Ständerat Gründer der Migros" ;
+    nami:confidence 0.9 |} .
+wd:Q27330174 wdt:P138 wd:Q1493750 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#91> ;
+    nami:evidence "Robert Billeter (1857-1917) Stadtpräsident 1909 bis 1917" ;
+    nami:confidence 0.9 |} .
+wd:Q27330459 wdt:P138 wd:Q1694945 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#93> ;
+    nami:evidence "Johann Jakob Treichler (1822-1906) Politiker, Professor der Rechte an der ETH und an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27330183 wdt:P138 wd:Q28976335 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#95> ;
+    nami:evidence "Johann Jakob Steinbrüchel (1729-1796) Humanistischer Lehrer" ;
+    nami:confidence 0.9 |} .
+wd:Q27329812 wdt:P138 wd:Q1609970 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#101> ;
+    nami:evidence "Max Tièche (1878-1938) Gründer der ersten städtischen Dermatologischen Poliklinik, Professor an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27331347 wdt:P138 wd:Q1336378 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#103> ;
+    nami:evidence "Emil Klöti (1877-1963) Zürcher Staatsmann, Stadtrat von 1907 bis 1928 Stadtpräsident von 1928 bis 1942" ;
+    nami:confidence 0.9 |} .
+wd:Q27330257 wdt:P138 wd:Q117985 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#104> ;
+    nami:evidence "August Corrodi (1826-1885) Maler und Dialektdichter" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_106> rdfs:label "Imfeldstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.535453 47.388761)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_106> wdt:P138 wd:Q2597754 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#106> ;
+    nami:evidence "Xaver Imfeld (1853-1909) Kartograph und Panoramenzeichner" ;
+    nami:confidence 0.9 |} .
+wd:Q27329417 wdt:P138 wd:Q55069834 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#107> ;
+    nami:evidence "Lorenz Oken (1779-1851) Naturforscher und Naturphilosoph Erster Rektor der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27329433 wdt:P138 wd:Q379300 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#108> ;
+    nami:evidence "Giovanni Segantini (1858-1899) Engadiner Maler" ;
+    nami:confidence 0.9 |} .
+wd:Q1021608 wdt:P138 wd:Q694964 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#109> ;
+    nami:evidence "Arnold Bürkli (1833-1894) Stadtingenieur, Erbauer der Quaianlagen" ;
+    nami:confidence 0.9 |} .
+wd:Q27329559 wdt:P138 wd:Q118932 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#110> ;
+    nami:evidence "Johann Martin Usteri (1763-1827) Dichter von \"Freut euch des Lebens\"" ;
+    nami:confidence 0.9 |} .
+wd:Q27321239 wdt:P138 wd:Q38203 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#111> ;
+    nami:evidence "Helen Keller (1880-1968) Amerikanische Schriftstellerin. Verlor als Kleinkind Augenlicht und Gehör. Trotzdem studierte sie und betätigte sich als sozialgesinnte Schriftstellerin. Ihr Familie soll ursprünglich aus Schwamendingen stammen." ;
+    nami:confidence 0.9 |} .
+wd:Q27324942 wdt:P138 wd:Q2039366 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#112> ;
+    nami:evidence "Otto Jaag (1900-1978) Professor für Hydrologie, Abwasserreinigung und Gewässerschutz an der ETH Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27322616 wdt:P138 wd:Q667651 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#113> ;
+    nami:evidence "Alberik Zwyssig (1808-1854) Komponist des Schweizerpsalms" ;
+    nami:confidence 0.9 |} .
+wd:Q27323243 wdt:P138 wd:Q115883 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#114> ;
+    nami:evidence "Eugen Huber (1849-1923) Schöpfer des schweizerischen Zivilgesetzbuches von 1912" ;
+    nami:confidence 0.9 |} .
+wd:Q27325496 wdt:P138 wd:Q2061648 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#119> ;
+    nami:evidence "Paul Pflüger (1865-1947) Pfarrer, Stadtrat, Sozialpolitiker und Schriftsteller. Gründer des Schweizerischen Sozialarchivs und des Vereins für Familiengärten." ;
+    nami:confidence 0.9 |} .
+wd:Q27331838 wdt:P138 wd:Q29024274 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#121> ;
+    nami:evidence "Johann Jakob Schäppi (1819-1908) Von Horgen; Sekundarlehrer, Führer der demokratischen Bewegung, Kantons- und Nationalrat, Gründer der Frauenfachschule; von 1887 bis zu seinem Tod in Oberstrass" ;
+    nami:confidence 0.9 |} .
+wd:Q27331902 wdt:P138 wd:Q688419 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#124> ;
+    nami:evidence "Oskar Bider (1891-1919) Schweizer Flugpionier" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_126> rdfs:label "Culmannstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547091 47.379402)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_126> wdt:P138 wd:Q123767 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#126> ;
+    nami:evidence "Carl Culmann (1821-1881) Professor für Ingenieurwissenschaft an der ETH" ;
+    nami:confidence 0.9 |} .
+wd:Q27329625 wdt:P138 wd:Q30693 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#127> ;
+    nami:evidence "Rudolf Clausius (1822-1888) Professor für Physik an der ETH und an der Universität Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27331663 wdt:P138 wd:Q42717 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#128> ;
+    nami:evidence "Arnold von Winkelried Symbolfigur der Schweizergeschichte" ;
+    nami:confidence 0.9 |} .
+wd:Q27331082 wdt:P138 wd:Q19631308 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#129> ;
+    nami:evidence "Adolf Stäbli (1842-1901) Landschaftsmaler, 1860 bis 1862 in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27331692 wdt:P138 wd:Q154014 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#130> ;
+    nami:evidence "Georg Büchner (1813-1837) Deutscher Dichter Dozent für Naturgeschichte an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27327301 wdt:P138 wd:Q2804763 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#131> ;
+    nami:evidence "Urs Eggenschwiler (1849-1923) Bildhauer, Tierfreund" ;
+    nami:confidence 0.9 |} .
+wd:Q27331525 wdt:P138 wd:Q1703069 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#134> ;
+    nami:evidence "Pompejus Bolley (1812-1870) Professor für Chemie an der ETH" ;
+    nami:confidence 0.9 |} .
+wd:Q27329463 wdt:P138 wd:Q1048029 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#135> ;
+    nami:evidence "Caspar Schindler-Escher (1828-1902) Seidenfabrikant, Philanthrop" ;
+    nami:confidence 0.9 |} .
+wd:Q27329147 wdt:P138 wd:Q60584 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#136> ;
+    nami:evidence "Christian Fürchtegott Gellert (1715-1769) Deutscher Lieder- und Fabeldichter" ;
+    nami:confidence 0.9 |} .
+wd:Q27327287 wdt:P138 wd:Q118435 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#137> ;
+    nami:evidence "Lux Guyer (1894-1955) Erste Schweizer Architektin Planerin der Frauenwohnkolonie Lettenhof" ;
+    nami:confidence 0.9 |} .
+wd:Q27329925 wdt:P138 wd:Q242609 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#138> ;
+    nami:evidence "André Masséna (1758-1817) französischer General, Sieger über die Russen in der 2. Schlacht bei Zürich 1799" ;
+    nami:confidence 0.9 |} .
+wd:Q27324306 wdt:P138 wd:Q117992 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#139> ;
+    nami:evidence "Rudolf Ulrich Krönlein (1847-1910) Professor für Chirurgie und Rektor der Universität Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27330306 wdt:P138 wd:Q1463577 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#140> ;
+    nami:evidence "Friedrich von Beust (1816-1899) Pädagoge, Leiter der Beust-Schule an der Merkurstrasse." ;
+    nami:confidence 0.9 |} .
+wd:Q27330042 wdt:P138 wd:Q1639949 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#142> ;
+    nami:evidence "Max Hunziker (1901-1976) Maler, Grafiker, Glasmaler, Illustrator" ;
+    nami:confidence 0.9 |} .
+wd:Q27330194 wdt:P138 wd:Q66207 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#149> ;
+    nami:evidence "Heinrich Zschokke (1771-1848) Schriftsteller, Politiker" ;
+    nami:confidence 0.9 |} .
+wd:Q27330137 wdt:P138 wd:Q675 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#150> ;
+    nami:evidence "André-Marie Ampère (1775-1836) Französischer Physiker" ;
+    nami:confidence 0.9 |} .
+wd:Q27329966 wdt:P138 wd:Q83501 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#152> ;
+    nami:evidence "Vladimir Prelog (1906-1998) ETH-Professor für organische Chemie 1929 bis 1957. Bürger von Zürich 1959.1975 Nobel-Preis für Chemie in Anerkennung für seine Arbeiten über Stereochemie von enzymkatalysierten Reaktionen." ;
+    nami:confidence 0.9 |} .
+wd:Q27331861 wdt:P138 wd:Q215808 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#156> ;
+    nami:evidence "Wilhelm Weitling (1808-1871) Deutscher Schneider, Vordenker eines christlichen Kommunismus, 1843 im Zürcher Kommunistenprozess zu Haft und Landesverweis verurteilt" ;
+    nami:confidence 0.9 |} .
+wd:Q27323122 wdt:P138 wd:Q118826 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#158> ;
+    nami:evidence "Albin Zollinger (1895-1941) Schriftsteller (\"Pfannenstiel\"). Von 1922 bis zu seinem Tod als Lehrer in Oerlikon tätig" ;
+    nami:confidence 0.9 |} .
+wd:Q27325846 wdt:P138 wd:Q9041 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#159> ;
+    nami:evidence "James Watt (1736-1819) Schottischer Maschinenbauer Erfinder der Dampfmaschine" ;
+    nami:confidence 0.9 |} .
+wd:Q27322926 wdt:P138 wd:Q61597 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#161> ;
+    nami:evidence "Erika Mann (1905-1969) Deutsche Schriftstellerin, Journalistin und Kabarettistin (Pfeffermühle)" ;
+    nami:confidence 0.9 |} .
+wd:Q27325781 wdt:P138 wd:Q123673 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#163> ;
+    nami:evidence "Robert Maillart (1872-1940) Bauingenieur, Pionier des Brückenbaus" ;
+    nami:confidence 0.9 |} .
+wd:Q27324899 wdt:P138 wd:Q118001 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#164> ;
+    nami:evidence "Charles E. L. Brown (1863-1924) Walter Boveri (1865-1924) Ing. der MFO, Gründer der BBC in Baden 1891" ;
+    nami:confidence 0.9 |} .
+wd:Q27326543 wdt:P138 wd:Q15810773 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#165> ;
+    nami:evidence "Fritz Heeb (1911-1994) Rechtsanwalt, sozialdemokratischer Politiker" ;
+    nami:confidence 0.9 |} .
+wd:Q27329165 wdt:P138 wd:Q27323115 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#167> ;
+    nami:evidence "Dora Staudinger (1886-1964) Genossenschafterin und erste Frau im Vorstand der Allgemeinen Baugenossenschaft Zürich (ABZ)" ;
+    nami:confidence 0.9 |} .
+wd:Q27331818 wdt:P138 wd:Q1556728 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#169> ;
+    nami:evidence "Gustave Naville (1848-1929) Maschinenbauingenieur und Unternehmer. Pionier der schweizerischen Maschinen und Metallindustrie, Gründer der Alusuisse und Promotor der wichtigsten Industrieverbände. Ehrendoktor der ETH 1918." ;
+    nami:confidence 0.9 |} .
+wd:Q27331429 wdt:P138 wd:Q2157304 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#170> ;
+    nami:evidence "Robert Gnehm (1852-1926) Präsident des schweizerischen Schulrates 1905 bis 1926. Professor für technische Chemie 1894 bis 1904, erster Ehrendoktor der ETH 1909" ;
+    nami:confidence 0.9 |} .
+wd:Q27329001 wdt:P138 wd:Q274898 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#173> ;
+    nami:evidence "Zurlinden Ausgestorbene Familie von Wiedikon" ;
+    nami:confidence 0.9 |} .
+wd:Q27325552 wdt:P138 wd:Q23666560 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#174> ;
+    nami:evidence "Anny Klawa-Morf (1894-1993) Arbeiterin und Aktivistin der Zürcher Arbeiterbewegung. Engagierte sich für bessere Lebensbedingungen der Arbeiterschaft und die Gleichberechtigung der Frauen" ;
+    nami:confidence 0.9 |} .
+wd:Q27327183 wdt:P138 wd:Q125520 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#177> ;
+    nami:evidence "Ruedi Walter (1916-1990) Schweizer Volksschauspieler" ;
+    nami:confidence 0.9 |} .
+wd:Q27327240 wdt:P138 wd:Q69638 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#178> ;
+    nami:evidence "Therese Giehse (1898-1975) Deutsche Schauspielerin am Schauspielhaus Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27325788 wdt:P138 wd:Q1793662 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#179> ;
+    nami:evidence "Kurt Hirschfeld (1902-1964) Regisseur und Dramaturg am Schauspielhaus, ab 1961 Direktor Emigrierte 1933 aus Deutschland nach Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q1871416 wdt:P138 wd:Q1871734 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#180> ;
+    nami:evidence "Louis Häfliger (1904-1993) Befreier der KZ Mauthausen" ;
+    nami:confidence 0.9 |} .
+wd:Q27325779 wdt:P138 wd:Q2137876 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#181> ;
+    nami:evidence "Regina Kägi-Fuchsmann (1896-1972) Zürcher Sozialistin Mitbegründerin des Schweizerischen Arbeiterhilfswerks" ;
+    nami:confidence 0.9 |} .
+wd:Q27324666 wdt:P138 wd:Q123786 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#182> ;
+    nami:evidence "Eduard Imhof (1895-1986) Kartograph, Schöpfer wichtiger Kartenwerke" ;
+    nami:confidence 0.9 |} .
+wd:Q27327425 wdt:P138 wd:Q1546163 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#183> ;
+    nami:evidence "Louis Conne (1905-2004) Bildhauer und Grafiker" ;
+    nami:confidence 0.9 |} .
+wd:Q27331403 wdt:P138 wd:Q123301 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#185> ;
+    nami:evidence "Jakob Ackeret (1898-1981) Studium an der EZH Zürich. 1928 bis 1967 Privatdozent und Professor für Aerodynamik an der ETH Zürich. Erforschte den Überschallflug und führte die Mach-Zahl ein." ;
+    nami:confidence 0.9 |} .
+wd:Q27330318 wdt:P138 wd:Q108454 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#186> ;
+    nami:evidence "Marie Baum (1874-1964) Studierte Chemie an der ETH Zürich von 1893 bis 1899. Sozialpolitikerin: Wegbereiterin der sozialen Arbeit." ;
+    nami:confidence 0.9 |} .
+wd:Q27322479 wdt:P138 wd:Q34628 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#188> ;
+    nami:evidence "Gotthold Ephraim Lessing (1729-1781) Deutscher Dramatiker und Literaturkritiker" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_190> rdfs:label "Beethovenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.537711 47.365072)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_190> wdt:P138 wd:Q255 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#190> ;
+    nami:evidence "Ludwig van Beethoven (1770-1827) Deutscher Komponist" ;
+    nami:confidence 0.9 |} .
+wd:Q27323945 wdt:P138 wd:Q115561 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#191> ;
+    nami:evidence "Ernst Nobs (1886-1957) Redaktor am \"Volksrecht\" 1915 bis 1935 Nationalrat 1919 Regierungsrat 1935 Stadtpräsident 1942 Erster sozialdemokratischer Bundesrat 1943 bis 1951" ;
+    nami:confidence 0.9 |} .
+wd:Q27328972 wdt:P138 wd:Q123034 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#192> ;
+    nami:evidence "Ulrich Zwingli (1484-1531) Reformator der Zürcher Kirche" ;
+    nami:confidence 0.9 |} .
+wd:Q27325190 wdt:P138 wd:Q34969 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#194> ;
+    nami:evidence "Benjamin Franklin (1706-1790) Amerikanischer Staatsmann Erfinder des Blitzableiters" ;
+    nami:confidence 0.9 |} .
+wd:Q27326722 wdt:P138 wd:Q72292 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#195> ;
+    nami:evidence "Fridtjof Nansen (1861-1930) Norwegischer Polarforscher, 1921 bis 1923 Leiter der Hilfsaktionen in der russischen Notgebieten. Er erhielt 1922 den Friedensnobelpreis" ;
+    nami:confidence 0.9 |} .
+wd:Q27326722 wdt:P138 wd:Q72292 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#196> ;
+    nami:evidence "Fridtjof Nansen (1861-1930) Norwegischer Polarforscher, 1921 bis 1923 Leiter der Hilfsaktionen in der russischen Notgebieten. Er erhielt 1922 den Friedensnobelpreis" ;
+    nami:confidence 0.9 |} .
+wd:Q27331800 wdt:P138 wd:Q661989 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#197> ;
+    nami:evidence "Wilhelm Friedrich Hertenstein (1825-1888) von Kyburg Regierungsrat 1872-1879, Bundesrat 1879 bis 1888" ;
+    nami:confidence 0.9 |} .
+wd:Q27324814 wdt:P138 wd:Q124826 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#198> ;
+    nami:evidence "Ellen Widmann (1894-1985) Schweizer Schauspielerin, Gründerin des Kammersprechchors Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q2539700 wdt:P138 wd:Q663178 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#199> ;
+    nami:evidence "Friedrich Traugott Wahlen (1899-1985) Agronom (Plan Wahlen für die Anbauschlacht im zweiten Weltkrieg) Zürcher Ständerat 1942 bis 1949 Bundesrat 1958 bis 1965" ;
+    nami:confidence 0.9 |} .
+wd:Q27325793 wdt:P138 wd:Q1336608 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#200> ;
+    nami:evidence "Emil Oprecht (1895-1952) Buchhändler, Verleger nazikritischer Literatur in den 1930 / 40er Jahren Gründer der Neuen Schauspiel AG 1938" ;
+    nami:confidence 0.9 |} .
+wd:Q27327180 wdt:P138 wd:Q115654 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#201> ;
+    nami:evidence "Paul Grüninger (1891-1972) St. Galler Polizeikommandant Retter Hundeter jüdischer Emigranten 1938" ;
+    nami:confidence 0.9 |} .
+wd:Q27331684 wdt:P138 wd:Q99568 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#203> ;
+    nami:evidence "Karl Schumacher (1872-1939) Entstammt einem alten, 1398 erstmals erwähnten Geschlecht von Affoltern. Machte sich um das Gemeindeleben von Affoltern sehr verdient" ;
+    nami:confidence 0.9 |} .
+wd:Q27330707 wdt:P138 wd:Q380083 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#204> ;
+    nami:evidence "Jonas Furrer (1805-1861) Zürcher Bürgermeister 1846 bis 1848 Erster Bundespräsident 1848" ;
+    nami:confidence 0.9 |} .
+wd:Q27329618 wdt:P138 wd:Q1504971 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#207> ;
+    nami:evidence "Georg Kempf (1895-1961) Ein Gönner und Förderer Affolterns" ;
+    nami:confidence 0.9 |} .
+wd:Q27330341 wdt:P138 wd:Q115490 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#208> ;
+    nami:evidence "Tadeus Reichstein (1897-1996) 1950 Nobelpreis für Meditin in Anerkennung für die Hormonforschung: Isolierung der Steroide der Nebennierenrinde, vor allem des Cortisons." ;
+    nami:confidence 0.9 |} .
+wd:Q27325406 wdt:P138 wd:Q7294 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#210> ;
+    nami:evidence "Johannes Brahms (1833-1897) Deutscher Komponist Weilte mehrmals in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27325997 wdt:P138 wd:Q9182668 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#211> ;
+    nami:evidence "Friedrich Meili (1852-1904) Pfarrer in Wiedikon 1876 bis 1904 Förderer der Turnens" ;
+    nami:confidence 0.9 |} .
+wd:Q27331311 wdt:P138 wd:Q116973 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#212> ;
+    nami:evidence "Jakob Dubs (1822-1879) von Affoltern am Albis Bundesrat 1861 bis 1872" ;
+    nami:confidence 0.9 |} .
+wd:Q27325749 wdt:P138 wd:Q116124 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#214> ;
+    nami:evidence "Ulrich Wille (1848-1925) Oberbefehlshaber der Schweizer Armee im ersten Weltkrieg 1914 bis 1918" ;
+    nami:confidence 0.9 |} .
+wd:Q27331873 wdt:P138 wd:Q120908 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#216> ;
+    nami:evidence "Heinrich Federer (1866-1928) Epischer Dichter 1899 bis 1928 in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27325772 wdt:P138 wd:Q687416 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#218> ;
+    nami:evidence "Armin Bollinger (1913-1995) Professor an der Handelshochschule St. Gallen Verfasser der Ortsgeschichte Oerlikon" ;
+    nami:confidence 0.9 |} .
+wd:Q27329156 wdt:P138 wd:Q119555 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#219> ;
+    nami:evidence "Margrit Rainer (1914-1982) Zürcher Volksschauspielerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27324295 wdt:P138 wd:Q15439713 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#221> ;
+    nami:evidence "Anton Higi (1885-1951) Stadtrat 1938 bis 1946" ;
+    nami:confidence 0.9 |} .
+wd:Q27329168 wdt:P138 wd:Q15410577 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#222> ;
+    nami:evidence "Nettie Sutro (1889-1967) Philosophin, Soziologin und Historikerin. 1933 Mitbegründerin des Schweizer Hilfswerks für Emigrantenkinder (SHEK) welches sie 1933 bis 1948 leitete." ;
+    nami:confidence 0.9 |} .
+wd:Q27329186 wdt:P138 wd:Q114347 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#224> ;
+    nami:evidence "Cäsar Ritz (1850-1918) \"Hotelier der Könige - König der Hoteliers\" Bekannter Schweizer Auswanderer, von Niederwald (VS) 1867 nach Paris mit weiteren Wirkungsorten in Monte Carlo Baden-Baden, London, Rom u.a." ;
+    nami:confidence 0.9 |} .
+wd:Q27326720 wdt:P138 wd:Q80064 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#225> ;
+    nami:evidence "Elias Canetti (1905-1994) Schriftsteller, Nobelpreis 1981" ;
+    nami:confidence 0.9 |} .
+wd:Q27331424 wdt:P138 wd:Q210719 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#227> ;
+    nami:evidence "Auguste Piccard (1884-1962) Studium am eidg. Polytechnikum. 1915 bis 1922 Privatdozent und Professor für Mechanik und Physik an dr ETH Zürich. Stratosphärenforscher und Erfinder." ;
+    nami:confidence 0.9 |} .
+wd:Q27331697 wdt:P138 wd:Q24175452 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#228> ;
+    nami:evidence "Walter Bion (1830-1909) Pfarrer, Begründer der Ferienkolonien der Stadt Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27330336 wdt:P138 wd:Q62409 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#231> ;
+    nami:evidence "Franz Reuleaux (1829-1905) Professor für Maschinenlehre, systematisierte mit dem Handbuch < der Constructeur > und dem Lehrbuch < theoretische Kinematik> den Maschinenbau" ;
+    nami:confidence 0.9 |} .
+wd:Q27330318 wdt:P138 wd:Q108454 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#233> ;
+    nami:evidence "Marie Baum (1874-1964) Studierte Chemie an der ETH Zürich von 1893 bis 1899. Sozialpolitikerin: Wegbereiterin der sozialen Arbeit." ;
+    nami:confidence 0.9 |} .
+wd:Q27330185 wdt:P138 wd:Q120459 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#238> ;
+    nami:evidence "Richard Kissling (1848-1919) Bildhauer, Schöpfer des Tell-Denkmals in Altdorf und des Alfred-Escher-Denkmals in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27329570 wdt:P138 wd:Q65989 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#240> ;
+    nami:evidence "Wolfgang Pauli (1900-1958) 1928 bis 1935 und 1946 bis 1958 Professor für theoretische Physik an der ETH Zürich. 1945 Physik-Nobelpreis für die Entdeckung des Ausschlussprinzips." ;
+    nami:confidence 0.9 |} .
+wd:Q27329970 wdt:P138 wd:Q559604 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#241> ;
+    nami:evidence "Stefano Franscini (1796-1857) Schweizer Politiker, Bundesrat, Schullehrer, Publizist und Statistiker. Legte mit seiner Pioniertätigkeit das Fundament für das Bundesamt für Statistik. Er trug massgeblich zur Gründung der ETH bei." ;
+    nami:confidence 0.9 |} .
+wd:Q27331818 wdt:P138 wd:Q1556728 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#242> ;
+    nami:evidence "Gustave Naville (1848-1929) Maschinenbauingenieur und Unternehmer. Pionier der schweizerischen Maschinen und Metallindustrie, Gründer der Alusuisse und Promotor der wichtigsten Industrieverbände. Ehrendoktor der ETH 1918." ;
+    nami:confidence 0.9 |} .
+wd:Q27330331 wdt:P138 wd:Q2157304 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#244> ;
+    nami:evidence "Robert Gnehm (1852-1926) Präsident des schweizerischen Schulrates 1905 bis 1926. Professor für technische Chemie 1894 bis 1904, erster Ehrendoktor der ETH 1909" ;
+    nami:confidence 0.9 |} .
+wd:Q27330573 wdt:P138 wd:Q57338497 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#246> ;
+    nami:evidence "Alfred Altherr (1875-1945) Leiter der Kunstgewerbeschule 1912 bis 1938 Gründer des Schweiz. Werkbundes 1913" ;
+    nami:confidence 0.9 |} .
+wd:Q27329595 wdt:P138 wd:Q2059151 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#250> ;
+    nami:evidence "Paul Clairmont (1875-1942) Professor für Chirurgie an der Universität 1918 bis 1941" ;
+    nami:confidence 0.9 |} .
+wd:Q27325555 wdt:P138 wd:Q117511 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#251> ;
+    nami:evidence "Fritz Brupbacher (1874-1945) Zürcher Arzt in Aussersihl und Politiker. Er kämpfte als überzeugter Sozialist für bessere Bildung und für die Aufklärung der Arbeiterschaft" ;
+    nami:confidence 0.9 |} .
+wd:Q27325537 wdt:P138 wd:Q118948 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#253> ;
+    nami:evidence "Friedrich Bluntschli (1842-1930) Professor für Architektur an der ETH Erbauer der Kirche Enge" ;
+    nami:confidence 0.9 |} .
+wd:Q27329366 wdt:P138 wd:Q77333 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#256> ;
+    nami:evidence "Emanuel Geibel (1815-1884) Deutscher Lyriker" ;
+    nami:confidence 0.9 |} .
+wd:Q27332052 wdt:P138 wd:Q312640 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#257> ;
+    nami:evidence "Hans Rudolf Giger (1940-2014) Schweizer Künstler Oscarpreisträger (1980) für beste visuelle Effekte im Film «Alien»" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_260> rdfs:label "Carl-Spitteler-Strasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.588088 47.358143)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_260> wdt:P138 wd:Q226525 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#260> ;
+    nami:evidence "Carl Spitteler (1845-1924) Dichter, Erneuerer des Versepos, 1890 bis 1892 in Zürich" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_262> rdfs:label "Dufourstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.547133 47.364373)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_262> wdt:P138 wd:Q123238 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#262> ;
+    nami:evidence "Guillaume-Henri Dufour (1787-1875) General im Sonderbundskrieg, Kartograf" ;
+    nami:confidence 0.9 |} .
+wd:Q27321086 wdt:P138 wd:Q121534 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#263> ;
+    nami:evidence "Heidi Abel (1929-1986) Ansagerin un Moderatorin beim Schweizer Fernsehen 1954 bis 1986" ;
+    nami:confidence 0.9 |} .
+wd:Q27332073 wdt:P138 wd:Q1727474 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#264> ;
+    nami:evidence "Kurt Früh (1915-1979) Theater und Filmregisseur (Bäckerei Zürrer, Dällenbach Kari) 1964 bis 1967 Leiter des Ressorts Theater beim Schweizer Fernsehen" ;
+    nami:confidence 0.9 |} .
+wd:Q27326706 wdt:P138 wd:Q120603 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#266> ;
+    nami:evidence "Johannes Fries (1809-1888) Kirchenpfleger, Wohltäter" ;
+    nami:confidence 0.9 |} .
+wd:Q1416783 wdt:P138 wd:Q123454 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#267> ;
+    nami:evidence "Max Bill (1908-1994) Konstruktiver und konkreter Architekt Grafiker, Designer und bildender Künstler" ;
+    nami:confidence 0.9 |} .
+wd:Q27330178 wdt:P138 wd:Q12091 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#268> ;
+    nami:evidence "Henri Dunant (1828-1910) von Genf, Gründer des Roten Kreuzes" ;
+    nami:confidence 0.9 |} .
+wd:Q27329570 wdt:P138 wd:Q65989 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#269> ;
+    nami:evidence "Wolfgang Pauli (1900-1958) 1928 bis 1935 und 1946 bis 1958 Professor für theoretische Physik an der ETH Zürich. 1945 Physik-Nobelpreis für die Entdeckung des Ausschlussprinzips." ;
+    nami:confidence 0.9 |} .
+wd:Q27331326 wdt:P138 wd:Q68225 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#270> ;
+    nami:evidence "Gustav Zeuner (1828-1907) Professor für techn. Mechanik und theoret. Maschinenlehre an der ETH" ;
+    nami:confidence 0.9 |} .
+wd:Q27329185 wdt:P138 wd:Q661927 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#272> ;
+    nami:evidence "Othmar Schoeck (1886-1957) Komponist, erster Träger des Zürcher Musikpreises 1943" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_275> rdfs:label "Agnes-Robmann-Weg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.508446 47.364645)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_275> wdt:P138 wd:Q27323047 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#275> ;
+    nami:evidence "Agnes Robmann (1876-1951) Kämpferin für Frauenrechte Präsidentin des Zürcher Arbeiterinnenvereins" ;
+    nami:confidence 0.9 |} .
+wd:Q27329844 wdt:P138 wd:Q27323047 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#276> ;
+    nami:evidence "Agnes Robmann (1876-1951) Kämpferin für Frauenrechte Präsidentin des Zürcher Arbeiterinnenvereins" ;
+    nami:confidence 0.9 |} .
+wd:Q27325623 wdt:P138 wd:Q1503635 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#277> ;
+    nami:evidence "Georg Baumberger (1855-1931) Politiker und Schriftsteller" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_278> rdfs:label "Marie-Heim-Vögtlin-Weg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.49427 47.365073)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_278> wdt:P138 wd:Q117598 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#278> ;
+    nami:evidence "Marie Heim-Vögtlin (1845-1916) erste Schweizer Ärztin Mitbegründerin von Pflegerinnenschule und Frauenspital" ;
+    nami:confidence 0.9 |} .
+wd:Q27325555 wdt:P138 wd:Q2063662 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#281> ;
+    nami:evidence "Paulette Brupbacher-Raygrodski (1880-1967) Ärztin in Aussersihl und Sozialistin. Setzte sich mit hohem sozialen Engagement für die Gleichberechtigung der Frauen und die Aufklärung der Arbeiterschaft in Fragen der Geburtenplanung und der Sexualmoral ein" ;
+    nami:confidence 0.9 |} .
+wd:Q27324381 wdt:P138 wd:Q1411919 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#282> ;
+    nami:evidence "Katharina von Zimmern (um 1478-1547) Letzte Fraumünsteräbtissin 1496-1524" ;
+    nami:confidence 0.9 |} .
+wd:Q27329675 wdt:P138 wd:Q154367 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#284> ;
+    nami:evidence "Friedrich Gottlieb Klopstock (1724-1803) Deutscher Dichter, 1750 bis 1751 in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27324146 wdt:P138 wd:Q27229258 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#285> ;
+    nami:evidence "Hermann Herter (1877-1945) 1919 bis 1942 Stadtbaumeister und Architekt bedeutender Bauten in der Stadt Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27331359 wdt:P138 wd:Q27229258 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#286> ;
+    nami:evidence "Hermann Herter (1877-1945) 1919 bis 1942 Stadtbaumeister und Architekt bedeutender Bauten in der Stadt Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27324346 wdt:P138 wd:Q123261 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#287> ;
+    nami:evidence "Conrad Ferdinand Meyer (1825-1898) Lyriker und Verfasser historischer Novellen" ;
+    nami:confidence 0.9 |} .
+wd:Q27322454 wdt:P138 wd:Q1511 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#288> ;
+    nami:evidence "Richard Wagner (1813-1883) Deutscher Komponist 1849 bis 1855 und 1856 bis 1858 in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27325701 wdt:P138 wd:Q2639940 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#289> ;
+    nami:evidence "Albrecht Rengger (1764-1835) Von Brugg Arzt in Bern, Staatsmann der Helvetik" ;
+    nami:confidence 0.9 |} .
+wd:Q27331733 wdt:P138 wd:Q90156632 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#290> ;
+    nami:evidence "Heinrich Wettstein (1831-1895) Direktor des Seminars Küsnacht 1875 bis 1895 Erziehungsrat 1881 bis 1895" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_292> rdfs:label "Röntgenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.529203 47.382029)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_292> wdt:P138 wd:Q35149 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#292> ;
+    nami:evidence "Wilhelm Conrad Röntgen (1845-1923) Entdecker der Röntgenstrahlen 1895 Nobelpreis für Physik 1901" ;
+    nami:confidence 0.9 |} .
+wd:Q27326679 wdt:P138 wd:Q123548 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#293> ;
+    nami:evidence "Hugo Koblet (1925-1964) Radrennfahrer, Sieger der Tour de Suisse 1950, 1953 und 1955" ;
+    nami:confidence 0.9 |} .
+wd:Q27332048 wdt:P138 wd:Q56697214 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#294> ;
+    nami:evidence "Heinrich Steffen (1833-1890) Gemeindepräsident von Seebach 1859 bis 1883" ;
+    nami:confidence 0.9 |} .
+wd:Q27321707 wdt:P138 wd:Q125044 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#295> ;
+    nami:evidence "Ernst Gagliardi (1882-1940) Professor für Neuere Geschichte an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27330407 wdt:P138 wd:Q118900 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#297> ;
+    nami:evidence "Heinrich Gretler (1897-1977) Schweizer Schauspieler (Füsilier Wipf, Wachtmeister Studer, Ueli der Knecht und viele mehr)" ;
+    nami:confidence 0.9 |} .
+wd:Q27324666 wdt:P138 wd:Q123786 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#298> ;
+    nami:evidence "Eduard Imhof (1895-1986) Kartograph, Schöpfer wichtiger Kartenwerke" ;
+    nami:confidence 0.9 |} .
+wd:Q27329181 wdt:P138 wd:Q1364663 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#299> ;
+    nami:evidence "Michael Maggi (1807-1881) Einwanderer aus Monza und Neubürger der Gemeinde Affoltern Begründer der Maggi-Werke in Kemptthal" ;
+    nami:confidence 0.9 |} .
+wd:Q27329001 wdt:P138 wd:Q274898 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#300> ;
+    nami:evidence "Zurlinden Ausgestorbene Familie von Wiedikon" ;
+    nami:confidence 0.9 |} .
+wd:Q27332204 wdt:P138 wd:Q465385 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#302> ;
+    nami:evidence "Gustav Adolf Kenngott (1818-1897) Professor für Mineralogie an der ETH und an der Universität" ;
+    nami:confidence 0.9 |} .
+wd:Q27322919 wdt:P138 wd:Q91174 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#304> ;
+    nami:evidence "Hermann Greulich (1842-1925) Führer des schweizerischen Sozialismus" ;
+    nami:confidence 0.9 |} .
+wd:Q27326709 wdt:P138 wd:Q254395 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#305> ;
+    nami:evidence "Sophie Taeuber (1889-1943) Schweizer Künstlerin, Architektin und Kunsthandwerkerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27327244 wdt:P138 wd:Q58033 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#306> ;
+    nami:evidence "Else Lasker-Schüler (1869-1945) Deutsche Dichterin, Künstlerin und Dramatikerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27324738 wdt:P138 wd:Q60785 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#307> ;
+    nami:evidence "Ricarda Huch (1864-1947) Deutsche Schriftstellerin, Promotion an der Universität Zürich 1891" ;
+    nami:confidence 0.9 |} .
+wd:Q27326712 wdt:P138 wd:Q6882 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#309> ;
+    nami:evidence "James Joyce (1882-1941) Irischer Schriftsteller" ;
+    nami:confidence 0.9 |} .
+wd:Q27330327 wdt:P138 wd:Q2156926 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#310> ;
+    nami:evidence "Robert Durrer (1890-1978) Professor für Metallurgie. Lieferte die entscheidenden Forschungs- beiträge zur Herstellung von Qualitätsstahl mit Hilfe des Sauerstoff- Blasverfahrens (LD-Verfahren = Linz-Durrer-Verfahren)." ;
+    nami:confidence 0.9 |} .
+wd:Q27331405 wdt:P138 wd:Q17455 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#311> ;
+    nami:evidence "John von Neumann (1903-1957) Studium der Chemie an der EZH 1923 bis 1925. Später Professor am Institut for advanced Study in Princeton. Bedeutende Beiträge zur Mathematik und der Informatik. Computerpionier." ;
+    nami:confidence 0.9 |} .
+wd:Q27330318 wdt:P138 wd:Q108454 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#313> ;
+    nami:evidence "Marie Baum (1874-1964) Studierte Chemie an der ETH Zürich von 1893 bis 1899. Sozialpolitikerin: Wegbereiterin der sozialen Arbeit." ;
+    nami:confidence 0.9 |} .
+wd:Q27326320 wdt:P138 wd:Q69311 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#314> ;
+    nami:evidence "Ottilie Wildermuth (1817-1877) Deutsche Jugendschriftstellerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27324742 wdt:P138 wd:Q1555881 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#315> ;
+    nami:evidence "Gustav Gull (1858-1942) Zürcher Architekt, von 1895 bis 1900 Stadtbaumeisters in Zürich. Gustav Gull war unter anderem Erbauer des Schweizerischen Landesmuseums und des Stadthauses. Sein Hauptwerk war vom Heimatstil und Neubarock geprägt." ;
+    nami:confidence 0.9 |} .
+wd:Q27330130 wdt:P138 wd:Q328728 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#316> ;
+    nami:evidence "Robert Stephenson (1803-1859) Britischer Ingenieur und Mitbegründer des Eisenbahnwesens" ;
+    nami:confidence 0.9 |} .
+wd:Q27329772 wdt:P138 wd:Q125079 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#318> ;
+    nami:evidence "Hans Behn-Eschenburg (1864-1938) Mathematiker und Physiker, Technischer Generaldirektor der Maschinenfabrik Oerlikon MFO, Pionier des elektrischen Bahnbetriebs" ;
+    nami:confidence 0.9 |} .
+wd:Q110989577 wdt:P138 wd:Q1920963 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#320> ;
+    nami:evidence "Mentona Moser (1874-1971) Vordenkerin der Kinderfürsorgebewegung und Mitbegründerin der modernen Sozialarbeit. Dieser erste Zürcher Kinderspielplatz entstand auf ihre Initiative." ;
+    nami:confidence 0.9 |} .
+wd:Q27321265 wdt:P138 wd:Q214406 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#321> ;
+    nami:evidence "Albert Sieber (1901-1974) Stadtrat 1946 bis 1970" ;
+    nami:confidence 0.9 |} .
+wd:Q27330160 wdt:P138 wd:Q96484554 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#323> ;
+    nami:evidence "Marta von Meyenburg (1882-1972) Wegbereiterin der Sozialarbeit und Berufsbildung in der Schweiz, Mitgründerin der Sozialen Frauenschule Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27331348 wdt:P138 wd:Q96489752 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#324> ;
+    nami:evidence "Erika Rikli (1907-2002) Ökonomin und Frauenrechtlerin Vorsteherin der hauswirtschaftlichen Fortbildungsschule der Stadt Zürich, Präsidentin des Organisationskomitees der SAFFA 1958" ;
+    nami:confidence 0.9 |} .
+wd:Q27329576 wdt:P138 wd:Q51907 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#326> ;
+    nami:evidence "Olga Meyer (1889-1972) Lehrerin, Journalistin, Kinder- und Jugendbuchautorin Verfasserin der beliebten Anneli-Trilogie" ;
+    nami:confidence 0.9 |} .
+wd:Q27331089 wdt:P138 wd:Q1657546 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#328> ;
+    nami:evidence "Ignaz Thomas Scherr (1801-1870) Liberaler Zürcher Pädagoge und Erneuerer der Zürcher Volksschule. Erster Direktor des ersten Zürcher Lehrerseminars in Küsnacht." ;
+    nami:confidence 0.9 |} .
+wd:Q27322969 wdt:P138 wd:Q15436304 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#329> ;
+    nami:evidence "Agnes Amberg (1936-1991) Spitzenköchin" ;
+    nami:confidence 0.9 |} .
+wd:Q27321415 wdt:P138 wd:Q17194425 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#330> ;
+    nami:evidence "Elisabeth Thommen (1888-1960) Journalistin und Frauenrechtlerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27322908 wdt:P138 wd:Q85093312 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#331> ;
+    nami:evidence "Erna Yoshida Blenk (1913-1996) Malerin und Illustratorin" ;
+    nami:confidence 0.9 |} .
+wd:Q27322362 wdt:P138 wd:Q105428 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#334> ;
+    nami:evidence "Johann Heinrich Pestalozzi (1746-1827) Schriftsteller, Erzieher Reformator des Schulunterrichts" ;
+    nami:confidence 0.9 |} .
+wd:Q27331888 wdt:P138 wd:Q29896522 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#335> ;
+    nami:evidence "Rudolf Zangger (1804- 1877) Gemeindepräsident von Unterstrasse 1843-1861" ;
+    nami:confidence 0.9 |} .
+wd:Q27331408 wdt:P138 wd:Q122724 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#342> ;
+    nami:evidence "Eduard Stiefel (1909-1978) Professor für Mathematik 1943 bis 1978. Pionier der numerischen Mathematik und der Informatik. Erbaute den Ermeth, eine der ersten Computer Europas." ;
+    nami:confidence 0.9 |} .
+wd:Q27322916 wdt:P138 wd:Q115483 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#343> ;
+    nami:evidence "Max Frisch (1911-1991) Schriftsteller und Architekt" ;
+    nami:confidence 0.9 |} .
+wd:Q27327170 wdt:P138 wd:Q93182 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#344> ;
+    nami:evidence "Louis Braille (1809-1852) Entwickelte die Braille-Schrift, die heute blinden Menschen auf der ganzen Welt das Lesen mit Hilfe ihres Tastsinnes ermöglicht" ;
+    nami:confidence 0.9 |} .
+wd:Q27331775 wdt:P138 wd:Q560826 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#345> ;
+    nami:evidence "Anna Heer (1863-1918) Ärztin, Mitbegründerin der Schweizerischen Pflegerinnenschule" ;
+    nami:confidence 0.9 |} .
+wd:Q27324709 wdt:P138 wd:Q2661025 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#347> ;
+    nami:evidence "Berta Rahm (1910-1998) Architektin ETH, Verlegerin und Frauenrechtlerin, Mitgestalterin der SAFFA 1958" ;
+    nami:confidence 0.9 |} .
+wd:Q27329054 wdt:P138 wd:Q1515573 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#348> ;
+    nami:evidence "Gertrud Heinzelmann (1914-1999) Anwältin und Frauenrechtlerin Forderte die Gleichstellung der Geschlechter im Staat und in der katholischen Kirche sowie die Frauenordination" ;
+    nami:confidence 0.9 |} .
+wd:Q27330402 wdt:P138 wd:Q214911 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#349> ;
+    nami:evidence "Margarete Susman (1872-1966) Dichterin, Essayistin und Journalistin Politische Aktivistin gegen den Nationalsozialismus, lebte ab 1933 als Emigrantin in Zürich" ;
+    nami:confidence 0.9 |} .
+wd:Q27330542 wdt:P138 wd:Q116083 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#350> ;
+    nami:evidence "Louis Favre (1826-1879) Schweizer Ingenieur und Tunnelbauer; realisierte den Bau des Gotthardtunnels" ;
+    nami:confidence 0.9 |} .
+wd:Q27325392 wdt:P138 wd:Q1632089 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#351> ;
+    nami:evidence "Luise Meyer-Strasser (1894-1974) Malerin und Kunsthandwerkerin" ;
+    nami:confidence 0.9 |} .
+wd:Q27329097 wdt:P138 wd:Q120214085 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#352> ;
+    nami:evidence "Maria Egg-Benes (1910-2005) Erste Leiterin der Heilpädagogischen Schule Zürich" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/ded_353> rdfs:label "Rosa-Luxemburg-Platz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.497383 47.388554)"^^geo:wktLiteral ] .
+<https://example.org/nami/data/plaque/ded_353> wdt:P138 wd:Q7231 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#353> ;
+    nami:evidence "Rosa Luxemburg (1871–1919) Sozialistin und politische Aktivistin der internationalen Arbeiterbewegung" ;
+    nami:confidence 0.9 |} .
+wd:Q27324752 wdt:P138 wd:Q78836 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#355> ;
+    nami:evidence "Alois von Negrelli (1799-1858) Ingenieur und Pionier des Verkehrsbaus Projektleiter für die Spanischbrötli-Bahn von Zürich nach Baden/AG" ;
+    nami:confidence 0.9 |} .
+wd:Q27330307 wdt:P138 wd:Q1558452 {| nami:source <https://data.stadt-zuerich.ch/dataset/geo_widmungstafel#357> ;
+    nami:evidence "Otto Nauer (1914 - 2012) 1971 - 1987 Nationalrat, 1948 - 1991 Präsident der Arbeiter-Siedlungs-Genossenschaft ASIG" ;
+    nami:confidence 0.9 |} .

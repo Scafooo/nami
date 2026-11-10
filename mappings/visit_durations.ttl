@@ -1,0 +1,21 @@
+# Typical visit duration, in minutes, per kind of place (paper, Sec. 4.4).
+# A place takes the longest duration among the kinds it is an instance of;
+# a place of no listed kind takes the default of the tour composer.
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+
+wd:Q33506    nami:visitMinutes 90 .   # museum
+wd:Q207694   nami:visitMinutes 90 .   # art museum
+wd:Q39614    nami:visitMinutes 30 .   # cemetery
+wd:Q22698    nami:visitMinutes 30 .   # park
+wd:Q16970    nami:visitMinutes 20 .   # church building
+wd:Q24398318 nami:visitMinutes 20 .   # religious building
+wd:Q3918     nami:visitMinutes 20 .   # university
+wd:Q7075     nami:visitMinutes 20 .   # library
+wd:Q24354    nami:visitMinutes 15 .   # theatre building
+wd:Q41176    nami:visitMinutes 10 .   # building
+wd:Q4989906  nami:visitMinutes 10 .   # monument
+wd:Q5003624  nami:visitMinutes 10 .   # memorial
+wd:Q174782   nami:visitMinutes 10 .   # square
+wd:Q721747   nami:visitMinutes 5 .    # commemorative plaque
+wd:Q79007    nami:visitMinutes 5 .    # street

@@ -1,0 +1,4479 @@
+{
+ "condition": "guides",
+ "family": "guides",
+ "meta": {
+  "rule": "The published guides as a list: for each interest, GUIDES_K of its stops drawn at random (all if fewer),\n    those with a point to visit (a stop without coordinates, such as a district, is left out)."
+ },
+ "profiles": {
+  "Q937": {
+   "interests": [
+    "Q937"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hottingen (district)",
+     "address": "Hottingen, 8032 Zürich",
+     "qid": "Q693454",
+     "id": "Q693454",
+     "lat": 47.36968,
+     "lon": 8.555082,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.journal21.ch/einstein-am-zuerichberg"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Lake Zurich (Zürichsee)",
+     "address": "Zürichsee",
+     "qid": null,
+     "id": "Lake Zurich (Zürichsee)",
+     "lat": 47.279096,
+     "lon": 8.597868,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/albert-einsteins-geheime-details-mini-museum-in-der-eth-zuerich-ld.1878589"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Unionstrasse 4",
+     "address": "Unionstrasse 4, 8032 Zürich",
+     "qid": null,
+     "id": "Unionstrasse 4",
+     "lat": 47.369763,
+     "lon": 8.557661,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+      "http://blogspot.nancypinard.com/2011/09/19/zurich/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Moussonstrasse 12 (now no. 10)",
+     "address": "Moussonstrasse 10, 8044 Zürich",
+     "qid": null,
+     "id": "Moussonstrasse 12 (now no. 10)",
+     "lat": 47.375527,
+     "lon": 8.555631,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+      "https://www.journal21.ch/einstein-am-zuerichberg"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Fluntern (district)",
+     "address": "Fluntern, 8044 Zürich",
+     "qid": "Q693269",
+     "id": "Q693269",
+     "lat": 47.376777,
+     "lon": 8.558775,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/albert-einsteins-geheime-details-mini-museum-in-der-eth-zuerich-ld.1878589",
+      "https://www.journal21.ch/einstein-am-zuerichberg"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Gloriastrasse 35, Physics Building of ETH Zurich",
+     "address": "Gloriastrasse 35, 8092 Zürich",
+     "qid": null,
+     "id": "Gloriastrasse 35, Physics Building of ETH Zurich",
+     "lat": 47.377657,
+     "lon": 8.552624,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Hofstrasse 116 ('Hofburg')",
+     "address": "Hofstrasse 116, 8032 Zürich",
+     "qid": null,
+     "id": "Hofstrasse 116 ('Hofburg')",
+     "lat": 47.375289,
+     "lon": 8.563819,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+      "https://www.journal21.ch/einstein-am-zuerichberg"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Klosbachstrasse 87",
+     "address": "Klosbachstrasse 87, 8032 Zürich",
+     "qid": null,
+     "id": "Klosbachstrasse 87",
+     "lat": 47.367846,
+     "lon": 8.560078,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+      "https://www.journal21.ch/einstein-am-zuerichberg"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Grand Café Metropol",
+     "address": "Fraumünsterstrasse 12, 8001 Zürich",
+     "qid": null,
+     "id": "Grand Café Metropol",
+     "lat": 47.368212,
+     "lon": 8.54128,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://www.nzz.ch/zuerich/albert-einsteins-geheime-details-mini-museum-in-der-eth-zuerich-ld.1878589",
+      "http://blogspot.nancypinard.com/2011/09/19/zurich/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Main Building ETH Zurich (Swiss Federal Polytechnic)",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": "Q14565994",
+     "id": "Q14565994",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/Standorteundmedien/Plattformen/EinsteinOnline/flyer_albert-einsteins_zurich.pdf",
+      "https://ethz.ch/en/campus/getting-to-know/discover/tours/app-eth-tours.html",
+      "https://www.stadt-zuerich.ch/de/stadtleben/stadtportraet/zuerichs-geschichte/stadtarchiv/wissensportal/albert-einstein-in-zuerich.html",
+      "https://www.journal21.ch/einstein-am-zuerichberg",
+      "https://www.nzz.ch/zuerich/albert-einsteins-geheime-details-mini-museum-in-der-eth-zuerich-ld.1878589",
+      "http://blogspot.nancypinard.com/2011/09/19/zurich/",
+      "https://newinzurich.com/2025/06/visit-albert-einsteins-locker-at-eth-for-free/"
+     ]
+    }
+   ]
+  },
+  "Q6882": {
+   "interests": [
+    "Q6882"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Sihl (river)",
+     "address": "Sihl, Zürich",
+     "qid": null,
+     "id": "Sihl (river)",
+     "lat": 47.176587,
+     "lon": 8.676758,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/zurich-references-in-finnegans-wake/",
+      "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Hotel St. Gotthard",
+     "address": "Bahnhofstrasse 87, 8001 Zürich",
+     "qid": "Q18020952",
+     "id": "Q18020952",
+     "lat": 47.376191,
+     "lon": 8.539328,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/dates-and-residences/",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Liebfrauenkirche",
+     "address": "Weinbergstrasse 32, 8006 Zürich",
+     "qid": "Q1823936",
+     "id": "Q1823936",
+     "lat": 47.379597,
+     "lon": 8.545071,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/other-joyce-related-places/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Zurich James Joyce Foundation",
+     "address": "Augustinergasse 9, 8001 Zürich",
+     "qid": "Q230416",
+     "id": "Q230416",
+     "lat": 47.371721,
+     "lon": 8.540017,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.irishtimes.com/life-style/travel/2022/08/14/retracing-james-joyces-footsteps-on-holiday-in-zurich/",
+      "https://www.swissinfo.ch/eng/culture/james-joyce_spirit-of-joyce-still-roams-zurich/12828"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Universitätstrasse 29",
+     "address": "Universitätstrasse 29, 8006 Zürich",
+     "qid": null,
+     "id": "Universitätstrasse 29",
+     "lat": 47.379538,
+     "lon": 8.547909,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/dates-and-residences/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Statue of Frank Budgen (by August Suter)",
+     "address": "Uraniastrasse 9, 8001 Zürich",
+     "qid": null,
+     "id": "Statue of Frank Budgen (by August Suter)",
+     "lat": 47.374214,
+     "lon": 8.539395,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/other-joyce-related-places/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Zentralbibliothek Zürich",
+     "address": "Zähringerplatz 6, 8001 Zürich",
+     "qid": "Q190260",
+     "id": "Q190260",
+     "lat": 47.374253,
+     "lon": 8.545341,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/fokus/beitrag/trail-james-joyce-zurich"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Wohnbedarf (furniture store)",
+     "address": "Talstrasse 11, 8001 Zürich",
+     "qid": null,
+     "id": "Wohnbedarf (furniture store)",
+     "lat": 47.36825,
+     "lon": 8.538509,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/zurich-references-in-finnegans-wake/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Tonhalle",
+     "address": "Claridenstrasse 7, 8002 Zürich",
+     "qid": "Q3531558",
+     "id": "Q3531558",
+     "lat": 47.366151,
+     "lon": 8.538019,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/zurich-references-in-finnegans-wake/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Reinhardstrasse 7",
+     "address": "Reinhardstrasse 7, 8008 Zürich",
+     "qid": null,
+     "id": "Reinhardstrasse 7",
+     "lat": 47.362797,
+     "lon": 8.550911,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://joycefoundation.ch/james-joyce/joyce-in-zurich/dates-and-residences/"
+     ]
+    }
+   ]
+  },
+  "Q1394": {
+   "interests": [
+    "Q1394"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Geigergasse near the Schifflände",
+     "address": "Geigergasse, 8001 Zürich",
+     "qid": "Q27330002",
+     "id": "Q27330002",
+     "lat": 47.368669,
+     "lon": 8.54399,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://einfachzuerich.ch/pinnwand/lenin-in-zuerich"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Spiegelgasse 14 (Haus zum Jakobsbrunnen)",
+     "address": "Spiegelgasse 14, 8001 Zürich",
+     "qid": "Q115328884",
+     "id": "Q115328884",
+     "lat": 47.371914,
+     "lon": 8.544984,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/en/2024/03/from-zurichs-backstreets-to-the-centre-of-world-revolution/",
+      "https://www.nzz.ch/zuerich/wo-lenin-in-zuerich-spuren-hinterlassen-hat-lenin-und-die-friedlichen-spiesser-ld.146969",
+      "https://einfachzuerich.ch/pinnwand/lenin-in-zuerich",
+      "https://leninisstillaround.com/2016/09/29/lenin-in-switzerland/",
+      "https://lenin.ch/",
+      "https://www.badische-zeitung.de/auf-lenins-spuren-in-zuerich-eine-bz-leserfahrt--138037007.html",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Swiss Social Archives (then Zentralstelle für soziale Literatur), Seilergraben",
+     "address": "Seilergraben, 8001 Zürich",
+     "qid": null,
+     "id": "Swiss Social Archives (then Zentralstelle für soziale Literatur), Seilergraben",
+     "lat": 47.375646,
+     "lon": 8.545235,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/en/2024/03/from-zurichs-backstreets-to-the-centre-of-world-revolution/",
+      "https://www.nzz.ch/zuerich/wo-lenin-in-zuerich-spuren-hinterlassen-hat-lenin-und-die-friedlichen-spiesser-ld.146969"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Zürich Hauptbahnhof",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "qid": "Q224494",
+     "id": "Q224494",
+     "lat": 47.377092,
+     "lon": 8.540793,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/en/2024/03/from-zurichs-backstreets-to-the-centre-of-world-revolution/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Volkshaus (Blauer Saal, Lenin plaque)",
+     "address": "Stauffacherstrasse 60, 8004 Zürich",
+     "qid": "Q689762",
+     "id": "Q689762",
+     "lat": 47.375496,
+     "lon": 8.527112,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/wo-lenin-in-zuerich-spuren-hinterlassen-hat-lenin-und-die-friedlichen-spiesser-ld.146969",
+      "https://leninisstillaround.com/2016/09/29/lenin-in-switzerland/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Gewerkschaftshaus Eintracht (today Theater am Neumarkt)",
+     "address": "Neumarkt 5, 8001 Zürich",
+     "qid": null,
+     "id": "Gewerkschaftshaus Eintracht (today Theater am Neumarkt)",
+     "lat": 47.372645,
+     "lon": 8.545755,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/en/2024/03/from-zurichs-backstreets-to-the-centre-of-world-revolution/",
+      "https://www.nzz.ch/zuerich/wo-lenin-in-zuerich-spuren-hinterlassen-hat-lenin-und-die-friedlichen-spiesser-ld.146969",
+      "https://einfachzuerich.ch/pinnwand/lenin-in-zuerich"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Former Hotel Franziskaner (now Henrici)",
+     "address": "Niederdorfstrasse 1, 8001 Zürich",
+     "qid": null,
+     "id": "Former Hotel Franziskaner (now Henrici)",
+     "lat": 47.372686,
+     "lon": 8.543614,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Zentralbibliothek Zürich",
+     "address": "Zähringerplatz 6, 8001 Zürich",
+     "qid": "Q190260",
+     "id": "Q190260",
+     "lat": 47.374253,
+     "lon": 8.545341,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/en/2024/03/from-zurichs-backstreets-to-the-centre-of-world-revolution/",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Café Odeon",
+     "address": "Limmatquai 2, 8001 Zürich",
+     "qid": "Q1542522",
+     "id": "Q1542522",
+     "lat": 47.367794,
+     "lon": 8.545145,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.badische-zeitung.de/auf-lenins-spuren-in-zuerich-eine-bz-leserfahrt--138037007.html",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Zürichberg",
+     "address": "Zürichberg, Zürich",
+     "qid": "Q248667",
+     "id": "Q248667",
+     "lat": 47.38568,
+     "lon": 8.566878,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/wo-lenin-in-zuerich-spuren-hinterlassen-hat-lenin-und-die-friedlichen-spiesser-ld.146969",
+      "https://leninisstillaround.com/2016/09/29/lenin-in-switzerland/",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    }
+   ]
+  },
+  "Q6034": {
+   "interests": [
+    "Q6034"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hotel Zürich Marktgasse (Dada library)",
+     "address": "Marktgasse 17, 8001 Zürich",
+     "qid": "Q111874795",
+     "id": "Q111874795",
+     "lat": 47.372025,
+     "lon": 8.543552,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Hotel Limmatblick (Dada-Bar)",
+     "address": "Limmatquai 136, 8001 Zürich",
+     "qid": "Q111874805",
+     "id": "Q111874805",
+     "lat": 47.375978,
+     "lon": 8.543805,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://taz.de/Spurensuche-zu-Dada/!5286837/",
+      "https://www.handwerksblatt.de/panorama/reise/dada-ist-gaga"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Cabaret Voltaire (former Meierei)",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "qid": "Q130247478",
+     "id": "Q130247478",
+     "lat": 47.371659,
+     "lon": 8.544065,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/",
+      "https://www.cabaretvoltaire.ch/section/pocket-guide-dada-stadt-zuerich",
+      "https://www.cabaretvoltaire.ch/programm/cabarets-cafes-und-die-kunste-dada-rundgang",
+      "https://www.cabaretvoltaire.ch/blog/geburtsort-von-dada-in-zuerich",
+      "https://taz.de/Spurensuche-zu-Dada/!5286837/",
+      "https://www.handwerksblatt.de/panorama/reise/dada-ist-gaga",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Zunfthaus zur Waag",
+     "address": "Münsterhof 8, 8001 Zürich",
+     "qid": "Q9392139",
+     "id": "Q9392139",
+     "lat": 47.370262,
+     "lon": 8.540322,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/",
+      "https://taz.de/Spurensuche-zu-Dada/!5286837/",
+      "https://www.handwerksblatt.de/panorama/reise/dada-ist-gaga",
+      "https://www.cabaretvoltaire.ch/blog/geburtsort-von-dada-in-zuerich"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Kunsthaus Zürich (Dada collection)",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "qid": "Q685038",
+     "id": "Q685038",
+     "lat": 47.370224,
+     "lon": 8.54798,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/",
+      "https://www.cabaretvoltaire.ch/section/pocket-guide-dada-stadt-zuerich",
+      "https://www.cabaretvoltaire.ch/programm/cabarets-cafes-und-die-kunste-dada-rundgang",
+      "https://taz.de/Spurensuche-zu-Dada/!5286837/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Café de la Terrasse",
+     "address": "Limmatquai 3, 8001 Zürich",
+     "qid": null,
+     "id": "Café de la Terrasse",
+     "lat": 47.367887,
+     "lon": 8.544388,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/",
+      "https://taz.de/Spurensuche-zu-Dada/!5286837/",
+      "https://www.handwerksblatt.de/panorama/reise/dada-ist-gaga"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Cabaret Bonbonnière, Bahnhofstrasse 70",
+     "address": "Bahnhofstrasse 70, 8001 Zürich",
+     "qid": null,
+     "id": "Cabaret Bonbonnière, Bahnhofstrasse 70",
+     "lat": 47.374234,
+     "lon": 8.538818,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Cabaret Hirschen (Hotel Hirschen)",
+     "address": "Niederdorfstrasse 13, 8001 Zürich",
+     "qid": "Q111874800",
+     "id": "Q111874800",
+     "lat": 47.373384,
+     "lon": 8.543452,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.cabaretvoltaire.ch/blog/geburtsort-von-dada-in-zuerich"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Kolonialwarenladen Schwarzenbach",
+     "address": "Münstergasse 19, 8001 Zürich",
+     "qid": null,
+     "id": "Kolonialwarenladen Schwarzenbach",
+     "lat": 47.371397,
+     "lon": 8.543873,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Zunfthaus zur Meisen",
+     "address": "Münsterhof 20, 8001 Zürich",
+     "qid": "Q229906",
+     "id": "Q229906",
+     "lat": 47.369946,
+     "lon": 8.541693,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.diereisezeit.com/2016/04/ein-dada-spaziergang-durch-zuerich/",
+      "https://www.cabaretvoltaire.ch/blog/geburtsort-von-dada-in-zuerich"
+     ]
+    }
+   ]
+  },
+  "Q24906109": {
+   "interests": [
+    "Q24906109"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Kulturhaus Helferei (Zwingli's official residence)",
+     "address": "Kirchgasse 13, 8001 Zürich",
+     "qid": "Q29933637",
+     "id": "Q29933637",
+     "lat": 47.370296,
+     "lon": 8.545147,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich",
+      "https://www.kulturreise-ideen.de/religion/reformation/Tour-ulrich-zwingli-in-der-schweiz.html",
+      "https://anabaptistworld.org/plain-mennonites-gather-with-europeans-in-switzerland-to-mark-anabaptist-beginnings/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Näfenhaus (small museum), Kappel am Albis",
+     "address": "Näfenhüser, 8926 Kappel am Albis",
+     "qid": "Q2006340",
+     "id": "Q2006340",
+     "lat": 47.231547,
+     "lon": 8.525189,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.kulturreise-ideen.de/religion/reformation/Tour-ulrich-zwingli-in-der-schweiz.html"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "House of Felix Manz",
+     "address": "Neustadtgasse 1, 8001 Zürich",
+     "qid": null,
+     "id": "House of Felix Manz",
+     "lat": 47.369502,
+     "lon": 8.545509,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://anabaptistworld.org/plain-mennonites-gather-with-europeans-in-switzerland-to-mark-anabaptist-beginnings/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Former Chorherrenstift / Propstei (today Theological Faculty)",
+     "address": "Kirchgasse 9, 8001 Zürich",
+     "qid": null,
+     "id": "Former Chorherrenstift / Propstei (today Theological Faculty)",
+     "lat": 47.37001,
+     "lon": 8.544608,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich",
+      "https://www.sonntagsblatt.de/artikel/kirche/protestantisch-zuerich-wisch-den-zwingli-raus"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Froschauerbrunnen",
+     "address": "Zähringerplatz / Predigerplatz, 8001 Zürich",
+     "qid": "Q27230047",
+     "id": "Q27230047",
+     "lat": 47.373615,
+     "lon": 8.545257,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Landesmuseum Zürich (Swiss National Museum)",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "qid": "Q691896",
+     "id": "Q691896",
+     "lat": 47.37924,
+     "lon": 8.540702,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.kulturreise-ideen.de/religion/reformation/Tour-ulrich-zwingli-in-der-schweiz.html"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Zwingli monument (Zwingli-Denkmal)",
+     "address": "Limmatquai 31, 8001 Zürich (at the Wasserkirche/Helmhaus)",
+     "qid": null,
+     "id": "Zwingli monument (Zwingli-Denkmal)",
+     "lat": 47.369402,
+     "lon": 8.543254,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich",
+      "https://www.kulturreise-ideen.de/religion/reformation/Tour-ulrich-zwingli-in-der-schweiz.html"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Haus zur Sul",
+     "address": "Kirchgasse 22, 8001 Zürich",
+     "qid": null,
+     "id": "Haus zur Sul",
+     "lat": 47.370057,
+     "lon": 8.545005,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Zwingli memorial stone, Kappel am Albis",
+     "address": "Albisstrasse, 8926 Kappel am Albis",
+     "qid": null,
+     "id": "Zwingli memorial stone, Kappel am Albis",
+     "lat": 47.231428,
+     "lon": 8.526342,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.kulturreise-ideen.de/religion/reformation/Tour-ulrich-zwingli-in-der-schweiz.html"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Froschaugasse",
+     "address": "Froschaugasse, 8001 Zürich",
+     "qid": "Q27329167",
+     "id": "Q27329167",
+     "lat": 47.37315,
+     "lon": 8.544784,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich"
+     ]
+    }
+   ]
+  },
+  "Q123839": {
+   "interests": [
+    "Q123839"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hotel Storchen",
+     "address": "Weinplatz 2, 8001 Zürich",
+     "qid": "Q112013495",
+     "id": "Q112013495",
+     "lat": 47.371266,
+     "lon": 8.541794,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Antistitium (Grossmünster parsonage)",
+     "address": "Zwingliplatz 4, 8001 Zürich",
+     "qid": null,
+     "id": "Antistitium (Grossmünster parsonage)",
+     "lat": 47.370428,
+     "lon": 8.544234,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "St. Andrew's Church (Anglican)",
+     "address": "Promenadengasse 9, 8001 Zürich",
+     "qid": "Q120752670",
+     "id": "Q120752670",
+     "lat": 47.368808,
+     "lon": 8.549282,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-bullinger-und-die-reformation-in-zuerich"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Grossmünster (incl. Bullinger statue at the north portal)",
+     "address": "Zwingliplatz 7, 8001 Zürich",
+     "qid": "Q684948",
+     "id": "Q684948",
+     "lat": 47.370163,
+     "lon": 8.543925,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.ref-500.ch/de/guide/zuerich",
+      "https://ferrelljenkins.blog/2009/09/13/heinrich-bullinger-successor-to-zwingli/",
+      "https://www.sonntagsblatt.de/artikel/kirche/protestantisch-zuerich-wisch-den-zwingli-raus"
+     ]
+    }
+   ]
+  },
+  "Q1411919": {
+   "interests": [
+    "Q1411919"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Landesmuseum Zürich (abbess's rooms from the Fraumünster)",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "qid": "Q691896",
+     "id": "Q691896",
+     "lat": 47.37924,
+     "lon": 8.540702,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-katharina-v-zimmern",
+      "https://zuerich24.ch/articles/248133-als-aebtissin-katharina-von-zimmern-einst-die-stadt-zuerich-regierte",
+      "https://katharinavonzimmern.ch/katharina-von-zimmern"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Haus zum Mohrenkopf",
+     "address": "Neumarkt 13, 8001 Zürich",
+     "qid": null,
+     "id": "Haus zum Mohrenkopf",
+     "lat": 47.37295,
+     "lon": 8.546006,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-katharina-v-zimmern",
+      "https://zeitlupe.ch/panorama/kultur/zuerich-feiert-seine-letzte-aebtissin/",
+      "https://zuerich24.ch/articles/248133-als-aebtissin-katharina-von-zimmern-einst-die-stadt-zuerich-regierte",
+      "https://katharinavonzimmern.ch/katharina-von-zimmern"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Fraumünster (incl. Katharina von Zimmern memorial in the cloister)",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "qid": "Q690944",
+     "id": "Q690944",
+     "lat": 47.369715,
+     "lon": 8.5412,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-katharina-v-zimmern",
+      "https://zeitlupe.ch/panorama/kultur/zuerich-feiert-seine-letzte-aebtissin/",
+      "https://zuerich24.ch/articles/248133-als-aebtissin-katharina-von-zimmern-einst-die-stadt-zuerich-regierte",
+      "https://www.nzz.ch/article9GZNY-1.228034",
+      "https://www.ref-500.ch/de/guide/zuerich",
+      "https://katharinavonzimmern.ch/katharina-von-zimmern",
+      "https://katharinavonzimmern.ch/denkmal"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Haus zum Bracken",
+     "address": "Oberdorfstrasse 17, 8001 Zürich",
+     "qid": null,
+     "id": "Haus zum Bracken",
+     "lat": 47.368981,
+     "lon": 8.544998,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-katharina-v-zimmern",
+      "https://katharinavonzimmern.ch/katharina-von-zimmern"
+     ]
+    }
+   ]
+  },
+  "Q124408": {
+   "interests": [
+    "Q124408"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rathaus",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "qid": "Q9315546",
+     "id": "Q9315546",
+     "lat": 47.371493,
+     "lon": 8.542676,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2020/10/der-tyrann-von-zuerich/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Fraumünster (wall painting endowed by Waldmann, his gravestone)",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "qid": "Q690944",
+     "id": "Q690944",
+     "lat": 47.369715,
+     "lon": 8.5412,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/events/auf-hans-waldmanns-spuren"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Schatzkammer of the Zentralbibliothek Zürich",
+     "address": "Zähringerplatz 6, 8001 Zürich",
+     "qid": "Q190260",
+     "id": "Q190260",
+     "lat": 47.374253,
+     "lon": 8.545341,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/events/auf-hans-waldmanns-spuren"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Hans Waldmann monument (equestrian statue)",
+     "address": "Stadthausquai / Münsterhof (at the Münsterbrücke), 8001 Zürich",
+     "qid": "Q27229955",
+     "id": "Q27229955",
+     "lat": 47.369818,
+     "lon": 8.542076,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/events/auf-hans-waldmanns-spuren",
+      "https://www.woz.ch/1615/denkmalsturz/nieder-mit-waldmann"
+     ]
+    }
+   ]
+  },
+  "Q1704063": {
+   "interests": [
+    "Q1704063"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Grossmünster (south tower)",
+     "address": "Zwingliplatz 7, 8001 Zürich",
+     "qid": "Q684948",
+     "id": "Q684948",
+     "lat": 47.370163,
+     "lon": 8.543925,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://geomatik.ch/jos-murer-und-der-murerplan/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Fraumünsterhof",
+     "address": "Münsterhof, 8001 Zürich",
+     "qid": "Q7849515",
+     "id": "Q7849515",
+     "lat": 47.369887,
+     "lon": 8.541726,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://geomatik.ch/jos-murer-und-der-murerplan/",
+      "https://www.infoclio.ch/en/vernissage-jos-murer-und-der-murerplan-ein-k%C3%BCnstlerisches-multitalent-im-z%C3%BCrich-des-16-jahrhunderts"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Oetenbachbollwerk (today Amtshaus II)",
+     "address": "Beatenplatz, 8001 Zürich",
+     "qid": "Q128123330",
+     "id": "Q128123330",
+     "lat": 47.375951,
+     "lon": 8.541353,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://geomatik.ch/jos-murer-und-der-murerplan/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Haus zum Nägelistock / former Murer atelier (today Restaurant Mère Catherine)",
+     "address": "Nägelihof 3, 8001 Zürich",
+     "qid": null,
+     "id": "Haus zum Nägelistock / former Murer atelier (today Restaurant Mère Catherine)",
+     "lat": 47.370779,
+     "lon": 8.543826,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/vor-450-jahren-zuerichs-erster-stadtplan-entsteht-er-zeigt-eine-vergangene-welt-ld.10016245",
+      "https://www.infoclio.ch/en/vernissage-jos-murer-und-der-murerplan-ein-k%C3%BCnstlerisches-multitalent-im-z%C3%BCrich-des-16-jahrhunderts"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Haus zum Rech (Stadtarchiv Zürich)",
+     "address": "Neumarkt 4, 8001 Zürich",
+     "qid": "Q29574362",
+     "id": "Q29574362",
+     "lat": 47.372326,
+     "lon": 8.545801,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/zuerich/vor-450-jahren-zuerichs-erster-stadtplan-entsteht-er-zeigt-eine-vergangene-welt-ld.10016245",
+      "https://geomatik.ch/jos-murer-und-der-murerplan/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Stüssihofstatt",
+     "address": "Stüssihofstatt, 8001 Zürich",
+     "qid": "Q27330032",
+     "id": "Q27330032",
+     "lat": 47.372478,
+     "lon": 8.542978,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-450-jahre-murerplan-jos-murer-der-da-vinci-von-zuerich"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Neumarkt",
+     "address": "Neumarkt, 8001 Zürich",
+     "qid": null,
+     "id": "Neumarkt",
+     "lat": 47.372497,
+     "lon": 8.545632,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-450-jahre-murerplan-jos-murer-der-da-vinci-von-zuerich"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Wolfturm",
+     "address": "Hirschengraben 20/22, 8001 Zürich",
+     "qid": null,
+     "id": "Wolfturm",
+     "lat": 47.37087,
+     "lon": 8.54731,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://geomatik.ch/jos-murer-und-der-murerplan/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "St. Peter (tower room)",
+     "address": "St. Peterhofstatt 1, 8001 Zürich",
+     "qid": "Q690687",
+     "id": "Q690687",
+     "lat": 47.371083,
+     "lon": 8.540726,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://geomatik.ch/jos-murer-und-der-murerplan/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Zunfthaus zur Haue",
+     "address": "Limmatquai 52, 8001 Zürich",
+     "qid": "Q229905",
+     "id": "Q229905",
+     "lat": 47.371409,
+     "lon": 8.543204,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/stadtfuehrung-zuerich-450-jahre-murerplan-jos-murer-der-da-vinci-von-zuerich"
+     ]
+    }
+   ]
+  },
+  "Q37030": {
+   "interests": [
+    "Q37030"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Kantonsspital Zürich (today Universitätsspital)",
+     "address": "Rämistrasse 100, 8091 Zürich",
+     "qid": null,
+     "id": "Kantonsspital Zürich (today Universitätsspital)",
+     "lat": 47.375169,
+     "lon": 8.550774,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/",
+      "https://www.schauspielhaus.ch/de/kalender/34329/thomas-mann-exil-in-zuerich"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Hotel Baur au Lac",
+     "address": "Talstrasse 1, 8001 Zürich",
+     "qid": "Q811691",
+     "id": "Q811691",
+     "lat": 47.367112,
+     "lon": 8.539343,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Thomas Mann house, Glärnischstrasse 12, Erlenbach",
+     "address": "Glärnischstrasse 12, 8703 Erlenbach",
+     "qid": null,
+     "id": "Thomas Mann house, Glärnischstrasse 12, Erlenbach",
+     "lat": 47.30775,
+     "lon": 8.60492,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/kultur/literatur/70-todestag-von-thomas-mann-thomas-mann-das-sind-die-5-orte-einer-grossen-schweiz-liebe",
+      "https://thomasmanninternational.com/de/zuerich",
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Thomas Mann house, Alte Landstrasse 39, Kilchberg",
+     "address": "Alte Landstrasse 39, 8802 Kilchberg",
+     "qid": null,
+     "id": "Thomas Mann house, Alte Landstrasse 39, Kilchberg",
+     "lat": 47.330693,
+     "lon": 8.54312,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/kultur/literatur/70-todestag-von-thomas-mann-thomas-mann-das-sind-die-5-orte-einer-grossen-schweiz-liebe",
+      "https://thomasmanninternational.com/de/zuerich",
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/",
+      "https://www.nzz.ch/article7YTPE-1.368871",
+      "https://www.schauspielhaus.ch/de/kalender/34329/thomas-mann-exil-in-zuerich"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Thomas Mann house, Schiedhaldenstrasse 33, Küsnacht",
+     "address": "Schiedhaldenstrasse 33, 8700 Küsnacht",
+     "qid": null,
+     "id": "Thomas Mann house, Schiedhaldenstrasse 33, Küsnacht",
+     "lat": 47.320619,
+     "lon": 8.588736,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/kultur/literatur/70-todestag-von-thomas-mann-thomas-mann-das-sind-die-5-orte-einer-grossen-schweiz-liebe",
+      "https://thomasmanninternational.com/de/zuerich",
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/",
+      "https://www.nzz.ch/article7YTPE-1.368871"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Thomas-Mann-Archiv der ETH Zürich (permanent exhibition in the ETH main building)",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": "Q27490316",
+     "id": "Q27490316",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/kultur/literatur/70-todestag-von-thomas-mann-thomas-mann-das-sind-die-5-orte-einer-grossen-schweiz-liebe",
+      "https://thomasmanninternational.com/de/zuerich",
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Opernhaus Zürich (then Stadttheater)",
+     "address": "Falkenstrasse 1, 8008 Zürich",
+     "qid": "Q670406",
+     "id": "Q670406",
+     "lat": 47.364746,
+     "lon": 8.546391,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Schauspielhaus Zürich (Pfauen)",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "qid": "Q675022",
+     "id": "Q675022",
+     "lat": 47.370137,
+     "lon": 8.549263,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/",
+      "https://www.schauspielhaus.ch/de/kalender/34329/thomas-mann-exil-in-zuerich"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Kilchberg cemetery (grave of Thomas and Katia Mann)",
+     "address": "Friedhof Kilchberg (at the reformed church), 8802 Kilchberg",
+     "qid": "Q21517046",
+     "id": "Q21517046",
+     "lat": 47.316234,
+     "lon": 8.54223,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/kultur/literatur/70-todestag-von-thomas-mann-thomas-mann-das-sind-die-5-orte-einer-grossen-schweiz-liebe",
+      "https://thomasmanninternational.com/de/zuerich",
+      "https://kulturzueri.ch/scout-datenbank/beitraege/150-jahre-thomas-mann/",
+      "https://www.nzz.ch/article7YTPE-1.368871",
+      "http://juliasswitzerland.blogspot.com/2012/04/zurichs-literary-landmarks.html"
+     ]
+    }
+   ]
+  },
+  "Q41532": {
+   "interests": [
+    "Q41532"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Villa Löwenstrasse 1 (first seat of the Psychological Club)",
+     "address": "Löwenstrasse 1, 8001 Zürich",
+     "qid": null,
+     "id": "Villa Löwenstrasse 1 (first seat of the Psychological Club)",
+     "lat": 47.3731,
+     "lon": 8.5344,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.psychologischerclub.ch/de/club-geschichte/clubhaus/ortsgeschichte"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Restaurant Seidenhof",
+     "address": "Sihlstrasse 9, 8001 Zürich",
+     "qid": "Q114240865",
+     "id": "Q114240865",
+     "lat": 47.373584,
+     "lon": 8.537232,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.psychologischerclub.ch/de/club-geschichte/clubhaus/ortsgeschichte"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "C.G. Jung papers, ETH-Bibliothek Hochschularchiv",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": null,
+     "id": "C.G. Jung papers, ETH-Bibliothek Hochschularchiv",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.psychologischerclub.ch/de/club-geschichte/clubhaus/ortsgeschichte",
+      "https://etheritage.ethz.ch/2021/06/04/it-may-be-possible-that-i-am-writing-to-a-dead-man-zum-60-todestag-von-carl-gustav-jung/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Psychologischer Club Zürich (clubhouse)",
+     "address": "Gemeindestrasse 27, 8032 Zürich",
+     "qid": "Q27490282",
+     "id": "Q27490282",
+     "lat": 47.369006,
+     "lon": 8.552507,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.psychologischerclub.ch/de/club-geschichte/clubhaus/ortsgeschichte",
+      "https://www.psychologischerclub.ch/de/club-geschichte"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Foundation for Jungian Psychology (former house of Barbara Hannah and Marie-Louise von Franz)",
+     "address": "Lindenbergstrasse 15, 8700 Küsnacht",
+     "qid": null,
+     "id": "Foundation for Jungian Psychology (former house of Barbara Hannah and Marie-Louise von Franz)",
+     "lat": 47.319797,
+     "lon": 8.588203,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.cgjung.net/espace/jps/living/kusnacht/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "C.G. Jung Institute Zürich, Küsnacht",
+     "address": "Hornweg 28, 8700 Küsnacht",
+     "qid": "Q390130",
+     "id": "Q390130",
+     "lat": 47.315592,
+     "lon": 8.579053,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.celestialvoyagers.com/tour/carl-gustav-jung/",
+      "https://stuarteglin.com/pilgrimage-a-visit-to-carl-jungs-house-in-kusnacht/",
+      "https://www.cgjung.net/espace/jps/living/kusnacht/",
+      "https://beginagain.substack.com/p/called-or-not-called-the-jung-diaries"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Burghölzli psychiatric clinic",
+     "address": "Lenggstrasse 31, 8008 Zürich",
+     "qid": null,
+     "id": "Burghölzli psychiatric clinic",
+     "lat": 47.35317,
+     "lon": 8.570386,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.celestialvoyagers.com/tour/carl-gustav-jung/",
+      "https://speakingofjung.com/blog/2017/7/11/228-seestrasse"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "C.G. Jung House (Museum Haus C.G. Jung)",
+     "address": "Seestrasse 228, 8700 Küsnacht",
+     "qid": "Q10861597",
+     "id": "Q10861597",
+     "lat": 47.310626,
+     "lon": 8.582779,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.celestialvoyagers.com/tour/carl-gustav-jung/",
+      "https://www.hiddeneurope.eu/letter-from-europe/posts/in-jungs-footsteps/",
+      "https://speakingofjung.com/blog/2017/7/11/228-seestrasse",
+      "https://stuarteglin.com/pilgrimage-a-visit-to-carl-jungs-house-in-kusnacht/",
+      "https://www.cgjung.net/espace/jps/living/kusnacht/",
+      "https://beginagain.substack.com/p/called-or-not-called-the-jung-diaries",
+      "https://etheritage.ethz.ch/2021/06/04/it-may-be-possible-that-i-am-writing-to-a-dead-man-zum-60-todestag-von-carl-gustav-jung/"
+     ]
+    }
+   ]
+  },
+  "Q122370": {
+   "interests": [
+    "Q122370"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Ehem. Café Littéraire im Roten Turm",
+     "address": "Weinplatz 2, 8001 Zürich",
+     "qid": null,
+     "id": "Ehem. Café Littéraire im Roten Turm",
+     "lat": 47.371266,
+     "lon": 8.541794,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Zunfthaus zur Saffran",
+     "address": "Limmatquai 54, 8001 Zürich",
+     "qid": "Q9392138",
+     "id": "Q9392138",
+     "lat": 47.371513,
+     "lon": 8.543106,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Hof am Hadelaub (Hofstrasse 114-116)",
+     "address": "Hofstrasse 114-116, 8044 Zürich",
+     "qid": null,
+     "id": "Hof am Hadelaub (Hofstrasse 114-116)",
+     "lat": 47.37521,
+     "lon": 8.5638,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Allmend",
+     "address": "Allmend Brunau, 8041 Zürich",
+     "qid": null,
+     "id": "Allmend",
+     "lat": 47.35246,
+     "lon": 8.520409,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Ehem. Stadthausmarkt (altes Stadthaus im Kratzquartier)",
+     "address": "Stadthausquai 7, 8001 Zürich",
+     "qid": null,
+     "id": "Ehem. Stadthausmarkt (altes Stadthaus im Kratzquartier)",
+     "lat": 47.367973,
+     "lon": 8.541576,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Opernhaus (ehem. Stadttheater)",
+     "address": "Sechseläutenplatz 1, 8001 Zürich",
+     "qid": "Q670406",
+     "id": "Q670406",
+     "lat": 47.36497,
+     "lon": 8.546831,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Ehem. Ketzerturm",
+     "address": "Seilergraben 49, 8001 Zürich",
+     "qid": "Q123734529",
+     "id": "Q123734529",
+     "lat": 47.375352,
+     "lon": 8.545193,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Zum roten Mann (Bauerngut/Wirtschaft)",
+     "address": "Spyristrasse 35, 8044 Zürich",
+     "qid": null,
+     "id": "Zum roten Mann (Bauerngut/Wirtschaft)",
+     "lat": 47.383229,
+     "lon": 8.552862,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Alter Botanischer Garten (Bollwerk zur Katz)",
+     "address": "Talstrasse 40 / Pelikanstrasse 40, 8001 Zürich",
+     "qid": "Q437802",
+     "id": "Q437802",
+     "lat": 47.371013,
+     "lon": 8.533665,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Staatskanzlei (Steinhaus)",
+     "address": "Kirchgasse 33, 8001 Zürich",
+     "qid": null,
+     "id": "Staatskanzlei (Steinhaus)",
+     "lat": 47.370671,
+     "lon": 8.546264,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.gottfriedkellerzuerich.ch/",
+      "https://www.blick.ch/life/freizeit/der-nationalschriftsteller-ist-vor-200-jahren-auf-die-welt-gekommen-ein-spaziergang-durch-gottfried-kellers-zuerich-id15374290.html"
+     ]
+    }
+   ]
+  },
+  "Q115569": {
+   "interests": [
+    "Q115569"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Belvoirpark / Villa Belvoir (Villa Escher)",
+     "address": "Seestrasse 125, 8002 Zürich",
+     "qid": null,
+     "id": "Belvoirpark / Villa Belvoir (Villa Escher)",
+     "lat": 47.357737,
+     "lon": 8.533351,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://uzhalumni.ch/news/220499",
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal",
+      "http://web.archive.org/web/20231129173200/https://www.escherwalk.ch/",
+      "https://www.wearelucid.ch/projekte/escher-walk"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Oepfelchammer",
+     "address": "Rindermarkt 12, 8001 Zürich",
+     "qid": "Q65672357",
+     "id": "Q65672357",
+     "lat": 47.372292,
+     "lon": 8.544616,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://uzhalumni.ch/news/220499"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Alfred Escher-Denkmal",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "qid": "Q27229673",
+     "id": "Q27229673",
+     "lat": 47.37713,
+     "lon": 8.53996,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://uzhalumni.ch/news/220499",
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Bahnhofstrasse",
+     "address": "Bahnhofstrasse, 8001 Zürich",
+     "qid": null,
+     "id": "Bahnhofstrasse",
+     "lat": 47.371953,
+     "lon": 8.538453,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://web.archive.org/web/20231129173200/https://www.escherwalk.ch/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Rathaus",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "qid": "Q9315546",
+     "id": "Q9315546",
+     "lat": 47.371493,
+     "lon": 8.542676,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://uzhalumni.ch/news/220499"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Bürkliplatz",
+     "address": "Bürkliplatz, 8001 Zürich",
+     "qid": "Q1021608",
+     "id": "Q1021608",
+     "lat": 47.366686,
+     "lon": 8.541692,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://web.archive.org/web/20231129173200/https://www.escherwalk.ch/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Hauptgebäude der Schweizerischen Kreditanstalt (Credit Suisse)",
+     "address": "Paradeplatz 8, 8001 Zürich",
+     "qid": null,
+     "id": "Hauptgebäude der Schweizerischen Kreditanstalt (Credit Suisse)",
+     "lat": 47.369946,
+     "lon": 8.538622,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "ETH Zürich (Hauptgebäude, Polyterrasse)",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": "Q14565994",
+     "id": "Q14565994",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal",
+      "http://web.archive.org/web/20231129173200/https://www.escherwalk.ch/",
+      "https://www.wearelucid.ch/projekte/escher-walk"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Alfred Escher-Strasse",
+     "address": "Alfred-Escher-Strasse, 8002 Zürich",
+     "qid": null,
+     "id": "Alfred Escher-Strasse",
+     "lat": 47.360538,
+     "lon": 8.534211,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Rentenanstalt / Swiss Life",
+     "address": "General-Guisan-Quai 40, 8002 Zürich",
+     "qid": null,
+     "id": "Rentenanstalt / Swiss Life",
+     "lat": 47.363138,
+     "lon": 8.534714,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://tsri.ch/a/zuerich-alfred-escher-bauten-denkmal"
+     ]
+    }
+   ]
+  },
+  "Q1511": {
+   "interests": [
+    "Q1511"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Casino / Concert Hall (former Casino, now Obergericht)",
+     "address": "Hirschengraben 13, 8001 Zürich",
+     "qid": null,
+     "id": "Casino / Concert Hall (former Casino, now Obergericht)",
+     "lat": 47.3716,
+     "lon": 8.546892,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.thezurichaffair.com/wagner-locations"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Münsterbrücke",
+     "address": "Münsterbrücke, 8001 Zürich",
+     "qid": "Q18716357",
+     "id": "Q18716357",
+     "lat": 47.369942,
+     "lon": 8.542507,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.tagesspiegel.de/gesellschaft/reise/das-rascheln-der-grasmucke-4351024.html"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Villa Schönberg, site of Wagner's 'Asyl'",
+     "address": "Gablerstrasse 14, 8002 Zürich",
+     "qid": "Q29054130",
+     "id": "Q29054130",
+     "lat": 47.359542,
+     "lon": 8.530228,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.thezurichaffair.com/wagner-locations",
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html",
+      "https://www.limmattalerzeitung.ch/limmattal/zuerich/richard-wagners-liebesleben-in-zurich-ld.1774093",
+      "https://www.tagesspiegel.de/gesellschaft/reise/das-rascheln-der-grasmucke-4351024.html"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Hotel Baur au Lac",
+     "address": "Talstrasse 1, 8001 Zürich",
+     "qid": "Q811691",
+     "id": "Q811691",
+     "lat": 47.367112,
+     "lon": 8.539343,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.thezurichaffair.com/wagner-locations",
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Buchhandlung Schulthess",
+     "address": "Zwingliplatz 2, 8001 Zürich",
+     "qid": null,
+     "id": "Buchhandlung Schulthess",
+     "lat": 47.370428,
+     "lon": 8.544234,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Musikhaus Hug",
+     "address": "Limmatquai 28, 8001 Zürich",
+     "qid": null,
+     "id": "Musikhaus Hug",
+     "lat": 47.369757,
+     "lon": 8.543566,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Vordere Escherhäuser (Zeltweg 11 & 13)",
+     "address": "Zeltweg 13, 8032 Zürich",
+     "qid": null,
+     "id": "Vordere Escherhäuser (Zeltweg 11 & 13)",
+     "lat": 47.369406,
+     "lon": 8.550098,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.thezurichaffair.com/wagner-locations",
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html",
+      "https://www.limmattalerzeitung.ch/limmattal/zuerich/richard-wagners-liebesleben-in-zurich-ld.1774093"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Villa Wesendonck (Museum Rietberg)",
+     "address": "Gablerstrasse 15, 8002 Zürich",
+     "qid": "Q2525905",
+     "id": "Q2525905",
+     "lat": 47.358918,
+     "lon": 8.529735,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.thezurichaffair.com/wagner-locations",
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html",
+      "https://www.limmattalerzeitung.ch/limmattal/zuerich/richard-wagners-liebesleben-in-zurich-ld.1774093"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Hotel Schwert (Haus zum Schwert)",
+     "address": "Weinplatz 10, 8001 Zürich",
+     "qid": "Q1590957",
+     "id": "Q1590957",
+     "lat": 47.371593,
+     "lon": 8.541842,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://doolanthinkshopblog.blogspot.com/2010/03/stroll-in-richard-wagners-zurich.html",
+      "https://www.tagesspiegel.de/gesellschaft/reise/das-rascheln-der-grasmucke-4351024.html"
+     ]
+    }
+   ]
+  },
+  "Q154014": {
+   "interests": [
+    "Q154014"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Gasthaus zum Schwert",
+     "address": "Weinplatz 10, 8001 Zürich",
+     "qid": "Q1590957",
+     "id": "Q1590957",
+     "lat": 47.371593,
+     "lon": 8.541842,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Universität (gegr. 1833) am Fröschengraben",
+     "address": "Fröschengraben, heute Bahnhofstrasse (Bereich Augustinerkirche/Münzplatz), 8001 Zürich",
+     "qid": null,
+     "id": "Universität (gegr. 1833) am Fröschengraben",
+     "lat": 47.3714,
+     "lon": 8.5392,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Literaturhaus Museumsgesellschaft",
+     "address": "Limmatquai 62, 8001 Zürich",
+     "qid": "Q29933579",
+     "id": "Q29933579",
+     "lat": 47.371984,
+     "lon": 8.542997,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.kulturreise-ideen.de/literatur/autoren/Tour-georg-buechner.html"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Kappelergasse (ehem. Alumnat beim Fraumünsteramt, Café Frieden)",
+     "address": "Kappelergasse, 8001 Zürich",
+     "qid": "Q27325849",
+     "id": "Q27325849",
+     "lat": 47.368975,
+     "lon": 8.540697,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Bürkliplatz",
+     "address": "Bürkliplatz, 8001 Zürich",
+     "qid": "Q1021608",
+     "id": "Q1021608",
+     "lat": 47.366686,
+     "lon": 8.541692,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Café littéraire im Roten Turm",
+     "address": "Weinplatz 2, 8001 Zürich",
+     "qid": null,
+     "id": "Café littéraire im Roten Turm",
+     "lat": 47.371266,
+     "lon": 8.541794,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Spiegelgasse 12 (ehem. Steingasse 12), Wohn- und Sterbehaus",
+     "address": "Spiegelgasse 12, 8001 Zürich",
+     "qid": null,
+     "id": "Spiegelgasse 12 (ehem. Steingasse 12), Wohn- und Sterbehaus",
+     "lat": 47.371868,
+     "lon": 8.544868,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663",
+      "https://www.kulturreise-ideen.de/literatur/autoren/Tour-georg-buechner.html",
+      "https://www.srf.ch/news/zuerich-schaffhausen-buechner-in-zuerich-vier-monate-anarchie"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Haus zum Rüden (Museumsgesellschaft 1834)",
+     "address": "Limmatquai 42, 8001 Zürich",
+     "qid": "Q681587",
+     "id": "Q681587",
+     "lat": 47.370857,
+     "lon": 8.543202,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stefanhowald.ch/aktuell/?p=663"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Ehem. Restaurant Casino (beim heutigen Obergericht)",
+     "address": "Hirschengraben 13, 8001 Zürich",
+     "qid": null,
+     "id": "Ehem. Restaurant Casino (beim heutigen Obergericht)",
+     "lat": 47.3716,
+     "lon": 8.546892,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/news/zuerich-schaffhausen-buechner-in-zuerich-vier-monate-anarchie"
+     ]
+    }
+   ]
+  },
+  "Q115483": {
+   "interests": [
+    "Q115483"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Schauspielhaus Zürich (Pfauen)",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "qid": "Q675022",
+     "id": "Q675022",
+     "lat": 47.370137,
+     "lon": 8.549263,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Münsterbrücke (Elfuhrgeläute)",
+     "address": "Münsterbrücke, 8001 Zürich",
+     "qid": "Q18716357",
+     "id": "Q18716357",
+     "lat": 47.369942,
+     "lon": 8.542507,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Café Odeon",
+     "address": "Limmatquai 2, 8001 Zürich",
+     "qid": "Q1542522",
+     "id": "Q1542522",
+     "lat": 47.367794,
+     "lon": 8.545145,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Hotel Storchen",
+     "address": "Weinplatz 2, 8001 Zürich",
+     "qid": "Q112013495",
+     "id": "Q112013495",
+     "lat": 47.371266,
+     "lon": 8.541794,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Stadelhofer Passage, letzte Wohnung (Gedenktafel)",
+     "address": "Stadelhoferstrasse 28, 8001 Zürich",
+     "qid": null,
+     "id": "Stadelhofer Passage, letzte Wohnung (Gedenktafel)",
+     "lat": 47.367462,
+     "lon": 8.547334,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.20min.ch/story/hier-lebte-max-frisch-bis-zu-seinem-tod-282600345545",
+      "https://www.gebrueder-duerst.ch/turicum/strassen/m/max_frisch_platz/max_frisch_platz.html"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Friedhof Sihlfeld",
+     "address": "Aemtlerstrasse 151, 8003 Zürich",
+     "qid": "Q1457424",
+     "id": "Q1457424",
+     "lat": 47.37589,
+     "lon": 8.510418,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Rämistrasse",
+     "address": "Rämistrasse, 8001 Zürich",
+     "qid": "Q27331823",
+     "id": "Q27331823",
+     "lat": 47.367316,
+     "lon": 8.544699,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Rosenhof, Brunnen",
+     "address": "Rosenhof, 8001 Zürich",
+     "qid": "Q27329968",
+     "id": "Q27329968",
+     "lat": 47.372877,
+     "lon": 8.543269,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "ETH Zürich, Hauptgebäude (mit Max Frisch-Archiv)",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": "Q14565994",
+     "id": "Q14565994",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Universität Zürich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "qid": "Q206702",
+     "id": "Q206702",
+     "lat": 47.374637,
+     "lon": 8.549094,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "http://app.mfa.ethz.ch/",
+      "https://www.baublatt.ch/baubranche/wochenendtipp-unterwegs-auf-den-spuren-von-max-frisch-37567"
+     ]
+    }
+   ]
+  },
+  "Q124949": {
+   "interests": [
+    "Q124949"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Methodistenkirche Oerlikon",
+     "address": "Gubelhangstrasse, 8050 Zürich",
+     "qid": null,
+     "id": "Methodistenkirche Oerlikon",
+     "lat": 47.409247,
+     "lon": 8.543363,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Andreasturm",
+     "address": "Andreasturm, beim Bahnhof Oerlikon, 8050 Zürich",
+     "qid": null,
+     "id": "Andreasturm",
+     "lat": 47.41304,
+     "lon": 8.547258,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Einkaufszentrum Neumarkt Oerlikon",
+     "address": "Neumarkt Oerlikon (Schulstrasse / Franklinstrasse), 8050 Zürich",
+     "qid": null,
+     "id": "Einkaufszentrum Neumarkt Oerlikon",
+     "lat": 47.410411,
+     "lon": 8.542935,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "MFO-Park",
+     "address": "Sophie-Taeuber-Strasse, 8050 Zürich",
+     "qid": "Q488815",
+     "id": "Q488815",
+     "lat": 47.412611,
+     "lon": 8.539962,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://getdoyo.app/touren/stadtfuhrung-durch-zurich-oerlikon-mit-franz-hohler",
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828",
+      "https://www.tagblattzuerich.ch/zuerich?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=252303&cHash=5bd2d2daba12bba0175e9dece4203aad"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Bahnhof Oerlikon",
+     "address": "Bahnhof Oerlikon, 8050 Zürich",
+     "qid": "Q194887",
+     "id": "Q194887",
+     "lat": 47.411677,
+     "lon": 8.544809,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://getdoyo.app/touren/stadtfuhrung-durch-zurich-oerlikon-mit-franz-hohler",
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Pärkchen an der Schulstrasse (Skulptur 'Die Badende')",
+     "address": "Schulstrasse, 8050 Zürich",
+     "qid": null,
+     "id": "Pärkchen an der Schulstrasse (Skulptur 'Die Badende')",
+     "lat": 47.408488,
+     "lon": 8.544535,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Am Bauhof (Hochhäuser)",
+     "address": "Am Bauhof, 8050 Zürich",
+     "qid": null,
+     "id": "Am Bauhof (Hochhäuser)",
+     "lat": 47.259377,
+     "lon": 8.847161,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://getdoyo.app/touren/stadtfuhrung-durch-zurich-oerlikon-mit-franz-hohler",
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828",
+      "https://www.tagblattzuerich.ch/zuerich?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=252303&cHash=5bd2d2daba12bba0175e9dece4203aad"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Marktplatz Oerlikon",
+     "address": "Marktplatz, 8050 Zürich",
+     "qid": "Q27325836",
+     "id": "Q27325836",
+     "lat": 47.40995,
+     "lon": 8.545241,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://getdoyo.app/touren/stadtfuhrung-durch-zurich-oerlikon-mit-franz-hohler",
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Franklinturm",
+     "address": "Franklinturm, beim Bahnhof Oerlikon, 8050 Zürich",
+     "qid": null,
+     "id": "Franklinturm",
+     "lat": 47.410899,
+     "lon": 8.542567,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Fischbrunnen auf dem Franklinplatz",
+     "address": "Franklinplatz, 8050 Zürich",
+     "qid": null,
+     "id": "Fischbrunnen auf dem Franklinplatz",
+     "lat": 47.409688,
+     "lon": 8.543985,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://getdoyo.app/touren/stadtfuhrung-durch-zurich-oerlikon-mit-franz-hohler",
+      "https://www.nzz.ch/reisen/reise-vor-haustuer-schriftsteller-franz-hohler-und-zuerich-oerlikon-ld.1770828"
+     ]
+    }
+   ]
+  },
+  "Q58033": {
+   "interests": [
+    "Q58033"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hauptbahnhof Zürich",
+     "address": "Bahnhofplatz 15, 8001 Zürich",
+     "qid": "Q224494",
+     "id": "Q224494",
+     "lat": 47.377171,
+     "lon": 8.540757,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Café Odeon",
+     "address": "Limmatquai 2, 8001 Zürich",
+     "qid": "Q1542522",
+     "id": "Q1542522",
+     "lat": 47.367794,
+     "lon": 8.545145,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Schauspielhaus Zürich (Pfauen)",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "qid": "Q675022",
+     "id": "Q675022",
+     "lat": 47.370137,
+     "lon": 8.549263,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Bellevue",
+     "address": "Bellevueplatz, 8001 Zürich",
+     "qid": "Q815950",
+     "id": "Q815950",
+     "lat": 47.366908,
+     "lon": 8.545202,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Café Terrasse",
+     "address": "Limmatquai 3, 8001 Zürich",
+     "qid": null,
+     "id": "Café Terrasse",
+     "lat": 47.367887,
+     "lon": 8.544388,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Augustinerhof (Hospiz)",
+     "address": "St. Peterstrasse 8, 8001 Zürich",
+     "qid": null,
+     "id": "Augustinerhof (Hospiz)",
+     "lat": 47.371385,
+     "lon": 8.539529,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876",
+      "https://www.nzz.ch/zuerich/zuercher_kultur/die-dichterin-und-der-warenhausdirektor-ld.1060711"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Hotel Seehof",
+     "address": "Seehofstrasse 11, 8008 Zürich",
+     "qid": "Q110518188",
+     "id": "Q110518188",
+     "lat": 47.36436,
+     "lon": 8.547783,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Café Select / Kino Nord-Süd (same building)",
+     "address": "Limmatquai 16, 8001 Zürich",
+     "qid": "Q35722283",
+     "id": "Q35722283",
+     "lat": 47.369048,
+     "lon": 8.54387,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur",
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Zürcher Altstadt",
+     "address": "Altstadt, 8001 Zürich",
+     "qid": "Q8988546",
+     "id": "Q8988546",
+     "lat": 47.372233,
+     "lon": 8.542329,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Sanatorium Kilchberg",
+     "address": "Alte Landstrasse 70, 8802 Kilchberg",
+     "qid": "Q50039750",
+     "id": "Q50039750",
+     "lat": 47.327301,
+     "lon": 8.543139,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/feuilleton/else-lasker-schueler-liebte-und-hasste-ihr-schweizer-exil-ld.1822876"
+     ]
+    }
+   ]
+  },
+  "Q123075": {
+   "interests": [
+    "Q123075"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Schipfe 43 (bei Trüb)",
+     "address": "Schipfe 43, 8001 Zürich",
+     "qid": null,
+     "id": "Schipfe 43 (bei Trüb)",
+     "lat": 47.373518,
+     "lon": 8.541663,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Grossmünsterplatz 6 (bei Kunkeler)",
+     "address": "Grossmünsterplatz 6, 8001 Zürich",
+     "qid": null,
+     "id": "Grossmünsterplatz 6 (bei Kunkeler)",
+     "lat": 47.369639,
+     "lon": 8.544204,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Zeughausstrasse 3 (bei Senn)",
+     "address": "Zeughausstrasse 3, 8004 Zürich",
+     "qid": null,
+     "id": "Zeughausstrasse 3 (bei Senn)",
+     "lat": 47.374648,
+     "lon": 8.531878,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Hinterbergstrasse 31 (bei Grimmelmann)",
+     "address": "Hinterbergstrasse 31, 8044 Zürich",
+     "qid": null,
+     "id": "Hinterbergstrasse 31 (bei Grimmelmann)",
+     "lat": 47.380412,
+     "lon": 8.556317,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Zürcher Altstadt",
+     "address": "Altstadt, 8001 Zürich",
+     "qid": "Q8988546",
+     "id": "Q8988546",
+     "lat": 47.372233,
+     "lon": 8.542329,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Spiegelgasse 23 (bei Schusterleuten, dann bei Ida Weiss)",
+     "address": "Spiegelgasse 23, 8001 Zürich",
+     "qid": null,
+     "id": "Spiegelgasse 23 (bei Schusterleuten, dann bei Ida Weiss)",
+     "lat": 47.371812,
+     "lon": 8.544577,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Robert-Walser-Gasse",
+     "address": "Robert-Walser-Gasse (bei St. Peter), 8001 Zürich",
+     "qid": "Q27322297",
+     "id": "Q27322297",
+     "lat": 47.371814,
+     "lon": 8.540406,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.nzz.ch/article7JDFT-ld.179367"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Zürichberg",
+     "address": "Zürichberg, Zürich",
+     "qid": "Q248667",
+     "id": "Q248667",
+     "lat": 47.38568,
+     "lon": 8.566878,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/article7JDFT-ld.179367"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Zurlindenstrasse 49 (bei Held)",
+     "address": "Zurlindenstrasse 49, 8003 Zürich",
+     "qid": null,
+     "id": "Zurlindenstrasse 49 (bei Held)",
+     "lat": 47.369065,
+     "lon": 8.520965,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://content.e-bookshelf.de/media/reading/L-10759111-1c0249f21c.pdf"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Schreibstube für Stellenlose an der Schipfe",
+     "address": "Schipfe, 8001 Zürich",
+     "qid": "Q1390529",
+     "id": "Q1390529",
+     "lat": 47.37307,
+     "lon": 8.541639,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/article7JDFT-ld.179367"
+     ]
+    }
+   ]
+  },
+  "Q671236": {
+   "interests": [
+    "Q671236"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "ETH Zürich, Haupthalle (Wandbild 'Iktinus')",
+     "address": "Rämistrasse 101, 8092 Zürich",
+     "qid": "Q14565994",
+     "id": "Q14565994",
+     "lat": 47.376455,
+     "lon": 8.548167,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Fraumünster",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "qid": "Q690944",
+     "id": "Q690944",
+     "lat": 47.369715,
+     "lon": 8.5412,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://seniorweb.ch/2014/08/21/auf-der-spur-von-augusto-giacometti/",
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/",
+      "https://www.journal21.ch/artikel/staatskuenstler-augusto-giacometti"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Landesmuseum (Hoffassade)",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "qid": "Q691896",
+     "id": "Q691896",
+     "lat": 47.37924,
+     "lon": 8.540702,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Kunsthaus Zürich",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "qid": "Q685038",
+     "id": "Q685038",
+     "lat": 47.370224,
+     "lon": 8.54798,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://seniorweb.ch/2014/08/21/auf-der-spur-von-augusto-giacometti/",
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/",
+      "https://www.journal21.ch/artikel/staatskuenstler-augusto-giacometti"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Amtshaus I, Eingangshalle ('Blüemlihalle')",
+     "address": "Bahnhofquai 3, 8001 Zürich",
+     "qid": null,
+     "id": "Amtshaus I, Eingangshalle ('Blüemlihalle')",
+     "lat": 47.375204,
+     "lon": 8.541214,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://seniorweb.ch/2014/08/21/auf-der-spur-von-augusto-giacometti/",
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/",
+      "https://www.journal21.ch/artikel/staatskuenstler-augusto-giacometti"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Alte Börse",
+     "address": "Bleicherweg 5, 8001 Zürich",
+     "qid": "Q435496",
+     "id": "Q435496",
+     "lat": 47.368696,
+     "lon": 8.537804,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/",
+      "https://www.journal21.ch/artikel/staatskuenstler-augusto-giacometti"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Universität Zürich, Hauptgebäude (Giacometti-Brunnen, Mosaik 'Werden')",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "qid": "Q66647864",
+     "id": "Q66647864",
+     "lat": 47.374637,
+     "lon": 8.549094,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://seniorweb.ch/2014/08/21/auf-der-spur-von-augusto-giacometti/",
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Stadthaus, Standesamt (Glasgemälde)",
+     "address": "Stadthausquai 17, 8001 Zürich",
+     "qid": "Q2327299",
+     "id": "Q2327299",
+     "lat": 47.369299,
+     "lon": 8.541439,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "qid": "Q477189",
+     "id": "Q477189",
+     "lat": 47.369969,
+     "lon": 8.543268,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://seniorweb.ch/2014/08/21/auf-der-spur-von-augusto-giacometti/",
+      "https://www.hutzl-ronge.ch/cms/stadtfuehrungen/zuercher-kirchenfenster",
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/",
+      "https://www.journal21.ch/artikel/staatskuenstler-augusto-giacometti"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Höhere Töchterschule (Hohe Promenade)",
+     "address": "Promenadengasse 11, 8001 Zürich",
+     "qid": null,
+     "id": "Höhere Töchterschule (Hohe Promenade)",
+     "lat": 47.368218,
+     "lon": 8.54844,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://blog.nationalmuseum.ch/2021/10/augusto-giacometti-ein-kuenstler-etabliert-sich-in-seiner-wahlheimat-zuerich/"
+     ]
+    }
+   ]
+  },
+  "Q1584657": {
+   "interests": [
+    "Q1584657"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Laufende Augen (Limmatstrasse 34, 8004 Zürich)",
+     "address": "Limmatstrasse 34, 8004 Zürich",
+     "qid": null,
+     "id": "Laufende Augen (Limmatstrasse 34, 8004 Zürich)",
+     "lat": 47.381345,
+     "lon": 8.536299,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Läufer mit Dreiecken (Platzpromenade, 8001 Zürich)",
+     "address": "Platzpromenade, 8001 Zürich",
+     "qid": null,
+     "id": "Läufer mit Dreiecken (Platzpromenade, 8001 Zürich)",
+     "lat": 47.382095,
+     "lon": 8.538953,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Parkwächter (Mittelbergsteig 15, 8044 Zürich)",
+     "address": "Mittelbergsteig 15, 8044 Zürich",
+     "qid": null,
+     "id": "Parkwächter (Mittelbergsteig 15, 8044 Zürich)",
+     "lat": 47.380486,
+     "lon": 8.560412,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Hommage à Naegeli (Schiffbau, 8005 Zürich)",
+     "address": "Schiffbau, 8005 Zürich",
+     "qid": null,
+     "id": "Hommage à Naegeli (Schiffbau, 8005 Zürich)",
+     "lat": 47.387807,
+     "lon": 8.519609,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Kirchengemeindehaus Hottingen (Asylstrasse 36, 8032 Zürich)",
+     "address": "Asylstrasse 36, 8032 Zürich",
+     "qid": "Q110518191",
+     "id": "Q110518191",
+     "lat": 47.36838,
+     "lon": 8.558734,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Lichtträgerin (Rosenbühlstrasse 32, 8044 Zürich)",
+     "address": "Rosenbühlstrasse 32, 8044 Zürich",
+     "qid": null,
+     "id": "Lichtträgerin (Rosenbühlstrasse 32, 8044 Zürich)",
+     "lat": 47.379596,
+     "lon": 8.568219,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Glorreicher Rank (Rämistrasse, 8006 Zürich)",
+     "address": "Rämistrasse, 8006 Zürich",
+     "qid": null,
+     "id": "Glorreicher Rank (Rämistrasse, 8006 Zürich)",
+     "lat": 47.377364,
+     "lon": 8.548481,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Schmelzbergstrasse (Treppenaufgang) (Schmelzbergstrasse, 8006 Zürich)",
+     "address": "Schmelzbergstrasse, 8006 Zürich",
+     "qid": null,
+     "id": "Schmelzbergstrasse (Treppenaufgang) (Schmelzbergstrasse, 8006 Zürich)",
+     "lat": 47.376956,
+     "lon": 8.548732,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Musikzentrum Kreuzplatz (Merkurstrasse 10, 8032 Zürich)",
+     "address": "Merkurstrasse 10, 8032 Zürich",
+     "qid": null,
+     "id": "Musikzentrum Kreuzplatz (Merkurstrasse 10, 8032 Zürich)",
+     "lat": 47.366141,
+     "lon": 8.553513,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Geistesblitz (Institut für Erziehungswissenschaft, Steinwiesstrasse, 8032 Zürich)",
+     "address": "Institut für Erziehungswissenschaft, Steinwiesstrasse, 8032 Zürich",
+     "qid": null,
+     "id": "Geistesblitz (Institut für Erziehungswissenschaft, Steinwiesstrasse, 8032 Zürich)",
+     "lat": 47.371076,
+     "lon": 8.554182,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://xn--sprayervonzrich-9vb.com/"
+     ]
+    }
+   ]
+  },
+  "Q1383821": {
+   "interests": [
+    "Q1383821"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Zürcher Altstadt / Limmatquai (Exilstadt)",
+     "address": "Altstadt, 8001 Zürich",
+     "qid": "Q8988546",
+     "id": "Q8988546",
+     "lat": 47.372233,
+     "lon": 8.542329,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Café Odeon",
+     "address": "Limmatquai 2, 8001 Zürich",
+     "qid": "Q1542522",
+     "id": "Q1542522",
+     "lat": 47.367794,
+     "lon": 8.545145,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "qid": "Q130247478",
+     "id": "Q130247478",
+     "lat": 47.371659,
+     "lon": 8.544065,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Buchhandlung Oprecht / Europa Verlag",
+     "address": "Rämistrasse 5, 8001 Zürich",
+     "qid": null,
+     "id": "Buchhandlung Oprecht / Europa Verlag",
+     "lat": 47.36784,
+     "lon": 8.54576,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur",
+      "https://kuenste-im-exil.de/KIE/Content/DE/Themen/schweiz.html"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Schauspielhaus Zürich (Pfauenbühne)",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "qid": "Q675022",
+     "id": "Q675022",
+     "lat": 47.370137,
+     "lon": 8.549263,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur",
+      "https://kuenste-im-exil.de/KIE/Content/DE/Themen/schweiz.html"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Museumsgesellschaft",
+     "address": "Limmatquai 62, 8001 Zürich",
+     "qid": "Q29933579",
+     "id": "Q29933579",
+     "lat": 47.371984,
+     "lon": 8.542997,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Café Select",
+     "address": "Limmatquai 16, 8001 Zürich",
+     "qid": null,
+     "id": "Café Select",
+     "lat": 47.369048,
+     "lon": 8.54387,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Café Terrasse",
+     "address": "Limmatquai 3, 8001 Zürich",
+     "qid": null,
+     "id": "Café Terrasse",
+     "lat": 47.367887,
+     "lon": 8.544388,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://literaturspur.ch/angebote/spaziergang/",
+      "https://www.zb.uzh.ch/en/zuerich/zuerich-literatur"
+     ]
+    }
+   ]
+  },
+  "Q188494": {
+   "interests": [
+    "Q188494"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Rathaus",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "qid": "Q9315546",
+     "id": "Q9315546",
+     "lat": 47.371493,
+     "lon": 8.542676,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Wellenberg",
+     "address": "Limmat, between Münsterbrücke and Quaibrücke (near Bauschänzli), 8001 Zürich",
+     "qid": null,
+     "id": "Wellenberg",
+     "lat": 47.24229,
+     "lon": 8.760079,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Limmat",
+     "address": "Limmat, Zürich",
+     "qid": null,
+     "id": "Limmat",
+     "lat": 47.429083,
+     "lon": 8.381044,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/",
+      "https://reformiert.info/de/recherche/zuerich-soll-an-die-zur-reformationszeit-verbrannten-lhexenr-mit-einem-mahnmal-erinnern-18816.html"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Kirchgasse / Theologische Fakultät (Grossmünsterbibliothek)",
+     "address": "Kirchgasse 9, 8001 Zürich",
+     "qid": null,
+     "id": "Kirchgasse / Theologische Fakultät (Grossmünsterbibliothek)",
+     "lat": 47.37001,
+     "lon": 8.544608,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/",
+      "https://reformiert.info/de/recherche/zuerich-soll-an-die-zur-reformationszeit-verbrannten-lhexenr-mit-einem-mahnmal-erinnern-18816.html"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Stadthaus",
+     "address": "Stadthausquai 17, 8001 Zürich",
+     "qid": "Q2327299",
+     "id": "Q2327299",
+     "lat": 47.369299,
+     "lon": 8.541439,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Grossmünsterplatz",
+     "address": "Grossmünsterplatz, 8001 Zürich",
+     "qid": "Q27330020",
+     "id": "Q27330020",
+     "lat": 47.370087,
+     "lon": 8.543584,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Spiegelgasse (Spiegelgasseplatz)",
+     "address": "Spiegelgasse, 8001 Zürich",
+     "qid": "Q20731378",
+     "id": "Q20731378",
+     "lat": 47.371812,
+     "lon": 8.544577,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.etue.ch/bezichtigt-gefoltert-und-hingerichtet-ein-spaziergang-zur-hexenverfolgung-in-zuerich/"
+     ]
+    }
+   ]
+  },
+  "Q208701": {
+   "interests": [
+    "Q208701"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hallwylplatz",
+     "address": "Hallwylplatz, 8004 Zürich",
+     "qid": "Q27321518",
+     "id": "Q27321518",
+     "lat": 47.371158,
+     "lon": 8.528155,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "NZZ",
+     "address": "Falkenstrasse 11, 8008 Zürich",
+     "qid": "Q658945",
+     "id": "Q658945",
+     "lat": 47.365224,
+     "lon": 8.547541,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Restaurant Sonne",
+     "address": "Hohlstrasse, corner Langstrasse, 8004 Zürich",
+     "qid": null,
+     "id": "Restaurant Sonne",
+     "lat": 47.3769,
+     "lon": 8.5282,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Bahnhofstrasse",
+     "address": "Bahnhofstrasse, 8001 Zürich",
+     "qid": null,
+     "id": "Bahnhofstrasse",
+     "lat": 47.371953,
+     "lon": 8.538453,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Kaserne (Zeughausareal)",
+     "address": "Kasernenstrasse 49, 8004 Zürich",
+     "qid": "Q29574376",
+     "id": "Q29574376",
+     "lat": 47.375485,
+     "lon": 8.532991,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Werdstrasse 40 (Werdplatz)",
+     "address": "Werdstrasse 40, 8004 Zürich",
+     "qid": null,
+     "id": "Werdstrasse 40 (Werdplatz)",
+     "lat": 47.372731,
+     "lon": 8.529009,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Volkshaus",
+     "address": "Stauffacherstrasse 60, 8004 Zürich",
+     "qid": "Q689762",
+     "id": "Q689762",
+     "lat": 47.375496,
+     "lon": 8.527112,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Kernstrasse",
+     "address": "Kernstrasse, 8004 Zürich",
+     "qid": "Q27331963",
+     "id": "Q27331963",
+     "lat": 47.377224,
+     "lon": 8.52519,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Rathaus",
+     "address": "Limmatquai 55, 8001 Zürich",
+     "qid": "Q9315546",
+     "id": "Q9315546",
+     "lat": 47.371493,
+     "lon": 8.542676,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Autofabrik Arbenz, Albisrieden",
+     "address": "Albisrieden, 8047 Zürich",
+     "qid": "Q527408",
+     "id": "Q527408",
+     "lat": 47.374857,
+     "lon": 8.484657,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://aufbau.org/wp-content/uploads/2018/11/Dossier_Stadtrundgang_Aussersihl_12.11.05_Zuerich.pdf"
+     ]
+    }
+   ]
+  },
+  "Q1279400": {
+   "interests": [
+    "Q1279400"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Lindenhof",
+     "address": "Lindenhof, 8001 Zürich",
+     "qid": "Q39374",
+     "id": "Q39374",
+     "lat": 47.372916,
+     "lon": 8.540176,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.guruwalk.com/walks/63321-free-tour-zurich-with-a-female-voice",
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Augustinergasse (former home of Johanna Spyri)",
+     "address": "Augustinergasse, 8001 Zürich",
+     "qid": "Q4821233",
+     "id": "Q4821233",
+     "lat": 47.371618,
+     "lon": 8.540225,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.guruwalk.com/walks/63321-free-tour-zurich-with-a-female-voice"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Lyceum Club",
+     "address": "Rämistrasse 26, 8001 Zürich",
+     "qid": null,
+     "id": "Lyceum Club",
+     "lat": 47.369552,
+     "lon": 8.548669,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Opernhaus",
+     "address": "Falkenstrasse 1 / Sechseläutenplatz, 8008 Zürich",
+     "qid": "Q670406",
+     "id": "Q670406",
+     "lat": 47.36497,
+     "lon": 8.546831,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Weinplatz",
+     "address": "Weinplatz, 8001 Zürich",
+     "qid": "Q14545051",
+     "id": "Q14545051",
+     "lat": 47.371449,
+     "lon": 8.541695,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Münsterbrücke",
+     "address": "Münsterbrücke, 8001 Zürich",
+     "qid": "Q18716357",
+     "id": "Q18716357",
+     "lat": 47.369942,
+     "lon": 8.542507,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.guruwalk.com/walks/63321-free-tour-zurich-with-a-female-voice"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Bahnhofstrasse",
+     "address": "Bahnhofstrasse, 8001 Zürich",
+     "qid": null,
+     "id": "Bahnhofstrasse",
+     "lat": 47.371953,
+     "lon": 8.538453,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.guruwalk.com/walks/63321-free-tour-zurich-with-a-female-voice"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Universität Zürich",
+     "address": "Rämistrasse 71, 8006 Zürich",
+     "qid": "Q66647864",
+     "id": "Q66647864",
+     "lat": 47.374637,
+     "lon": 8.549094,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Brunnen am Stadelhoferplatz",
+     "address": "Stadelhoferplatz, 8001 Zürich",
+     "qid": "Q27229662",
+     "id": "Q27229662",
+     "lat": 47.366179,
+     "lon": 8.547723,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.altwerden-spaeter.blog/2017/04/22/zuercher-frauen-stadtrundgang/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Strehlgasse 13",
+     "address": "Strehlgasse 13, 8001 Zürich",
+     "qid": null,
+     "id": "Strehlgasse 13",
+     "lat": 47.371884,
+     "lon": 8.541018,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.guruwalk.com/walks/63321-free-tour-zurich-with-a-female-voice"
+     ]
+    }
+   ]
+  },
+  "Q17897": {
+   "interests": [
+    "Q17897"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Erika-Mann-Strasse",
+     "address": "Erika-Mann-Strasse, 8050 Zürich",
+     "qid": "Q27322926",
+     "id": "Q27322926",
+     "lat": 47.411228,
+     "lon": 8.539523,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Pandoras Box im Lora",
+     "address": "Militärstrasse 85a, 8004 Zürich",
+     "qid": null,
+     "id": "Pandoras Box im Lora",
+     "lat": 47.378434,
+     "lon": 8.529468,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "HAZ, Sihlquai 67",
+     "address": "Sihlquai 67, 8005 Zürich",
+     "qid": null,
+     "id": "HAZ, Sihlquai 67",
+     "lat": 47.382259,
+     "lon": 8.53747,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Frauenetage Kanzlei",
+     "address": "Kanzleistrasse 56, 8004 Zürich",
+     "qid": null,
+     "id": "Frauenetage Kanzlei",
+     "lat": 47.375522,
+     "lon": 8.525813,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Schauspielhaus",
+     "address": "Rämistrasse 34, 8001 Zürich",
+     "qid": "Q675022",
+     "id": "Q675022",
+     "lat": 47.370137,
+     "lon": 8.549263,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Zürich Hauptbahnhof",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "qid": "Q224494",
+     "id": "Q224494",
+     "lat": 47.377092,
+     "lon": 8.540793,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Theater Neumarkt",
+     "address": "Neumarkt 5, 8001 Zürich",
+     "qid": "Q115462135",
+     "id": "Q115462135",
+     "lat": 47.372645,
+     "lon": 8.545755,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zueribunt.ch/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Kunsthaus",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "qid": "Q685038",
+     "id": "Q685038",
+     "lat": 47.370224,
+     "lon": 8.54798,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Feministisches Streikhaus (Q*T Bar)",
+     "address": "Sihlquai 115, 8005 Zürich",
+     "qid": null,
+     "id": "Feministisches Streikhaus (Q*T Bar)",
+     "lat": 47.38448,
+     "lon": 8.5345,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://lesbengeschichte.ch/lesbenspaziergang/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Club Zabriskie Point (ETH cellar)",
+     "address": "Leonhardstrasse 19, 8001 Zürich",
+     "qid": null,
+     "id": "Club Zabriskie Point (ETH cellar)",
+     "lat": 47.378,
+     "lon": 8.546,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zueribunt.ch/"
+     ]
+    }
+   ]
+  },
+  "Q7167": {
+   "interests": [
+    "Q7167"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Völkerkundemuseum der Universität Zürich",
+     "address": "Pelikanstrasse 40, 8001 Zürich",
+     "qid": "Q2536345",
+     "id": "Q2536345",
+     "lat": 47.370826,
+     "lon": 8.53433,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Globus, Schweizergasse 11",
+     "address": "Schweizergasse 11, 8001 Zürich",
+     "qid": null,
+     "id": "Globus, Schweizergasse 11",
+     "lat": 47.375772,
+     "lon": 8.537986,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Neumarkt 22 ('Zum kleinen Mohr')",
+     "address": "Neumarkt 22, 8001 Zürich",
+     "qid": null,
+     "id": "Neumarkt 22 ('Zum kleinen Mohr')",
+     "lat": 47.372729,
+     "lon": 8.546491,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Grossmünster",
+     "address": "Grossmünsterplatz, 8001 Zürich",
+     "qid": "Q684948",
+     "id": "Q684948",
+     "lat": 47.370087,
+     "lon": 8.543584,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Paradeplatz 5",
+     "address": "Paradeplatz 5, 8001 Zürich",
+     "qid": null,
+     "id": "Paradeplatz 5",
+     "lat": 47.369254,
+     "lon": 8.538644,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Limmatquai 80",
+     "address": "Limmatquai 80, 8001 Zürich",
+     "qid": null,
+     "id": "Limmatquai 80",
+     "lat": 47.373377,
+     "lon": 8.543091,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Lavaterhaus, St. Peterhofstatt 6",
+     "address": "St. Peterhofstatt 6, 8001 Zürich",
+     "qid": null,
+     "id": "Lavaterhaus, St. Peterhofstatt 6",
+     "lat": 47.371773,
+     "lon": 8.540628,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de",
+      "https://anny-klawa-morf.ch/zh-kolonial/"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Neumarkt 13 ('Zum Mohrenkopf')",
+     "address": "Neumarkt 13, 8001 Zürich",
+     "qid": null,
+     "id": "Neumarkt 13 ('Zum Mohrenkopf')",
+     "lat": 47.37295,
+     "lon": 8.546006,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de",
+      "https://www.nzz.ch/zuerich/koloniale-darstellungen-in-zuerich-stadt-will-ueberdecken-sbb-kontextualisieren-ld.1872263"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Mühlegasse 17 (Jazzclub Africana)",
+     "address": "Mühlegasse 17, 8001 Zürich",
+     "qid": null,
+     "id": "Mühlegasse 17 (Jazzclub Africana)",
+     "lat": 47.374462,
+     "lon": 8.544821,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Belvoirpark",
+     "address": "Belvoirpark, Seestrasse, 8002 Zürich",
+     "qid": "Q816289",
+     "id": "Q816289",
+     "lat": 47.35755,
+     "lon": 8.533143,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh-kolonial.ch/de"
+     ]
+    }
+   ]
+  },
+  "Q23642627": {
+   "interests": [
+    "Q23642627"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Bahnhofstrasse",
+     "address": "Bahnhofstrasse, 8001 Zürich",
+     "qid": null,
+     "id": "Bahnhofstrasse",
+     "lat": 47.371953,
+     "lon": 8.538453,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "qid": "Q477189",
+     "id": "Q477189",
+     "lat": 47.369969,
+     "lon": 8.543268,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Oberer Rennweg",
+     "address": "Rennweg, 8001 Zürich",
+     "qid": null,
+     "id": "Oberer Rennweg",
+     "lat": 47.373494,
+     "lon": 8.539181,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Staatsarchiv des Kantons Zürich",
+     "address": "Winterthurerstrasse 170, 8057 Zürich",
+     "qid": "Q2324789",
+     "id": "Q2324789",
+     "lat": 47.397002,
+     "lon": 8.546928,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/news/schweiz/historischer-rueckblick-wie-zuerich-dank-seide-weltruhm-erlangte"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Haus zur Weltkugel",
+     "address": "Bärengasse 22, 8001 Zürich",
+     "qid": "Q1954411",
+     "id": "Q1954411",
+     "lat": 47.369689,
+     "lon": 8.536449,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Schweizer Heimatwerk",
+     "address": "Uraniastrasse 1, 8001 Zürich",
+     "qid": null,
+     "id": "Schweizer Heimatwerk",
+     "lat": 47.374295,
+     "lon": 8.541695,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Alter Seidenhof (Steinmühleplatz)",
+     "address": "Steinmühleplatz, 8001 Zürich",
+     "qid": "Q27329939",
+     "id": "Q27329939",
+     "lat": 47.37372,
+     "lon": 8.537031,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.nzz.ch/article7NP07-ld.184580"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Münsterplatz (Münsterhof)",
+     "address": "Münsterhof, 8001 Zürich",
+     "qid": "Q7849515",
+     "id": "Q7849515",
+     "lat": 47.369887,
+     "lon": 8.541726,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Landesmuseum Zürich (textile collection)",
+     "address": "Museumstrasse 2, 8001 Zürich",
+     "qid": "Q691896",
+     "id": "Q691896",
+     "lat": 47.37924,
+     "lon": 8.540702,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.srf.ch/news/schweiz/historischer-rueckblick-wie-zuerich-dank-seide-weltruhm-erlangte"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Schipfe",
+     "address": "Schipfe, 8001 Zürich",
+     "qid": "Q1390529",
+     "id": "Q1390529",
+     "lat": 47.37307,
+     "lon": 8.541639,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://peter-schulthess.ch/"
+     ]
+    }
+   ]
+  },
+  "Q1260003": {
+   "interests": [
+    "Q1260003"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "AJZ (Autonomes Jugendzentrum)",
+     "address": "Limmatstrasse 18-20, 8005 Zürich",
+     "qid": null,
+     "id": "AJZ (Autonomes Jugendzentrum)",
+     "lat": 47.3808,
+     "lon": 8.5366,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093",
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Hirschenplatz",
+     "address": "Hirschenplatz, 8001 Zürich",
+     "qid": "Q27325683",
+     "id": "Q27325683",
+     "lat": 47.373401,
+     "lon": 8.543802,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093",
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Central",
+     "address": "Central, 8001 Zürich",
+     "qid": "Q1053678",
+     "id": "Q1053678",
+     "lat": 47.376284,
+     "lon": 8.543648,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Drahtschmidli ('Haschisch-Brücke')",
+     "address": "Wasserwerkstrasse 17, 8006 Zürich",
+     "qid": "Q1711342",
+     "id": "Q1711342",
+     "lat": 47.383068,
+     "lon": 8.539873,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Helmhaus (Zwingli-Denkmal)",
+     "address": "Limmatquai 31 / Wasserkirche, 8001 Zürich",
+     "qid": "Q63348861",
+     "id": "Q63348861",
+     "lat": 47.36947,
+     "lon": 8.54328,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Shop-Ville (Hauptbahnhof)",
+     "address": "Bahnhofplatz, 8001 Zürich",
+     "qid": "Q2279858",
+     "id": "Q2279858",
+     "lat": 47.377092,
+     "lon": 8.540793,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Zentrum Karl der Grosse",
+     "address": "Kirchgasse 14, 8001 Zürich",
+     "qid": "Q110054065",
+     "id": "Q110054065",
+     "lat": 47.369693,
+     "lon": 8.544728,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Suchtpräventionsstelle, Röntgenstrasse 44",
+     "address": "Röntgenstrasse 44, 8005 Zürich",
+     "qid": null,
+     "id": "Suchtpräventionsstelle, Röntgenstrasse 44",
+     "lat": 47.384476,
+     "lon": 8.527148,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Bahnhof Oerlikon",
+     "address": "Bahnhof Oerlikon, 8050 Zürich",
+     "qid": "Q194887",
+     "id": "Q194887",
+     "lat": 47.411677,
+     "lon": 8.544809,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Letten (former station)",
+     "address": "Bahnhof Letten / Oberer Letten, 8037 Zürich",
+     "qid": null,
+     "id": "Letten (former station)",
+     "lat": 47.569415,
+     "lon": 8.480584,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/misc/de/mitteilungsarchiv/2015/05/Flyer%20zum%20Rundgang%20mit%20detaillierten%20Informationen.pdf",
+      "https://www.nzz.ch/zuerich/spaziergang-entlang-von-drogenbrennpunkten-ld.892093",
+      "https://www.sozialarchiv.ch/2017/10/27/vor-25-jahren-die-schliessung-des-needle-park/",
+      "https://www.stattreisen.ch/angebot.html"
+     ]
+    }
+   ]
+  },
+  "Q846047": {
+   "interests": [
+    "Q846047"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Hirschenplatz (Hotel Adler)",
+     "address": "Rosengasse 10 / Hirschenplatz, 8001 Zürich",
+     "qid": "Q27325683",
+     "id": "Q27325683",
+     "lat": 47.373401,
+     "lon": 8.543802,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Escherhäuser",
+     "address": "Zeltweg 4-13, 8032 Zürich",
+     "qid": null,
+     "id": "Escherhäuser",
+     "lat": 47.3696,
+     "lon": 8.5495,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Cabaret Voltaire",
+     "address": "Spiegelgasse 1, 8001 Zürich",
+     "qid": "Q130247478",
+     "id": "Q130247478",
+     "lat": 47.371659,
+     "lon": 8.544065,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Heimplatz (Pipilotti-Rist-Kunstwerk)",
+     "address": "Heimplatz, 8001 Zürich",
+     "qid": "Q24037808",
+     "id": "Q24037808",
+     "lat": 47.370486,
+     "lon": 8.548148,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Musikschule Konservatorium Zürich",
+     "address": "Florhofgasse 6, 8001 Zürich",
+     "qid": "Q131937516",
+     "id": "Q131937516",
+     "lat": 47.372594,
+     "lon": 8.548507,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Hirschengraben",
+     "address": "Hirschengraben, 8001 Zürich",
+     "qid": "Q1620404",
+     "id": "Q1620404",
+     "lat": 47.374647,
+     "lon": 8.546177,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Kunsthaus (old entrance)",
+     "address": "Heimplatz 1, 8001 Zürich",
+     "qid": "Q685038",
+     "id": "Q685038",
+     "lat": 47.370224,
+     "lon": 8.54798,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Musikwissenschaftliches Institut der Universität Zürich",
+     "address": "Florhofgasse 11, 8001 Zürich",
+     "qid": null,
+     "id": "Musikwissenschaftliches Institut der Universität Zürich",
+     "lat": 47.372242,
+     "lon": 8.548345,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Grossmünster",
+     "address": "Grossmünsterplatz, 8001 Zürich",
+     "qid": "Q684948",
+     "id": "Q684948",
+     "lat": 47.370087,
+     "lon": 8.543584,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.musik.uzh.ch/de/mitarbeiter/profship-luetteken/luetteken/luetteken-proj/Audiowalk-Musik-in-Z%C3%BCrich.html"
+     ]
+    }
+   ]
+  },
+  "Q23498": {
+   "interests": [
+    "Q23498"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Fraumünster",
+     "address": "Münsterhof 2, 8001 Zürich",
+     "qid": "Q690944",
+     "id": "Q690944",
+     "lat": 47.369715,
+     "lon": 8.5412,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Stadtmauerkeller",
+     "address": "Chorgasse 22, 8001 Zürich",
+     "qid": null,
+     "id": "Stadtmauerkeller",
+     "lat": 47.37415,
+     "lon": 8.546092,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Parkhaus Opéra",
+     "address": "Utoquai 21, 8008 Zürich",
+     "qid": null,
+     "id": "Parkhaus Opéra",
+     "lat": 47.3656,
+     "lon": 8.5465,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Brunngasse 8",
+     "address": "Brunngasse 8, 8001 Zürich",
+     "qid": null,
+     "id": "Brunngasse 8",
+     "lat": 47.373094,
+     "lon": 8.544559,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Kirche St. Peter",
+     "address": "St. Peter-Hofstatt 1, 8001 Zürich",
+     "qid": "Q690687",
+     "id": "Q690687",
+     "lat": 47.3711,
+     "lon": 8.54069,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Thermengasse",
+     "address": "Thermengasse, beim Weinplatz, 8001 Zürich",
+     "qid": "Q27329808",
+     "id": "Q27329808",
+     "lat": 47.371292,
+     "lon": 8.541239,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Parkhaus Urania",
+     "address": "Uraniastrasse 3, 8001 Zürich",
+     "qid": null,
+     "id": "Parkhaus Urania",
+     "lat": 47.374088,
+     "lon": 8.540852,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf",
+      "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2021/02/turicum-eine-roemische-hafenstadt-und-zollstation.html"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Storchengasse (Roman building remains)",
+     "address": "Storchengasse, 8001 Zürich",
+     "qid": "Q20667015",
+     "id": "Q20667015",
+     "lat": 47.371073,
+     "lon": 8.541504,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2021/02/turicum-eine-roemische-hafenstadt-und-zollstation.html"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Wasserkirche",
+     "address": "Limmatquai 31, 8001 Zürich",
+     "qid": "Q477189",
+     "id": "Q477189",
+     "lat": 47.369969,
+     "lon": 8.543268,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/stadtleben/stadtportraet/stadtarchaeologie/archaeologische-fenster/archaeologische-fenster-uebersicht.pdf"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Lindenhof (Roman fort, Celtic settlement)",
+     "address": "Lindenhof, 8001 Zürich",
+     "qid": "Q39374",
+     "id": "Q39374",
+     "lat": 47.372916,
+     "lon": 8.540176,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2021/02/turicum-eine-roemische-hafenstadt-und-zollstation.html",
+      "https://www.limmattalerzeitung.ch/limmattal/zuerich/lindenhof-wo-zurichs-geschichte-begann-ld.1610424"
+     ]
+    }
+   ]
+  },
+  "Q483453": {
+   "interests": [
+    "Q483453"
+   ],
+   "places": [
+    {
+     "rank": 1,
+     "name": "Mosaikbrunnen (Brunnen-Nr. 125)",
+     "address": "General Guisan-Quai/Beethovenstrasse, Zürich",
+     "qid": "Q27229889",
+     "id": "Q27229889",
+     "lat": 47.364625,
+     "lon": 8.537842,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-2.pdf"
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Mittlerer Wieslergassbrunnen (Brunnen-Nr. 434)",
+     "address": "Wieslergasse/Singlistrasse, Zürich",
+     "qid": "Q55166691",
+     "id": "Q55166691",
+     "lat": 47.403034,
+     "lon": 8.496194,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-6-10.pdf"
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Ypsilon (Brunnen-Nr. 1220)",
+     "address": "Schaffhauserplatz, Zürich",
+     "qid": "Q27229887",
+     "id": "Q27229887",
+     "lat": 47.391678,
+     "lon": 8.538932,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-6-10.pdf"
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "Trinkbrunnen (Brunnen-Nr. 705)",
+     "address": "Hüttenkopfstrasse nach Nr. 74, Zürich",
+     "qid": "Q55166535",
+     "id": "Q55166535",
+     "lat": 47.39796,
+     "lon": 8.57423,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-11-12.pdf"
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Blondatbrunnen (Brunnen-Nr. 135)",
+     "address": "Kilchbergsteig/Kilchbergstrasse, Zürich",
+     "qid": "Q27229886",
+     "id": "Q27229886",
+     "lat": 47.342904,
+     "lon": 8.533229,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-2.pdf"
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "Brunnen bei der Kirche Enge (Brunnen-Nr. 122)",
+     "address": "Bürglistrasse, Zürich",
+     "qid": "Q27230190",
+     "id": "Q27230190",
+     "lat": 47.36274,
+     "lon": 8.52914,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreis-2.pdf"
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "Lamm mit Kreuzfahne (Brunnen-Nr. 482)",
+     "address": "Wehntalerstrasse vav. 385, Zürich",
+     "qid": "Q55169610",
+     "id": "Q55169610",
+     "lat": 47.414405,
+     "lon": 8.518356,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-11-12.pdf"
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "Hofbrunnen (Brunnen-Nr. 587)",
+     "address": "Beckenhofstrasse 35, 8006 Zürich",
+     "qid": "Q27229648",
+     "id": "Q27229648",
+     "lat": 47.384937,
+     "lon": 8.540956,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-6-10.pdf"
+     ]
+    },
+    {
+     "rank": 9,
+     "name": "Luckenholzbrunnen (Brunnen-Nr. 306)",
+     "address": "Witikonerstrasse, im Luckenholz, Zürich",
+     "qid": "Q55169589",
+     "id": "Q55169589",
+     "lat": 47.361903,
+     "lon": 8.609377,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-7-8.pdf"
+     ]
+    },
+    {
+     "rank": 10,
+     "name": "Granitmonolith (Brunnen-Nr. 1080)",
+     "address": "Riedgrabenweg / Andreasstrasse, Zürich",
+     "qid": "Q55171045",
+     "id": "Q55171045",
+     "lat": 47.413187,
+     "lon": 8.558691,
+     "in_area": true,
+     "reasons": [],
+     "sources": [
+      "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/brunnenguides/brunnenguide-kreise-11-12.pdf"
+     ]
+    }
+   ]
+  }
+ }
+}

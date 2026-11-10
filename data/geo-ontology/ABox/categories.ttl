@@ -1,0 +1,1299 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://example.org/nami/data/category/10002> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1531> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Made in Zurich"@de,
+        "Made in Zurich"@en,
+        "Made in Zurich"@fr,
+        "Made in Zurich"@it .
+
+<https://example.org/nami/data/category/10003> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1531> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Nachhaltige Produktion"@de,
+        "Sustainable Production"@en,
+        "Production durable"@fr,
+        "Produzione sostenibile"@it .
+
+<https://example.org/nami/data/category/10004> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kinderfreundlich"@de,
+        "Child-friendly"@en,
+        "Pour les enfants"@fr,
+        "Adatto ai bambini"@it .
+
+<https://example.org/nami/data/category/10005> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/10026> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Familienfreundlich"@de,
+        "Family-friendly"@en,
+        "Pour les famillies"@fr,
+        "Adatto per le famiglie"@it .
+
+<https://example.org/nami/data/category/10006> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/10026> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Gartenterrasse"@de,
+        "Garden Terrace"@en,
+        "Terrasse de jardin"@fr,
+        "Con terrazza fiorita"@it .
+
+<https://example.org/nami/data/category/104> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/10026> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Online Reservieren"@de,
+        "Online Bookings"@en,
+        "Réservation online"@fr,
+        "Prenotazione online"@it .
+
+<https://example.org/nami/data/category/105> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Ausstellung"@de,
+        "Exhibitions"@en,
+        "Exposition"@fr,
+        "Mostra"@it .
+
+<https://example.org/nami/data/category/1057> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Tourist Information"@en .
+
+<https://example.org/nami/data/category/1090> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fahrradverleih"@de,
+        "Bike Hire"@en,
+        "Vélib"@fr,
+        "Noleggio bici"@it .
+
+<https://example.org/nami/data/category/110> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Party"@de,
+        "Parties"@en,
+        "Fête"@fr,
+        "Festa"@it .
+
+<https://example.org/nami/data/category/111> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Festival"@de,
+        "Festivals"@en,
+        "Festival"@fr,
+        "Festival"@it .
+
+<https://example.org/nami/data/category/112> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Komödie"@de,
+        "Comedy"@en,
+        "Marché"@fr,
+        "Comédie"@it .
+
+<https://example.org/nami/data/category/113> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Sportveranstaltung"@de,
+        "Sports Events"@en,
+        "Manifestation sportive"@fr,
+        "Manifestazione sportiva"@it .
+
+<https://example.org/nami/data/category/1162> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Surfen"@de,
+        "Surfing"@en,
+        "Surf"@fr,
+        "Surf"@it .
+
+<https://example.org/nami/data/category/127> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fashion & Accessoires"@de,
+        "Fashion & Accessoires"@en,
+        "Mode & Accessoires"@fr,
+        "Moda & Accessori"@it .
+
+<https://example.org/nami/data/category/1275> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Weingut"@de,
+        "Winery"@en,
+        "Domaine viticole"@fr,
+        "Tenuta vinicola"@it .
+
+<https://example.org/nami/data/category/128> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Swissness"@de,
+        "Swissness"@en,
+        "Suissitude"@fr,
+        "Swissness"@it .
+
+<https://example.org/nami/data/category/129> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Uhren & Schmuck"@de,
+        "Watches & Jewelry"@en,
+        "Montres & Joaillerie"@fr,
+        "Orologi & Gioielli"@it .
+
+<https://example.org/nami/data/category/130> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Souvenirs & Geschenke"@de,
+        "Souvenirs & Gifts"@en,
+        "Souvenirs & Cadeaux"@fr,
+        "Souvenirs & Regali"@it .
+
+<https://example.org/nami/data/category/131> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Lebensmittel & Delikatessen"@de,
+        "Food & Delicacy"@en,
+        "Food & Gourmandises"@fr,
+        "Food & Delizie"@it .
+
+<https://example.org/nami/data/category/132> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Markt"@de,
+        "Markets"@en,
+        "Marché"@fr,
+        "Mercato"@it .
+
+<https://example.org/nami/data/category/133> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/96> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Film"@de,
+        "Movie"@en,
+        "Film"@fr,
+        "Film"@it .
+
+<https://example.org/nami/data/category/134> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/96> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Klassische Musik"@de,
+        "Music"@en,
+        "Musique classique"@fr,
+        "Musica"@it .
+
+<https://example.org/nami/data/category/137> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Spaziergang"@de,
+        "Walks"@en,
+        "Promenade"@fr,
+        "Passeggiata"@it .
+
+<https://example.org/nami/data/category/138> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Wanderung"@de,
+        "Hikes"@en,
+        "Randonnée"@fr,
+        "Gita"@it .
+
+<https://example.org/nami/data/category/139> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fahrradtour"@de,
+        "Bike Tours"@en,
+        "Randonnée à vélo"@fr,
+        "Tour in bicicletta"@it .
+
+<https://example.org/nami/data/category/140> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Mountainbiken"@de,
+        "Mountain Biking"@en,
+        "VTT"@fr,
+        "Mountain Bike"@it .
+
+<https://example.org/nami/data/category/141> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Schwimmen"@de,
+        "Swimming"@en,
+        "Nager"@fr,
+        "Nuotare"@it .
+
+<https://example.org/nami/data/category/1414> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "House / Techno / Electro"@de,
+        "House / Techno / Electro"@en,
+        "House / Techno / Electro"@fr,
+        "House / Tecno / Electro"@it .
+
+<https://example.org/nami/data/category/1417> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Hip-Hop / Rap / Reggae"@de,
+        "Hip-Hop / Rap / Reggae"@en,
+        "Hip-Hop / Rap / Reggae"@fr,
+        "Hip-Hop / Rap / Reggae"@it .
+
+<https://example.org/nami/data/category/142> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Inline Skating"@de,
+        "Inline Skating"@en,
+        "Faire du roller"@fr,
+        "Pattinaggio"@it .
+
+<https://example.org/nami/data/category/1423> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Rock / Alternative"@de,
+        "Rock / Alternative"@en,
+        "Rock / Musique alternative"@fr,
+        "Rock / Alternative"@it .
+
+<https://example.org/nami/data/category/1426> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Latin / Salsa"@de,
+        "Latin / Salsa"@en,
+        "Musique latine / salsa"@fr,
+        "Latino-Americano / Salsa"@it .
+
+<https://example.org/nami/data/category/1429> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Afterhour"@de,
+        "Afterhours"@en,
+        "Afters"@fr,
+        "After-hour"@it .
+
+<https://example.org/nami/data/category/143> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Joggen"@de,
+        "Running"@en,
+        "Courir"@fr,
+        "Running"@it .
+
+<https://example.org/nami/data/category/1432> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Jazz / World Music"@de,
+        "Jazz / World Music"@en,
+        "Jazz / Musiques du monde"@fr,
+        "Jazz / World Music"@it .
+
+<https://example.org/nami/data/category/1435> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Partybeats"@de,
+        "Party Beats"@en,
+        "Partybeats"@fr,
+        "Party-beat"@it .
+
+<https://example.org/nami/data/category/1438> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Cocktailbar"@de,
+        "Cocktail Bar"@en,
+        "Bar à cocktails"@fr,
+        "Cocktail-bar"@it .
+
+<https://example.org/nami/data/category/144> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Sommer Rodeln"@de,
+        "Summer Tobogganing"@en,
+        "Faire de la luge été"@fr,
+        "Andare in slitta estate"@it .
+
+<https://example.org/nami/data/category/1441> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Musikbar/Live Music"@de,
+        "Music Bar / Live Music"@en,
+        "Bar à musique / musique en direct"@fr,
+        "Bar con musica / Musica dal vivo"@it .
+
+<https://example.org/nami/data/category/1444> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Pub/Spezielle Biere"@de,
+        "Pub / Special Beer Types"@en,
+        "Pub / Bières spéciales"@fr,
+        "Pub / Birre speciali"@it .
+
+<https://example.org/nami/data/category/1447> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Restaurant-Bar"@de,
+        "Restaurant & Bar"@en,
+        "Restaurant-bar"@fr,
+        "Ristorante-bar"@it .
+
+<https://example.org/nami/data/category/145> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Klettern"@de,
+        "Climbing"@en,
+        "Faire de l'escalade"@fr,
+        "Arrampicarsi"@it .
+
+<https://example.org/nami/data/category/1450> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Hotelbar"@de,
+        "Hotel Bar"@en,
+        "Bar d’hôtel"@fr,
+        "Hotel bar"@it .
+
+<https://example.org/nami/data/category/1453> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Ausgewählte Spirituosen"@de,
+        "Choice Spirits"@en,
+        "Spiritueux sélectionnés"@fr,
+        "Liquori selezionati"@it .
+
+<https://example.org/nami/data/category/1456> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kulturlokal"@de,
+        "Cultural Locale"@en,
+        "Etablissement culturel"@fr,
+        "Locale culturale"@it .
+
+<https://example.org/nami/data/category/1459> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Afterwork"@de,
+        "After-work"@en,
+        "Afterwork"@fr,
+        "After-work"@it .
+
+<https://example.org/nami/data/category/146> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Golf"@de,
+        "Golf"@en,
+        "Golf"@fr,
+        "Golf"@it .
+
+<https://example.org/nami/data/category/1462> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Freiluft-Bereich"@de,
+        "Open-air Area"@en,
+        "Zone en plein air"@fr,
+        "Dehors"@it .
+
+<https://example.org/nami/data/category/1465> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Weinbar"@de,
+        "Wine Bar"@en,
+        "Bar à vins"@fr,
+        "Wine-bar"@it .
+
+<https://example.org/nami/data/category/1468> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/103> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Quartierbar"@de,
+        "Neighborhood Bar"@en,
+        "Bar du quartier"@fr,
+        "Bar di quartiere"@it .
+
+<https://example.org/nami/data/category/147> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Wakeboard & Wasserski"@de,
+        "Waterskiing/Wakeboarding"@en,
+        "Ski nautique & Wakeboard"@fr,
+        "Sci nautico & Wakeboard"@it .
+
+<https://example.org/nami/data/category/1474> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Alternativ-Arty"@de,
+        "Alternative and Arty"@en,
+        "Fête alternative"@fr,
+        "Alternative/Arty"@it .
+
+<https://example.org/nami/data/category/1477> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Entspannt-gemütlich"@de,
+        "Relaxed and Cozy"@en,
+        "Décontracté et convivial"@fr,
+        "Rilassata/Accogliente"@it .
+
+<https://example.org/nami/data/category/148> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Motorbootsmiete"@de,
+        "Motor Boat Hire"@en,
+        "Location bateau à moteur"@fr,
+        "Noleggio motoscafo"@it .
+
+<https://example.org/nami/data/category/1480> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fröhlich-ausgelassen"@de,
+        "Lively and Cheerful"@en,
+        "Joyeux et pétulant"@fr,
+        "Allegra/Spensierata"@it .
+
+<https://example.org/nami/data/category/1483> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Glam Chic"@de,
+        "Glamorous and Chic"@en,
+        "Glamour et chic"@fr,
+        "Glamour/Chic"@it .
+
+<https://example.org/nami/data/category/1486> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kulturell-inspirierend"@de,
+        "Cultural and Inspiring"@en,
+        "Culturellement inspirant"@fr,
+        "Culturale/Suggestiva"@it .
+
+<https://example.org/nami/data/category/1489> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "LGBTQ+*"@de,
+        "LGBTQ+*"@en,
+        "LGBTQ+*"@fr,
+        "LGBTQ+*"@it .
+
+<https://example.org/nami/data/category/149> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Segeln"@de,
+        "Sailing"@en,
+        "Faire de la voile"@fr,
+        "Fare della vela"@it .
+
+<https://example.org/nami/data/category/1492> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Szenig-angesagt"@de,
+        "Cool and Trendy"@en,
+        "Branché et tendance"@fr,
+        "Di tendenza/Alla moda"@it .
+
+<https://example.org/nami/data/category/1495> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/1471> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Traditionell-urchig"@de,
+        "Traditional and Down-to-earth"@en,
+        "Traditionnel et rustique"@fr,
+        "Tradizionale/Originale"@it .
+
+<https://example.org/nami/data/category/150> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "SUP Stand Up Paddling"@de,
+        "SUP Stand Up Paddling"@en,
+        "SUP Stand Up Paddling"@fr,
+        "SUP Stand Up Paddling"@it .
+
+<https://example.org/nami/data/category/151> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Pedalos"@de,
+        "Pedalos"@en,
+        "Pédalo"@fr,
+        "Pedalò"@it .
+
+<https://example.org/nami/data/category/152> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Skifahren & Snowboarden"@de,
+        "Skiing/Snowboarding"@en,
+        "Ski & Snowbaord"@fr,
+        "Sci & Snowboard"@it .
+
+<https://example.org/nami/data/category/153> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Schlitteln & Rodeln"@de,
+        "Tobogganing"@en,
+        "Faire de la luge hiver"@fr,
+        "Slittare inverno"@it .
+
+<https://example.org/nami/data/category/154> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Skitour"@de,
+        "Ski Touring"@en,
+        "Ski de randonnée"@fr,
+        "Sci alpinismo"@it .
+
+<https://example.org/nami/data/category/155> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Schneeschuhwanderung"@de,
+        "Snowshoe Trekking"@en,
+        "Tour en Raquette à neige"@fr,
+        "Tour con racchette da neve"@it .
+
+<https://example.org/nami/data/category/156> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Eislaufen"@de,
+        "Ice Skating"@en,
+        "Patinage sur glace"@fr,
+        "Pattinaggio su ghiaccio"@it .
+
+<https://example.org/nami/data/category/157> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/97> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Langlauf"@de,
+        "Cross-Country Skiing"@en,
+        "Ski de fond"@fr,
+        "Sci di fondo"@it .
+
+<https://example.org/nami/data/category/158> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/99> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Berge"@de,
+        "Mountains"@en,
+        "Montagne"@fr,
+        "Montagna"@it .
+
+<https://example.org/nami/data/category/159> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/99> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Wasser"@de,
+        "Water"@en,
+        "Eau"@fr,
+        "Acqua"@it .
+
+<https://example.org/nami/data/category/160> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/99> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Parks & Gärten"@de,
+        "Parks & Gardens"@en,
+        "Parcs & jardins"@fr,
+        "Parchi & giardini"@it .
+
+<https://example.org/nami/data/category/161> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/99> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Zoo & Tiere"@de,
+        "Zoos & Animals"@en,
+        "Zoo & Animaux"@fr,
+        "Zoo & Animali"@it .
+
+<https://example.org/nami/data/category/163> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/162> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Live Musik"@de,
+        "Live Music"@en,
+        "Musique en direct"@fr,
+        "Musica dal vivo"@it .
+
+<https://example.org/nami/data/category/164> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/100> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Casinos"@de,
+        "Casinos"@en,
+        "Casinos"@fr,
+        "Casinò"@it .
+
+<https://example.org/nami/data/category/167> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/102> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kaffee"@de,
+        "Coffee"@en,
+        "Café"@fr,
+        "Caffè"@it .
+
+<https://example.org/nami/data/category/168> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/102> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Konditorei"@de,
+        "Confectionery"@en,
+        "Pâtisserie"@fr,
+        "Pasticceria"@it .
+
+<https://example.org/nami/data/category/169> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/102> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kuchen"@de,
+        "Cakes"@en,
+        "Gâteau"@fr,
+        "Dolce"@it .
+
+<https://example.org/nami/data/category/170> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/102> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Tee"@de,
+        "Tea"@en,
+        "Thé"@fr,
+        "Té"@it .
+
+<https://example.org/nami/data/category/175> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/135> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Oper"@de,
+        "Opera"@en,
+        "Opéra"@fr,
+        "Opera"@it .
+
+<https://example.org/nami/data/category/176> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/135> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Theater"@de,
+        "Theater"@en,
+        "Théâtre"@fr,
+        "Teatro"@it .
+
+<https://example.org/nami/data/category/177> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kunst"@de,
+        "Art"@en,
+        "Art"@fr,
+        "Arte"@it .
+
+<https://example.org/nami/data/category/178> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/96> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Galerien"@de,
+        "Galleries"@en,
+        "Galeries"@fr,
+        "Gallerie"@it .
+
+<https://example.org/nami/data/category/179> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fotografie"@de,
+        "Photography"@en,
+        "Photographie"@fr,
+        "Fotografia"@it .
+
+<https://example.org/nami/data/category/180> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Design & Architektur"@de,
+        "Design & Architecture"@en,
+        "Design & Architecture"@fr,
+        "Design & Architettura"@it .
+
+<https://example.org/nami/data/category/181> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kulturgeschichte"@de,
+        "Cultural History"@en,
+        "Histoire culturelle"@fr,
+        "Storia culturale"@it .
+
+<https://example.org/nami/data/category/182> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/136> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Naturwissenschaften & Technik"@de,
+        "Science & Technology"@en,
+        "Biologie humaine & technologie"@fr,
+        "Biologia umana & tecnologia"@it .
+
+<https://example.org/nami/data/category/186> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Spanisch"@de,
+        "Spanish"@en,
+        "Espagnol"@fr,
+        "Spagnolo"@it .
+
+<https://example.org/nami/data/category/187> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Französisch"@de,
+        "French"@en,
+        "Français"@fr,
+        "Francese"@it .
+
+<https://example.org/nami/data/category/189> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Orientalisch"@de,
+        "Oriental"@en,
+        "Orientale"@fr,
+        "Orientale"@it .
+
+<https://example.org/nami/data/category/190> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Mexikanisch"@de,
+        "Mexican"@en,
+        "Mexicaine"@fr,
+        "Messicano"@it .
+
+<https://example.org/nami/data/category/191> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Mediterran"@de,
+        "Mediterranean"@en,
+        "Méditerranéen"@fr,
+        "Mediterraneo"@it .
+
+<https://example.org/nami/data/category/192> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Bistro"@de,
+        "Bistro"@en,
+        "Bistro"@fr,
+        "Bistrò"@it .
+
+<https://example.org/nami/data/category/193> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Amerikanisch"@de,
+        "American"@en,
+        "Américaine"@fr,
+        "Americano"@it .
+
+<https://example.org/nami/data/category/194> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Gourmet"@de,
+        "Gourmet"@en,
+        "Gourmet"@fr,
+        "Gourmet"@it .
+
+<https://example.org/nami/data/category/195> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Grill"@de,
+        "BBQ"@en,
+        "Barbecue"@fr,
+        "Griglia"@it .
+
+<https://example.org/nami/data/category/196> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fisch"@de,
+        "Fish"@en,
+        "Poisson"@fr,
+        "Pesce"@it .
+
+<https://example.org/nami/data/category/197> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Vegetarisch"@de,
+        "Vegetarian"@en,
+        "Végétarienne"@fr,
+        "Vegetariano"@it .
+
+<https://example.org/nami/data/category/198> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/166> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Frühstück"@de,
+        "Breakfast"@en,
+        "Petit-déjeuner"@fr,
+        "Colazione"@it .
+
+<https://example.org/nami/data/category/199> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/166> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Brunch"@de,
+        "Brunch"@en,
+        "Brunch"@fr,
+        "Brunch"@it .
+
+<https://example.org/nami/data/category/200> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/166> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Mittagessen"@de,
+        "Lunch"@en,
+        "Déjeuner"@fr,
+        "Pranzo"@it .
+
+<https://example.org/nami/data/category/201> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/166> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Abendessen"@de,
+        "Dinner"@en,
+        "Dîner"@fr,
+        "Cena"@it .
+
+<https://example.org/nami/data/category/202> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/184> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Raclette"@de,
+        "Raclette"@en,
+        "Raclette"@fr,
+        "Raclette"@it .
+
+<https://example.org/nami/data/category/203> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/184> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Fondue"@de,
+        "Fondue"@en,
+        "Fondue"@fr,
+        "Fonduta"@it .
+
+<https://example.org/nami/data/category/204> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/184> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Rösti"@de,
+        "Hashbrown (Rösti)"@en,
+        "Galette de pommes de terre (Rösti)"@fr,
+        "Patate arrostite alla maniera Svizzera (Rösti)"@it .
+
+<https://example.org/nami/data/category/205> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/184> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Zürcher Geschnetzeltes"@de,
+        "Zürcher Geschnetzeltes"@en,
+        "Émincé zurichois"@fr,
+        "Specialità zurighesi"@it .
+
+<https://example.org/nami/data/category/206> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/185> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Pizza"@de,
+        "Pizza"@en,
+        "Pizza"@fr,
+        "Pizza"@it .
+
+<https://example.org/nami/data/category/207> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/185> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Pasta"@de,
+        "Pasta"@en,
+        "Pasta"@fr,
+        "Pasta"@it .
+
+<https://example.org/nami/data/category/208> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/188> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Sushi"@de,
+        "Sushi"@en,
+        "Sushi"@fr,
+        "Sushi"@it .
+
+<https://example.org/nami/data/category/404> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Messen / Märkte"@de,
+        "Trade Fair / Market"@en,
+        "Salon / Marché"@fr,
+        "Fiera / Mercato"@it .
+
+<https://example.org/nami/data/category/405> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Andere"@de,
+        "Other"@en,
+        "Divers"@fr,
+        "Diverso"@it .
+
+<https://example.org/nami/data/category/406> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kinder und Familien"@de,
+        "Children and families"@en,
+        "Enfants & Famille"@fr,
+        "Bambini & Famiglia"@it .
+
+<https://example.org/nami/data/category/407> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Pop, Rock, Jazz"@de,
+        "Pop, Rock, Jazz"@en,
+        "Pop, Rock, Jazz"@fr,
+        "Pop, Rock, Jazz"@it .
+
+<https://example.org/nami/data/category/408> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Traditionell"@de,
+        "Traditional"@en,
+        "Traditionnel"@fr,
+        "Tradizionale"@it .
+
+<https://example.org/nami/data/category/409> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Vegan"@de,
+        "Vegan friendly"@en,
+        "Végétalien"@fr,
+        "Vegano"@it .
+
+<https://example.org/nami/data/category/412> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Theater"@de,
+        "Theater"@en,
+        "Théâtre"@fr,
+        "Teatro"@it .
+
+<https://example.org/nami/data/category/413> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Oper"@de,
+        "Opera"@en,
+        "Opéra"@fr,
+        "Opera"@it .
+
+<https://example.org/nami/data/category/414> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Klassik"@de,
+        "Classical"@en,
+        "Classique"@fr,
+        "Musica classica"@it .
+
+<https://example.org/nami/data/category/415> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "International"@de,
+        "International"@en,
+        "International"@fr,
+        "Internazionale"@it .
+
+<https://example.org/nami/data/category/416> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kaufhaus"@de,
+        "Department store"@en,
+        "Grand magasin"@fr,
+        "Grande magazzino"@it .
+
+<https://example.org/nami/data/category/417> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Einkaufszentrum"@de,
+        "Shopping Mall"@en,
+        "Centre commercial"@fr,
+        "Centro Commerciale"@it .
+
+<https://example.org/nami/data/category/418> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/95> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Weihnachtsmarkt"@de,
+        "Christmas Market"@en,
+        "Marché de Noël"@fr,
+        "Mercatino di Natale"@it .
+
+<https://example.org/nami/data/category/625> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/75> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Konferenzen & Kongresse"@de,
+        "Conferences and congresses"@en .
+
+<https://example.org/nami/data/category/730> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Ferienwohnungen"@de,
+        "Vacation Apartments"@en,
+        "Appartement de vacances"@fr,
+        "Appartamenti vacanze"@it .
+
+<https://example.org/nami/data/category/76> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Hotel"@de,
+        "Hotels"@en,
+        "Hôtels"@fr,
+        "Hotel"@it .
+
+<https://example.org/nami/data/category/83> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Appartement"@de,
+        "Apartments"@en,
+        "Appartement"@fr,
+        "Appartamenti"@it .
+
+<https://example.org/nami/data/category/84> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "B&B"@de,
+        "B&Bs"@en,
+        "B&Bs"@fr,
+        "B&Bs"@it .
+
+<https://example.org/nami/data/category/85> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Hostel"@de,
+        "Hostels"@en,
+        "Auberges"@fr,
+        "Hostel"@it .
+
+<https://example.org/nami/data/category/86> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/71> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Camping"@de,
+        "Campsites"@en,
+        "Camping"@fr,
+        "Campeggi"@it .
+
+<https://example.org/nami/data/category/87> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Architektur"@de,
+        "Architecture"@en,
+        "Architecture"@fr,
+        "Architettura"@it .
+
+<https://example.org/nami/data/category/88> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Aussichtspunkte"@de,
+        "Vantage Points"@en,
+        "Points de vue"@fr,
+        "Belvedere"@it .
+
+<https://example.org/nami/data/category/89> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Denkmäler"@de,
+        "Monuments"@en,
+        "Monuments"@fr,
+        "Monumenti"@it .
+
+<https://example.org/nami/data/category/90> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kunstobjekte"@de,
+        "Works of Art"@en,
+        "Objets d'art"@fr,
+        "Oggetti d’arte"@it .
+
+<https://example.org/nami/data/category/91> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Plätze & Strassen"@de,
+        "Squares & Streets"@en,
+        "Places & rues"@fr,
+        "Piazze & vie"@it .
+
+<https://example.org/nami/data/category/92> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/72> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kirchen"@de,
+        "Churches"@en,
+        "Églises"@fr,
+        "Chiese"@it .
+
+<https://example.org/nami/data/category/98> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Wellness"@de,
+        "Wellness"@en,
+        "Wellness"@fr,
+        "Benessere"@it .
+
+<https://example.org/nami/data/category/188> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Asiatisch"@de,
+        "Asian"@en,
+        "Asiatique"@fr,
+        "Asiatica"@it .
+
+<https://example.org/nami/data/category/359> a skos:Concept ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Touren & Ausflüge"@de,
+        "Tours & Excursions"@en,
+        "Visites Guidées & Excursions"@fr,
+        "Visite Guidate & Escursioni"@it ;
+    skos:topConceptOf <https://example.org/nami/data/scheme/zurich-tourism-categories> .
+
+<https://example.org/nami/data/category/135> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/96> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Bühne"@de,
+        "Stages"@en,
+        "Scène"@fr,
+        "Scena"@it .
+
+<https://example.org/nami/data/category/1531> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Produkte"@de,
+        "Products"@en,
+        "Produits"@fr,
+        "Prodotti"@it .
+
+<https://example.org/nami/data/category/185> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Italienisch"@de,
+        "Italian"@en,
+        "Italien"@fr,
+        "Italiano"@it .
+
+<https://example.org/nami/data/category/10026> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/101> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Restaurant Features"@en .
+
+<https://example.org/nami/data/category/101> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/74> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Restaurants"@de,
+        "Restaurants"@en,
+        "Restaurants"@fr,
+        "Ristoranti"@it .
+
+<https://example.org/nami/data/category/74> a skos:Concept ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Gastronomie"@de,
+        "Gastronomy"@en,
+        "Gastronomie"@fr,
+        "Gastronomia"@it ;
+    skos:topConceptOf <https://example.org/nami/data/scheme/zurich-tourism-categories> .
+
+<https://example.org/nami/data/category/100> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/74> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Nightlife"@de,
+        "Nightlife"@en,
+        "Nightlife"@fr,
+        "Vita notturna"@it .
+
+<https://example.org/nami/data/category/102> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kaffee & Teeraum"@de,
+        "Coffee Houses & Tea Rooms"@en,
+        "Salon de thé"@fr,
+        "Caffè"@it .
+
+<https://example.org/nami/data/category/166> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/101> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Mahlzeit"@de,
+        "Meal"@en,
+        "Repas"@fr,
+        "Pasto"@it .
+
+<https://example.org/nami/data/category/184> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/165> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Schweizer Spezialitäten"@de,
+        "Swiss Specialties"@en,
+        "Typiquement Suisse"@fr,
+        "Tipica Svizzera"@it .
+
+<https://example.org/nami/data/category/99> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Natur"@de,
+        "Nature"@en,
+        "Nature"@fr,
+        "Natura"@it .
+
+<https://example.org/nami/data/category/96> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Kultur"@de,
+        "Culture"@en,
+        "Culture"@fr,
+        "Cultura"@it .
+
+<https://example.org/nami/data/category/136> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/96> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Museum"@de,
+        "Museums"@en,
+        "Musées"@fr,
+        "Musei"@it .
+
+<https://example.org/nami/data/category/72> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Sehenswürdigkeiten"@de,
+        "Attractions"@en,
+        "Attractions touristiques"@fr,
+        "Attrazioni turistiche"@it .
+
+<https://example.org/nami/data/category/71> a skos:Concept ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Übernachten"@de,
+        "Accommodation"@en,
+        "Logement"@fr,
+        "Ospitalità"@it ;
+    skos:topConceptOf <https://example.org/nami/data/scheme/zurich-tourism-categories> .
+
+<https://example.org/nami/data/category/1471> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/100> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Atmosphäre"@de,
+        "Atmosphere"@en,
+        "Ambiance"@fr,
+        "Atmosfera"@it .
+
+<https://example.org/nami/data/category/162> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/100> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Club & Disco"@de,
+        "Clubs & Discos"@en,
+        "Club & Discothèque"@fr,
+        "Club & Discoteca"@it .
+
+<https://example.org/nami/data/category/73> a skos:Concept ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Orte"@de,
+        "Place"@en,
+        "Lieu"@fr,
+        "Località"@it ;
+    skos:topConceptOf <https://example.org/nami/data/scheme/zurich-tourism-categories> .
+
+<https://example.org/nami/data/category/103> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/100> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Bar & Lounge"@de,
+        "Bars & Lounges"@en,
+        "Bars & Lounges"@fr,
+        "Bar & Lounge"@it .
+
+<https://example.org/nami/data/category/95> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Shopping"@de,
+        "Shopping"@en,
+        "Shopping"@fr,
+        "Shopping"@it .
+
+<https://example.org/nami/data/category/75> a skos:Concept ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Events"@de,
+        "Events"@en,
+        "Manifestations"@fr,
+        "Eventi"@it ;
+    skos:topConceptOf <https://example.org/nami/data/scheme/zurich-tourism-categories> .
+
+<https://example.org/nami/data/category/165> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/101> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Küche"@de,
+        "Cuisine"@en,
+        "Cuisine"@fr,
+        "Cucina"@it .
+
+<https://example.org/nami/data/category/97> a skos:Concept ;
+    skos:broader <https://example.org/nami/data/category/73> ;
+    skos:inScheme <https://example.org/nami/data/scheme/zurich-tourism-categories> ;
+    skos:prefLabel "Sport"@de,
+        "Sport"@en,
+        "Sport"@fr,
+        "Sport"@it .
+
+<https://example.org/nami/data/scheme/zurich-tourism-categories> a skos:ConceptScheme ;
+    rdfs:label "Zurich Tourism category taxonomy"@en ;
+    skos:hasTopConcept <https://example.org/nami/data/category/359>,
+        <https://example.org/nami/data/category/71>,
+        <https://example.org/nami/data/category/73>,
+        <https://example.org/nami/data/category/74>,
+        <https://example.org/nami/data/category/75> .
+

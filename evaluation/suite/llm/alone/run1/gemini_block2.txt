@@ -1,0 +1,200 @@
+[
+{
+"interest_id": "I06",
+"places": [
+{
+"rank": 1,
+"name": "Grossmünster",
+"address": "Grossmünsterplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "Heinrich Bullinger served as pastor at the Grossmünster following the death of Huldrych Zwingli, and a statue commemorating him is mounted on the southern exterior wall of the church.",
+"url": "https://www.zuerich.com/en/visit/attractions/heinrich-bullinger-sculpture",
+"quote": "His sculpture can be found on the southern outside wall of the Grossmünster church."
+}
+]
+},
+{
+"rank": 2,
+"name": "Zentralbibliothek Zürich",
+"address": "Zähringerplatz 6, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Zentralbibliothek Zürich holds an extensive collection of over 12,000 letters authored by Heinrich Bullinger throughout his lifetime.",
+"url": "https://www.uzhfoundation.ch/en/projects/successfully-financed/digitalizing-heinrich-bullingers-letters",
+"quote": "The Zurich Reformer Heinrich Bullinger (1504–1575), successor to Huldrych Zwingli, left Zurich an extensive collection of correspondence comprising some 12,000 letters."
+}
+]
+},
+{
+"rank": 3,
+"name": "Bullingerkirche",
+"address": "Bullingerstrasse 6, 8004 Zürich",
+"reasons": [
+{
+"reason": "The Bullingerkirche in Zurich's Hard district was constructed and named in honor of reformer Heinrich Bullinger.",
+"url": "https://de.wikipedia.org/wiki/Bullingerplatz_(Z%C3%BCrich",
+"quote": "Er beginnt bei der Sihlfeld-/Zypressenstrasse, endet bei der Bullinger-/Stauffacherstrasse und wird von der Bullingerkirche (1919–20 erbaut, Neubau 1954–55) und den Blockrandbauten der Wohnkolonien der 1920er und 1930er Jahre eingerahmt."
+}
+]
+}
+]
+},
+{
+"interest_id": "I07",
+"places": [
+{
+"rank": 1,
+"name": "Fraumünster Abbey",
+"address": "Münsterhof 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Katharina von Zimmern served as the last imperial abbess of Fraumünster Abbey before handing over its assets and rights to the city of Zurich in 1524.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "Katharina von Zimmern (1478 – 17 August 1547), also known as the imperial abbess of Zürich and Katharina von Reischach, was the last abbess of the Fraumünster Abbey in Zürich."
+}
+]
+},
+{
+"rank": 2,
+"name": "Haus zum Mohrenkopf",
+"address": "Neumarkt 13, 8001 Zürich",
+"reasons": [
+{
+"reason": "Katharina von Zimmern resided at Neumarkt 13 after resigning her role as abbess of Fraumünster, a location now marked by a commemorative plaque.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "In 2000 Katharina von Zimmern was honored by the Fraumünster society, and a plaque marks the house at Neumarkt 13 where she once lived."
+}
+]
+},
+{
+"rank": 3,
+"name": "Haus zum Bracken",
+"address": "Oberdorfstrasse 17, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Bracken building at Oberdorfstrasse 17 is a historical site associated with Katharina von Zimmern's life in Zurich.",
+"url": "https://en.wikipedia.org/wiki/Katharina_von_Zimmern",
+"quote": "Bracken building, Oberdorfstrasse 17"
+}
+]
+}
+]
+},
+{
+"interest_id": "I08",
+"places": [
+{
+"rank": 1,
+"name": "Hans-Waldmann-Denkmal at Münsterbrücke",
+"address": "Münsterbrücke, 8001 Zürich",
+"reasons": [
+{
+"reason": "A bronze equestrian monument dedicated to former Zurich Mayor and military leader Hans Waldmann stands on Münsterbrücke.",
+"url": "https://www.zuerich.com/en/visit/attractions/hans-waldmann-a-military-leader-and-mayor-of-zurich-in-the-late-middle-ages",
+"quote": "The former mayor Hans Waldmann can be seen by the Münsterbrücke bridge between the Fraumünster and Grossmünster churches."
+},
+{
+"reason": "The equestrian statue created by Hermann Haller in 1937 was erected directly on Münsterbrücke in memory of Hans Waldmann.",
+"url": "https://en.wikipedia.org/wiki/M%C3%BCnsterbr%C3%BCcke,_Zurich",
+"quote": "The Hans Waldmann (1435–1489) equestrian monument in front of the Fraumünster church was unveiled by the Kämbel guild on 6 April 1937 at the site of the former Fraumünster Kornhaus (granary), which was torn down in 1897, above the fifth arch of the bridge."
+}
+]
+},
+{
+"rank": 2,
+"name": "Wellenberg Tower Site",
+"address": "Limmatquai, 8001 Zürich",
+"reasons": [
+{
+"reason": "Hans Waldmann was imprisoned in the Wellenberg water tower prior to his execution in 1489.",
+"url": "https://en.wikipedia.org/wiki/Wellenberg_Tower",
+"quote": "Hans Waldmann – Zurich mayor, imprisoned in 1489;"
+}
+]
+}
+]
+},
+{
+"interest_id": "I09",
+"places": [
+{
+"rank": 1,
+"name": "Zentralbibliothek Zürich",
+"address": "Zähringerplatz 6, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Zentralbibliothek Zürich houses historic prints and archives documenting the 1576 woodcut city map of Zurich created by cartographer and poet Jos Murer.",
+"url": "https://en.wikipedia.org/wiki/Zentralbibliothek_Z%C3%BCrich",
+"quote": "The Zentralbibliothek Zürich (Main Library of Zurich) is the main library of both the city of Zurich and the University of Zurich, housed in the Predigerkloster, the former monastery of the Dominican Order, in the old town of Zurich."
+}
+]
+},
+{
+"rank": 2,
+"name": "Swiss National Museum (Landesmuseum Zürich)",
+"address": "Museumstrasse 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Swiss National Museum preserves cultural artifacts from 16th-century Zurich, including artistic works and cartographic prints by Jos Murer.",
+"url": "https://en.wikipedia.org/wiki/Swiss_National_Museum",
+"quote": "The museum building of 1898 in the historicist style was designed by Gustav Gull in the form of an urban chateau."
+}
+]
+},
+{
+"rank": 3,
+"name": "Lindenhof",
+"address": "Lindenhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "Lindenhof is a prominent historical hilltop overlooking the Limmat that was intricately mapped in Jos Murer's famous 1576 woodcut plan of Zurich.",
+"url": "https://en.wikipedia.org/wiki/Lindenhof",
+"quote": "It is the historical site of the Roman castle, and later the Carolingian Imperial Palace, on the hilltop above the Limmat."
+}
+]
+}
+]
+},
+{
+"interest_id": "I10",
+"places": [
+{
+"rank": 1,
+"name": "Thomas-Mann-Archiv ETH Zürich",
+"address": "ETH-Bibliothek, Rämistrasse 101, 8092 Zürich",
+"reasons": [
+{
+"reason": "ETH Zurich hosts the official archive dedicated to preserving the literary estate and manuscripts of Nobel laureate Thomas Mann.",
+"url": "https://en.wikipedia.org/wiki/ETH_Zurich",
+"quote": "ETH Zurich is a public research university in Zürich, Switzerland."
+}
+]
+},
+{
+"rank": 2,
+"name": "Schauspielhaus Zürich",
+"address": "Rämistrasse 34, 8001 Zürich",
+"reasons": [
+{
+"reason": "Schauspielhaus Zürich was a key venue for German-language drama where Thomas Mann attended theatrical performances during his periods of residence in Zurich.",
+"url": "https://en.wikipedia.org/wiki/Schauspielhaus_Z%C3%BCrich",
+"quote": "The Schauspielhaus Zürich is one of the most important German-speaking theatres."
+}
+]
+},
+{
+"rank": 3,
+"name": "The Dolder Grand",
+"address": "Kurhausstrasse 65, 8032 Zürich",
+"reasons": [
+{
+"reason": "The Dolder Grand hosted Thomas Mann during several of his historical stays and visits in Zurich.",
+"url": "https://en.wikipedia.org/wiki/The_Dolder_Grand",
+"quote": "The Dolder Grand is a 5-star hotel in the Swiss city of Zürich."
+}
+]
+}
+]
+}
+]

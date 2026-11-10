@@ -1,0 +1,590 @@
+# owl:sameAs links from Zurich Tourism POIs to Wikidata, derived from
+# OpenStreetMap's own wikidata= tag on the matching node/way/relation,
+# accepted only when uniquely corroborated by both proximity and name
+# similarity to this POI -- see src/enrich/link_wikidata.py. Each
+# statement is RDF-star annotated (nami:linkMethod/linkDistanceMeters/
+# linkNameSimilarity) with the evidence that justified accepting it.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix nami: <https://example.org/nami/ontology#> .
+
+<https://example.org/nami/data/poi/524706> owl:sameAs wd:Q1789864 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.846
+|} .  # node/268467807 osm_name='Kronenhalle'
+<https://example.org/nami/data/poi/351092> owl:sameAs wd:Q60635988 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 37.2 ;
+    nami:linkNameSimilarity 0.645
+|} .  # way/31968366 osm_name='Kaufleuten'
+<https://example.org/nami/data/poi/329449> owl:sameAs wd:Q1711342 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.2 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/32533985 osm_name='Dynamo'
+<https://example.org/nami/data/poi/194194> owl:sameAs wd:Q111874809 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.727
+|} .  # node/683372569 osm_name='Central Plaza'
+<https://example.org/nami/data/poi/16030> owl:sameAs wd:Q661745 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.5 ;
+    nami:linkNameSimilarity 0.78
+|} .  # node/370843530 osm_name='cabaret voltaire'
+<https://example.org/nami/data/poi/3111> owl:sameAs wd:Q1247784 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 23.7 ;
+    nami:linkNameSimilarity 0.75
+|} .  # node/370531363 osm_name='Widder'
+<https://example.org/nami/data/poi/2876> owl:sameAs wd:Q35722434 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 30.8 ;
+    nami:linkNameSimilarity 0.692
+|} .  # node/1069585421 osm_name='Riffraff 1 + 2'
+<https://example.org/nami/data/poi/2302> owl:sameAs wd:Q491344 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 52.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/604908903 osm_name='Rote Fabrik'
+<https://example.org/nami/data/poi/2049> owl:sameAs wd:Q111874788 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 3.9 ;
+    nami:linkNameSimilarity 0.64
+|} .  # node/760369394 osm_name='Altstadt Hotel'
+<https://example.org/nami/data/poi/545927> owl:sameAs wd:Q125946609 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 19.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/715436712 osm_name='Lindt Home of Chocolate'
+<https://example.org/nami/data/poi/152272> owl:sameAs wd:Q27480182 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/192668572 osm_name='Schafbock- und Lebkuchenmuseum'
+<https://example.org/nami/data/poi/70639> owl:sameAs wd:Q1970407 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 16.4 ;
+    nami:linkNameSimilarity 0.667
+|} .  # node/1581271932 osm_name='Naturmuseum'
+<https://example.org/nami/data/poi/29440> owl:sameAs wd:Q22984572 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/3856298289 osm_name='FIFA Museum'
+<https://example.org/nami/data/poi/1878> owl:sameAs wd:Q220270 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.676
+|} .  # node/1855509127 osm_name='Naturhistorisches Museum'
+<https://example.org/nami/data/poi/1851> owl:sameAs wd:Q2448500 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 9.6 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/11943734 osm_name='Tram-Museum Zürich'
+<https://example.org/nami/data/poi/1827> owl:sameAs wd:Q25388634 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 5.1 ;
+    nami:linkNameSimilarity 0.88
+|} .  # way/34952208 osm_name='Schweizer Kindermuseum'
+<https://example.org/nami/data/poi/2462> owl:sameAs wd:Q5764402 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/119247298 osm_name='Haus Hiltl'
+<https://example.org/nami/data/poi/230908> owl:sameAs wd:Q90311837 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.621
+|} .  # node/5267716256 osm_name='Ornellaia'
+<https://example.org/nami/data/poi/3655> owl:sameAs wd:Q1789864 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/268467807 osm_name='Kronenhalle'
+<https://example.org/nami/data/poi/2019> owl:sameAs wd:Q229912 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/4732388222 osm_name='Zunfthaus zur Zimmerleuten'
+<https://example.org/nami/data/poi/556813> owl:sameAs wd:Q125946609 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 19.8 ;
+    nami:linkNameSimilarity 0.902
+|} .  # way/715436712 osm_name='Lindt Home of Chocolate'
+<https://example.org/nami/data/poi/283267> owl:sameAs wd:Q693087 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 14.3 ;
+    nami:linkNameSimilarity 0.8
+|} .  # relation/2617654 osm_name='Kloster Einsiedeln'
+<https://example.org/nami/data/poi/225661> owl:sameAs wd:Q89504014 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.833
+|} .  # node/7628821083 osm_name="Rico's"
+<https://example.org/nami/data/poi/88672> owl:sameAs wd:Q692578 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 24.9 ;
+    nami:linkNameSimilarity 0.8
+|} .  # way/348877313 osm_name='The Dolder Grand'
+<https://example.org/nami/data/poi/28297> owl:sameAs wd:Q111409768 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 3.0 ;
+    nami:linkNameSimilarity 0.681
+|} .  # node/4889986288 osm_name='Sorell Hotel Zürichberg'
+<https://example.org/nami/data/poi/19932> owl:sameAs wd:Q90309502 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.947
+|} .  # node/315862440 osm_name='EquiTable'
+<https://example.org/nami/data/poi/3688> owl:sameAs wd:Q692578 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 24.9 ;
+    nami:linkNameSimilarity 0.711
+|} .  # way/348877313 osm_name='The Dolder Grand'
+<https://example.org/nami/data/poi/2039> owl:sameAs wd:Q9392139 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/270938371 osm_name='Zunfthaus zur Waag'
+<https://example.org/nami/data/poi/1562> owl:sameAs wd:Q1124534 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.7 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/370843777 osm_name='Café & Conditorei 1842'
+<https://example.org/nami/data/poi/1450> owl:sameAs wd:Q884224 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/2456775289 osm_name='blindekuh'
+<https://example.org/nami/data/poi/1012558> owl:sameAs wd:Q27325400 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 20.7 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/25149048 osm_name='Zollstrasse'
+<https://example.org/nami/data/poi/4060> owl:sameAs wd:Q121831803 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 30.3 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/29458549 osm_name='Metalli'
+<https://example.org/nami/data/poi/4037> owl:sameAs wd:Q27329968 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.7 ;
+    nami:linkNameSimilarity 0.727
+|} .  # way/39361060 osm_name='Rosenhof'
+<https://example.org/nami/data/poi/2004> owl:sameAs wd:Q537986 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 18.3 ;
+    nami:linkNameSimilarity 1.0
+|} .  # relation/905841 osm_name='Paradeplatz'
+<https://example.org/nami/data/poi/115855> owl:sameAs wd:Q691896 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 73.1 ;
+    nami:linkNameSimilarity 0.828
+|} .  # relation/4281153 osm_name='Landesmuseum'
+<https://example.org/nami/data/poi/3995> owl:sameAs wd:Q1236093 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 3.1 ;
+    nami:linkNameSimilarity 0.722
+|} .  # way/4533221 osm_name='Helvetiaplatz'
+<https://example.org/nami/data/poi/1499> owl:sameAs wd:Q692605 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 1.5 ;
+    nami:linkNameSimilarity 0.667
+|} .  # node/648907100 osm_name='Sprüngli'
+<https://example.org/nami/data/poi/247144> owl:sameAs wd:Q35722041 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 5.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/1069585287 osm_name='Filmpodium'
+<https://example.org/nami/data/poi/246367> owl:sameAs wd:Q15136000 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.667
+|} .  # node/1069585307 osm_name='Xenix'
+<https://example.org/nami/data/poi/121732> owl:sameAs wd:Q35722188 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 17.1 ;
+    nami:linkNameSimilarity 0.737
+|} .  # node/2953822533 osm_name='Houdini'
+<https://example.org/nami/data/poi/1860> owl:sameAs wd:Q670406 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 9.4 ;
+    nami:linkNameSimilarity 0.759
+|} .  # way/31966519 osm_name='Opernhaus'
+<https://example.org/nami/data/poi/1913> owl:sameAs wd:Q2415988 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 52.9 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/240942868 osm_name='Theater Winterthur'
+<https://example.org/nami/data/poi/1909> owl:sameAs wd:Q2415934 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 6.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/364415408 osm_name='Theater Rigiblick'
+<https://example.org/nami/data/poi/1907> owl:sameAs wd:Q2416220 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 21.9 ;
+    nami:linkNameSimilarity 0.909
+|} .  # node/364547113 osm_name='Theaterhaus Gessnerallee'
+<https://example.org/nami/data/poi/1905> owl:sameAs wd:Q2416020 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.914
+|} .  # node/364396943 osm_name='Theater am Neumarkt'
+<https://example.org/nami/data/poi/1898> owl:sameAs wd:Q2416005 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/270800424 osm_name='Theater am Hechtplatz'
+<https://example.org/nami/data/poi/1892> owl:sameAs wd:Q72518883 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 3.9 ;
+    nami:linkNameSimilarity 0.741
+|} .  # way/30963285 osm_name='Theater 11 Zürich'
+<https://example.org/nami/data/poi/1874> owl:sameAs wd:Q675022 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 1.9 ;
+    nami:linkNameSimilarity 0.84
+|} .  # way/276558284 osm_name='Schauspielhaus Pfauen'
+<https://example.org/nami/data/poi/1867> owl:sameAs wd:Q1047632 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.3 ;
+    nami:linkNameSimilarity 0.703
+|} .  # way/188158693 osm_name='Casinotheater'
+<https://example.org/nami/data/poi/1840> owl:sameAs wd:Q661745 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/370843530 osm_name='cabaret voltaire'
+<https://example.org/nami/data/poi/296136> owl:sameAs wd:Q27490261 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.7 ;
+    nami:linkNameSimilarity 0.88
+|} .  # way/103945550 osm_name='ZAZ Bellerive Zentrum Architektur'
+<https://example.org/nami/data/poi/231298> owl:sameAs wd:Q691896 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 73.1 ;
+    nami:linkNameSimilarity 0.6
+|} .  # relation/4281153 osm_name='Landesmuseum'
+<https://example.org/nami/data/poi/212479> owl:sameAs wd:Q668213 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.656
+|} .  # node/140392627 osm_name='Museum für Gestaltung'
+<https://example.org/nami/data/poi/167317> owl:sameAs wd:Q44259711 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 13.7 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/4938375428 osm_name='Schweizer Finanzmuseum'
+<https://example.org/nami/data/poi/153097> owl:sameAs wd:Q1425698 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.6 ;
+    nami:linkNameSimilarity 0.909
+|} .  # way/154344052 osm_name='Forum der Schweizergeschichte'
+<https://example.org/nami/data/poi/75724> owl:sameAs wd:Q2243086 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 77.4 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/6405116864 osm_name='Schloss Regensberg'
+<https://example.org/nami/data/poi/75043> owl:sameAs wd:Q2241497 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 30.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # relation/2788355 osm_name='Schloss Hegi'
+<https://example.org/nami/data/poi/71158> owl:sameAs wd:Q27479972 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 36.5 ;
+    nami:linkNameSimilarity 0.824
+|} .  # node/4362460804 osm_name='Ziegeleimuseum Cham'
+<https://example.org/nami/data/poi/71146> owl:sameAs wd:Q1299354 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 22.7 ;
+    nami:linkNameSimilarity 0.939
+|} .  # node/534768647 osm_name='Museum für Urgeschichte'
+<https://example.org/nami/data/poi/34336> owl:sameAs wd:Q7431736 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.667
+|} .  # node/2427867574 osm_name='Schloss Laufen am Rheinfall'
+<https://example.org/nami/data/poi/4883> owl:sameAs wd:Q14912327 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.8 ;
+    nami:linkNameSimilarity 0.75
+|} .  # way/186775496 osm_name='Umwelt Arena'
+<https://example.org/nami/data/poi/2896> owl:sameAs wd:Q2364115 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 5.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/29709320 osm_name='Sukkulenten-Sammlung Zürich'
+<https://example.org/nami/data/poi/2026> owl:sameAs wd:Q638236 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/5570717646 osm_name='Pavillon Le Corbusier'
+<https://example.org/nami/data/poi/1875> owl:sameAs wd:Q1485034 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 1.5 ;
+    nami:linkNameSimilarity 0.667
+|} .  # way/31314096 osm_name='Weinbaumuseum'
+<https://example.org/nami/data/poi/1869> owl:sameAs wd:Q2536345 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/30924953 osm_name='Völkerkundemuseum der Universität Zürich'
+<https://example.org/nami/data/poi/1846> owl:sameAs wd:Q2327693 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 7.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/2492113644 osm_name='Stadtmuseum Rapperswil-Jona'
+<https://example.org/nami/data/poi/1844> owl:sameAs wd:Q190260 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 34.8 ;
+    nami:linkNameSimilarity 0.649
+|} .  # way/33806633 osm_name='Zentralbibliothek Zürich'
+<https://example.org/nami/data/poi/1800> owl:sameAs wd:Q689829 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.1 ;
+    nami:linkNameSimilarity 0.98
+|} .  # way/20914463 osm_name='Kunst Museum Winterthur / Reinhart am Stadtgarten'
+<https://example.org/nami/data/poi/1793> owl:sameAs wd:Q682406 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.7 ;
+    nami:linkNameSimilarity 0.818
+|} .  # way/73252928 osm_name='Sammlung Oskar Reinhart Am Römerholz'
+<https://example.org/nami/data/poi/1785> owl:sameAs wd:Q1997549 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 6.5 ;
+    nami:linkNameSimilarity 0.771
+|} .  # way/88798224 osm_name='Nordamerika Native Museum NONAM'
+<https://example.org/nami/data/poi/1749> owl:sameAs wd:Q252513 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.842
+|} .  # node/540307935 osm_name='Haus Konstruktiv'
+<https://example.org/nami/data/poi/1745> owl:sameAs wd:Q668213 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 40.1 ;
+    nami:linkNameSimilarity 0.706
+|} .  # node/3653699178 osm_name='Museum für Gestaltung - Schaudepot'
+<https://example.org/nami/data/poi/1691> owl:sameAs wd:Q1380528 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 29.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/4845833740 osm_name='Migros Museum für Gegenwartskunst'
+<https://example.org/nami/data/poi/1648> owl:sameAs wd:Q685038 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 3.4 ;
+    nami:linkNameSimilarity 0.72
+|} .  # relation/3768127 osm_name='Kunsthaus'
+<https://example.org/nami/data/poi/1630> owl:sameAs wd:Q1792425 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 5.4 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/2800733826 osm_name='Kunsthalle Zürich'
+<https://example.org/nami/data/poi/1622> owl:sameAs wd:Q18625677 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 5.9 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/34205589 osm_name='Historisches Museum Baden'
+<https://example.org/nami/data/poi/1600> owl:sameAs wd:Q27490235 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 80.9 ;
+    nami:linkNameSimilarity 0.717
+|} .  # node/2609723057 osm_name='Graphische Sammlung'
+<https://example.org/nami/data/poi/1597> owl:sameAs wd:Q18643284 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 17.4 ;
+    nami:linkNameSimilarity 0.615
+|} .  # node/4081379288 osm_name='Fotostiftung Schweiz'
+<https://example.org/nami/data/poi/1010518> owl:sameAs wd:Q27329928 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 9.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/54939277 osm_name='Orelliweg'
+<https://example.org/nami/data/poi/156409> owl:sameAs wd:Q676816 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 76.9 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/4903975 osm_name='Lützelsee'
+<https://example.org/nami/data/poi/153178> owl:sameAs wd:Q27325665 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/343125467 osm_name='Cassiopeiasteg'
+<https://example.org/nami/data/poi/34744> owl:sameAs wd:Q21552853 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/1436693226 osm_name='Naturzentrum Thurauen'
+<https://example.org/nami/data/poi/2506> owl:sameAs wd:Q1018919 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 62.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/4743823 osm_name='Bäckeranlage'
+<https://example.org/nami/data/poi/224368> owl:sameAs wd:Q1912022 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 147.7 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/14390375 osm_name='Freibad Letzigraben'
+<https://example.org/nami/data/poi/151639> owl:sameAs wd:Q55986993 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.8 ;
+    nami:linkNameSimilarity 0.72
+|} .  # way/97144761 osm_name='Apartment bei Swiss Holiday Park'
+<https://example.org/nami/data/poi/2525> owl:sameAs wd:Q25041263 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # relation/8425452 osm_name='Seebad Utoquai'
+<https://example.org/nami/data/poi/2510> owl:sameAs wd:Q114006573 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 17.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/37195434 osm_name='Flussbad Unterer Letten'
+<https://example.org/nami/data/poi/2505> owl:sameAs wd:Q972427 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 12.1 ;
+    nami:linkNameSimilarity 0.939
+|} .  # way/292433711 osm_name='Frauenbad Stadthausquai'
+<https://example.org/nami/data/poi/325899> owl:sameAs wd:Q15964226 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 105.6 ;
+    nami:linkNameSimilarity 0.647
+|} .  # node/2255957890 osm_name='Rothenthurm'
+<https://example.org/nami/data/poi/313454> owl:sameAs wd:Q488815 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.9 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/8041566 osm_name='MFO-Park'
+<https://example.org/nami/data/poi/2618> owl:sameAs wd:Q688113 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 24.7 ;
+    nami:linkNameSimilarity 0.759
+|} .  # way/29995256 osm_name='Chinagarten Zürich'
+<https://example.org/nami/data/poi/2560> owl:sameAs wd:Q686324 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 43.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/89060423 osm_name='Botanischer Garten der Universität Zürich'
+<https://example.org/nami/data/poi/2543> owl:sameAs wd:Q816289 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 23.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/5940133 osm_name='Belvoirpark'
+<https://example.org/nami/data/poi/1594> owl:sameAs wd:Q39374 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 1.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/10594810 osm_name='Lindenhof'
+<https://example.org/nami/data/poi/71278> owl:sameAs wd:Q1372195 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 21.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/22964006 osm_name='Wildpark Bruderhaus'
+<https://example.org/nami/data/poi/5637> owl:sameAs wd:Q688446 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 90.7 ;
+    nami:linkNameSimilarity 0.968
+|} .  # way/26572316 osm_name="Knie's Kinderzoo"
+<https://example.org/nami/data/poi/311631> owl:sameAs wd:Q5518446 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 7.2 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/1115159416 osm_name='Galerie Gmurzynska'
+<https://example.org/nami/data/poi/1001002> owl:sameAs wd:Q111874780 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 1.8 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/3822324119 osm_name='Hotel Neufeld'
+<https://example.org/nami/data/poi/1255> owl:sameAs wd:Q111409764 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 1.0
+|} .  # node/276406426 osm_name='Novotel Zürich City West'
+<https://example.org/nami/data/poi/2061> owl:sameAs wd:Q693087 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 12.5 ;
+    nami:linkNameSimilarity 1.0
+|} .  # relation/2617654 osm_name='Kloster Einsiedeln'
+<https://example.org/nami/data/poi/2020> owl:sameAs wd:Q673228 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 65.8 ;
+    nami:linkNameSimilarity 0.773
+|} .  # node/1239733410 osm_name='Zürich Stadelhofen'
+<https://example.org/nami/data/poi/2013> owl:sameAs wd:Q683345 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.3 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/47122541 osm_name='Prime Tower'
+<https://example.org/nami/data/poi/2011> owl:sameAs wd:Q1313725 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 53.4 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/60507744 osm_name='Rennweg'
+<https://example.org/nami/data/poi/2006> owl:sameAs wd:Q2155180 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 84.1 ;
+    nami:linkNameSimilarity 0.681
+|} .  # way/92121105 osm_name='Ritterhaus Ürikon'
+<https://example.org/nami/data/poi/1987> owl:sameAs wd:Q29525468 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.3 ;
+    nami:linkNameSimilarity 0.933
+|} .  # way/119940715 osm_name='Schlossturm Pfäffikon'
+<https://example.org/nami/data/poi/1952> owl:sameAs wd:Q675026 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 9.3 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/332455374 osm_name='Bahnhofstrasse'
+<https://example.org/nami/data/poi/1945> owl:sameAs wd:Q4821233 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/288937851 osm_name='Augustinergasse'
+<https://example.org/nami/data/poi/1794> owl:sameAs wd:Q477189 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 25.1 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/112795856 osm_name='Wasserkirche'
+<https://example.org/nami/data/poi/1776> owl:sameAs wd:Q1410493 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 27.7 ;
+    nami:linkNameSimilarity 0.649
+|} .  # way/31697968 osm_name='Reformierte Kirche Horgen'
+<https://example.org/nami/data/poi/1771> owl:sameAs wd:Q1823936 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 47.7 ;
+    nami:linkNameSimilarity 0.64
+|} .  # way/5937142 osm_name='Liebfrauenkirche'
+<https://example.org/nami/data/poi/1728> owl:sameAs wd:Q9315546 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 2.4 ;
+    nami:linkNameSimilarity 1.0
+|} .  # way/30067765 osm_name='Rathaus'
+<https://example.org/nami/data/poi/1705> owl:sameAs wd:Q27132811 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 9.7 ;
+    nami:linkNameSimilarity 0.692
+|} .  # node/2959847756 osm_name='Pestalozzi-Denkmal'
+<https://example.org/nami/data/poi/1618> owl:sameAs wd:Q27229673 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.0 ;
+    nami:linkNameSimilarity 0.95
+|} .  # node/356298160 osm_name='Alfred Escher-Statue'
+<https://example.org/nami/data/poi/1601> owl:sameAs wd:Q2500042 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 0.1 ;
+    nami:linkNameSimilarity 0.722
+|} .  # node/494525722 osm_name='Sternwarte Urania'
+<https://example.org/nami/data/poi/1946> owl:sameAs wd:Q692578 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 24.9 ;
+    nami:linkNameSimilarity 0.75
+|} .  # way/348877313 osm_name='The Dolder Grand'
+<https://example.org/nami/data/poi/1931> owl:sameAs wd:Q2650746 {|
+    nami:linkMethod "osm-wikidata-tag" ;
+    nami:linkDistanceMeters 44.3 ;
+    nami:linkNameSimilarity 0.64
+|} .  # way/39519529 osm_name='Alpamare'

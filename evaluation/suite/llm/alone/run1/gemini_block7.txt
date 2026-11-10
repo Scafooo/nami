@@ -1,0 +1,168 @@
+[
+{
+"interest_id": "I32",
+"places": [
+{
+"rank": 1,
+"name": "Thermengasse (Roman Baths)",
+"address": "Thermengasse, 8001 Zürich",
+"reasons": [
+{
+"reason": "Thermengasse contains the archaeological remains of ancient Roman thermal bathhouses in Turicum (Zurich).",
+"url": "https://www.zuerich.com/en/visit/attractions/thermengasse-where-the-romans-relaxed-in-zurich",
+"quote": "Roman baths were discovered by chance during renovation work and consequently much learned about Zurich's history."
+}
+]
+},
+{
+"rank": 2,
+"name": "Lindenhof",
+"address": "Lindenhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "Lindenhof is the historical site of a Roman castle and the later early medieval Carolingian Kaiserpfalz.",
+"url": "https://en.wikipedia.org/wiki/Lindenhof",
+"quote": "Lindenhof, lit. 'Tilia Courtyard', in the old town of Zurich, Switzerland, is the historical site of a Roman castle, and the later Carolingian Kaiserpfalz."
+}
+]
+},
+{
+"rank": 3,
+"name": "Wasserkirche",
+"address": "Limmatquai 31, 8001 Zürich",
+"reasons": [
+{
+"reason": "The crypt of the Wasserkirche houses a martyr stone tied to medieval tradition regarding Zurich's patron saints.",
+"url": "https://en.wikipedia.org/wiki/Wasserkirche",
+"quote": "According to medieval tradition, the site was used for the execution of Saints Felix and Regula."
+}
+]
+},
+{
+"rank": 4,
+"name": "Fraumünster",
+"address": "Münsterhof 2, 8001 Zürich",
+"reasons": [
+{
+"reason": "Fraumünster was built on the site of an abbey founded in the early medieval period in 853 AD.",
+"url": "https://en.wikipedia.org/wiki/Fraum%C3%BCnster",
+"quote": "The Fraumünster is a church in Zurich, Switzerland, which was built on the remains of a former abbey for aristocratic women and which was founded in 853 by Louis the German for his daughter Hildegard."
+}
+]
+},
+{
+"rank": 5,
+"name": "Ehgraben",
+"address": "Schöffengasse / Neumarkt, 8001 Zürich",
+"reasons": [
+{
+"reason": "Ehgraben is an open archaeological window demonstrating medieval sewage and waste management in Zurich.",
+"url": "https://www.atlasobscura.com/places/eh-graben-medieval-sewage-ditch",
+"quote": "In medieval Zürich, waste management meant that sewage, trash, and other unwanted materials were dumped into the small alleys, called ehgraben,"
+}
+]
+}
+]
+},
+{
+"interest_id": "I33",
+"places": [
+{
+"rank": 1,
+"name": "Münsterhof Fountain",
+"address": "Münsterhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Münsterhof Fountain is a historic six-meter wide fountain adjacent to Fraumünster Church.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "The fountain with a diameter of around 6 meters (20 ft) stands on the historic Münsterhof, directly next to the Fraumünster Church."
+}
+]
+},
+{
+"rank": 2,
+"name": "Zentralhof Fountain",
+"address": "Zentralhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Zentralhof Fountain is an ornamental 1877 cast-iron drinking fountain guarded by winged lions.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "In 1877, this was replaced by an imposing cast-iron fountain guarded by three winged lions."
+}
+]
+},
+{
+"rank": 3,
+"name": "Sechseläutenplatz Fountain",
+"address": "Sechseläutenplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "The fountain installation at Sechseläutenplatz features 53 individual water jets in front of the Opera House.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "With its 53 water jets, the fountain ensemble is a spectacular sight."
+}
+]
+},
+{
+"rank": 4,
+"name": "Bullingerplatz Fountain",
+"address": "Bullingerplatz, 8004 Zürich",
+"reasons": [
+{
+"reason": "The Bullingerplatz Fountain acts as a prominent public gathering spot in Kreis 4.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "This fountain is a popular meeting place for locals in the trendy Kreis 4 district,. which really comes to life when the sun is shining."
+}
+]
+},
+{
+"rank": 5,
+"name": "Europuddle Fountain",
+"address": "Europaallee, 8004 Zürich",
+"reasons": [
+{
+"reason": "Europuddle is an interactive urban water feature providing cooling relief in the heart of Europaallee.",
+"url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/fountain-city-zurich",
+"quote": "Surrounded by restaurants and stores, Europuddle offers a refreshing opportunity to cool down and serves as a dynamic oasis in the heart of the city."
+}
+]
+},
+{
+"rank": 6,
+"name": "Hedwig Fountain (Lindenhofbrunnen)",
+"address": "Lindenhof, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Hedwig Fountain on Lindenhof features a statue by Gustav Siber depicting a helmeted woman.",
+"url": "https://mapcarta.com/N5808963034",
+"quote": "The helmeted statue of a woman beside the fountain was made by Gustav Siber."
+}
+]
+},
+{
+"rank": 7,
+"name": "Amazon Fountain (Amazonenbrunnen)",
+"address": "Rennweg / Stehlgasse, 8001 Zürich",
+"reasons": [
+{
+"reason": "The Amazon Fountain is a historic landmark located along Stehlgasse in Zurich's Old Town.",
+"url": "https://sg.trip.com/moments/detail/zurich-301-151219335/",
+"quote": "The Amazon Fountain (Amazonenbrunnen) is a fascinating historic landmark in Zurich, situated along Stehlgasse near Rennweg in the Old Town."
+}
+]
+},
+{
+"rank": 8,
+"name": "Alfred Escher Memorial Fountain",
+"address": "Bahnhofplatz, 8001 Zürich",
+"reasons": [
+{
+"reason": "The monument is a historic bronze fountain honoring Alfred Escher directly in front of the main railway station.",
+"url": "https://nextontrip.com/place/alfred-escher-memorial-fountain",
+"quote": "The Alfred Escher memorial fountain in Zurich sits on Bahnhofplatz, right in front of the central railway station."
+}
+]
+}
+]
+}
+]

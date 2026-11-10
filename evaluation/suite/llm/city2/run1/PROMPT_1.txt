@@ -1,0 +1,16 @@
+You are planning walking tours in the city of Basel, Switzerland (the city itself, not the canton).
+
+Interests:
+- Erasmus (id Q43499)
+- Paracelsus (id Q83428)
+- Hans Holbein the Younger (id Q48319)
+- Friedrich Nietzsche (id Q9358)
+- Leonhard Euler (id Q7604)
+- Jean Tinguely (id Q163938)
+- Theodor Herzl (id Q44003)
+- Hermann Hesse (id Q25973)
+- Jacob Burckhardt (id Q59945)
+- Carnival of Basel (id Q35281)
+
+Answer only with JSON, one object per interest:
+[{"interest_id": "I01", "places": [{"rank": 1, "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}]}]

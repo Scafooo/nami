@@ -1,0 +1,17 @@
+# Type-level trust per source (paper, Sec. 4.1). A source not listed is
+# fully trusted. Every fact has a source: its reference when Wikidata gives
+# one ("stated in" item or reference URL), otherwise the Wikidata statement
+# it was read from -- a traceable but unreferenced source, trusted less.
+@prefix nami: <https://example.org/nami/ontology#> .
+
+[] nami:trustPrefix "http://www.wikidata.org/entity/statement/" ;
+   nami:trust 0.8 .
+
+# Facts cached before sources were always recorded.
+<urn:nami:source:wikidata-unreferenced> nami:trust 0.8 .
+
+# Zurich Tourism descriptions, read by extract_mentions.py: an editorial
+# source, not a reference work.
+[] nami:trustPrefix "https://www.zuerich.com/" ;
+   nami:trust 0.9 .
+

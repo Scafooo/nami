@@ -1,0 +1,10 @@
+# The profile of Example 2 of the paper.
+@prefix hu:  <https://example.org/nami/ontology/user#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix :    <https://example.org/nami/data/user/> .
+
+:user1 hu:interestedIn wd:Q937      {| hu:weight 0.9 ; hu:source hu:Onboarding ;   hu:linkConfidence 1.0 |} ;   # Albert Einstein
+       hu:interestedIn wd:Q108839994 {| hu:weight 0.6 ; hu:source hu:WatchHistory ; hu:linkConfidence 0.8 |} ;  # Oppenheimer (2023 film)
+       hu:notInterestedIn wd:Q79007 ;    # street
+       hu:language "en" .

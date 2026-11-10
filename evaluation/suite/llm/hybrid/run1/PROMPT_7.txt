@@ -1,0 +1,65 @@
+Plan a walking tour in Zurich for a visitor interested in each of the interests below. For each interest you get the places a system retrieved, each with the reasons that link it to the interest and their sources. You may keep, drop or add places, and add reasons. For each interest, list at most 10 places, and for each place all the reasons that link it to the interest. For each reason you add, give the URL of a web page that states it and the sentence of that page, quoted exactly.
+
+Answer only with JSON, one object per interest; refer to a retrieved place by its id:
+[{"interest_id": "I01", "places": [
+  {"rank": 1, "origin": "graph", "id": "S1", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]},
+  {"rank": 2, "origin": "new", "name": "...", "address": "...", "reasons": [{"reason": "...", "url": "https://...", "quote": "..."}]}
+]}]
+
+Interests:
+
+## I32: Archaeology (Roman and medieval)
+- S1: Baldern, medieval castle site
+    because: Baldern, medieval castle site --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von regionaler Bedeutung 2017)
+- S2: Sellenbüren / Ofengüpf, medieval castle site
+    because: Sellenbüren / Ofengüpf, medieval castle site --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von regionaler Bedeutung 2017)
+- S3: Burg Uetliburg
+    because: Burg Uetliburg --instance of--> archaeological site (source: Wikidata)
+- S4: Castel site Alt-Rohr
+    because: Castel site Alt-Rohr --instance of--> archaeological site (source: Wikidata)
+- S5: Krattenturm
+    because: Krattenturm --instance of--> archaeological site (source: Wikidata)
+- S6: Zürich (Samian Ware Discovery Site)
+    because: Zürich (Samian Ware Discovery Site) --instance of--> archaeological site (source: Wikidata, citing Samian Research)
+- S7: Schiterburg
+    because: Schiterburg --instance of--> archaeological site (source: Wikidata)
+- S8: Burgstelle Biberlinsburg
+    because: Burgstelle Biberlinsburg --instance of--> archaeological site (source: Wikidata)
+- S9: Burgstelle Liebenstein
+    because: Burgstelle Liebenstein --instance of--> archaeological site (source: Wikidata, statement without reference)
+- S10: old town, celtic / roman settlement / medieval town, palatinate
+    because: lower lake Zurich basin, neolithic and bronze Age lakeside settlements --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von nationaler Bedeutung 2017)
+    because: old town, celtic / roman settlement / medieval town, palatinate --instance of--> archaeological site (source: Wikidata, citing Schweizerisches Inventar der Kulturgüter von nationaler Bedeutung 2017)
+
+## I33: Fountains
+- S1: Brunnen Delphinstrasse 12 u. 14 Zürich
+    because: Brunnen Delphinstrasse 12 u. 14 Zürich --instance of--> fountain (source: Wikidata, statement without reference)
+- S2: Sardona Brunnen Zürich
+    because: Sardona Brunnen Zürich --instance of--> fountain (source: Wikidata)
+- S3: Boutique Hotel Wellenberg
+    because: Hirschenplatz --instance of--> fountain (source: Wikidata)
+    because: fountain --mentionedAt--> Boutique Hotel Wellenberg (source: https://www.zuerich.com/fr/node/1317) -- "Un centre d'affaires et une terrasse d'été avec fontaine sont à votre dispositio"
+    because: fountain (water) --mentionedAt--> Boutique Hotel Wellenberg (source: https://www.zuerich.com/it/node/1317) -- "Presso il Boutique Hotel Wellenberg troverete un ristorante mediterraneo à la carte, un bar che propone un'ampia scelta di vini, cocktail e snack sofisticati, una hall con biblioteca e vista sul centr"
+- S4: Brunnen Chüpliweg Zürich
+    because: Brunnen Chüpliweg Zürich --instance of--> fountain (source: Wikidata, statement without reference)
+- S5: Brunnen Dorfstr. - Dufourstr.
+    because: Brunnen Dorfstr. - Dufourstr. --instance of--> fountain (source: Wikidata)
+- S6: Station Fountain Küsnacht ZH
+    because: Station Fountain Küsnacht ZH --instance of--> fountain (source: Wikidata, statement without reference)
+- S7: Station Fountain Dietlikon
+    because: Station Fountain Dietlikon --instance of--> fountain (source: Wikidata, statement without reference)
+    because: fountain --instance of--> fountain (source: https://www.openstreetmap.org/way/1262187639)
+- S8: Cemetery Manegg
+    because: Brunnen mit "Eichhörnchen" --instance of--> fountain (source: Wikidata)
+    because: Brunnen mit "Eichhörnchen" --instance of--> fountain (source: Wikidata); Brunnen mit "Eichhörnchen" --location--> Cemetery Manegg (source: Wikidata, statement without reference)
+    because: Brunnen mit "Wasserschöpferin" --instance of--> fountain (source: Wikidata); Brunnen mit "Wasserschöpferin" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Brunnen mit "Eichhörnchen" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    because: Brunnen mit Rundbogen --instance of--> fountain (source: Wikidata); Brunnen mit Rundbogen --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Brunnen mit "Eichhörnchen" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    because: Brunnenfigur "Rufender Knabe" --instance of--> fountain (source: Wikidata); Brunnenfigur "Rufender Knabe" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Brunnen mit "Eichhörnchen" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    because: Brunnen mit "Wasserschöpferin" --instance of--> fountain (source: Wikidata); Brunnen mit "Wasserschöpferin" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Mutter mit Kind --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    because: Brunnen mit "Eichhörnchen" --instance of--> fountain (source: Wikidata); Brunnen mit "Eichhörnchen" --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Mutter mit Kind --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    because: Brunnen mit Rundbogen --instance of--> fountain (source: Wikidata); Brunnen mit Rundbogen --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum); Mutter mit Kind --creator--> Ida Schär-Krause (source: Wikidata, citing Kunst im Stadtraum)
+    ... and 1 more reasons of lower value
+- S9: Heilig Geist
+    because: Heilig Geist --instance of--> fountain (source: Wikidata)
+- S10: Sirius fountain
+    because: Sirius fountain --instance of--> fountain (source: Wikidata)

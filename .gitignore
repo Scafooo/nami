@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+store/
+store_gp/
+output/
+evaluation/annotazioni/compilati/
+evaluation/suite/runs/llm/page_cache.json
+evaluation/suite/runs/llm/geocode_cache.json

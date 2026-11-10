@@ -1,0 +1,77 @@
+# Type-level annotations of G_P (paper, Sec. 4.1.1): a default weight per
+# relation, and the small set R_X of relations that connect entities
+# without relating them. Every relation not listed has weight 1.
+# Plain RDF, not RDF-star: these describe kinds of facts, not single facts.
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+# Generic, classificatory or administrative connections: real, but rarely
+# specific to an interest.
+wdt:P17   nami:defaultWeight 0.3 .   # country
+wdt:P27   nami:defaultWeight 0.3 .   # country of citizenship
+wdt:P106  nami:defaultWeight 0.3 .   # occupation
+wdt:P101  nami:defaultWeight 0.4 .   # field of work
+wdt:P103  nami:defaultWeight 0.2 .   # native language
+wdt:P1412 nami:defaultWeight 0.2 .   # languages spoken
+wdt:P166  nami:defaultWeight 0.4 .   # award received
+wdt:P1343 nami:defaultWeight 0.2 .   # described by source
+wdt:P131  nami:defaultWeight 0.5 .   # located in the administrative entity
+wdt:P361  nami:defaultWeight 0.6 .   # part of
+wdt:P527  nami:defaultWeight 0.6 .   # has part
+wdt:P355  nami:defaultWeight 0.5 .   # subsidiary
+wdt:P749  nami:defaultWeight 0.5 .   # parent organization
+wdt:P159  nami:defaultWeight 0.6 .   # headquarters location
+wdt:P127  nami:defaultWeight 0.6 .   # owned by
+wdt:P1830 nami:defaultWeight 0.6 .   # owner of
+wdt:P463  nami:defaultWeight 0.6 .   # member of
+wdt:P921  nami:defaultWeight 0.6 .   # main subject
+wdt:P137  nami:defaultWeight 0.3 .   # operator: a utility operating many fountains links them all (2026-11-05)
+# wdt:P138 named after: see below (0.4)
+
+# R_X: excluded from traversal altogether.
+wdt:P735  a nami:ExcludedRelation .  # given name
+wdt:P734  a nami:ExcludedRelation .  # family name
+wdt:P1889 a nami:ExcludedRelation .  # different from
+wdt:P460  a nami:ExcludedRelation .  # said to be the same as
+wdt:P910  a nami:ExcludedRelation .  # topic's main category
+wdt:P1424 a nami:ExcludedRelation .  # topic's main template
+wdt:P5008 a nami:ExcludedRelation .  # on focus list of Wikimedia project
+wdt:P6104 a nami:ExcludedRelation .  # maintained by WikiProject
+wdt:P186  a nami:ExcludedRelation .  # made from material: two works of the same stone are not related (2026-11-05)
+wdt:P706  a nami:ExcludedRelation .  # located in/on physical feature: a lake or a hill links everything on it (2026-11-05)
+
+# Relations read from the catalogue text (mappings/text_relations.ttl): a
+# bare mention says little; a named relation as much as its Wikidata twin.
+@prefix nami: <https://example.org/nami/ontology#> .
+nami:mentionedAt    nami:defaultWeight 0.5 .
+nami:frequented     nami:defaultWeight 0.8 .
+nami:performedAt    nami:defaultWeight 0.8 .
+nami:commemoratedAt nami:defaultWeight 0.9 .
+nami:themedAfter    nami:defaultWeight 0.8 .
+
+# Added 2026-10-01: neighbourhood relations, not connections between an entity and a place.
+@prefix nami: <https://example.org/nami/ontology#> .
+wdt:P47   a nami:ExcludedRelation .  # shares border with
+wdt:P669  a nami:ExcludedRelation .  # located on street
+
+# Added 2026-10-01 (from the blind comparison with published walks): links that are real but
+# tenuous for a visitor -- a place only named after the person, a relative, a teacher or pupil,
+# an archive or a collection holding their papers or works -- weigh less.
+wdt:P138  nami:defaultWeight 0.4 .   # named after (overrides 0.7 above)
+wdt:P22   nami:defaultWeight 0.5 .   # father
+wdt:P25   nami:defaultWeight 0.5 .   # mother
+wdt:P26   nami:defaultWeight 0.5 .   # spouse
+wdt:P40   nami:defaultWeight 0.5 .   # child
+wdt:P3373 nami:defaultWeight 0.5 .   # sibling
+wdt:P1038 nami:defaultWeight 0.5 .   # relative
+wdt:P184  nami:defaultWeight 0.5 .   # doctoral advisor
+wdt:P185  nami:defaultWeight 0.5 .   # doctoral student
+wdt:P1066 nami:defaultWeight 0.5 .   # student of
+wdt:P802  nami:defaultWeight 0.5 .   # student
+wdt:P737  nami:defaultWeight 0.5 .   # influenced by
+wdt:P485  nami:defaultWeight 0.5 .   # archives at
+wdt:P6379 nami:defaultWeight 0.5 .   # has works in the collection
+wdt:P608  nami:defaultWeight 0.5 .   # exhibition history
+# createdAt (artist -> work) opens a bridge from a memorial to its sculptor's other works: weigh it
+# like the other tenuous links (2026-10-01).
+nami:createdAt      nami:defaultWeight 0.5 .

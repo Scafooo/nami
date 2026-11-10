@@ -1,0 +1,471 @@
+# Facts of G_P from OpenStreetMap (ODbL, (c) OpenStreetMap contributors): memorials, plaques,
+# graves and artworks linked by subject:wikidata / artist:wikidata. src/pipeline/enrich/extract_osm_memorials.py
+@prefix nami: <https://example.org/nami/ontology#> .
+@prefix wd:  <http://www.wikidata.org/entity/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+wd:Q115569 nami:commemoratedAt wd:Q27229673 {| nami:source <https://www.openstreetmap.org/node/356298160> ;
+    nami:evidence "Alfred Escher-Statue" ;
+    nami:confidence 0.9 |} .
+wd:Q120459 nami:createdAt wd:Q27229673 {| nami:source <https://www.openstreetmap.org/node/356298160> ;
+    nami:evidence "Alfred Escher-Statue" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_419543402> rdfs:label "plaque, Spiegelgasse 14" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5449445 47.3719767)"^^geo:wktLiteral ] .
+wd:Q1394 nami:livedAt <https://example.org/nami/data/plaque/osm_node_419543402> {| nami:source <https://www.openstreetmap.org/node/419543402> ;
+    nami:evidence "HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜHRER DER RUSSISCHEN REVOLUTION" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_419543403> rdfs:label "Georg Büchner, Spiegelgasse 12" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5448174 47.3719124)"^^geo:wktLiteral ] .
+wd:Q154014 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_419543403> {| nami:source <https://www.openstreetmap.org/node/419543403> ;
+    nami:evidence "Georg Büchner" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_489786067> rdfs:label "Gottfried-Keller-Denkmal, Mythenquai" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5358243 47.3588592)"^^geo:wktLiteral ] .
+wd:Q122370 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_489786067> {| nami:source <https://www.openstreetmap.org/node/489786067> ;
+    nami:evidence "Gottfried-Keller-Denkmal" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_672727941> rdfs:label "Georg Büchner, Germaniastrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5533081 47.3877347)"^^geo:wktLiteral ] .
+wd:Q154014 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_672727941> {| nami:source <https://www.openstreetmap.org/node/672727941> ;
+    nami:evidence "Georg Büchner" ;
+    nami:confidence 0.9 |} .
+wd:Q124408 nami:commemoratedAt wd:Q27229955 {| nami:source <https://www.openstreetmap.org/node/1614556142> ;
+    nami:evidence "Hans Waldmann" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_1783827393> rdfs:label "Zeitmaschine, Flurstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.494411 47.3835993)"^^geo:wktLiteral ] .
+wd:Q2602127 nami:createdAt <https://example.org/nami/data/plaque/osm_node_1783827393> {| nami:source <https://www.openstreetmap.org/node/1783827393> ;
+    nami:evidence "Zeitmaschine" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_1888030761> rdfs:label "Thomas Mann Familiengrab, Nidelbadstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5418389 47.3159857)"^^geo:wktLiteral ] .
+wd:Q37030 nami:buriedAt <https://example.org/nami/data/plaque/osm_node_1888030761> {| nami:source <https://www.openstreetmap.org/node/1888030761> ;
+    nami:evidence "Thomas Mann Familiengrab" ;
+    nami:confidence 0.9 |} .
+wd:Q182536 nami:commemoratedAt wd:Q27229893 {| nami:source <https://www.openstreetmap.org/node/2917165572> ;
+    nami:evidence "Widmer 1808-1865 Schweizerpsalm Zwyssig 1808-1854 Schweizerpsalm-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q27229260 nami:createdAt wd:Q27229893 {| nami:source <https://www.openstreetmap.org/node/2917165572> ;
+    nami:evidence "Widmer 1808-1865 Schweizerpsalm Zwyssig 1808-1854 Schweizerpsalm-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q105428 nami:commemoratedAt wd:Q27132811 {| nami:source <https://www.openstreetmap.org/node/2959847756> ;
+    nami:evidence "Pestalozzi-Denkmal" ;
+    nami:confidence 0.9 |} .
+wd:Q123454 nami:createdAt wd:Q24648846 {| nami:source <https://www.openstreetmap.org/node/2959851673> ;
+    nami:evidence "Pavillon-Skulptur" ;
+    nami:confidence 0.9 |} .
+wd:Q601576 nami:createdAt wd:Q27230002 {| nami:source <https://www.openstreetmap.org/node/2959854096> ;
+    nami:evidence "Der grosse Aufschwung" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_3355609483> rdfs:label "Nana \"L'ange protecteur\", Plaza" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5400482 47.3780734)"^^geo:wktLiteral ] .
+wd:Q168704 nami:createdAt <https://example.org/nami/data/plaque/osm_node_3355609483> {| nami:source <https://www.openstreetmap.org/node/3355609483> ;
+    nami:evidence "Nana \"L'ange protecteur\"" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_3625411886> rdfs:label "Schrödinger's Cat, Huttensteig" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5489776 47.3826161)"^^geo:wktLiteral ] .
+wd:Q8588 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_3625411886> {| nami:source <https://www.openstreetmap.org/node/3625411886> ;
+    nami:evidence "Schrödinger's Cat" ;
+    nami:confidence 0.9 |} .
+wd:Q21032990 nami:createdAt wd:Q27230218 {| nami:source <https://www.openstreetmap.org/node/3653807826> ;
+    nami:evidence "Anne-Sophie" ;
+    nami:confidence 0.9 |} .
+wd:Q2205690 nami:createdAt wd:Q27230152 {| nami:source <https://www.openstreetmap.org/node/3854453957> ;
+    nami:evidence "Le Silence" ;
+    nami:confidence 0.9 |} .
+wd:Q123034 nami:commemoratedAt wd:Q63348861 {| nami:source <https://www.openstreetmap.org/node/4100030173> ;
+    nami:evidence "Huldrych Zwingli" ;
+    nami:confidence 0.9 |} .
+wd:Q151097 nami:createdAt wd:Q19759382 {| nami:source <https://www.openstreetmap.org/node/4386331716> ;
+    nami:evidence "Sheep Piece" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4427050462> rdfs:label "Trinkbrunnen, Dialogweg 6" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5598285 47.4135509)"^^geo:wktLiteral ] .
+wd:Q85101742 nami:createdAt <https://example.org/nami/data/plaque/osm_node_4427050462> {| nami:source <https://www.openstreetmap.org/node/4427050462> ;
+    nami:evidence "Trinkbrunnen" ;
+    nami:confidence 0.9 |} .
+wd:Q2938863 nami:createdAt wd:Q27132708 {| nami:source <https://www.openstreetmap.org/node/4579779855> ;
+    nami:evidence "Andacht" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4580295790> rdfs:label "Grabdenkmal James Joyce, Batteriestrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5706541 47.3834954)"^^geo:wktLiteral ] .
+wd:Q6882 nami:buriedAt <https://example.org/nami/data/plaque/osm_node_4580295790> {| nami:source <https://www.openstreetmap.org/node/4580295790> ;
+    nami:evidence "Grabdenkmal James Joyce" ;
+    nami:confidence 0.9 |} .
+wd:Q2205690 nami:createdAt wd:Q27230351 {| nami:source <https://www.openstreetmap.org/node/4580295806> ;
+    nami:evidence "Figur" ;
+    nami:confidence 0.9 |} .
+wd:Q463844 nami:createdAt wd:Q27229872 {| nami:source <https://www.openstreetmap.org/node/4580439957> ;
+    nami:evidence "Kofferinstallation" ;
+    nami:confidence 0.9 |} .
+wd:Q15429125 nami:createdAt wd:Q27229962 {| nami:source <https://www.openstreetmap.org/node/4581580685> ;
+    nami:evidence "Die Schreitende" ;
+    nami:confidence 0.9 |} .
+wd:Q2285554 nami:createdAt wd:Q27229918 {| nami:source <https://www.openstreetmap.org/node/4581580696> ;
+    nami:evidence "David" ;
+    nami:confidence 0.9 |} .
+wd:Q461165 nami:createdAt wd:Q27229989 {| nami:source <https://www.openstreetmap.org/node/4581625598> ;
+    nami:evidence "IBM-Stengel" ;
+    nami:confidence 0.9 |} .
+wd:Q116550 nami:createdAt wd:Q27229987 {| nami:source <https://www.openstreetmap.org/node/4581625600> ;
+    nami:evidence "Figur I (Sonnenstein)" ;
+    nami:confidence 0.9 |} .
+wd:Q116550 nami:createdAt wd:Q27229983 {| nami:source <https://www.openstreetmap.org/node/4581625605> ;
+    nami:evidence "Figur I (Stehle)" ;
+    nami:confidence 0.9 |} .
+wd:Q27229526 nami:createdAt wd:Q27230032 {| nami:source <https://www.openstreetmap.org/node/4581800299> ;
+    nami:evidence "Schwan" ;
+    nami:confidence 0.9 |} .
+wd:Q680192 nami:createdAt wd:Q27230024 {| nami:source <https://www.openstreetmap.org/node/4581800304> ;
+    nami:evidence "Kugellager oder runde Steine (II)" ;
+    nami:confidence 0.9 |} .
+wd:Q680192 nami:createdAt wd:Q27230022 {| nami:source <https://www.openstreetmap.org/node/4581800305> ;
+    nami:evidence "Kugellager oder runde Steine (I)" ;
+    nami:confidence 0.9 |} .
+wd:Q601576 nami:createdAt wd:Q27230130 {| nami:source <https://www.openstreetmap.org/node/4581892205> ;
+    nami:evidence "Ikarus" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770914323> rdfs:label "Sonne, Gratstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4887009 47.3517777)"^^geo:wktLiteral ] .
+wd:Q525 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770914323> {| nami:source <https://www.openstreetmap.org/node/4770914323> ;
+    nami:evidence "Sonne" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770914325> rdfs:label "Venus, Gratstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4895577 47.3509971)"^^geo:wktLiteral ] .
+wd:Q313 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770914325> {| nami:source <https://www.openstreetmap.org/node/4770914325> ;
+    nami:evidence "Venus" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770926223> rdfs:label "Merkur, Gratstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4891839 47.35138)"^^geo:wktLiteral ] .
+wd:Q308 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770926223> {| nami:source <https://www.openstreetmap.org/node/4770926223> ;
+    nami:evidence "Merkur" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770935723> rdfs:label "Erde und Mond, Gratstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4897795 47.3507507)"^^geo:wktLiteral ] .
+wd:Q2 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770935723> {| nami:source <https://www.openstreetmap.org/node/4770935723> ;
+    nami:evidence "Erde und Mond" ;
+    nami:confidence 0.9 |} .
+wd:Q405 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770935723> {| nami:source <https://www.openstreetmap.org/node/4770935723> ;
+    nami:evidence "Erde und Mond" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770952221> rdfs:label "Mars, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4901988 47.3500844)"^^geo:wktLiteral ] .
+wd:Q111 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770952221> {| nami:source <https://www.openstreetmap.org/node/4770952221> ;
+    nami:evidence "Mars" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770952222> rdfs:label "Ceres, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4909736 47.3487398)"^^geo:wktLiteral ] .
+wd:Q596 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770952222> {| nami:source <https://www.openstreetmap.org/node/4770952222> ;
+    nami:evidence "Ceres" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4770980122> rdfs:label "Jupiter, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4949568 47.3472245)"^^geo:wktLiteral ] .
+wd:Q319 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4770980122> {| nami:source <https://www.openstreetmap.org/node/4770980122> ;
+    nami:evidence "Jupiter" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4771036121> rdfs:label "Saturn, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4969923 47.3423777)"^^geo:wktLiteral ] .
+wd:Q193 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4771036121> {| nami:source <https://www.openstreetmap.org/node/4771036121> ;
+    nami:evidence "Saturn" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4771095027> rdfs:label "Uranus, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5001902 47.3306954)"^^geo:wktLiteral ] .
+wd:Q324 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4771095027> {| nami:source <https://www.openstreetmap.org/node/4771095027> ;
+    nami:evidence "Uranus" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4771166023> rdfs:label "Pluto in Sonnennähe, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5009478 47.3187579)"^^geo:wktLiteral ] .
+wd:Q339 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4771166023> {| nami:source <https://www.openstreetmap.org/node/4771166023> ;
+    nami:evidence "Pluto in Sonnennähe" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_4771195121> rdfs:label "Neptun, Gratweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5015969 47.3184764)"^^geo:wktLiteral ] .
+wd:Q332 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_4771195121> {| nami:source <https://www.openstreetmap.org/node/4771195121> ;
+    nami:evidence "Neptun" ;
+    nami:confidence 0.9 |} .
+wd:Q115569 nami:commemoratedAt wd:Q27229673 {| nami:source <https://www.openstreetmap.org/node/4988194797> ;
+    nami:evidence "Alfred-Escher-Brunnen" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5193670930> rdfs:label "Denkmal für Hans Künzi, Europaplatz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5363692 47.3781545)"^^geo:wktLiteral ] .
+wd:Q542346 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5193670930> {| nami:source <https://www.openstreetmap.org/node/5193670930> ;
+    nami:evidence "Denkmal für Hans Künzi" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5236752523> rdfs:label "Pluto, Planetenweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5094922 47.3087024)"^^geo:wktLiteral ] .
+wd:Q339 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_5236752523> {| nami:source <https://www.openstreetmap.org/node/5236752523> ;
+    nami:evidence "Pluto" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5341628221> rdfs:label "Das Höllentor, Heimplatz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5481502 47.3704496)"^^geo:wktLiteral ] .
+wd:Q30755 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5341628221> {| nami:source <https://www.openstreetmap.org/node/5341628221> ;
+    nami:evidence "Das Höllentor" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5406875275> rdfs:label "fountain, Werdplatz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5291873 47.3723597)"^^geo:wktLiteral ] .
+wd:Q27229506 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5406875275> {| nami:source <https://www.openstreetmap.org/node/5406875275> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5424799441> rdfs:label "information, Chriesbachweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.6139753 47.4056472)"^^geo:wktLiteral ] .
+wd:Q1639207 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_5424799441> {| nami:source <https://www.openstreetmap.org/node/5424799441> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5636923021> rdfs:label "Haus, Wallisellenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5505563 47.4102596)"^^geo:wktLiteral ] .
+wd:Q568809 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5636923021> {| nami:source <https://www.openstreetmap.org/node/5636923021> ;
+    nami:evidence "Haus" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5720196679> rdfs:label "Raumnaht, Rämistrasse 100" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.550436 47.3784201)"^^geo:wktLiteral ] .
+wd:Q27229518 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5720196679> {| nami:source <https://www.openstreetmap.org/node/5720196679> ;
+    nami:evidence "Raumnaht" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5747695312> rdfs:label "Mädchengruppe, Basteiplatz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5360752 47.3698957)"^^geo:wktLiteral ] .
+wd:Q112763639 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5747695312> {| nami:source <https://www.openstreetmap.org/node/5747695312> ;
+    nami:evidence "Mädchengruppe" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5760206095> rdfs:label "Relief, Aemtlerstrasse 179" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5064689 47.3747497)"^^geo:wktLiteral ] .
+wd:Q27229506 nami:createdAt <https://example.org/nami/data/plaque/osm_node_5760206095> {| nami:source <https://www.openstreetmap.org/node/5760206095> ;
+    nami:evidence "Relief" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_5893434714> rdfs:label "memorial, Oberdorfstrasse 15" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.545153 47.368953)"^^geo:wktLiteral ] .
+wd:Q124099 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_5893434714> {| nami:source <https://www.openstreetmap.org/node/5893434714> ;
+    nami:evidence "Indianer ware meine Freunde - Geburtshaus des Indianermalers Karl Bodmer (1809-1893)" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_7046046143> rdfs:label "Untitled (Cyclad Series), Rämistrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5503562 47.3732787)"^^geo:wktLiteral ] .
+wd:Q168482 nami:createdAt <https://example.org/nami/data/plaque/osm_node_7046046143> {| nami:source <https://www.openstreetmap.org/node/7046046143> ;
+    nami:evidence "Untitled (Cyclad Series)" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_7110075969> rdfs:label "Johann Caspar Lavater, Spiegelgasse 11" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.54449 47.3718007)"^^geo:wktLiteral ] .
+wd:Q123918 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_7110075969> {| nami:source <https://www.openstreetmap.org/node/7110075969> ;
+    nami:evidence "Johann Caspar Lavater" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_7902610947> rdfs:label "La Jeunesse, Hardstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5887767 47.4196645)"^^geo:wktLiteral ] .
+wd:Q27229303 nami:createdAt <https://example.org/nami/data/plaque/osm_node_7902610947> {| nami:source <https://www.openstreetmap.org/node/7902610947> ;
+    nami:evidence "La Jeunesse 1979 Marmor Lunel fleuri Ernesto Hebeisen La Jeunesse" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_7989084304> rdfs:label "Tastende Lichter, Heimplatz" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5486625 47.3706042)"^^geo:wktLiteral ] .
+wd:Q116054 nami:createdAt <https://example.org/nami/data/plaque/osm_node_7989084304> {| nami:source <https://www.openstreetmap.org/node/7989084304> ;
+    nami:evidence "Tastende Lichter" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8944831164> rdfs:label "Sihl - Zürich, Sihlhölzli, Sihlpromenade" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5260592 47.3677427)"^^geo:wktLiteral ] .
+wd:Q660909 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8944831164> {| nami:source <https://www.openstreetmap.org/node/8944831164> ;
+    nami:evidence "Sihl - Zürich, Sihlhölzli" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8946874797> rdfs:label "memorial (Switzerland), Wachtstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5268516 47.3106597)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8946874797> {| nami:source <https://www.openstreetmap.org/node/8946874797> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8946879820> rdfs:label "memorial (Switzerland), Albisstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5259892 47.3102419)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8946879820> {| nami:source <https://www.openstreetmap.org/node/8946879820> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8949058565> rdfs:label "memorial (Switzerland), Soodstrasse 51" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523932 47.3182996)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8949058565> {| nami:source <https://www.openstreetmap.org/node/8949058565> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8949058567> rdfs:label "memorial (Switzerland), Soodstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5261417 47.3143812)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8949058567> {| nami:source <https://www.openstreetmap.org/node/8949058567> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8949060114> rdfs:label "memorial (Switzerland), Soodmattenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.523758 47.3204474)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8949060114> {| nami:source <https://www.openstreetmap.org/node/8949060114> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8949060121> rdfs:label "memorial (Switzerland), Soodmattenstrasse 10" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5231939 47.3210242)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8949060121> {| nami:source <https://www.openstreetmap.org/node/8949060121> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_8960618362> rdfs:label "memorial (Switzerland), Tüfistrasse 4" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5291166 47.3181327)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_8960618362> {| nami:source <https://www.openstreetmap.org/node/8960618362> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9031676303> rdfs:label "plaque, Zeughausstrasse 58" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.529841 47.3767185)"^^geo:wktLiteral ] .
+wd:Q55193145 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_9031676303> {| nami:source <https://www.openstreetmap.org/node/9031676303> ;
+    nami:evidence "plaque" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9201736888> rdfs:label "Sine Wave / Zig Zag, Garten der Kunst" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5498282 47.3713326)"^^geo:wktLiteral ] .
+wd:Q698436 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9201736888> {| nami:source <https://www.openstreetmap.org/node/9201736888> ;
+    nami:evidence "Sine Wave / Zig Zag" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9388546782> rdfs:label "DIE GLOCKE, Riedgrabenweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5590433 47.4137785)"^^geo:wktLiteral ] .
+wd:Q85101742 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9388546782> {| nami:source <https://www.openstreetmap.org/node/9388546782> ;
+    nami:evidence "DIE GLOCKE" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9880941675> rdfs:label "Vénus de Six-Fours, Lettensteg 10" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5349562 47.3853241)"^^geo:wktLiteral ] .
+wd:Q116550 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9880941675> {| nami:source <https://www.openstreetmap.org/node/9880941675> ;
+    nami:evidence "Vénus de Six-Fours" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9895591481> rdfs:label "Ohne Titel (Toblerones), Andreasstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5614173 47.4131884)"^^geo:wktLiteral ] .
+wd:Q669030 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9895591481> {| nami:source <https://www.openstreetmap.org/node/9895591481> ;
+    nami:evidence "Ohne Titel (Toblerones)" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9895591536> rdfs:label "mural by Gottfried Honegger, Sagentobelbachweg" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5962077 47.3974455)"^^geo:wktLiteral ] .
+wd:Q115873 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9895591536> {| nami:source <https://www.openstreetmap.org/node/9895591536> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9964849233> rdfs:label "We gave a party for the gods, Eisfeldstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5500954 47.4148534)"^^geo:wktLiteral ] .
+wd:Q642513 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9964849233> {| nami:source <https://www.openstreetmap.org/node/9964849233> ;
+    nami:evidence "We gave a party for the gods" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_9994152677> rdfs:label "Der Gefangene Floh, Binzmühlestrasse 156" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.534203 47.4141433)"^^geo:wktLiteral ] .
+wd:Q120579 nami:createdAt <https://example.org/nami/data/plaque/osm_node_9994152677> {| nami:source <https://www.openstreetmap.org/node/9994152677> ;
+    nami:evidence "Der Gefangene Floh" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10028890144> rdfs:label "Chameleon Eyes, Letzigraben" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5030271 47.3800816)"^^geo:wktLiteral ] .
+wd:Q108477423 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10028890144> {| nami:source <https://www.openstreetmap.org/node/10028890144> ;
+    nami:evidence "Chameleon Eyes" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10112285788> rdfs:label "information, Stationsstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4739867 47.3379128)"^^geo:wktLiteral ] .
+wd:Q65934 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_10112285788> {| nami:source <https://www.openstreetmap.org/node/10112285788> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10234617742> rdfs:label "Hinter Glas, Hochstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5520758 47.3802877)"^^geo:wktLiteral ] .
+wd:Q1584657 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10234617742> {| nami:source <https://www.openstreetmap.org/node/10234617742> ;
+    nami:evidence "Hinter Glas" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10287856888> rdfs:label "Figur, Huttenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5506432 47.3804639)"^^geo:wktLiteral ] .
+wd:Q1584657 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10287856888> {| nami:source <https://www.openstreetmap.org/node/10287856888> ;
+    nami:evidence "Figur" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10301965542> rdfs:label "Rondell, Garten der Kunst" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5497439 47.3714435)"^^geo:wktLiteral ] .
+wd:Q707020 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10301965542> {| nami:source <https://www.openstreetmap.org/node/10301965542> ;
+    nami:evidence "Rondell" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10611528643> rdfs:label "Ohne Titel (Keil), Gloriastrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5533912 47.3756801)"^^geo:wktLiteral ] .
+wd:Q85100033 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10611528643> {| nami:source <https://www.openstreetmap.org/node/10611528643> ;
+    nami:evidence "Ohne Titel (Keil)" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10616201153> rdfs:label "Giacometti-Fresken, Bahnhofquai 3" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5414327 47.3751765)"^^geo:wktLiteral ] .
+wd:Q671236 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10616201153> {| nami:source <https://www.openstreetmap.org/node/10616201153> ;
+    nami:evidence "Giacometti-Fresken" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10616259615> rdfs:label "Totentanz, Plattenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5529191 47.3743168)"^^geo:wktLiteral ] .
+wd:Q1584657 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10616259615> {| nami:source <https://www.openstreetmap.org/node/10616259615> ;
+    nami:evidence "Totentanz" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10617876593> rdfs:label "Der Staat, Walchetor" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5433264 47.3786887)"^^geo:wktLiteral ] .
+wd:Q52156589 nami:createdAt <https://example.org/nami/data/plaque/osm_node_10617876593> {| nami:source <https://www.openstreetmap.org/node/10617876593> ;
+    nami:evidence "Der Staat" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10865891827> rdfs:label "memorial (France), Signaustrasse 6" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5561461 47.3630225)"^^geo:wktLiteral ] .
+wd:Q142 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_10865891827> {| nami:source <https://www.openstreetmap.org/node/10865891827> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_10865891828> rdfs:label "memorial (Europe), Signaustrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5561285 47.3630111)"^^geo:wktLiteral ] .
+wd:Q46 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_10865891828> {| nami:source <https://www.openstreetmap.org/node/10865891828> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_11157766535> rdfs:label "Miracolo, Lydia-Welti-Escher-Hof" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5476238 47.3706995)"^^geo:wktLiteral ] .
+wd:Q703980 nami:createdAt <https://example.org/nami/data/plaque/osm_node_11157766535> {| nami:source <https://www.openstreetmap.org/node/11157766535> ;
+    nami:evidence "Miracolo" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_11274839179> rdfs:label "Catena di Colori, Hottingerstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.553121 47.3696021)"^^geo:wktLiteral ] .
+wd:Q85093983 nami:createdAt <https://example.org/nami/data/plaque/osm_node_11274839179> {| nami:source <https://www.openstreetmap.org/node/11274839179> ;
+    nami:evidence "CATENA DI COLORI / 2002 / Friedrich Reinhard Brüderlin / Gestaltungen / Verscio - Züruch // Asuführung: Wolfermann Metallbau Nänikon Catena di Colori" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_11697834704> rdfs:label "Walter Schädelin memorial, Arthur-Rohn-Strasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.4722249 47.3643976)"^^geo:wktLiteral ] .
+wd:Q2546275 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_11697834704> {| nami:source <https://www.openstreetmap.org/node/11697834704> ;
+    nami:evidence "Dr.hc Walter Schädelin - 1873 - 1953 - Professor für Waldbau an der ETH - 1924 - 1940 Walter Schädelin memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_11805515140> rdfs:label "La Rivière, Talacker" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5350935 47.3718171)"^^geo:wktLiteral ] .
+wd:Q153920 nami:createdAt <https://example.org/nami/data/plaque/osm_node_11805515140> {| nami:source <https://www.openstreetmap.org/node/11805515140> ;
+    nami:evidence "La Rivière" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_12124789669> rdfs:label "Golo Mann, Nidelbadstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5423638 47.3155196)"^^geo:wktLiteral ] .
+wd:Q77109 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_12124789669> {| nami:source <https://www.openstreetmap.org/node/12124789669> ;
+    nami:evidence "Golo Mann" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_12125101248> rdfs:label "Conrad Ferdinand Meyer, Dorfstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5418772 47.3170374)"^^geo:wktLiteral ] .
+wd:Q123261 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_12125101248> {| nami:source <https://www.openstreetmap.org/node/12125101248> ;
+    nami:evidence "Conrad Ferdinand Meyer" ;
+    nami:confidence 0.9 |} .
+wd:Q27229229 nami:createdAt <https://example.org/nami/data/plaque/osm_node_12125101248> {| nami:source <https://www.openstreetmap.org/node/12125101248> ;
+    nami:evidence "Conrad Ferdinand Meyer" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_12399628189> rdfs:label "information, Bahnhofplatz 1" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.559057 47.4307854)"^^geo:wktLiteral ] .
+wd:Q5567244 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_12399628189> {| nami:source <https://www.openstreetmap.org/node/12399628189> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_12729875078> rdfs:label "plaque, Tannenstrasse 1" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5467197 47.3768966)"^^geo:wktLiteral ] .
+wd:Q61342 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_12729875078> {| nami:source <https://www.openstreetmap.org/node/12729875078> ;
+    nami:evidence "G SEMPER" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_12829831417> rdfs:label "mural, Schwanengasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5409164 47.3720875)"^^geo:wktLiteral ] .
+wd:Q14538485 nami:createdAt <https://example.org/nami/data/plaque/osm_node_12829831417> {| nami:source <https://www.openstreetmap.org/node/12829831417> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_13471089578> rdfs:label "sculpture by Bernhard Luginbühl, Schiffbaustrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5195118 47.3885872)"^^geo:wktLiteral ] .
+wd:Q461165 nami:createdAt <https://example.org/nami/data/plaque/osm_node_13471089578> {| nami:source <https://www.openstreetmap.org/node/13471089578> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_13471089579> rdfs:label "graffiti by Harald Naegeli, Schiffbaustrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5193209 47.3886363)"^^geo:wktLiteral ] .
+wd:Q1584657 nami:createdAt <https://example.org/nami/data/plaque/osm_node_13471089579> {| nami:source <https://www.openstreetmap.org/node/13471089579> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_14027224045> rdfs:label "sculpture by Hans Jörg Imbach, Alpenstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5899068 47.4174441)"^^geo:wktLiteral ] .
+wd:Q85099581 nami:createdAt <https://example.org/nami/data/plaque/osm_node_14027224045> {| nami:source <https://www.openstreetmap.org/node/14027224045> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_node_14062089176> rdfs:label "relief (Jesus und die Samariterin am Jakobsbrunnen), Dorfstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5413593 47.3172909)"^^geo:wktLiteral ] .
+wd:Q292242 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_node_14062089176> {| nami:source <https://www.openstreetmap.org/node/14062089176> ;
+    nami:evidence "Wer aber das Wasser trinken wird das ich ihm gebe den wird ewiglich nicht dürsten" ;
+    nami:confidence 0.9 |} .
+wd:Q870322 nami:createdAt wd:Q27229968 {| nami:source <https://www.openstreetmap.org/way/667718520> ;
+    nami:evidence "Ganymed" ;
+    nami:confidence 0.9 |} .
+<https://example.org/nami/data/plaque/osm_way_928988617> rdfs:label "memorial (Schweiz), Seebacherstrasse" ;
+    geo:hasGeometry [ geo:asWKT "POINT(8.5216253 47.4149012)"^^geo:wktLiteral ] .
+wd:Q39 nami:commemoratedAt <https://example.org/nami/data/plaque/osm_way_928988617> {| nami:source <https://www.openstreetmap.org/way/928988617> ;
+    nami:evidence "memorial" ;
+    nami:confidence 0.9 |} .

@@ -1,0 +1,814 @@
+[
+{
+"interest_id": "I01",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Top Angebot! (Honys Torres) --depicts--> Albert Einstein; Top Angebot! (Honys Torres) --part of the series--> Heidi POP (art series)",
+"url": null,
+"quote": null
+},
+{
+"reason": "Heidi’s Dinner (2025) --depicts--> Albert Einstein; Heidi’s Dinner (2025) --part of the series--> Heidi POP (art series)",
+"url": null,
+"quote": null
+},
+{
+"reason": "Top Angebot! (Honys Torres) --depicts--> Albert Einstein; Heidi POP (art series) --has part(s)--> Top Angebot! (Honys Torres)",
+"url": null,
+"quote": null
+},
+{
+"reason": "Heidi’s Dinner (2025) --depicts--> Albert Einstein; Heidi POP (art series) --has part(s)--> Heidi’s Dinner (2025)",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Albert Einstein --educated at (as Bachelor of Science)--> ETH Zurich",
+"url": "https://www.library.ethz.ch/en/Resources/Digital-library/Einstein-Online/Einstein-s-Studies-at-the-Polytechnic-Institute-in-Zurich-1896-1900",
+"quote": null
+},
+{
+"reason": "Albert Einstein --employer (as professor)--> ETH Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Michele Besso --significant person (as friend)--> Albert Einstein; Michele Besso --educated at--> ETH Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner; Alfred Kleiner --employer--> ETH Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --doctoral advisor--> Heinrich Friedrich Weber; Heinrich Friedrich Weber --employer--> ETH Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --spouse--> Mileva Marić; Mileva Marić --educated at--> ETH Zurich",
+"url": "https://www.repubblica.it/scienze/2019/07/13/news/una_laurea_per_la_moglie_di_einstein_la_scienziata_dimenticata-231110354/?ref=RHPPLF-BH-I0-C4-P6-S1.4-T1",
+"quote": null
+},
+{
+"reason": "Aurel Stodola --student--> Albert Einstein; Aurel Stodola --employer--> ETH Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Hermann Minkowski --student--> Albert Einstein; Hermann Minkowski --employer--> ETH Zurich",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Albert Einstein --archives at--> ETH Zurich University Archives",
+"url": "https://vls.hsa.ethz.ch/client/link/de/archiv/einheit/b9b4178f95254672b981174aaee8f06b",
+"quote": null
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Albert Einstein --educated at (as doctorate)--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --employer (as professor)--> University of Zurich",
+"url": "https://www.ige.ch/de/ueber-uns/einstein/einstein-beim-amt.html",
+"quote": null
+},
+{
+"reason": "Michele Besso --significant person (as friend)--> Albert Einstein; Michele Besso --educated at--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "UZH (2024) --depicts--> Albert Einstein; UZH (2024) --depicts--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner; Alfred Kleiner --employer--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --doctoral advisor (as second doctoral advisor)--> Heinrich Burkhardt; Heinrich Burkhardt --employer--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Albert Einstein --doctoral advisor (as first doctoral advisor)--> Alfred Kleiner; Alfred Kleiner --educated at--> University of Zurich",
+"url": null,
+"quote": null
+},
+{
+"reason": "Eduard Einstein --father--> Albert Einstein; Eduard Einstein --educated at--> University of Zurich",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "The Physicists --depicts--> Albert Einstein; The Physicists --location of first performance--> Schauspielhaus Zürich; Schauspielhaus Zürich --occupant--> Schauspielhaus Zürich",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "The Physicists --depicts--> Albert Einstein; The Physicists --location of first performance--> Schauspielhaus Zürich",
+"url": null,
+"quote": null
+},
+{
+"reason": "The Physicists --depicts--> Albert Einstein; The Physicists --derivative work--> Die Physiker",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Albert Einstein --frequented--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Albert-Einstein-Strasse --named after--> Albert Einstein",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Eduard Einstein --father--> Albert Einstein; Eduard Einstein --place of death--> Psychiatrische Universitätsklinik Zürich",
+"url": "http://www.mentalhealthsupport.co.uk/peoplewhoinspireus.html",
+"quote": null
+},
+{
+"reason": "Albert Einstein --child--> Eduard Einstein; Eduard Einstein --place of death--> Psychiatrische Universitätsklinik Zürich",
+"url": "http://www.mentalhealthsupport.co.uk/peoplewhoinspireus.html",
+"quote": null
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Albert Einstein --spouse--> Mileva Marić; Mileva Marić --place of burial--> Cemetery Nordheim",
+"url": null,
+"quote": null
+}
+]
+}
+]
+},
+{
+"interest_id": "I02",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Ljmmat Sjhl: Hommage à James Joyce --commemorates--> James Joyce",
+"url": null,
+"quote": null
+},
+{
+"reason": "James Joyce --commemoratedAt--> Ljmmat Sjhl: Hommage à James Joyce",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#240",
+"quote": "Ljmmat Sjhl: Hommage à James Joyce"
+},
+{
+"reason": "James Joyce --mentionedAt--> Ljmmat Sjhl: Hommage à James Joyce",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#240",
+"quote": "Ljmmat Sjhl: Hommage à James Joyce"
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "James Joyce --frequented--> Literaturhaus",
+"url": "https://www.zuerich.com/en/node/291104",
+"quote": "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "James Joyce --foundedAt--> Zürich James Joyce Foundation",
+"url": "https://www.zuerich.com/en/node/1012186",
+"quote": "A unique place for all friends of literature: The James Joyce Foundation was established with a view to keeping alive the heritage of the famous Irish writer."
+},
+{
+"reason": "Zürich James Joyce Foundation --named after--> James Joyce",
+"url": null,
+"quote": null
+},
+{
+"reason": "James Joyce --archives at--> Zürich James Joyce Foundation",
+"url": null,
+"quote": null
+},
+{
+"reason": "James Joyce --mentionedAt--> Zürich James Joyce Foundation",
+"url": "https://www.zuerich.com/en/node/1012186",
+"quote": "A unique place for all friends of literature: The James Joyce Foundation was established with a view to keeping alive the heritage of the famous Irish writer."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "James Joyce --frequented--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+},
+{
+"reason": "James Joyce --mentionedAt--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "James Joyce --mentionedAt--> Boutique Hotel NI-MO",
+"url": "https://www.zuerich.com/en/node/1252",
+"quote": "The charming and homely hotel is located close to the Botanical Garden, the Zurich James Joyce Foundation, and the banking and financial center."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "James-Joyce-Strasse --named after--> James Joyce",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Grabdenkmal James Joyce --commemorates--> James Joyce",
+"url": null,
+"quote": null
+},
+{
+"reason": "James Joyce --buriedAt--> Grabdenkmal James Joyce",
+"url": "https://www.openstreetmap.org/node/4580295790",
+"quote": "Grabdenkmal James Joyce"
+},
+{
+"reason": "James Joyce --commemoratedAt--> Grabdenkmal James Joyce",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#282",
+"quote": "Grabdenkmal James Joyce"
+},
+{
+"reason": "James Joyce --mentionedAt--> Grabdenkmal James Joyce",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#282",
+"quote": "Grabdenkmal James Joyce"
+},
+{
+"reason": "James Joyce --mentionedAt--> Grabdenkmal James Joyce",
+"url": "https://www.openstreetmap.org/node/4580295790",
+"quote": "Grabdenkmal James Joyce"
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "James Joyce --place of burial--> Fluntern Cemetery",
+"url": null,
+"quote": null
+},
+{
+"reason": "James Joyce --unmarried partner--> Nora Barnacle; Nora Barnacle --place of burial--> Fluntern Cemetery",
+"url": "https://www.themorgan.org/exhibitions/online/ulysses/nora-barnacle",
+"quote": null
+},
+{
+"reason": "James Joyce --spouse--> Nora Barnacle; Nora Barnacle --place of burial--> Fluntern Cemetery",
+"url": "https://www.rte.ie/news/special-reports/2014/0730/634089-james-joyce-wedding/",
+"quote": null
+}
+]
+}
+]
+},
+{
+"interest_id": "I03",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Vladimir Lenin --livedAt--> HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜ",
+"url": "https://www.openstreetmap.org/node/419543402",
+"quote": "HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜHRER DER RUSSISCHEN REVOLUTION"
+},
+{
+"reason": "Vladimir Lenin --livedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution."
+},
+{
+"reason": "Vladimir Lenin --mentionedAt--> HIER WOHNTE V. 21. FEBR. 1916 BIS 2. APRIL 1917 LENIN DER FÜ",
+"url": "https://www.openstreetmap.org/node/419543402",
+"quote": "APRIL 1917 LENIN DER FÜHRER DER RUSSISCHEN REVOLUTION"
+},
+{
+"reason": "Vladimir Lenin --mentionedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Vladimir Ilyich Lenin also lived here at that time and was preparing for the Russian revolution."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Vladimir Lenin --frequented--> Literaturhaus",
+"url": "https://www.zuerich.com/en/node/291104",
+"quote": "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+},
+{
+"reason": "Vladimir Lenin --mentionedAt--> Literaturhaus",
+"url": "https://www.zuerich.com/en/node/291104",
+"quote": "Here, in the place where Lenin, Tucholsky, and Joyce once sat, visitors can read fiction books as well as newspapers in various languages."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Vladimir Lenin --frequented--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+},
+{
+"reason": "Vladimir Lenin --mentionedAt--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+}
+]
+}
+]
+},
+{
+"interest_id": "I04",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Dada --foundedAt--> Cabaret Voltaire",
+"url": "https://www.zuerich.com/en/node/1840",
+"quote": "It was here that Dada was born."
+},
+{
+"reason": "Dada --significant person--> Emmy Hennings; Emmy Hennings --participant in--> Cabaret Voltaire",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada --significant person--> Emmy Hennings; Emmy Hennings --significant event--> Cabaret Voltaire",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada --significant person--> Tristan Tzara; Tristan Tzara --participant in--> Cabaret Voltaire",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada --significant person--> Hugo Ball; Hugo Ball --participant in--> Cabaret Voltaire",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada --significant person--> Hugo Ball; Cabaret Voltaire --founder--> Hugo Ball",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada --mentionedAt--> Cabaret Voltaire",
+"url": "https://www.zuerich.com/en/node/16030",
+"quote": "An absolute must for culture fans: it is here that Hugo Ball and Emmy Hennings started the Dada movement."
+},
+{
+"reason": "Dada --significant person--> Emmy Hennings; Emmy Hennings --foundedAt--> Cabaret Voltaire",
+"url": "https://www.zuerich.com/en/node/1840",
+"quote": "Hugo Ball and Emmy Hennings founded the Cabaret Voltaire in the middle of Zurich’s Old Town in 1916."
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Dada --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --mentionedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --significant person--> Emmy Hennings; Emmy Hennings --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --significant person--> Tristan Tzara; Tristan Tzara --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --significant person--> Jean Arp; Jean Arp --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --significant person--> Richard Huelsenbeck; Richard Huelsenbeck --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Dada --significant person--> Hugo Ball; Hugo Ball --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+},
+{
+"reason": "Jean Arp --movement--> Dada; Jean Arp --foundedAt--> Spiegelgasse",
+"url": "https://www.zuerich.com/en/node/1969",
+"quote": "Hugo Ball, Emmy Hennings, Hans Arp, Marcel Janco, Richard Huelsenbeck and Tristan Tzara founded the Cabaret Voltaire in Spiegelgasse 1 – and the Dada movement with it."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Dada --themedAfter--> Hotel Limmatblick",
+"url": "https://www.zuerich.com/en/node/1241",
+"quote": "For cocktails, an extended apéro, or simply coffee and cake, guests can head for the Dada Bar, with its boulevard terrace, where they can experience the lively hustle and bustle on the Limmatquai at f"
+},
+{
+"reason": "Dada --mentionedAt--> Hotel Limmatblick",
+"url": "https://www.zuerich.com/en/node/1241",
+"quote": "For cocktails, an extended apéro, or simply coffee and cake, guests can head for the Dada Bar, with its boulevard terrace, where they can experience the lively hustle and bustle on the Limmatquai at f"
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Dada --performedAt--> Galerie Gmurzynska",
+"url": "https://www.zuerich.com/en/node/311631",
+"quote": "Incidentally, the gallery’s location on Paradeplatz is particularly interesting: it is housed in the same block in which the Dada movement presented its first exhibition at the Galerie Dada in 1917."
+},
+{
+"reason": "Dada --mentionedAt--> Galerie Gmurzynska",
+"url": "https://www.zuerich.com/en/node/311631",
+"quote": "Incidentally, the gallery’s location on Paradeplatz is particularly interesting: it is housed in the same block in which the Dada movement presented its first exhibition at the Galerie Dada in 1917."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Dada --performedAt--> Gesellschaftshaus zur Kaufleuten",
+"url": "https://www.zuerich.com/en/node/2416",
+"quote": "The eighth and final official Dada Soirée in Zurich took place on April 9, 1919."
+},
+{
+"reason": "Dada --mentionedAt--> Gesellschaftshaus zur Kaufleuten",
+"url": "https://www.zuerich.com/en/node/2416",
+"quote": "The eighth and final official Dada Soirée in Zurich took place on April 9, 1919."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Dada --frequented--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Famous names such as James Joyce, Einstein, Lenin, and the Dadaists once frequented this locale – the history-steeped café is now an integral part of the cityscape."
+},
+{
+"reason": "Dada --mentionedAt--> Grand Café Odeon",
+"url": "https://www.zuerich.com/en/node/1570",
+"quote": "Just a few years after it opened, the founders of the Dada movement, for example, were among the regular guests, as were also Einstein and Lenin."
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Dada Universal --genre--> Dada",
+"url": null,
+"quote": null
+},
+{
+"reason": "Dada Universal --genre--> Dada; Dada Universal --location--> National Museum Zurich",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Dada --foundedAt--> Cabaret Voltaire; Manifesta 11 --location--> Cabaret Voltaire",
+"url": "https://www.zuerich.com/en/node/1840",
+"quote": "It was here that Dada was born."
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Jean Tinguely --movement--> Dada; Jean Tinguely --notable work--> Heureka",
+"url": null,
+"quote": null
+},
+{
+"reason": "Jean Tinguely --movement--> Dada; Jean Tinguely --performedAt--> Heureka",
+"url": "https://www.zuerich.com/en/node/1859",
+"quote": "The Work Jean Tinguely created the huge kinetic sculpture entitled “Heureka” out of iron bars, wheels, and metal pans and pipes for the National Exhibition in Lausanne in 1964."
+},
+{
+"reason": "Jean Tinguely --movement--> Dada; Jean Tinguely --createdAt--> Heureka",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_kunst_im_stadtraum#101",
+"quote": "Heureka: Jean Tinguely"
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Dada --mentionedAt--> The Home Hotel",
+"url": "https://www.zuerich.com/en/node/1011732",
+"quote": "The hotel – a former paper factory that has been newly renovated – is inspired by the spirit of the Dada art movement and offers a creative oasis in the picturesque Wollishofen quarter."
+}
+]
+}
+]
+},
+{
+"interest_id": "I05",
+"places": [
+{
+"rank": 1,
+"origin": "graph",
+"id": "S3",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Grossmünster",
+"url": "https://www.zuerich.com/en/node/1578",
+"quote": "The stained glass windows by Sigmar Polke , the Romanesque crypt, the choir windows by Augusto Giacometti, the bronze doors by Otto Münch, and the Reformation Museum in the cloister are just some of t"
+},
+{
+"reason": "Reformation in Zürich --part of--> Reformation in Switzerland; Reformation in Switzerland --significant event--> Affair of the Sausages",
+"url": null,
+"quote": null
+}
+]
+},
+{
+"rank": 2,
+"origin": "graph",
+"id": "S2",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Ulrich Zwingli memorial",
+"url": "https://www.zuerich.com/en/node/1693",
+"quote": "This brilliant orator persuaded Zurich’s council and population to accept his ideas and published the first Reformation writings in 1522, inciting the wrath of the bishop and the Pope."
+}
+]
+},
+{
+"rank": 3,
+"origin": "graph",
+"id": "S1",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Wasserkirche",
+"url": "https://www.zuerich.com/en/node/1794",
+"quote": "This is why, during the Reformation, it was referred to as a \"temple of idol worshippers\"."
+}
+]
+},
+{
+"rank": 4,
+"origin": "graph",
+"id": "S8",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Zum weissen Bären",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_173",
+"quote": "Jhs. bis zur Reformation Pfrundhaus (Amtswohnung) des Kaplans am Altar der heiligen drei Könige in der Wasserkirche."
+},
+{
+"reason": "Reformation in Zürich --mentionedAt--> Zum schwarzen Bären",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_174",
+"quote": "Jhs. bis zur Reformation Pfrundhaus (Amtswohnung) des Kaplans am Altar des heiligen Kreuzes im Grossmünster."
+}
+]
+},
+{
+"rank": 5,
+"origin": "graph",
+"id": "S6",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Heinrich Bullinger Sculpture",
+"url": "https://www.zuerich.com/en/node/1684",
+"quote": "The Swiss theologian Heinrich Bullinger reinforced the Reformation in Zurich and beyond."
+}
+]
+},
+{
+"rank": 6,
+"origin": "graph",
+"id": "S7",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> preachers church",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_413",
+"quote": "Predigerkirche Vor der Reformation Kirche des Dominikaner- oder Predigerklosters. 1269 wurde die Kirche vollendet."
+}
+]
+},
+{
+"rank": 7,
+"origin": "graph",
+"id": "S9",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Zur Glocke",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_449",
+"quote": "Kurz vor der Reformation (um 1510) wurde im 2."
+}
+]
+},
+{
+"rank": 8,
+"origin": "graph",
+"id": "S5",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Christian Catholic Augustinian Church",
+"url": "https://www.zuerich.com/en/node/1751",
+"quote": "During the Reformation, the church was transformed into a coin workshop."
+}
+]
+},
+{
+"rank": 9,
+"origin": "graph",
+"id": "S10",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Münsterhof 13",
+"url": "https://data.stadt-zuerich.ch/dataset/geo_liste_der_informationstafeln_an_denkmalschutz_objekten#bt_698",
+"quote": "Der erste Besitzer nach der Reformation von 1528 ist ein Hutmacher, dem weitere Handwerker folgen."
+}
+]
+},
+{
+"rank": 10,
+"origin": "graph",
+"id": "S4",
+"reasons": [
+{
+"reason": "Reformation in Zürich --mentionedAt--> Fraumünster",
+"url": "https://www.zuerich.com/en/node/1763",
+"quote": "Ownership of the church and convent passed to the city of Zurich after the Reformation."
+}
+]
+}
+]
+}
+]

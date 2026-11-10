@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nami"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31",
+    "tqdm>=4.66",
+    "rdflib>=7.0",
+    "pyoxigraph>=0.4",
+    "folium>=0.16",
+    "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115", "uvicorn>=0.32"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

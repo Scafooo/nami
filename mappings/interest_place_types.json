@@ -1,0 +1,14 @@
+{
+  "Q638":   {"label": "music",             "types": ["MusicVenue", "PerformingArtsTheater"]},
+  "Q9778":  {"label": "electronic music",  "types": ["NightClub", "MusicVenue"]},
+  "Q8341":  {"label": "jazz",              "types": ["MusicVenue"]},
+  "Q9730":  {"label": "classical music",   "types": ["PerformingArtsTheater", "MusicVenue"]},
+  "Q11401": {"label": "hip hop music",     "types": ["NightClub", "MusicVenue"]},
+  "Q11399": {"label": "rock music",        "types": ["MusicVenue", "NightClub"]},
+  "Q735":   {"label": "art",               "types": ["ArtGallery"]},
+  "Q33506": {"label": "museum",            "types": ["Museum"]},
+  "Q11635": {"label": "theatre",           "types": ["PerformingArtsTheater"]},
+  "Q349":   {"label": "sport",             "types": ["SportsActivityLocation", "PublicSwimmingPool", "ExerciseGym"]},
+  "Q31920": {"label": "swimming",          "types": ["PublicSwimmingPool"]},
+  "Q282":   {"label": "wine",              "types": ["Winery"]}
+}

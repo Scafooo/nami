@@ -1,0 +1,1229 @@
+{
+ "Q937": [
+  {
+   "id": "S1",
+   "candidate_id": "Q11942",
+   "label": "ETH Zurich",
+   "score": 0.99
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.9
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q39934978",
+   "label": "ETH Zurich University Archives",
+   "score": 0.45
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q1542522",
+   "label": "Grand Café Odeon",
+   "score": 0.36
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q80906377",
+   "label": "Pfauenkomplex",
+   "score": 0.324
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q27324183",
+   "label": "Albert-Einstein-Strasse",
+   "score": 0.288
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q577131",
+   "label": "Psychiatrische Universitätsklinik Zürich",
+   "score": 0.2228
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q224494",
+   "label": "Zürich Hauptbahnhof",
+   "score": 0.2074
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q1457378",
+   "label": "Cemetery Nordheim",
+   "score": 0.162
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q40313234",
+   "label": "Schauspielhaus Zürich",
+   "score": 0.1604
+  }
+ ],
+ "Q6882": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27229693",
+   "label": "Ljmmat Sjhl: Hommage à James Joyce",
+   "score": 1.0
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27229843",
+   "label": "Grabdenkmal James Joyce",
+   "score": 1.0
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q666565",
+   "label": "Fluntern Cemetery",
+   "score": 0.9
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q230416",
+   "label": "Zürich James Joyce Foundation",
+   "score": 0.63
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q1542522",
+   "label": "Grand Café Odeon",
+   "score": 0.504
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q27326712",
+   "label": "James-Joyce-Strasse",
+   "score": 0.4
+  },
+  {
+   "id": "S7",
+   "candidate_id": "291104",
+   "label": "Literaturhaus",
+   "score": 0.36
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q111874784",
+   "label": "Boutique Hotel NI-MO",
+   "score": 0.315
+  }
+ ],
+ "Q1394": [
+  {
+   "id": "S1",
+   "candidate_id": "Q20731378",
+   "label": "Spiegelgasse",
+   "score": 0.9
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q1542522",
+   "label": "Grand Café Odeon",
+   "score": 0.36
+  },
+  {
+   "id": "S3",
+   "candidate_id": "291104",
+   "label": "Literaturhaus",
+   "score": 0.36
+  }
+ ],
+ "Q6034": [
+  {
+   "id": "S1",
+   "candidate_id": "Q20731378",
+   "label": "Spiegelgasse",
+   "score": 0.63
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q661745",
+   "label": "Cabaret Voltaire",
+   "score": 0.63
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q39595754",
+   "label": "Swiss National Museum Zurich (building)",
+   "score": 0.576
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q60635988",
+   "label": "Gesellschaftshaus zur Kaufleuten",
+   "score": 0.576
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q111874805",
+   "label": "Hotel Limmatblick",
+   "score": 0.504
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q1542522",
+   "label": "Grand Café Odeon",
+   "score": 0.504
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q5518446",
+   "label": "Galerie Gmurzynska",
+   "score": 0.504
+  },
+  {
+   "id": "S8",
+   "candidate_id": "1011732",
+   "label": "The Home Hotel",
+   "score": 0.315
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q1378316",
+   "label": "Heureka",
+   "score": 0.2049
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q1792425",
+   "label": "Kunsthalle Zürich",
+   "score": 0.1814
+  }
+ ],
+ "Q24906109": [
+  {
+   "id": "S1",
+   "candidate_id": "Q477189",
+   "label": "Wasserkirche",
+   "score": 0.315
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q63348861",
+   "label": "Ulrich Zwingli memorial",
+   "score": 0.315
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q684948",
+   "label": "Grossmünster",
+   "score": 0.315
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q690944",
+   "label": "Fraumünster",
+   "score": 0.315
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q768482",
+   "label": "Christian Catholic Augustinian Church",
+   "score": 0.315
+  },
+  {
+   "id": "S6",
+   "candidate_id": "1684",
+   "label": "Heinrich Bullinger Sculpture",
+   "score": 0.315
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q18648709",
+   "label": "preachers church",
+   "score": 0.3
+  },
+  {
+   "id": "S8",
+   "candidate_id": "bt_173",
+   "label": "Zum weissen Bären",
+   "score": 0.3
+  },
+  {
+   "id": "S9",
+   "candidate_id": "bt_449",
+   "label": "Zur Glocke",
+   "score": 0.3
+  },
+  {
+   "id": "S10",
+   "candidate_id": "bt_698",
+   "label": "Münsterhof 13",
+   "score": 0.3
+  }
+ ],
+ "Q123839": [
+  {
+   "id": "S1",
+   "candidate_id": "Q684948",
+   "label": "Grossmünster",
+   "score": 0.72
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q190260",
+   "label": "Zentralbibliothek Zürich",
+   "score": 0.45
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q39934978",
+   "label": "ETH Zurich University Archives",
+   "score": 0.45
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q15108152",
+   "label": "Bullingerplatz",
+   "score": 0.36
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q27325596",
+   "label": "Bullingerstrasse",
+   "score": 0.36
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q27327278",
+   "label": "Bullingerhof",
+   "score": 0.36
+  },
+  {
+   "id": "S7",
+   "candidate_id": "1684",
+   "label": "Heinrich Bullinger Sculpture",
+   "score": 0.315
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q63348861",
+   "label": "Ulrich Zwingli memorial",
+   "score": 0.2916
+  },
+  {
+   "id": "S9",
+   "candidate_id": "bt_381",
+   "label": "Zur Sul",
+   "score": 0.252
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q39595754",
+   "label": "Swiss National Museum Zurich (building)",
+   "score": 0.2074
+  }
+ ],
+ "Q1411919": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27324381",
+   "label": "Katharinenweg",
+   "score": 0.36
+  }
+ ],
+ "Q124408": [
+  {
+   "id": "S1",
+   "candidate_id": "Q18716357",
+   "label": "Münsterbrücke",
+   "score": 0.81
+  },
+  {
+   "id": "S2",
+   "candidate_id": "bt_526",
+   "label": "Zur grossen Mücke",
+   "score": 0.7
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q27325590",
+   "label": "Waldmannstrasse",
+   "score": 0.36
+  },
+  {
+   "id": "S4",
+   "candidate_id": "3703",
+   "label": "Flower and Vegetable Market Stadthausquai",
+   "score": 0.315
+  }
+ ],
+ "Q1704063": [
+  {
+   "id": "S1",
+   "candidate_id": "bt_117",
+   "label": "Zum schwarzen Schlüssel",
+   "score": 0.35
+  }
+ ],
+ "Q37030": [
+  {
+   "id": "S1",
+   "candidate_id": "Q21517046",
+   "label": "Kilchberg cemetery",
+   "score": 0.9
+  },
+  {
+   "id": "S2",
+   "candidate_id": "osm_node_1888030761",
+   "label": "Thomas Mann Familiengrab, Nidelbadstrasse",
+   "score": 0.9
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q27490316",
+   "label": "Thomas Mann Archives",
+   "score": 0.567
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q39934978",
+   "label": "ETH Zurich University Archives",
+   "score": 0.45
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q14565994",
+   "label": "ETH Zurich main building",
+   "score": 0.3456
+  },
+  {
+   "id": "S6",
+   "candidate_id": "280833",
+   "label": "Diederik Winery",
+   "score": 0.315
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q1454145",
+   "label": "Freies Gymnasium Zürich",
+   "score": 0.2228
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q29933596",
+   "label": "zum oberen Berg house",
+   "score": 0.2041
+  },
+  {
+   "id": "S9",
+   "candidate_id": "osm_node_12124789669",
+   "label": "Golo Mann, Nidelbadstrasse",
+   "score": 0.1823
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q85963867",
+   "label": "Association of Zurich Museums",
+   "score": 0.1531
+  }
+ ],
+ "Q41532": [
+  {
+   "id": "S1",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.99
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q11942",
+   "label": "ETH Zurich",
+   "score": 0.9
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q105015598",
+   "label": "Küsnacht Cemetery",
+   "score": 0.72
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q39934978",
+   "label": "ETH Zurich University Archives",
+   "score": 0.45
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q390130",
+   "label": "C. G. Jung Institute Zürich",
+   "score": 0.432
+  },
+  {
+   "id": "S6",
+   "candidate_id": "280833",
+   "label": "Diederik Winery",
+   "score": 0.315
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q184675",
+   "label": "Zehntentrotte",
+   "score": 0.2158
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q1457321",
+   "label": "Enzenbühl cemetery",
+   "score": 0.2025
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q577131",
+   "label": "Psychiatrische Universitätsklinik Zürich",
+   "score": 0.2025
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q139935896",
+   "label": "Kunsteisbahn KEK",
+   "score": 0.1895
+  }
+ ],
+ "Q122370": [
+  {
+   "id": "S1",
+   "candidate_id": "Q1457424",
+   "label": "Cemetery Sihlfeld",
+   "score": 0.9
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27229991",
+   "label": "Gottfried Keller Gedenkstätte",
+   "score": 0.81
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q27330030",
+   "label": "Rindermarkt",
+   "score": 0.72
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q29933584",
+   "label": "Haus zum Goldenen Winkel",
+   "score": 0.72
+  },
+  {
+   "id": "S5",
+   "candidate_id": "280788",
+   "label": "Landolt Winery",
+   "score": 0.63
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q190260",
+   "label": "Zentralbibliothek Zürich",
+   "score": 0.576
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q685038",
+   "label": "Kunsthaus Zürich",
+   "score": 0.576
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q65672357",
+   "label": "Oepfelchammer",
+   "score": 0.504
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q27324062",
+   "label": "Gottfried-Keller-Strasse",
+   "score": 0.288
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q27229850",
+   "label": "Bronzeplastik",
+   "score": 0.2738
+  }
+ ],
+ "Q115569": [
+  {
+   "id": "S1",
+   "candidate_id": "Q1457366",
+   "label": "Cemetery Manegg",
+   "score": 0.9
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27229673",
+   "label": "Alfred Escher memorial fountain",
+   "score": 0.81
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.72
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q816289",
+   "label": "Villa Belvoir",
+   "score": 0.72
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q27330560",
+   "label": "Alfred-Escher-Strasse",
+   "score": 0.288
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q1621845",
+   "label": "Sunrise Tower",
+   "score": 0.2592
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q124424352",
+   "label": "Bleicherweg 74",
+   "score": 0.2366
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q1455767",
+   "label": "Freudenberg School house",
+   "score": 0.2366
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q1953492",
+   "label": "Muraltengut",
+   "score": 0.2366
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q2243519",
+   "label": "Château Sihlberg",
+   "score": 0.2366
+  }
+ ],
+ "Q1511": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27229807",
+   "label": "Büste von Richard Wagner",
+   "score": 0.81
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27229975",
+   "label": "Richard-Wagner-Stele",
+   "score": 0.81
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q692097",
+   "label": "Rieterpark",
+   "score": 0.63
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q27322454",
+   "label": "Richard-Wagner-Strasse",
+   "score": 0.36
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q670406",
+   "label": "Zürich Opera House",
+   "score": 0.1458
+  }
+ ],
+ "Q154014": [
+  {
+   "id": "S1",
+   "candidate_id": "Q20731378",
+   "label": "Spiegelgasse",
+   "score": 0.81
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q2415934",
+   "label": "Theater Rigiblick",
+   "score": 0.81
+  },
+  {
+   "id": "S3",
+   "candidate_id": "osm_node_672727941",
+   "label": "Georg Büchner, Germaniastrasse",
+   "score": 0.81
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q27331692",
+   "label": "Büchnerstrasse",
+   "score": 0.36
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.162
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q675022",
+   "label": "Schauspielhaus Zürich",
+   "score": 0.1236
+  }
+ ],
+ "Q115483": [
+  {
+   "id": "S1",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.9
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27229775",
+   "label": "Rosenhofbrunnen",
+   "score": 0.9
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q11942",
+   "label": "ETH Zurich",
+   "score": 0.72
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q1912022",
+   "label": "Freibad Letzigraben",
+   "score": 0.72
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q80906377",
+   "label": "Pfauenkomplex",
+   "score": 0.72
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q14564649",
+   "label": "Max Frisch Archiv",
+   "score": 0.495
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q39934978",
+   "label": "ETH Zurich University Archives",
+   "score": 0.45
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q40313234",
+   "label": "Schauspielhaus Zürich",
+   "score": 0.405
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q27322916",
+   "label": "Max-Frisch-Platz",
+   "score": 0.36
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q27229997",
+   "label": "Othmar-Schoeck-Fountain",
+   "score": 0.1823
+  }
+ ],
+ "Q124949": [
+  {
+   "id": "S1",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.72
+  }
+ ],
+ "Q58033": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27327244",
+   "label": "Else-Lasker-Schüler-Weg",
+   "score": 0.36
+  }
+ ],
+ "Q123075": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27322297",
+   "label": "Robert-Walser-Gasse",
+   "score": 0.36
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q670406",
+   "label": "Zürich Opera House",
+   "score": 0.2592
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q29574422",
+   "label": "Villa Bleuler",
+   "score": 0.2025
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q1666124",
+   "label": "University of Teacher Education in Special Needs",
+   "score": 0.1944
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.154
+  }
+ ],
+ "Q671236": [
+  {
+   "id": "S1",
+   "candidate_id": "Q685038",
+   "label": "Kunsthaus Zürich",
+   "score": 0.576
+  },
+  {
+   "id": "S2",
+   "candidate_id": "osm_node_10616201153",
+   "label": "Giacometti-Fresken, Bahnhofquai 3",
+   "score": 0.45
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q27332257",
+   "label": "Giacomettiweg",
+   "score": 0.36
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q222450",
+   "label": "Zurich University of the Arts",
+   "score": 0.324
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q65038109",
+   "label": "Schule für Gestaltung Zürich",
+   "score": 0.324
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q668213",
+   "label": "Museum of Design",
+   "score": 0.324
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q22909689",
+   "label": "Waisenhaus Zürich",
+   "score": 0.315
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q477189",
+   "label": "Wasserkirche",
+   "score": 0.315
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q684948",
+   "label": "Grossmünster",
+   "score": 0.315
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q690944",
+   "label": "Fraumünster",
+   "score": 0.315
+  }
+ ],
+ "Q1584657": [
+  {
+   "id": "S1",
+   "candidate_id": "osm_node_10234617742",
+   "label": "Hinter Glas, Hochstrasse",
+   "score": 0.45
+  },
+  {
+   "id": "S2",
+   "candidate_id": "osm_node_10287856888",
+   "label": "Figur, Huttenstrasse",
+   "score": 0.45
+  },
+  {
+   "id": "S3",
+   "candidate_id": "osm_node_10616259615",
+   "label": "Totentanz, Plattenstrasse",
+   "score": 0.45
+  },
+  {
+   "id": "S4",
+   "candidate_id": "osm_node_13471089579",
+   "label": "graffiti by Harald Naegeli, Schiffbaustrasse",
+   "score": 0.45
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q55167899",
+   "label": "Rechberg",
+   "score": 0.315
+  }
+ ],
+ "Q1383821": [],
+ "Q188494": [
+  {
+   "id": "S1",
+   "candidate_id": "Q27329482",
+   "label": "Eierbrechtstrasse",
+   "score": 0.2074
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q27490235",
+   "label": "Graphische Sammlung der ETH",
+   "score": 0.1549
+  }
+ ],
+ "Q208701": [
+  {
+   "id": "S1",
+   "candidate_id": "Q689762",
+   "label": "Volkshaus",
+   "score": 0.315
+  }
+ ],
+ "Q1279400": [
+  {
+   "id": "S1",
+   "candidate_id": "Q206702",
+   "label": "University of Zurich",
+   "score": 0.162
+  }
+ ],
+ "Q17897": [
+  {
+   "id": "S1",
+   "candidate_id": "Q110194277",
+   "label": "Miller's",
+   "score": 0.252
+  },
+  {
+   "id": "S2",
+   "candidate_id": "1010616",
+   "label": "Regenbogenhaus Zürich",
+   "score": 0.252
+  },
+  {
+   "id": "S3",
+   "candidate_id": "1609",
+   "label": "Cranberry Bar",
+   "score": 0.252
+  },
+  {
+   "id": "S4",
+   "candidate_id": "190195",
+   "label": "Heaven Club",
+   "score": 0.252
+  },
+  {
+   "id": "S5",
+   "candidate_id": "327472",
+   "label": "Klaus",
+   "score": 0.252
+  }
+ ],
+ "Q7167": [
+  {
+   "id": "S1",
+   "candidate_id": "Q2536345",
+   "label": "Ethnographic Museum of the University of Zurich",
+   "score": 0.27
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q30600276",
+   "label": "Kindli",
+   "score": 0.27
+  },
+  {
+   "id": "S3",
+   "candidate_id": "1510",
+   "label": "H. Schwarzenbach AG",
+   "score": 0.27
+  },
+  {
+   "id": "S4",
+   "candidate_id": "186298",
+   "label": "Co Chin Chin",
+   "score": 0.225
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q2256718",
+   "label": "Swiss National Museum",
+   "score": 0.1555
+  }
+ ],
+ "Q23642627": [
+  {
+   "id": "S1",
+   "candidate_id": "Q111409742",
+   "label": "Sorell Hotel Seidenhof",
+   "score": 0.252
+  },
+  {
+   "id": "S2",
+   "candidate_id": "1011520",
+   "label": "ORSINI",
+   "score": 0.252
+  },
+  {
+   "id": "S3",
+   "candidate_id": "294909",
+   "label": "EnSoie – Fashion Label with a Family Tradition",
+   "score": 0.252
+  },
+  {
+   "id": "S4",
+   "candidate_id": "3600",
+   "label": "Ziegel oh Lac",
+   "score": 0.252
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q111409733",
+   "label": "Hotel Europe",
+   "score": 0.216
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q491344",
+   "label": "Rote Fabrik",
+   "score": 0.216
+  },
+  {
+   "id": "S7",
+   "candidate_id": "16805",
+   "label": "Casa Ferlin",
+   "score": 0.216
+  }
+ ],
+ "Q1260003": [
+  {
+   "id": "S1",
+   "candidate_id": "Q2098914",
+   "label": "Platzspitz park",
+   "score": 0.252
+  },
+  {
+   "id": "S2",
+   "candidate_id": "19860",
+   "label": "Olé Olé Bar",
+   "score": 0.252
+  },
+  {
+   "id": "S3",
+   "candidate_id": "2495",
+   "label": "Flussbad Oberer Letten",
+   "score": 0.252
+  }
+ ],
+ "Q846047": [
+  {
+   "id": "S1",
+   "candidate_id": "Q43205018",
+   "label": "Tanzhaus Zürich",
+   "score": 0.324
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q670406",
+   "label": "Zürich Opera House",
+   "score": 0.324
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q2648827",
+   "label": "Allgemeine Musik-Gesellschaft Zürich",
+   "score": 0.32
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q673575",
+   "label": "Tonhalle Orchester Zürich",
+   "score": 0.252
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q70708571",
+   "label": "Bellevue (Zürich tram stop)",
+   "score": 0.252
+  },
+  {
+   "id": "S6",
+   "candidate_id": "1011983",
+   "label": "Cha Cha Cha Bar",
+   "score": 0.252
+  },
+  {
+   "id": "S7",
+   "candidate_id": "1012137",
+   "label": "Bro's Beans & Beats",
+   "score": 0.252
+  },
+  {
+   "id": "S8",
+   "candidate_id": "1012501",
+   "label": "Stereo Bar",
+   "score": 0.252
+  },
+  {
+   "id": "S9",
+   "candidate_id": "168166",
+   "label": "Aelpli Bar",
+   "score": 0.252
+  },
+  {
+   "id": "S10",
+   "candidate_id": "192283",
+   "label": "Kon-Tiki Coffeeshop & Bar",
+   "score": 0.252
+  }
+ ],
+ "Q23498": [
+  {
+   "id": "S1",
+   "candidate_id": "Q1010900",
+   "label": "Baldern, medieval castle site",
+   "score": 0.8
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q1013983",
+   "label": "Sellenbüren / Ofengüpf, medieval castle site",
+   "score": 0.8
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q1014319",
+   "label": "Burg Uetliburg",
+   "score": 0.8
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q102218026",
+   "label": "Castel site Alt-Rohr",
+   "score": 0.8
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q102291634",
+   "label": "Krattenturm",
+   "score": 0.8
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q103200478",
+   "label": "Zürich (Samian Ware Discovery Site)",
+   "score": 0.8
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q104151558",
+   "label": "Schiterburg",
+   "score": 0.8
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q104176636",
+   "label": "Burgstelle Biberlinsburg",
+   "score": 0.8
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q104185334",
+   "label": "Burgstelle Liebenstein",
+   "score": 0.8
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q108045458",
+   "label": "old town, celtic / roman settlement / medieval town, palatinate",
+   "score": 0.8
+  }
+ ],
+ "Q483453": [
+  {
+   "id": "S1",
+   "candidate_id": "Q100236988",
+   "label": "Brunnen Delphinstrasse 12 u. 14 Zürich",
+   "score": 1.0
+  },
+  {
+   "id": "S2",
+   "candidate_id": "Q108761333",
+   "label": "Sardona Brunnen Zürich",
+   "score": 1.0
+  },
+  {
+   "id": "S3",
+   "candidate_id": "Q112013499",
+   "label": "Boutique Hotel Wellenberg",
+   "score": 1.0
+  },
+  {
+   "id": "S4",
+   "candidate_id": "Q112134889",
+   "label": "Brunnen Chüpliweg Zürich",
+   "score": 1.0
+  },
+  {
+   "id": "S5",
+   "candidate_id": "Q113002933",
+   "label": "Brunnen Dorfstr. - Dufourstr.",
+   "score": 1.0
+  },
+  {
+   "id": "S6",
+   "candidate_id": "Q127164402",
+   "label": "Station Fountain Küsnacht ZH",
+   "score": 1.0
+  },
+  {
+   "id": "S7",
+   "candidate_id": "Q129584081",
+   "label": "Station Fountain Dietlikon",
+   "score": 1.0
+  },
+  {
+   "id": "S8",
+   "candidate_id": "Q1457366",
+   "label": "Cemetery Manegg",
+   "score": 1.0
+  },
+  {
+   "id": "S9",
+   "candidate_id": "Q14906793",
+   "label": "Heilig Geist",
+   "score": 1.0
+  },
+  {
+   "id": "S10",
+   "candidate_id": "Q1760194",
+   "label": "Sirius fountain",
+   "score": 1.0
+  }
+ ]
+}
