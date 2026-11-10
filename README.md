@@ -10,6 +10,27 @@ A language model may enrich a tour, but NAMI shows a fact the model adds only if
 
 This repository holds the code of NAMI, the city layer of Zurich, the benchmark of published walks, and the evaluation reported in the paper, with all the lists compared and the answers of the language models.
 
+## 📱 In the app
+
+NAMI runs inside a commercial tour-planning application, here in Zurich for a visitor interested in Einstein.
+
+<table>
+  <tr>
+    <td align="center" width="20%"><img src="assets/images/app-01-einstein-stop.png" alt="A stop for an interest in Einstein, with its reason"></td>
+    <td align="center" width="20%"><img src="assets/images/app-02-einstein-route.png" alt="The route through the stops"></td>
+    <td align="center" width="20%"><img src="assets/images/app-03-city-map.png" alt="The map of the city"></td>
+    <td align="center" width="20%"><img src="assets/images/app-04-reconstruction.png" alt="A place that no longer exists, with its story"></td>
+    <td align="center" width="20%"><img src="assets/images/app-05-todays-gem.png" alt="A place suggested for today"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>A stop for the interest in Einstein, with the reason it was chosen</sub></td>
+    <td align="center"><sub>The walk through the stops</sub></td>
+    <td align="center"><sub>The map of the city</sub></td>
+    <td align="center"><sub>A place that no longer exists, with its story</sub></td>
+    <td align="center"><sub>A place suggested for today</sub></td>
+  </tr>
+</table>
+
 ## 🧭 Quickstart
 
 ```bash
