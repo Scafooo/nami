@@ -22,7 +22,9 @@ from infrastructure.repositories.retrieval.annotated_store import NAMI, _parse_d
 FACTS = ox.NamedNode("urn:nami:graph:facts")
 META = ox.NamedNode("urn:nami:graph:meta")
 XSD = "http://www.w3.org/2001/XMLSchema#"
-N = lambda s: ox.NamedNode(s)
+def N(s):                                        # through iri(): Wikidata may give IRIs Oxigraph rejects
+    from infrastructure.repositories.retrieval.annotated_store import iri
+    return iri(s)
 EXPANDED, DEGREE, CHECKED = N(NAMI + "expanded"), N(NAMI + "degree"), N(NAMI + "locationChecked")
 LAT, LON, VIA = N(NAMI + "lat"), N(NAMI + "lon"), N(NAMI + "locatedVia")
 WITHIN, WITHIN_CHECKED = N(NAMI + "standsWithin"), N(NAMI + "withinChecked")

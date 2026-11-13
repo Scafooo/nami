@@ -50,7 +50,6 @@ nami:detailedInformation
     rdfs:label "detailed information"@en ;
     rdfs:comment "Multi-valued, language-tagged highlight bullets (e.g. \"187 steps to the best view over Zurich\") as supplied by the source; editorial, not structured data with a Schema.org equivalent."@en .
 
-nami:tomasBookingId
     a owl:DatatypeProperty ;
     rdfs:label "TOMAS booking id"@en ;
     rdfs:comment "Cross-reference into the Swiss tourism federation's TOMAS booking system, as supplied verbatim by the source API."@en ;

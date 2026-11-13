@@ -1,0 +1,861 @@
+{
+ "condition": "B_onehop",
+ "meta": {
+  "rule": "the places of the city that one Wikidata triple links to the interest, in either direction,\n  ranked by the number of such triples, then by Wikipedia editions (no paths, no provenance)."
+ },
+ "runs": [
+  {
+   "profile_id": "Q937",
+   "interests": [
+    "Q937"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 2,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q11942",
+     "lat": 47.37645,
+     "lon": 8.54785,
+     "score": 2,
+     "sitelinks": 73
+    },
+    {
+     "id": "Q206702",
+     "lat": 47.374722222,
+     "lon": 8.548333333,
+     "score": 2,
+     "sitelinks": 65
+    },
+    {
+     "id": "Q39934978",
+     "lat": 47.376611111,
+     "lon": 8.547916666,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q27324183",
+     "lat": 47.40855825,
+     "lon": 8.5050902,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q6882",
+   "interests": [
+    "Q6882"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 2,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q230416",
+     "lat": 47.371694444,
+     "lon": 8.540030555,
+     "score": 2,
+     "sitelinks": 7
+    },
+    {
+     "id": "Q666565",
+     "lat": 47.3833,
+     "lon": 8.57235,
+     "score": 1,
+     "sitelinks": 16
+    },
+    {
+     "id": "Q27326712",
+     "lat": 47.41224252,
+     "lon": 8.54055602,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27229693",
+     "lat": 47.38252424,
+     "lon": 8.538549377,
+     "score": 1,
+     "sitelinks": 0
+    },
+    {
+     "id": "Q27229843",
+     "lat": 47.383492242,
+     "lon": 8.570627843,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1394",
+   "interests": [
+    "Q1394"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q6034",
+   "interests": [
+    "Q6034"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q24906109",
+   "interests": [
+    "Q24906109"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 1,
+     "sitelinks": 199
+    }
+   ]
+  },
+  {
+   "profile_id": "Q123839",
+   "interests": [
+    "Q123839"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 3,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q190260",
+     "lat": 47.374166666,
+     "lon": 8.545277777,
+     "score": 1,
+     "sitelinks": 12
+    },
+    {
+     "id": "Q39934978",
+     "lat": 47.376611111,
+     "lon": 8.547916666,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q137948094",
+     "lat": 47.370305109,
+     "lon": 8.543847938,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q15108152",
+     "lat": 47.3794,
+     "lon": 8.5164,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27325596",
+     "lat": 47.38205833,
+     "lon": 8.50882643,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27327278",
+     "lat": 47.3793762,
+     "lon": 8.51310185,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1411919",
+   "interests": [
+    "Q1411919"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 4,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q27324381",
+     "lat": 47.36079121,
+     "lon": 8.52849505,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q124408",
+   "interests": [
+    "Q124408"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 3,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q27229955",
+     "lat": 47.369816322,
+     "lon": 8.542065684,
+     "score": 2,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27325590",
+     "lat": 47.36859632,
+     "lon": 8.54650905,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1704063",
+   "interests": [
+    "Q1704063"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 3,
+     "sitelinks": 199
+    }
+   ]
+  },
+  {
+   "profile_id": "Q37030",
+   "interests": [
+    "Q37030"
+   ],
+   "places": [
+    {
+     "id": "Q27490316",
+     "lat": 47.376111111,
+     "lon": 8.547777777,
+     "score": 2,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 1,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q39934978",
+     "lat": 47.376611111,
+     "lon": 8.547916666,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q21517046",
+     "lat": 47.316220431,
+     "lon": 8.542173882,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q41532",
+   "interests": [
+    "Q41532"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 1,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q11942",
+     "lat": 47.37645,
+     "lon": 8.54785,
+     "score": 1,
+     "sitelinks": 73
+    },
+    {
+     "id": "Q206702",
+     "lat": 47.374722222,
+     "lon": 8.548333333,
+     "score": 1,
+     "sitelinks": 65
+    },
+    {
+     "id": "Q69216",
+     "lat": 47.318055555,
+     "lon": 8.5825,
+     "score": 1,
+     "sitelinks": 51
+    },
+    {
+     "id": "Q390130",
+     "lat": 47.31555556,
+     "lon": 8.57916667,
+     "score": 1,
+     "sitelinks": 15
+    },
+    {
+     "id": "Q39934978",
+     "lat": 47.376611111,
+     "lon": 8.547916666,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q105071456",
+     "lat": 47.376527777,
+     "lon": 8.547638888,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q105015598",
+     "lat": 47.31551,
+     "lon": 8.58451,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q122370",
+   "interests": [
+    "Q122370"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 4,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q190260",
+     "lat": 47.374166666,
+     "lon": 8.545277777,
+     "score": 2,
+     "sitelinks": 12
+    },
+    {
+     "id": "Q1457424",
+     "lat": 47.375027777,
+     "lon": 8.509472222,
+     "score": 1,
+     "sitelinks": 4
+    },
+    {
+     "id": "Q27229991",
+     "lat": 47.358858369,
+     "lon": 8.535839634,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q29933584",
+     "lat": 47.37302,
+     "lon": 8.54628,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27324062",
+     "lat": 47.36618881,
+     "lon": 8.54738998,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q115569",
+   "interests": [
+    "Q115569"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 2,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q206702",
+     "lat": 47.374722222,
+     "lon": 8.548333333,
+     "score": 1,
+     "sitelinks": 65
+    },
+    {
+     "id": "Q648218",
+     "lat": 47.3641,
+     "lon": 8.53172,
+     "score": 1,
+     "sitelinks": 10
+    },
+    {
+     "id": "Q816289",
+     "lat": 47.356736111,
+     "lon": 8.533625,
+     "score": 1,
+     "sitelinks": 5
+    },
+    {
+     "id": "Q1457366",
+     "lat": 47.347644444,
+     "lon": 8.523641666,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27229673",
+     "lat": 47.377125584,
+     "lon": 8.539954974,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27330560",
+     "lat": 47.36518462,
+     "lon": 8.53241786,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1511",
+   "interests": [
+    "Q1511"
+   ],
+   "places": [
+    {
+     "id": "Q27229807",
+     "lat": 47.359586276,
+     "lon": 8.529838071,
+     "score": 1,
+     "sitelinks": 0
+    },
+    {
+     "id": "Q27229975",
+     "lat": 47.357256687,
+     "lon": 8.530030604,
+     "score": 1,
+     "sitelinks": 0
+    },
+    {
+     "id": "Q27322454",
+     "lat": 47.35920216,
+     "lon": 8.53288632,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q154014",
+   "interests": [
+    "Q154014"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 2,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q137640545",
+     "lat": 47.3877347,
+     "lon": 8.5533081,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27331692",
+     "lat": 47.38379996,
+     "lon": 8.55096717,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q115483",
+   "interests": [
+    "Q115483"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 4,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q14564649",
+     "lat": 47.37659,
+     "lon": 8.54761,
+     "score": 2,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q11942",
+     "lat": 47.37645,
+     "lon": 8.54785,
+     "score": 1,
+     "sitelinks": 73
+    },
+    {
+     "id": "Q206702",
+     "lat": 47.374722222,
+     "lon": 8.548333333,
+     "score": 1,
+     "sitelinks": 65
+    },
+    {
+     "id": "Q39934978",
+     "lat": 47.376611111,
+     "lon": 8.547916666,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q1912022",
+     "lat": 47.379452777,
+     "lon": 8.499702777,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27229775",
+     "lat": 47.372899787,
+     "lon": 8.543284594,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27322916",
+     "lat": 47.4119936,
+     "lon": 8.54272627,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q124949",
+   "interests": [
+    "Q124949"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 1,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q206702",
+     "lat": 47.374722222,
+     "lon": 8.548333333,
+     "score": 1,
+     "sitelinks": 65
+    }
+   ]
+  },
+  {
+   "profile_id": "Q58033",
+   "interests": [
+    "Q58033"
+   ],
+   "places": [
+    {
+     "id": "Q27327244",
+     "lat": 47.41307765,
+     "lon": 8.53973597,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q123075",
+   "interests": [
+    "Q123075"
+   ],
+   "places": [
+    {
+     "id": "Q27322297",
+     "lat": 47.37185322,
+     "lon": 8.54038176,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q671236",
+   "interests": [
+    "Q671236"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 1,
+     "sitelinks": 199
+    },
+    {
+     "id": "Q685038",
+     "lat": 47.370277777,
+     "lon": 8.548055555,
+     "score": 1,
+     "sitelinks": 27
+    },
+    {
+     "id": "Q18330716",
+     "lat": 47.38500638,
+     "lon": 8.533092619,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q27329058",
+     "lat": 47.40255055,
+     "lon": 8.50468061,
+     "score": 1,
+     "sitelinks": 0
+    },
+    {
+     "id": "Q27332257",
+     "lat": 47.40274175,
+     "lon": 8.50412952,
+     "score": 1,
+     "sitelinks": 0
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1584657",
+   "interests": [
+    "Q1584657"
+   ],
+   "places": [
+    {
+     "id": "Q72",
+     "lat": 47.374444444,
+     "lon": 8.541111111,
+     "score": 3,
+     "sitelinks": 199
+    }
+   ]
+  },
+  {
+   "profile_id": "Q1383821",
+   "interests": [
+    "Q1383821"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q188494",
+   "interests": [
+    "Q188494"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q208701",
+   "interests": [
+    "Q208701"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q1279400",
+   "interests": [
+    "Q1279400"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q17897",
+   "interests": [
+    "Q17897"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q7167",
+   "interests": [
+    "Q7167"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q692021",
+   "interests": [
+    "Q692021"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q23642627",
+   "interests": [
+    "Q23642627"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q1260003",
+   "interests": [
+    "Q1260003"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q846047",
+   "interests": [
+    "Q846047"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q23498",
+   "interests": [
+    "Q23498"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q483453",
+   "interests": [
+    "Q483453"
+   ],
+   "places": [
+    {
+     "id": "Q27229903",
+     "lat": 47.372922332,
+     "lon": 8.541226305,
+     "score": 1,
+     "sitelinks": 4
+    },
+    {
+     "id": "Q76901204",
+     "lat": 47.37927,
+     "lon": 8.53152,
+     "score": 1,
+     "sitelinks": 3
+    },
+    {
+     "id": "Q27229660",
+     "lat": 47.372507971,
+     "lon": 8.543709202,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q27229690",
+     "lat": 47.370923413,
+     "lon": 8.546775415,
+     "score": 1,
+     "sitelinks": 2
+    },
+    {
+     "id": "Q100236988",
+     "lat": 47.36348,
+     "lon": 8.55254,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q112134889",
+     "lat": 47.34629,
+     "lon": 8.5656,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q127164402",
+     "lat": 47.31884,
+     "lon": 8.58061,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q129584081",
+     "lat": 47.420529,
+     "lon": 8.619417,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27229664",
+     "lat": 47.369269498,
+     "lon": 8.540100736,
+     "score": 1,
+     "sitelinks": 1
+    },
+    {
+     "id": "Q27229673",
+     "lat": 47.377125584,
+     "lon": 8.539954974,
+     "score": 1,
+     "sitelinks": 1
+    }
+   ]
+  },
+  {
+   "profile_id": "Q42250",
+   "interests": [
+    "Q42250"
+   ],
+   "places": []
+  },
+  {
+   "profile_id": "Q53706",
+   "interests": [
+    "Q53706"
+   ],
+   "places": []
+  }
+ ]
+}

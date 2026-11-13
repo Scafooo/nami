@@ -1,0 +1,310 @@
+{
+ "condition": "A2_no_decay",
+ "meta": {
+  "switches": {
+   "lam": 1.0
+  },
+  "params": {
+   "lam": 0.5,
+   "theta": 0.5,
+   "tau": 0.15,
+   "d0": 2000,
+   "d_pred": 5,
+   "beam": 50,
+   "max_expansions": 0,
+   "topical_weight": 0.8
+  },
+  "limit_s": 300
+ },
+ "runs": [
+  {
+   "profile_id": "Q937",
+   "interests": [
+    "Q937"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.15
+  },
+  {
+   "profile_id": "Q6882",
+   "interests": [
+    "Q6882"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.13
+  },
+  {
+   "profile_id": "Q1394",
+   "interests": [
+    "Q1394"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.08
+  },
+  {
+   "profile_id": "Q6034",
+   "interests": [
+    "Q6034"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.05
+  },
+  {
+   "profile_id": "Q24906109",
+   "interests": [
+    "Q24906109"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.09
+  },
+  {
+   "profile_id": "Q123839",
+   "interests": [
+    "Q123839"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.13
+  },
+  {
+   "profile_id": "Q1411919",
+   "interests": [
+    "Q1411919"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.1
+  },
+  {
+   "profile_id": "Q124408",
+   "interests": [
+    "Q124408"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.07
+  },
+  {
+   "profile_id": "Q1704063",
+   "interests": [
+    "Q1704063"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.03
+  },
+  {
+   "profile_id": "Q37030",
+   "interests": [
+    "Q37030"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.05
+  },
+  {
+   "profile_id": "Q41532",
+   "interests": [
+    "Q41532"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 329.25
+  },
+  {
+   "profile_id": "Q122370",
+   "interests": [
+    "Q122370"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.13
+  },
+  {
+   "profile_id": "Q115569",
+   "interests": [
+    "Q115569"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.08
+  },
+  {
+   "profile_id": "Q1511",
+   "interests": [
+    "Q1511"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.03
+  },
+  {
+   "profile_id": "Q154014",
+   "interests": [
+    "Q154014"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 392.08
+  },
+  {
+   "profile_id": "Q115483",
+   "interests": [
+    "Q115483"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.1
+  },
+  {
+   "profile_id": "Q124949",
+   "interests": [
+    "Q124949"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.72
+  },
+  {
+   "profile_id": "Q58033",
+   "interests": [
+    "Q58033"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 353.3
+  },
+  {
+   "profile_id": "Q123075",
+   "interests": [
+    "Q123075"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.03
+  },
+  {
+   "profile_id": "Q671236",
+   "interests": [
+    "Q671236"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.1
+  },
+  {
+   "profile_id": "Q1584657",
+   "interests": [
+    "Q1584657"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.3
+  },
+  {
+   "profile_id": "Q1383821",
+   "interests": [
+    "Q1383821"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 311.34
+  },
+  {
+   "profile_id": "Q188494",
+   "interests": [
+    "Q188494"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 402.42
+  },
+  {
+   "profile_id": "Q208701",
+   "interests": [
+    "Q208701"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 309.04
+  },
+  {
+   "profile_id": "Q1279400",
+   "interests": [
+    "Q1279400"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.06
+  },
+  {
+   "profile_id": "Q17897",
+   "interests": [
+    "Q17897"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 339.12
+  },
+  {
+   "profile_id": "Q7167",
+   "interests": [
+    "Q7167"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.07
+  },
+  {
+   "profile_id": "Q23642627",
+   "interests": [
+    "Q23642627"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 309.42
+  },
+  {
+   "profile_id": "Q1260003",
+   "interests": [
+    "Q1260003"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.15
+  },
+  {
+   "profile_id": "Q846047",
+   "interests": [
+    "Q846047"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.1
+  },
+  {
+   "profile_id": "Q23498",
+   "interests": [
+    "Q23498"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 300.07
+  },
+  {
+   "profile_id": "Q483453",
+   "interests": [
+    "Q483453"
+   ],
+   "avoid": [],
+   "error": "TooLong: no answer within the time limit",
+   "seconds": 368.72
+  }
+ ],
+ "generated_at": "2026-11-12T06:15:57+00:00"
+}

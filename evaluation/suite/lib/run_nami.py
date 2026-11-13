@@ -20,6 +20,9 @@ from lib.pipeline import build, injected_layer
 WD = "http://www.wikidata.org/entity/"
 OUT = settings.RUNS / "nami"
 PROFILE_LIMIT_S = 3600               # one interest taking more than an hour is recorded as an error and redone later
+# the variants without specificity or provenance explore far more of the graph: an interest they cannot answer in
+# five minutes (over four times the slowest of NAMI, 67 s) is recorded as not answered in time (2026-11-11)
+LIMIT_S = {"C3_noprov": 300, "A1_no_eta": 300, "A2_no_decay": 300}
 
 
 class TooLong(Exception):
@@ -27,7 +30,7 @@ class TooLong(Exception):
 
 
 def _too_long(signum, frame):
-    raise TooLong(f"no answer within {PROFILE_LIMIT_S} s")
+    raise TooLong("no answer within the time limit")
 
 
 def profile(ids: list[str], uri: str, avoid: set[str] = frozenset()) -> UserProfile:
@@ -39,13 +42,17 @@ def run(name: str, use_case, profiles: list[tuple[str, list[str], set]], meta: d
     OUT.mkdir(parents=True, exist_ok=True)
     report = json.loads(out.read_text()) if out.exists() else {"condition": name, "meta": meta, "runs": []}
     report["runs"] = [r for r in report["runs"] if "error" not in r]
+    limit = LIMIT_S.get(name, PROFILE_LIMIT_S)
+    if name in LIMIT_S:                  # a timeout under this limit is the result, not an error to redo
+        report["runs"] = json.loads(out.read_text())["runs"] if out.exists() else []
+        report["meta"]["limit_s"] = limit
     done = {r["profile_id"] for r in report["runs"]}
     for pid, ids, avoid in profiles:
         if pid in done:
             continue
         t = time.perf_counter()
         signal.signal(signal.SIGALRM, _too_long)
-        signal.alarm(PROFILE_LIMIT_S)          # a request that hangs must not stop the whole run
+        signal.alarm(limit)          # a request that hangs must not stop the whole run
         try:
             res = use_case.execute(profile(ids, f"urn:nami:user:{pid}", avoid))
             entry = {"profile_id": pid, "interests": ids, "avoid": sorted(avoid), **res}

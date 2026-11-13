@@ -55,10 +55,10 @@ src/
 mappings/                  relation weights, source trust, the relations read from text
 data/geo-ontology/         the city layer: plaques, public art, street dedications, memorials, with their sources
 evaluation/
-  ground_truth_zurich.json the benchmark: 639 stops that 136 published walks, guides and institutions give for 35 interests
+  ground_truth_zurich.json the benchmark: 621 stops that 129 published walks, guides and institutions give for 32 interests
   BENCHMARK_PROTOCOL.md    how it was built
   suite/                   the experiment: settings, NAMI and baseline runs, model prompts and answers, lists, results
-  annotazioni/             the workbooks for the assessors, and the scripts that prepare them and read them back
+  annotations/             the workbooks for the assessors, as given and as filled, and the scripts that prepare them and read them back
 ```
 
 ## 📜 Where the results are
@@ -68,22 +68,22 @@ evaluation/
 | The lists compared (NAMI, the two models, NAMI + model, the guides) | `evaluation/suite/lists/*.json`: every place, its rank and all its reasons with their sources |
 | What the models were asked and what they answered | `evaluation/suite/llm/`: the prompts, block by block, and the answers as given |
 | Which reasons the check shows | `evaluation/suite/runs/llm/*.json`: each reason with the page it cites, its quoted sentence and the outcome of the check |
-| The judgements of people | `evaluation/annotazioni/da_annotare/`: the workbooks as given to the assessors; `evaluation/suite/annotations_keys/`: which list proposed each row |
+| The judgements of people | `evaluation/annotations/workbooks/`: the workbooks as given to the assessors; `evaluation/annotations/filled/`: as they filled them; `evaluation/suite/annotations_keys/`: which list proposed each row |
+| NAMI, its ablations and variants (Table 4), the one-hop query | `evaluation/suite/runs/nami/*.json`, `evaluation/suite/runs/baselines/B_onehop.json` |
 | The benchmark of published walks | `evaluation/ground_truth_zurich.json` |
 
 ## 🔁 Reproducing the evaluation
 
 ```bash
-cd evaluation/annotazioni
-python prepara.py               # runs NAMI and the baselines, builds the lists and the workbooks
-python calcola_risultati.py     # from the filled workbooks (in compilati/) to the tables of the paper
+cd evaluation/annotations
+python prepare.py               # runs NAMI and the baselines, builds the lists and the workbooks
+python compute_results.py       # from the filled workbooks (in filled/) to the tables of the paper
 ```
 
 The language models were used through their public chat interfaces, with web search, each prompt in a new temporary chat; their answers are kept as given, so that the lists can be rebuilt without asking them again.
 
 ## 📦 Data and licences
 
-- **Wikidata**, CC0, read on demand.
 - **Zürich Tourismus** open data: the catalogue of places (`data/geo-ontology/ABox/pois.ttl`), CC BY-SA 4.0.
 - **City of Zurich** open data: heritage plaques, public art (Kunst im Stadtraum), street dedications.
 - **OpenStreetMap** memorials and artworks, © OpenStreetMap contributors, ODbL.

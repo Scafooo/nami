@@ -282,8 +282,6 @@ def build_poi_graph(poi: dict, hierarchy: TypeHierarchy, cat_index: CategoryInde
         for item in _as_list(items):
             if item:
                 g.add((subj, NAMI_ONT.detailedInformation, Literal(item, lang=lang)))
-    if poi.get("tomasBookingId"):
-        g.add((subj, NAMI_ONT.tomasBookingId, Literal(str(poi["tomasBookingId"]))))
     if poi.get("zurichCard") is not None:
         g.add((subj, NAMI_ONT.zurichCard, Literal(bool(poi["zurichCard"]), datatype=XSD.boolean)))
     _add_multilingual(g, subj, NAMI_ONT.zurichCardDescription, poi.get("zurichCardDescription"))

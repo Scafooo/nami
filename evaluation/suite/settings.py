@@ -18,10 +18,10 @@ WORK = Path(os.environ.get("NAMI_SUITE_WORK", SUITE))
 RUNS = WORK / "runs"               # raw outputs of every condition
 LISTS = WORK / "lists"             # every condition in one common form (lists.py)
 LLM = WORK / "llm"                 # prompts to send and answers to paste
-# The folder the user works in: code/evaluation/annotazioni/ (or <work>/annotazioni for a dry run).
-ANNO = (WORK if "NAMI_SUITE_WORK" in os.environ else CODE / "evaluation") / "annotazioni"
-ANNOT_OUT = ANNO / "da_annotare"                    # the workbooks for the annotators, and nothing else
-ANNOT_BACK = ANNO / "compilati"                    # the filled workbooks, any file name
+# The folder of the human assessment: evaluation/annotations/ (or <work>/annotations for a dry run).
+ANNO = (WORK if "NAMI_SUITE_WORK" in os.environ else CODE / "evaluation") / "annotations"
+ANNOT_OUT = ANNO / "workbooks"                     # the workbooks for the annotators, and nothing else
+ANNOT_BACK = ANNO / "filled"                      # the filled workbooks, any file name
 ANNOT_KEYS = WORK / "annotations_keys"             # what each row is: never sent
 RESULTS = WORK / "results"
 

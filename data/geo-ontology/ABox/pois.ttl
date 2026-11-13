@@ -1211,7 +1211,6 @@
         "Lichthalle MAAG"@en,
         "Lichthalle Maag"@fr,
         "Lichthalle MAAG"@it ;
-    namiont:tomasBookingId "TDS00020016531815668" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "20% Ermässigung"@de,
         "20% discount"@en,
@@ -45449,7 +45448,6 @@ La panetteria St. Jakob si trova nel mercato coperto del Viadukt e propone pane 
         "Kunsthaus Zürich"@en,
         "Kunsthaus Zürich"@fr,
         "Kunsthaus Zürich"@it ;
-    namiont:tomasBookingId "TDS00020012422416945" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "Freier Eintritt"@de,
         "Free admission with the Zürich Card"@en,
@@ -46754,7 +46752,6 @@ La panetteria St. Jakob si trova nel mercato coperto del Viadukt e propone pane 
         "National Museum Zurich"@en,
         "Musée national suisse"@fr,
         "Museo Nazionale Zurigo"@it ;
-    namiont:tomasBookingId "TDS00020013505989755" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "Freier Eintritt"@de,
         "Free admission with the Zürich Card"@en,
@@ -46971,7 +46968,6 @@ La panetteria St. Jakob si trova nel mercato coperto del Viadukt e propone pane 
         "Swiss Finance Museum"@en,
         "Musée suisse des finances"@fr,
         "Museo Svizzero delle Finanze"@it ;
-    namiont:tomasBookingId "TDS00020013833052948" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "Freier Eintritt"@de,
         "Free admission with the Zürich Card"@en,
@@ -57854,7 +57850,6 @@ Al di fuori delle mostre speciali</div>"""@it ;
         "Beyer Clock and Watch Museum"@en,
         "Musée de l’horlogerie Beyer"@fr,
         "Museo dell'Orologeria Beyer"@it ;
-    namiont:tomasBookingId "TDS00020014563759550" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "Freier Eintritt"@de,
         "Free admission with the Zürich Card"@en,
@@ -91310,7 +91305,6 @@ Kinder bis 13 Jahre CHF 14.90</p>"""@de,
         "Zurich Zoo"@en,
         "Zoo de Zurich"@fr,
         "Zoo di Zurigo"@it ;
-    namiont:tomasBookingId "TDS00020013605268655" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "10% Ermässigung"@de,
         "10% discount"@en,
@@ -95153,7 +95147,6 @@ Kinder bis 13 Jahre CHF 14.90</p>"""@de,
         "Dolder Wellenbad"@en,
         "Dolder Wellenbad"@fr,
         "Dolder Wellenbad"@it ;
-    namiont:tomasBookingId "guxim.shoshaj@zuerich.com" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "50% Ermässigung"@de,
         "50% discount"@en,
@@ -95314,7 +95307,6 @@ Kinder bis 13 Jahre CHF 14.90</p>"""@de,
         "FIFA Museum"@en,
         "FIFA Museum"@fr,
         "FIFA Museum"@it ;
-    namiont:tomasBookingId "TDS00020014780873465" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "Freier Eintritt"@de,
         "Free admission with the Zürich Card"@en,
@@ -116622,7 +116614,6 @@ Nessun bagnino</p>"""@it ;
         "Lindt Home of Chocolate"@en,
         "Lindt Home of Chocolate"@fr,
         "Lindt Home of Chocolate"@it ;
-    namiont:tomasBookingId "TDS00020014779819851" ;
     namiont:zurichCard true ;
     namiont:zurichCardDescription "20% Ermässigung"@de,
         "20% discount"@en,

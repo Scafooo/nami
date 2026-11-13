@@ -43,14 +43,20 @@ def iri(value: str) -> ox.NamedNode:
     try:
         return ox.NamedNode(value)
     except ValueError:
+        import re
         from urllib.parse import quote
+        value = re.sub(r"%(?![0-9A-Fa-f]{2})", "%25", value)     # a stray '%' (2026-11-11)
+        try:
+            return ox.NamedNode(value)
+        except ValueError:
+            pass
         head, sep, frag = value.partition("#")
         return ox.NamedNode(quote(head, safe=":/?&=%@+,;~!$'()*") + (sep + quote(frag, safe="") if sep else ""))
 
 
 def fact_quads(fact: Fact, graph=None, retrieved: date | None = None) -> list[ox.Quad]:
     g = graph if graph is not None else ox.DefaultGraph()
-    s, p, o = ox.NamedNode(fact.subject), ox.NamedNode(fact.predicate), ox.NamedNode(fact.object)
+    s, p, o = iri(fact.subject), iri(fact.predicate), iri(fact.object)
     quads = [ox.Quad(s, p, o, g)]
     key = "|".join(map(str, (fact.subject, fact.predicate, fact.object, fact.confidence, fact.source,
                              fact.validity.start, fact.validity.end, fact.role)))
